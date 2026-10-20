@@ -13,6 +13,7 @@ from review_yt_core.providers import AIConfig, Generation, TextProvider, zero_pr
     [
         {"SUMMARY_PROVIDER": "unknown"},
         {"OLLAMA_BASE_URL": "http://10.0.0.1:11434"},
+        {"OLLAMA_BASE_URL": "http://127.0.0.1:invalid"},
         {"OLLAMA_BASE_URL": "https://127.0.0.1:11434"},
         {"SUMMARY_FALLBACK_ENABLED": "true"},
         {"OPENROUTER_MODEL": "../../secret"},

@@ -47,6 +47,9 @@ class AIConfig:
         origin = env.get("OLLAMA_BASE_URL", "http://127.0.0.1:11434")
         parsed = urlsplit(origin)
         try:
+            port = parsed.port
+            if port is not None and not 1 <= port <= 65535:
+                raise ValueError()
             local = (
                 parsed.hostname == "localhost"
                 or ipaddress.ip_address(parsed.hostname or "").is_loopback

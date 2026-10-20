@@ -1,0 +1,7 @@
+-r requirements.txt
+pytest==9.1.1
+build==1.6.1
+pip-audit==2.10.1
+pip-licenses==5.5.5
+ruff==0.17.1
+PyYAML==6.0.3

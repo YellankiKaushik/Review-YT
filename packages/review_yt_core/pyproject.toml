@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools==84.2.1", "wheel==0.48.0"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "review-yt-core"
+version = "0.1.0"
+description = "Source-based YouTube comment analysis with optional language-model notes"
+requires-python = ">=3.11"
+readme = "README.md"
+license = "LicenseRef-ReviewYT-Pending"
+license-files = ["LICENSE"]
+dependencies = ["httpx==0.28.1", "vaderSentiment==3.3.2"]
+[project.optional-dependencies]
+captions = ["youtube-transcript-api>=1.2,<2"]
+[project.scripts]
+review-yt = "review_yt_core.cli:main"
+[tool.setuptools.packages.find]
+where = ["src"]

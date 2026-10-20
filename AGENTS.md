@@ -1,0 +1,3 @@
+# Review-YT implementation instructions
+This is a separate source tree created from the user's requirements. Do not consult or import the historical application, history, tests, assets or implementation files. Private credentials may be transferred without printing values.
+Use deterministic dependency injection for CI; label live evidence separately. Preserve baseline sentiment on optional AI errors. Never publish until the provenance audit and maintainer licensing decision clear the release gate. Run Python, web, browser, build, audit and secret checks for releases. Update the implementation journal with actual results. Never manufacture authorship or deployment success.

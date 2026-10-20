@@ -296,3 +296,44 @@ def test_broken_code_fence_is_a_safe_model_format_failure():
         result["ai"]["status"] == "unavailable"
         and result["ai"]["notice"]["code"] == "ai_note_format"
     )
+
+
+def test_missing_captions_preserve_real_source_contract(monkeypatch):
+    original = source()
+
+    class SourceAdapter:
+        def collect(self, *args):
+            return original
+
+    monkeypatch.setattr("review_yt_core.engine.fetch_captions", lambda video: None)
+    result = Reviewer(youtube=SourceAdapter(), captions=True).collect(original.video["id"], 10)
+    assert (
+        result.comments == original.comments
+        and result.captions is None
+        and "captions_unavailable" in result.notices
+    )
+
+
+def test_caption_and_viewer_notes_remain_distinct():
+    class Adapter:
+        def generate(self, *args):
+            return Generation(
+                json.dumps(
+                    {
+                        "commentDigest": "A small feedback sample.",
+                        "captionDigest": "The caption excerpt explains installation.",
+                        "creatorNotes": "Suggestion: gather additional feedback.",
+                    }
+                ),
+                "fixture-model",
+                {},
+                True,
+                5,
+            )
+
+    evidence = replace(source(), captions="This excerpt explains how to install the interpreter.")
+    result = Reviewer(provider_factory=lambda p: Adapter()).review(evidence, "ollama")
+    assert (
+        result["ai"]["status"] == "complete"
+        and "installation" in result["ai"]["sections"]["captionDigest"]
+    )

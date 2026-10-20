@@ -1,0 +1,3479 @@
+{
+  "method": "Raw working-tree byte inventory of this separate workspace only; excludes this self-referential manifest and ignored private/runtime files. Git line-ending conversion can change raw hashes across operating systems",
+  "files": [
+    {
+      "path": ".env.example",
+      "sha256": "0e41441db7222f8fdf500927dd1ebc2246aec910182617a49841e5af8998164a",
+      "bytes": 574,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": ".gitattributes",
+      "sha256": "70bc7d798fa0339227f3c363bc28417faa39d068df281a75225ef36169e10150",
+      "bytes": 60,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": ".github/workflows/verify.yml",
+      "sha256": "bf09f7b6b2902100106eb9e1e2cb9c7b60c7bb639d1626a6887dd831d4d2a593",
+      "bytes": 1342,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "e0a40237c847d7f99c13f7c9631ad4fac2331f4211da1a57151962c38efe6eee",
+      "bytes": 242,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": ".prettierignore",
+      "sha256": "eed240be46bb2fd464496c6bc7961bb20edf8ead615ce7edd10e3e2d4b4e56f9",
+      "bytes": 52,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": ".python-version",
+      "sha256": "fdf19682f60c35e6bea6b9ac0572051cb9b43b9a954fa81b2403bac6477794db",
+      "bytes": 9,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "a60a939a5125c2110b783b523b3ed548ed8ffc75b5a7daef874a93e8ee77d611",
+      "bytes": 684,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "e9cc7be60e9bbaf7729eb80a98038d9aca29c07c6c9eab33d4463526d2b8683c",
+      "bytes": 381,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "9d8e01e97822e30953593011eea42259b39de6c5a68e8b64d9e4cad145c7fe62",
+      "bytes": 731,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "FINAL_REVIEW_YT_RELEASE_REPORT.md",
+      "sha256": "2a697dbdbd54861ecb7952bd465b280eb99f8051110a10e41408950b21da27cd",
+      "bytes": 20671,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "c2f64ed631a5093e8e72683e226f9222150487a5f3054c56407e757d46b80ac6",
+      "bytes": 555,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "README.md",
+      "sha256": "0ef9ee3ba4c2f6fc3117b4ae7f0350e987f1fbf4e948d0286f5673ec030ebbc1",
+      "bytes": 4262,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "SECURITY.md",
+      "sha256": "104a2f99627749e3c6c8d70110bc7c04908b04ea27a4ee39aa8ee441d79f231b",
+      "bytes": 2462,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "apps/api/review_api/__init__.py",
+      "sha256": "8874e23701a64b948dd923a46dcde02e3076dff6c3fa143c37d37c7367943bdc",
+      "bytes": 9128,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "apps/api/review_api/store.py",
+      "sha256": "af0baa6a2eb35a661bc3479fd2242de3d0c95bf7b1d180b0bf10783502886a1c",
+      "bytes": 2480,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "apps/api/serve.py",
+      "sha256": "52b16b7e455604d3c2f0e9f4b43a4bbb78cd8f2cd4ee2a43995fb4d8c8722876",
+      "bytes": 543,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "apps/api/tests/test_service.py",
+      "sha256": "fd7358a70806b8ebf0f8891766323343ca9d7d1095fd3992603555ade7436b5e",
+      "bytes": 5987,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "apps/web/.env.example",
+      "sha256": "a9a94d0f2b3238ded1d05c8d2d1e8db2328c15e0e8692c18fc6fccd4341cd6e2",
+      "bytes": 55,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "apps/web/AGENTS.md",
+      "sha256": "063098f6cb31bb44c6f8fbea25b3876de7ee1e5f7d00a50dbab506f6415eb7f0",
+      "bytes": 679,
+      "origin": "Next.js-generated framework guidance from the newly installed MIT-licensed dependency; upstream notice retained"
+    },
+    {
+      "path": "apps/web/app/api/[operation]/route.ts",
+      "sha256": "e9ad6330c371d80a938ee24cc65194edcab47adcc2f09b0df5225e8060de1d32",
+      "bytes": 347,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "apps/web/app/icon.svg",
+      "sha256": "be42d576bdbcf01009bf72be48534b889889f219abbb9dca99306a5cdaded3ad",
+      "bytes": 206,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "apps/web/app/layout.tsx",
+      "sha256": "7c898a9d2d64070a8e0d574ce47793957e6b723c532d04f481a63efa5b55db61",
+      "bytes": 1276,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "apps/web/app/page.tsx",
+      "sha256": "9ad6fda4410efcaf76a9f5dfac204d05bcb029653d5ab4c3c534604d4e0ee356",
+      "bytes": 2273,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "apps/web/app/review/[video]/page.tsx",
+      "sha256": "6c24e402d7a9bdbbe4a1cc2bf37022ab415e7fc4134cca7fd19b6bd191e22744",
+      "bytes": 691,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "apps/web/app/style.css",
+      "sha256": "9b516107e634bec353ae2f70f3c38c7438611677e188b3683d58d271fbdb296d",
+      "bytes": 11068,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "apps/web/eslint.config.mjs",
+      "sha256": "f3db222df9980b973e07024288e86c2c2c3a652a25844871ec9dc12513ae1a8d",
+      "bytes": 310,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "apps/web/lib/contract.ts",
+      "sha256": "191b358cd44836ef00b8a4cd3153ad4b937adcc5d0ace9f5540f8f1bb091ba72",
+      "bytes": 3132,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "apps/web/lib/relay.ts",
+      "sha256": "595838382c15dcbb2e5a27b1019443d9a9970e2ea9ce3ce9a47a763f75fa7928",
+      "bytes": 3758,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "apps/web/lib/tab-cache.ts",
+      "sha256": "2b585a0a84a58e034f30726631c3aecf9bd1df88829d04edfa0e632cab830b66",
+      "bytes": 869,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "apps/web/next.config.mjs",
+      "sha256": "31b063f5c4b4a07498830c293b5c6615442ba40298af9e011830991e2bdf1bc7",
+      "bytes": 152,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "apps/web/package.json",
+      "sha256": "43dbb80d1f098b3f00329d38734733ce572b66c9c5a9cce90f55867060f906c7",
+      "bytes": 867,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "apps/web/tests/contract.test.ts",
+      "sha256": "f70d3d46e0fbe1bff495d82df789d79889a7344cc7d062e456f05ade83a53a84",
+      "bytes": 2078,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "apps/web/tests/relay.test.ts",
+      "sha256": "5190558840b69fcd03c01101a579e23807489dcb362efda65538c958ce69126a",
+      "bytes": 2301,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "apps/web/tests/sample.ts",
+      "sha256": "592c649fd38995888de8b773ab0426c8f2331247eaceca7d418340326f1a573a",
+      "bytes": 1575,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "apps/web/tests/setup.ts",
+      "sha256": "bba7ef8c5ecca6835e91d73790910715a047d079ca66907c2115d88302ed7551",
+      "bytes": 215,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "apps/web/tests/ui.test.tsx",
+      "sha256": "efa9cca4eeb514e4d6310449d1236d872356512a026f33c8b652db390f1bbd1a",
+      "bytes": 5015,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "apps/web/tsconfig.json",
+      "sha256": "b4a6df03367344adec8429335faaa7b4c7404e53cd96e697527a074bef6a1c76",
+      "bytes": 867,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "apps/web/ui/review-form.tsx",
+      "sha256": "ccc4606f70a69b0af14b95f7b82e956288ff3f496f7b62c8e353492430539068",
+      "bytes": 5665,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "apps/web/ui/review-reader.tsx",
+      "sha256": "70b5ccf14c014dd456b37017f00f8e2edf2feed0ba9cffa0e194478bd64144f0",
+      "bytes": 2437,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "apps/web/ui/review-sheet.tsx",
+      "sha256": "f162179c6202e2df76824e7ede679474ed5c2dad50ab4728f597d1429134367a",
+      "bytes": 6289,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "apps/web/vercel.json",
+      "sha256": "f9d85dfbc3e284333130874015535090f7d84e249817671e504b5a3c903c9e76",
+      "bytes": 203,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "apps/web/vitest.config.ts",
+      "sha256": "4368f168b02e3350cec1aa9699dfc5f9bdeb3157a7c9674e910bbede7f006eb0",
+      "bytes": 338,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "docs/API.md",
+      "sha256": "5eea1b3a29f025355ca6709245565494843abd8f871ede2258abfa9716054918",
+      "bytes": 3708,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "docs/DEPENDENCY_LICENSES.json",
+      "sha256": "10a4dd4b53eea702b5440cb222f3f77bcb5ea49a0233ecd044ef95fec50db456",
+      "bytes": 117640,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "docs/DEPLOYMENT.md",
+      "sha256": "7248c2391923b1baaf4d439ee189429f9bbc553f9a5f1778e4f4daaf3fdec7fd",
+      "bytes": 5139,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "docs/IMPLEMENTATION_JOURNAL.md",
+      "sha256": "a7f431cbcf9fc5c2a50f8f31d25adf6049c7728f536c3353929f943025005061",
+      "bytes": 3115,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "docs/INDEPENDENT_IMPLEMENTATION_AUDIT.md",
+      "sha256": "c22f856a2302e5a14a0fa5a33e153319d4834ac696035ba8d2bb219ea1c67ed2",
+      "bytes": 5929,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "docs/THIRD_PARTY_NOTICES.md",
+      "sha256": "3c62ae98eb2d0284253af8b4b7d144c2cdd1d069c3349d144cc85e34247fb38a",
+      "bytes": 2267,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "docs/dependency-licenses/009db0dcc2ae1acc-LICENSE.txt",
+      "sha256": "693866fc419c6f61c8570438ec00659d156ec2b4d4a4d04091711f5f11a365d4",
+      "bytes": 1087,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/00bf752aff6b96fb-LICENSE.txt",
+      "sha256": "465e8da349d50d8512e4a0e9b26d2bee50392c394f17edaa3be6e0df7c2b27ad",
+      "bytes": 1053,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/011072ae573ade7e-LICENSE.md.txt",
+      "sha256": "d00d032f517721b45c56c70c46bf904ebb71ad313df4d4db7722266b38069665",
+      "bytes": 1111,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/01b70aab2cd8dc88-LICENSE.txt",
+      "sha256": "0b31f3a6ab66b272b7de451df39835f310a309a06b1a8aafb3a2fdab20adc166",
+      "bytes": 1051,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/01f3eb82e9182ae1-license.txt",
+      "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3",
+      "bytes": 1117,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/02241b90f66f8451-LICENSE.txt",
+      "sha256": "dcd0a622a3a2c94fe3aa6238b76363f87df442afe788cbad966afe943ed62281",
+      "bytes": 1083,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/02ffaed01b49419a-LICENSE.txt",
+      "sha256": "0af366eff4c01ec147c9c61ea9e8ffad64a4294754c9d79355f3fd1b97cb2fb9",
+      "bytes": 1452,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/03bea9f24a964033-LICENSE.txt",
+      "sha256": "34b59b39e7ba577a1d86924218c71229b163d3bf3903aec784299f725c89d324",
+      "bytes": 1093,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/03c77115ccff325e-LICENSE.txt",
+      "sha256": "da4db1480d9beea3483a2eda5c53b22238d0827d57da162b48f122e04d2d9987",
+      "bytes": 1095,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/041512bd76a4fe4b-LICENSE.txt",
+      "sha256": "09e8a9bcec8067104652c168685ab0931e7868f9c8284b66f5ae6edae5f1130b",
+      "bytes": 10142,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/041eca6073f9e6e3-LICENSE.txt",
+      "sha256": "86da0f01aeae46348a3c3d465195dc1ceccde79f79e87769a64b8da04b2a4741",
+      "bytes": 1023,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/0474c1861a53b99f-LICENSE.txt",
+      "sha256": "9e534cfb7f7ae1300e16fe1ee7d203fdfe707dc932429c37246f747c3699ee14",
+      "bytes": 726,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/049bbcbbcaddd5eb-LICENSE.txt",
+      "sha256": "f2042f3634c4136d06b5139c9c6aefb81a3a462b514548bc1845953233dfba98",
+      "bytes": 1237,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/064437c643710fc0-LICENSE.txt",
+      "sha256": "ea7f376fe7a1fc28572b83ac8f806d92effb31852b9981bc9ba9d5266caa6b28",
+      "bytes": 734,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/069d1b93c78dba4e-LICENSE.txt",
+      "sha256": "bfdeded4040e05da31ca9b6239dc83bd23fa26ac8db87342a7ca4363f68916ff",
+      "bytes": 11342,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/0716d13cd781c452-LICENSE.txt",
+      "sha256": "631987b7616a325a5b97566c232418481ddf7dbb5ecadefb991e791876cc2599",
+      "bytes": 1081,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/088cff8e2116bcd1-LICENSE.txt",
+      "sha256": "769d154fbde32a915af110b1123650bc79f4cbe675acc66e005265bf069c6c6c",
+      "bytes": 1080,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/089e964976575a1a-LICENSE.txt.txt",
+      "sha256": "130e3a64d5fdd5d096a752694634a7d9df284469de86e5732100268041e3d686",
+      "bytes": 1093,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/08efc8a5240b4745-LICENSE.md.txt",
+      "sha256": "8a1af140fdfbf5afd3df27f7e662f989c5b963a300020dfafce42033cae9e004",
+      "bytes": 1552,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/0be477b95cefc2e3-LICENSE.txt",
+      "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3",
+      "bytes": 1117,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/0c816a04b8e28e14-LICENSE.txt",
+      "sha256": "117da2af0d4ce0fe1c8e19b5cff9dcd806adf973d328d27b11d4448c4ff24f76",
+      "bytes": 1106,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/0d2674459040e335-LICENSE.txt",
+      "sha256": "62ba766e9b50f9b175b0229f4ea03e93730c9180408acec50dd617e9ae1fa059",
+      "bytes": 1066,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/0d369e792c72bf79-LICENSE.txt",
+      "sha256": "b9eb082c39fe245e38793699074c394c43a722c51fce031c3c165cb92a31035c",
+      "bytes": 1054,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/0dd90ee41626a822-LICENSE.txt",
+      "sha256": "fb9548e36708f09ae0cc1047ebd8153928bfe5bed67e4051f0ace552bdcbf0b3",
+      "bytes": 1095,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/0e1893e3a4c598ec-LICENSE.txt",
+      "sha256": "25ba5c59dad3e0dd8f9540beaa0f0a86a10e3aec35af5fdc8e88c5f6a5c0d8c6",
+      "bytes": 728,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/0e784255aba7102e-LICENSE.txt",
+      "sha256": "e7608cc316ea65729d6ce63cd619fb185ae44d329740388d30099fe7e4b16a4d",
+      "bytes": 1069,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/0ebade940f180bd7-LICENSE.txt",
+      "sha256": "c064f7a3e353bc1bc977f3c897941c75ef763f44f41677e0a15370ca0853d6e2",
+      "bytes": 1085,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/0f336b7b7f1ed959-license.txt",
+      "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0",
+      "bytes": 1109,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/0f6e5abae40c6e19-LICENSE.txt",
+      "sha256": "2eef776efe4bae7fcd2d8162ecadf2b0873aae20afac343a936ddb0de3d79253",
+      "bytes": 1067,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/0fff47576a887b0e-LICENSE.txt",
+      "sha256": "de4d1f2d2ad5ad0cfd1657a106476b31cb5db5ef9d1ff842b237c0c81f0c8a23",
+      "bytes": 12775,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/1110d533cbceb99a-LICENSE.txt",
+      "sha256": "2597d854122b77ddc71971564ca2350a37608575ce324adc5650a2b2051c8f18",
+      "bytes": 20731,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/11c7d9ddcb7cc6c3-LICENSE.txt",
+      "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+      "bytes": 11357,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/137d31575d4ea2ea-LICENSE.txt",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "bytes": 11357,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/141f2b7f3500b0fd-LICENSE.txt",
+      "sha256": "e93716da6b9c0d5a4a1df60fe695b370f0695603d21f6f83f053e42cfc10caf7",
+      "bytes": 989,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/1451e2d9d4530d5b-license.txt",
+      "sha256": "6ee0feb1f6ef996ff5a68600f8cf98909cf412d39ef3cdceaefd87d636fa1b7f",
+      "bytes": 1128,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/148e668d415e9789-LICENSE.txt",
+      "sha256": "8bb16db1b047019e4395965f2cf3611b06c34bf86dc2d0210b3c3f91b53c21fe",
+      "bytes": 1109,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/14c6ddfc1f570b01-LICENSE.txt",
+      "sha256": "03cc9a630489a2544b799548a0e8b134f382fe09fa06dc22b339091b28b8f4a8",
+      "bytes": 1095,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/150ff174064822b9-LICENSE.txt",
+      "sha256": "2eb5c7a0bba9deb77a98c81bf6b9d3fb1c67118eebf968b6b1a787b3f8928ee0",
+      "bytes": 1097,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/15ffb6c595d1d756-LICENSE.txt",
+      "sha256": "9dbd86998d3cdafc1d8c298aea636146568d05d429b81386e60cfce11e6cedb6",
+      "bytes": 1086,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/1603932f38a43b53-LICENSE.txt",
+      "sha256": "9068a8782d2fb4c6e432cfa25334efa56f722822180570802bf86e71b6003b1e",
+      "bytes": 1071,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/1685aa16875a7093-license.txt",
+      "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0",
+      "bytes": 1109,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/1739e5c8b5874450-LICENSE.txt",
+      "sha256": "23ecfff35a5a2e80d92142f75228912c3b1abc4b5a8337a821ff4397e2f9f734",
+      "bytes": 1302,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/18616265067f20a9-LICENCE.txt",
+      "sha256": "a6f36438e46fb911859f3b9c4cad045ba64e1af3d8f4512c60258fa2d7552d28",
+      "bytes": 1079,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/18d7db0dc8e2171a-LICENSE.txt",
+      "sha256": "3f1189b28e3866e0d979968d466b78f813f76827cfdca1fbb124cc0a5c8841f8",
+      "bytes": 1072,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/199366fd3004e49f-license.txt",
+      "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0",
+      "bytes": 1109,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/1a50b96764f1bc8b-LICENSE.txt",
+      "sha256": "2eb5c7a0bba9deb77a98c81bf6b9d3fb1c67118eebf968b6b1a787b3f8928ee0",
+      "bytes": 1097,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/1b1a379ee834b679-LICENSE.txt",
+      "sha256": "148718606d34f467fd08a2176bb4c1ab275f999576f779368503d8d3e3642861",
+      "bytes": 770,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/1b8491833073033c-LICENSE.txt",
+      "sha256": "117da2af0d4ce0fe1c8e19b5cff9dcd806adf973d328d27b11d4448c4ff24f76",
+      "bytes": 1106,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/1c5d31d316af0839-LICENSE.md.txt",
+      "sha256": "78fbac9e571c2ee260deb2a1941a8a18f0a85e3f39c23d08e2dcee6da4841998",
+      "bytes": 45239,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/1c82b76f24485389-LICENSE.txt",
+      "sha256": "a0e6357a5e8ea65827addeb383e0948a1874d2f46bc7feaf6349b7a376ed6e98",
+      "bytes": 1086,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/1cbb04e673cc6789-LICENSE.txt",
+      "sha256": "d8bf34ff6d190640a01e7704ad78253fc181bc128949d71273fbbaa12f33c0b4",
+      "bytes": 11337,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/1cbec83eaa5d6979-LICENSE.md.txt",
+      "sha256": "d408f38ffa3355c5faec517153295338892eb0f1ea43f57874bb23c6075979b5",
+      "bytes": 1155,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/1d1bf2a2eb109478-LICENSE.txt",
+      "sha256": "9877e90da14aa8c931a1f9d07cc2a20ce119106e5dab1ebb41af865266d0cd2a",
+      "bytes": 1118,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/1d52bb31c2b5802c-LICENSE.txt",
+      "sha256": "a8e260b5b60eb27746ff2c5967489e6878c5a6ba99400cbec84c89a9b49a46ca",
+      "bytes": 1069,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/1db4e53e5a2e60a0-license.txt",
+      "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0",
+      "bytes": 1109,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/1eeb39b351f8566f-LICENSE.txt",
+      "sha256": "04512a63dce4d2d506ad612dc0bd7681ccf6e3655f7b6eaef7dfac8323d1ec0b",
+      "bytes": 1098,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/1ff0d1d05b528223-LICENSE.txt",
+      "sha256": "291ff3e2bd22891edef553930da53ba64adf79d83f0bd1c5b7f6fe9727526b37",
+      "bytes": 1131,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/20f7e543a0554ab7-LICENSE.txt",
+      "sha256": "9680978280d509520d2a7b51e93ffbf7d9ec2b9de4411a6989daba5b659048e0",
+      "bytes": 1087,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/212f44f1c3732331-LICENSE.txt",
+      "sha256": "33be7b7e8fa4fd19b1760e1a8ed8a668bdab852c91b692dd41424bcb725a9fca",
+      "bytes": 1086,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/213f7cfc228cff9b-LICENSE.txt",
+      "sha256": "f388fd38cad13112c1dc0f669bbe80e7f84541edbafb72f3030d2ca7642c3c9d",
+      "bytes": 751,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/22d90cd1f102d6e6-LICENSE.txt",
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93",
+      "bytes": 1088,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/22fbe075fe115096-LICENSE.txt",
+      "sha256": "214d0ac13edb475ec426df1979d96fd46b443debc466c0fb592e32152ae5a940",
+      "bytes": 1093,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/2596f530a1e2f9f1-LICENSE.txt",
+      "sha256": "1cbe51b907662f6cb1492b16c359384a595180bf0e4d101603ed525e75c4e484",
+      "bytes": 1051,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/25ad52666f5583bd-NOTICE.txt",
+      "sha256": "6d602191187b35b9b01d2cffa01c8469c2c8d9de8a96f1bf868e0f264f51c81d",
+      "bytes": 254,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/264f3e3aed8f7a0b-LICENSE.txt",
+      "sha256": "53e59feb13058722d977c699eb0407c7bce2f93c949b681bbd2ff31698535927",
+      "bytes": 1145,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/27e8c1a609a73126-LICENSE.txt",
+      "sha256": "cad1ef5bd340d73e074ba614d26f7deaca5c7940c3d8c34852e65c4909686c48",
+      "bytes": 197,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/2802701be827f744-LICENSE.txt",
+      "sha256": "b070d77bfb2c52a1dd6996de0ce5f64c49a0ca55c889b163a963ddf5cb001ee2",
+      "bytes": 11343,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/28e5d94e995f9db6-LICENSE.txt",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "bytes": 11357,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/29141c9173a811f4-LICENSE.txt",
+      "sha256": "e399db7e952e45cae84f1b53d72ba8dbad2daaa7ab8cd1f0ab72fea5ab73b225",
+      "bytes": 1121,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/29782d0b8dd1f47a-LICENSE.txt",
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+      "bytes": 1141,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/297a6e2bf47aa6d3-LICENSE.txt",
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93",
+      "bytes": 1088,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/29fb3d6a824ba6be-LICENSE.txt",
+      "sha256": "03cc9a630489a2544b799548a0e8b134f382fe09fa06dc22b339091b28b8f4a8",
+      "bytes": 1095,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/2a02444bcdc63bc1-LICENSE.txt",
+      "sha256": "59a400d04c5078579acc27ddd6452c1bdf763f9506e01364700935fbb1a7c91b",
+      "bytes": 1098,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/2a23453a73de9fec-LICENSE.txt",
+      "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594",
+      "bytes": 10174,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/2b55330920150295-LICENSE-MIT.txt.txt",
+      "sha256": "483acb265f182907d1caf6cff9c16c96f31325ed23792832cc5d8b12d5f88c8a",
+      "bytes": 1077,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/2c14c32b76ed43b1-LICENSE.txt",
+      "sha256": "a0e2f73971f663b49d3c66cc6749fc88de0f475680ccf5b980a9cbcc0c52490f",
+      "bytes": 1086,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/2c4f1e7dd0325ca9-LICENSE.txt",
+      "sha256": "dff08668b8cfca00ec90011eb318e450c3719fcd40893bf375781a6beef7143a",
+      "bytes": 1349,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/2cb427615c9be5c3-LICENSE.txt",
+      "sha256": "6134c69bc22c8289252e70de3af20bd67071233459055be74d83acfcc4865e7e",
+      "bytes": 1087,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/2d377f9b179e114e-LICENSE.md.txt",
+      "sha256": "53e59feb13058722d977c699eb0407c7bce2f93c949b681bbd2ff31698535927",
+      "bytes": 1145,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/2f46423b2bd81999-LICENSE.txt",
+      "sha256": "e08c030e1274fadc495c71e0489612f0c74673b69ae8e41460526c233a94a728",
+      "bytes": 1137,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/2f58c3c4b31896e7-LICENSE.txt",
+      "sha256": "811238ba7d85f6fe6b820703a32f92705bcf77bc352ddc3476783491c64a129a",
+      "bytes": 1119,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/2f66e7c5e679254c-LICENSE.txt",
+      "sha256": "d25d1d6d28c35cb6f358e2833e405c4e53fec2fa24d156323ddea5cd438d3407",
+      "bytes": 1077,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/306d16a8ebca9535-LICENSE.md.txt",
+      "sha256": "a1bd5deadb6a06dd74efa852c1b8b23f63b67f2214fbe9c8bd591da51da69268",
+      "bytes": 1096,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/3097f4569a5a252d-LICENSE.txt",
+      "sha256": "6239c6144c31e58cf925c34483606969c555574d64ffa96518ab5d7f45c75d43",
+      "bytes": 1096,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/310ede080a48cfc4-LICENSE.txt",
+      "sha256": "769d154fbde32a915af110b1123650bc79f4cbe675acc66e005265bf069c6c6c",
+      "bytes": 1080,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/323d97e19aa4ee9b-LICENSE.txt",
+      "sha256": "bd4539377980dd797fc6a51d90e664e52b2b2625b2158f01d4c68b5fe107eacb",
+      "bytes": 1093,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/32e6ea5d03f370a2-LICENSE.txt",
+      "sha256": "2eb5c7a0bba9deb77a98c81bf6b9d3fb1c67118eebf968b6b1a787b3f8928ee0",
+      "bytes": 1097,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/33878044ee9a9f21-LICENSE.txt",
+      "sha256": "8cec82f7beeab8459fa6165c973f5cd6f89aceea7a07de0aa8fc30a9dd339a05",
+      "bytes": 1067,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/34de4c12f265a0d1-LICENSE.txt",
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+      "bytes": 1141,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/34f413bcc595f722-LICENSE.txt",
+      "sha256": "d5f14c3258420dfe5a3b641a143d6e6dd90eabb5962244d937e25699c3a45ec9",
+      "bytes": 2505,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/3560936b70cefa08-LICENSE.md.txt",
+      "sha256": "942a98cb8846a6354266193f173c1354615827fbb7d67f68399599dff12c4d6a",
+      "bytes": 1100,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/35cbba0d626ee0a1-LICENSE.txt",
+      "sha256": "7c6cc83c84eaa249a85bf12fe3eedd831bb50c696e8890b5248223ae68c7b408",
+      "bytes": 10760,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/36d441ccd66efa01-LICENSE.txt.txt",
+      "sha256": "210b19e543130388c68654b7497e967119ce17145f66ab7d85688fbd70f08751",
+      "bytes": 655,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/37021aa056bd0814-LICENSE.md.txt",
+      "sha256": "ab654de803cdaa9e2819ab2e934bdf7f757e308649ec231d78e80e92425cdc34",
+      "bytes": 1105,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/378a1d69fcd182c6-LICENSE.txt",
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93",
+      "bytes": 1088,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/38575eab5ea857ff-LICENSE.txt",
+      "sha256": "465e8da349d50d8512e4a0e9b26d2bee50392c394f17edaa3be6e0df7c2b27ad",
+      "bytes": 1053,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/387fbac5aa2727e2-LICENSE.txt",
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93",
+      "bytes": 1088,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/39c1c00c2f235458-LICENSE.txt",
+      "sha256": "09e8a9bcec8067104652c168685ab0931e7868f9c8284b66f5ae6edae5f1130b",
+      "bytes": 10142,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/39d8038f2832c3cc-LICENSE.txt",
+      "sha256": "be8ba42db3b7c3dbb064bcdc1bbbb191c0a39c8851c2a53564e97c7eea301bca",
+      "bytes": 1067,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/3a36fe805062bec9-LICENSE.txt",
+      "sha256": "e85e131fa4ed25538ff1f4962ced1fb6f68b079bd9164a790597a0f30b8fd030",
+      "bytes": 1090,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/3a94b1c7f8d29280-LICENSE.txt",
+      "sha256": "e4f76a7a19ef2989dd79339bd3abf8afcf1d6f065e5a10c76c19415ffd727eb3",
+      "bytes": 1079,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/3c5409314ce9cb15-LICENSE.txt",
+      "sha256": "22c68811e174cbbfb3813d4135918df4f540959c14d872e601d9abe83d3cde8f",
+      "bytes": 1076,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/3c6de61ad3e9c9f7-LICENSE.txt",
+      "sha256": "4249bd020d1b5c503d20a196c1b686b3bdebcd1c7ac06909c546d9624c64f79b",
+      "bytes": 2232,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/3cd6bcf7c0f7fd31-license.txt",
+      "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3",
+      "bytes": 1117,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/3de19f04bf1337af-LICENSE.txt",
+      "sha256": "9068a8782d2fb4c6e432cfa25334efa56f722822180570802bf86e71b6003b1e",
+      "bytes": 1071,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/3e2b2c9cd8fbf658-LICENSE.md.txt",
+      "sha256": "8a1af140fdfbf5afd3df27f7e662f989c5b963a300020dfafce42033cae9e004",
+      "bytes": 1552,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/3e9a8c81e6365855-COPYING.txt",
+      "sha256": "492dedba85da5872f78e6091bcd1fea474d660d35acb4dee964b8aab3f007427",
+      "bytes": 614,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/3ea655dfe8da4252-LICENSE.txt",
+      "sha256": "7b34e99bc43641767fded49f7f03563ffd50c689b1f3b0d50700b4727bc4ae24",
+      "bytes": 1066,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/3ea860d9c2afac47-LICENSE.txt",
+      "sha256": "fd3a263fe19ed8faa9068b43abaebafc02c77897b0c6fc09abc04bb592e5f16e",
+      "bytes": 18651,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/3eae73fe1304498f-license.txt",
+      "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0",
+      "bytes": 1109,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/3ff29037ab215b94-LICENSE.txt.txt",
+      "sha256": "9eb73a1f38597a4aa17025d2ae1be3839624c795e985d4f0e9769ce29faca467",
+      "bytes": 1054,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/3ff44bc28b298cc4-LICENSE.txt",
+      "sha256": "465e8da349d50d8512e4a0e9b26d2bee50392c394f17edaa3be6e0df7c2b27ad",
+      "bytes": 1053,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/41a8456a3fdb6c14-LICENSE.txt",
+      "sha256": "9068a8782d2fb4c6e432cfa25334efa56f722822180570802bf86e71b6003b1e",
+      "bytes": 1071,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/420d94368f9b1703-LICENSE.txt",
+      "sha256": "2130216d5ab4c02134f8247f32999feda0abe1eaf028218baeac445c19ce4cea",
+      "bytes": 1108,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/421cc26f0697751b-LICENSE.txt.txt",
+      "sha256": "808e10c8a6ab8deb149ff9b3fb19f447a808094606d712a9ca57fead3552599d",
+      "bytes": 14531,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/426b15a2e883fa5f-LICENSE.txt",
+      "sha256": "f26c92c1c16e78c6b1f7474792f7195b7abc851caccb4a73dcc5b3c31efc7321",
+      "bytes": 1094,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/4271e8b1c48baaaf-LICENSE-MIT.txt.txt",
+      "sha256": "483acb265f182907d1caf6cff9c16c96f31325ed23792832cc5d8b12d5f88c8a",
+      "bytes": 1077,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/429a59a571441d37-LICENSE.txt",
+      "sha256": "4ec3d4c66cd87f5c8d8ad911b10f99bf27cb00cdfcff82621956e379186b016b",
+      "bytes": 765,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/42d7255751125def-LICENSE.txt",
+      "sha256": "053a75a14b7508a897466b65e12797201a06b0e9b5066d1223da72cac99601b5",
+      "bytes": 1097,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/430611058f49c9f0-license.txt",
+      "sha256": "9a9edad7baae52622bddf3c15b2ef8a33d2c89f2d25408ad13e8a7481c6b0c97",
+      "bytes": 1104,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/431d2534eb23b6f0-license.txt",
+      "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3",
+      "bytes": 1117,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/43826f253f24bea9-LICENSE.md.txt",
+      "sha256": "1a9a4f0e3d479a27240ddd59a9137a66ab4a0f9dfdc8ca6188cc0bfd85187f04",
+      "bytes": 1541,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/43a9da627a1125bc-LICENSE.txt",
+      "sha256": "45d196313c2647d313cc65ca9b093d2d6974b64d35ee7346f2c60c9d518dff2c",
+      "bytes": 1086,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/43fff95417ada924-LICENSE.txt",
+      "sha256": "2e97627cb278aa7556fb9e8817368302301a595b6c7582512b8d74c57b773652",
+      "bytes": 1086,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/4447330b1468fd79-LICENSE.txt",
+      "sha256": "ca836a5f9ecca3b2f350230faa20a48fb8b145653b5568d784862df864706b9b",
+      "bytes": 1091,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/449dd1c40a1bf83d-LICENSE.txt",
+      "sha256": "4eeb3271453a891df609e5a9f4ee79a68307f730c13417a3bfeffa604ac8cf25",
+      "bytes": 1103,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/44b08567a923a13a-license.txt",
+      "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3",
+      "bytes": 1117,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/461022f5efc79b7a-LICENSE.txt",
+      "sha256": "5361ac9dc58f2ef5fd2e9b09c68297c17f04950909bbc8023bdb82eacf22c2b0",
+      "bytes": 1081,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/463226c09d65c656-LICENSE.txt",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "bytes": 11357,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/466213282cec0029-LICENSE.txt",
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93",
+      "bytes": 1088,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/46aa718b0a4e270a-LICENSE.txt",
+      "sha256": "901d0a7fcaccaae9917d165039c0473c354e5da2e0e94140dde67aad9ffb19da",
+      "bytes": 1303,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/46de1c0f3c59737c-LICENSE.txt",
+      "sha256": "117da2af0d4ce0fe1c8e19b5cff9dcd806adf973d328d27b11d4448c4ff24f76",
+      "bytes": 1106,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/4724bc6e8302d69c-LICENSE.txt",
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93",
+      "bytes": 1088,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/481d2c5cacd1e864-LICENSE.txt",
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+      "bytes": 1141,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/481d65b1a5305ea2-LICENSE.txt",
+      "sha256": "c4630ac8b89cb317ac5bdd60ac5e4e185eab9bd5151a0c7b3afa41aa83d7ec9b",
+      "bytes": 1095,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/4895db046624a0a5-LICENSE.txt",
+      "sha256": "b80816b0d530b8accb4c2211783790984a6e3b61922c2b5ee92f3372ab2742fe",
+      "bytes": 1072,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/490089d24da0717b-LICENSE.txt",
+      "sha256": "a9d66f1d526df02e29dce73436d34e56e8632f46c275bbdffc70569e882f9f17",
+      "bytes": 1331,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/49ca6049aa475846-LICENSE.txt",
+      "sha256": "86da0f01aeae46348a3c3d465195dc1ceccde79f79e87769a64b8da04b2a4741",
+      "bytes": 1023,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/4a08f101487dbd74-LICENSE-MIT.txt.txt",
+      "sha256": "483acb265f182907d1caf6cff9c16c96f31325ed23792832cc5d8b12d5f88c8a",
+      "bytes": 1077,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/4be90cc32edcd59d-LICENSE.txt",
+      "sha256": "52412d7bc7ce4157ea628bbaacb8829e0a9cb3c58f57f99176126bc8cf2bfc85",
+      "bytes": 1086,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/4bf905975ae11f6b-LICENSE.txt",
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+      "bytes": 1141,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/4c7df6e5b778c482-NOTICE.txt",
+      "sha256": "1c3bd67b96888a4ca25f3a94683d929b3f66d7e4cdfe6c04d24f16501a9375c3",
+      "bytes": 147,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/4ca07e3a4639bb6c-LICENSE.txt",
+      "sha256": "26c95937762a3dc17a3934a0a2773c70259ba4bf28dab713c225e4af8eb9d349",
+      "bytes": 1322,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/4cbcc4f856fb89d4-LICENSE.txt",
+      "sha256": "73ba74dfaa520b49a401b5d21459a8523a146f3b7518a833eea5efa85130bf68",
+      "bytes": 10273,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/4d20a119951e12aa-LICENSE.txt",
+      "sha256": "769d154fbde32a915af110b1123650bc79f4cbe675acc66e005265bf069c6c6c",
+      "bytes": 1080,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/4d563aef39018d72-LICENSE.txt",
+      "sha256": "e3b44af066615de2ea48d18d852d0762f18c0b2efcea714fa48a6f729d405b85",
+      "bytes": 1153,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/4dfe37eb35c807de-LICENSE.txt",
+      "sha256": "c8e6bca7230689d536a3bd7158f66e9c4f89f95d0748743a0370ac229e9023ad",
+      "bytes": 1181,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/4e2f8fd2c5378d20-license.txt",
+      "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0",
+      "bytes": 1109,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/4ee2a18e775e9d3f-LICENSE.txt",
+      "sha256": "e1898814043cb5500483d9c8517edda824b352f696d35e5043fcfb537c221531",
+      "bytes": 1076,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/4f41b2683877a8b9-LICENSE.txt",
+      "sha256": "45873d00a0dd243596deb4aa23b2493b3d1f0671921bf2538ea431d7380220eb",
+      "bytes": 11601,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/4f9b46570615b428-LICENSE.txt",
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+      "bytes": 1141,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/4fb7a1401a208c89-LICENSE.txt",
+      "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0",
+      "bytes": 1109,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/4fbd4cd7313fe9cc-LICENSE.txt",
+      "sha256": "b80816b0d530b8accb4c2211783790984a6e3b61922c2b5ee92f3372ab2742fe",
+      "bytes": 1072,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/50b2bf90b2fcf342-LICENSE.txt",
+      "sha256": "4ec3d4c66cd87f5c8d8ad911b10f99bf27cb00cdfcff82621956e379186b016b",
+      "bytes": 765,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/5148b4f831d95166-LICENSE.txt.txt",
+      "sha256": "63af09891b6be8ad1a4252ed43af0f4efba7fc948e228367bed7f3c5ae0b09d7",
+      "bytes": 1475,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/517ceaaa9944a700-LICENSE.txt",
+      "sha256": "fc06db8dd5e7840db84ab328d9f58bdb91a56fbbf045bb977c11fcd07e2d8e3e",
+      "bytes": 1379,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/51ba4b37fd1e33dc-LICENSE.txt",
+      "sha256": "608c89d5060ae9921adccf3236695bc654a9946e12323ef6c021dfa04e294d48",
+      "bytes": 1088,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/525d3090c2009c54-LICENSE.txt",
+      "sha256": "f18cad8d98d4454ad42c33f1950d642cd3b939f2ccd3c36710fa8f50842cacc0",
+      "bytes": 1062,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/529095c220ad9f7c-LICENSE.txt",
+      "sha256": "aaa78451b6fecd1b9c4594c796c133c0e90cad100372ff8bc6de615e9ef9adf1",
+      "bytes": 1105,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/52eafdf9591a856f-LICENSE.txt",
+      "sha256": "bd47ce7b88c7759630d1e2b9fcfa170a0f1fde522be09e13fb1581a79d090400",
+      "bytes": 1094,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/530f8b1d95098d44-LICENSE.txt",
+      "sha256": "33be7b7e8fa4fd19b1760e1a8ed8a668bdab852c91b692dd41424bcb725a9fca",
+      "bytes": 1086,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/538018fb8525a0ce-LICENSE.txt",
+      "sha256": "435a6722c786b0a56fbe7387028f1d9d3f3a2d0fb615bb8fee118727c3f59b7b",
+      "bytes": 1073,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/539e6d4b5006989b-LICENSE.txt",
+      "sha256": "b80816b0d530b8accb4c2211783790984a6e3b61922c2b5ee92f3372ab2742fe",
+      "bytes": 1072,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/53ce70b7fd3142a0-LICENSE.txt",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "bytes": 11358,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/53e92962c0a09991-LICENSE.txt",
+      "sha256": "25a328069fe771f8ed5b6f983ed4b0e6c84b3312ac0f69b28c3d52dc277962c9",
+      "bytes": 1128,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/5448ba17be2aeb49-LICENSE.txt",
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93",
+      "bytes": 1088,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/558927173f06a86b-LICENSE.txt",
+      "sha256": "bfdeded4040e05da31ca9b6239dc83bd23fa26ac8db87342a7ca4363f68916ff",
+      "bytes": 11342,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/565d58a213e69140-license.txt",
+      "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0",
+      "bytes": 1109,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/56dffa8b4a3810b7-LICENSE.txt",
+      "sha256": "f3c51ace7f159b21566d72535e84ff354505ae7ffdca835dac81fcdafbf9e879",
+      "bytes": 1097,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/57cfaaeabb8ea105-LICENSE.txt",
+      "sha256": "2b6fc3f4a995e6ad29f4e2ed8881a32979058b8d6557efaa6d86b7e985849f40",
+      "bytes": 10932,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/5834873d0df9dcbd-LICENSE.txt",
+      "sha256": "76a876cf886ff9be2a8b5e2e86514fed06223c8c9f0c1e9ee9606e93841e00b7",
+      "bytes": 1099,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/59732964a614d485-LICENSE.txt",
+      "sha256": "fc68eb8f1c8e1d6b8be50f3c177927e24791cae7dc251e6253a012f37926a30c",
+      "bytes": 857,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/5abcdde76cb52348-LICENSE.txt",
+      "sha256": "45873d00a0dd243596deb4aa23b2493b3d1f0671921bf2538ea431d7380220eb",
+      "bytes": 11601,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/5b1dfa89b392747b-LICENSE.txt",
+      "sha256": "a22b9d5763f574e5db347c30acc0b33eaf4846767c03d2e27d012e864e79a824",
+      "bytes": 1071,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/5bb7ae7baf9ef23b-LICENSE.txt.txt",
+      "sha256": "528eec83cb836a0adda9f8fc3d6a2a70a710d6cc0be9a155f92212c8df28acfa",
+      "bytes": 1069,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/5c6f1de0c17e4530-LICENSE.txt",
+      "sha256": "435a6722c786b0a56fbe7387028f1d9d3f3a2d0fb615bb8fee118727c3f59b7b",
+      "bytes": 1073,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/5c7269a3d29c8d66-LICENSE.txt",
+      "sha256": "ff151c00207c908581639851dd8504ce4255be0650b2b236edec2aa90342b0cd",
+      "bytes": 1103,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/5c75f2a00d3d13b1-LICENSE.txt",
+      "sha256": "ffd8b33b354585f4ce119f19c53728281e48a97b074491eb6bf6d5c5ff305272",
+      "bytes": 1951,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/5cab6afd82757ecb-LICENSE.txt",
+      "sha256": "1f7dca26d2d328c3dbb9b6fe3b15ec3cda08ffe2288e47b73d617454b256f959",
+      "bytes": 1108,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/5d8d7c935450157a-LICENSE.txt",
+      "sha256": "cb72d9714ddc21e758d63f423be0caddf909d23ccbb10a2f5201a870818e4f57",
+      "bytes": 1081,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/5ed6b5797657d15f-LICENSE.txt",
+      "sha256": "b9eb082c39fe245e38793699074c394c43a722c51fce031c3c165cb92a31035c",
+      "bytes": 1054,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/5f0bb3d1b4ddd387-LICENSE.txt",
+      "sha256": "6582629e2979466878f6014313dcc2f3756c9616148682227ce3063dde310750",
+      "bytes": 787,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/5f9da4b961746f7c-LICENSE.txt",
+      "sha256": "04575fc5bfae19a9b63100f8691f901a2e15a399011ac02db435a9ef27295551",
+      "bytes": 1102,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/5faf38d18e9e072a-LICENSE.md.txt",
+      "sha256": "2c7c5d22ed5a8ee968c64757710979afcd77438c48b4a265b94e615babd8a901",
+      "bytes": 1550,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/5fb236d73c1f4212-LICENSE.txt",
+      "sha256": "3706296ed611888111ceccc1dff4712844dea4bde0b185c82d718c3b69895abe",
+      "bytes": 1107,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/5fe4b2ee1cf806b7-LICENSE.txt",
+      "sha256": "6a134e51aa31496c15a741592fc5d782b2dbf8d8b6b8524e15c8520ae0cd6374",
+      "bytes": 1079,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/60137b3c90fad1df-LICENSE.txt",
+      "sha256": "a9d66f1d526df02e29dce73436d34e56e8632f46c275bbdffc70569e882f9f17",
+      "bytes": 1331,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/60879c501eebace9-LICENSE.txt.txt",
+      "sha256": "a6cba85bc92e0cff7a450b1d873c0eaa2e9fc96bf472df0247a26bec77bf3ff9",
+      "bytes": 10173,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/616ca9d2192bdd9a-LICENSE.txt.txt",
+      "sha256": "808e10c8a6ab8deb149ff9b3fb19f447a808094606d712a9ca57fead3552599d",
+      "bytes": 14531,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/617486449d4c0c24-LICENSE.txt",
+      "sha256": "6cb0631f71c7749763fd3dd1d5bee52dd1070ec17f2edc1710079ad070bd2fbd",
+      "bytes": 1526,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/617e54b920854103-LICENSE.txt",
+      "sha256": "d3a724e2ed749f172ff70b62a1d0631b7d4b0ea273782365a3464d4e2d6b6dbd",
+      "bytes": 1390,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/624bfc18fa906b47-LICENSE.txt",
+      "sha256": "0c8adcc204c8af6cdfdf7887dfd1f99c29901f6c1d505a78bba96efa4fb2cb05",
+      "bytes": 1612,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/6264217e95eb1d68-license.txt",
+      "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3",
+      "bytes": 1117,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/626e6c16d442aff5-LICENSE.txt",
+      "sha256": "d06b5d27bbbbe22c36b1fd88406b1208876e2d37d795f5b8eaed951a459a3111",
+      "bytes": 1067,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/629e431874a0f3c3-LICENSE.txt",
+      "sha256": "52412d7bc7ce4157ea628bbaacb8829e0a9cb3c58f57f99176126bc8cf2bfc85",
+      "bytes": 1086,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/62bb2cb3cd0b876e-LICENSE.txt",
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93",
+      "bytes": 1088,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/645ba3b707cdfb89-LICENSE.txt",
+      "sha256": "dc1f5d2d43c5531dfe0acaf4e950ea5dbe3e61e1850cf0e983bda7efc10d6693",
+      "bytes": 10464,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/64ff042b24c8e383-LICENSE.txt",
+      "sha256": "73ba74dfaa520b49a401b5d21459a8523a146f3b7518a833eea5efa85130bf68",
+      "bytes": 10273,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/650e3d195aacd294-LICENSE.txt",
+      "sha256": "6d2abc90a426cf65bbf84f7cedf9487f7ff86a3daf0e130b335a45c112f040d0",
+      "bytes": 1134,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/659e55b78b9a2fd8-LICENSE.txt",
+      "sha256": "cad1ef5bd340d73e074ba614d26f7deaca5c7940c3d8c34852e65c4909686c48",
+      "bytes": 197,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/6649a36dac4a02a1-LICENSE.txt",
+      "sha256": "2eb5c7a0bba9deb77a98c81bf6b9d3fb1c67118eebf968b6b1a787b3f8928ee0",
+      "bytes": 1097,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/68bf13667b455e8c-LICENSE.txt",
+      "sha256": "117da2af0d4ce0fe1c8e19b5cff9dcd806adf973d328d27b11d4448c4ff24f76",
+      "bytes": 1106,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/690a00591ac977ca-LICENSE.txt",
+      "sha256": "04575fc5bfae19a9b63100f8691f901a2e15a399011ac02db435a9ef27295551",
+      "bytes": 1102,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/69330f649e9b1f32-LICENSE.txt",
+      "sha256": "ea75e9321945b7f0bc4644da1e404ad76ce55e9bc05cae3b2f5f2d973aede83b",
+      "bytes": 1050,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/6a09101ba2d8c8e3-LICENSE.txt",
+      "sha256": "117da2af0d4ce0fe1c8e19b5cff9dcd806adf973d328d27b11d4448c4ff24f76",
+      "bytes": 1106,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/6a2112de74425f57-LICENSE.txt",
+      "sha256": "e1919b3b98b8bf6c1b99fcc60a0ed46027c97ac947432e1278446c9606f50161",
+      "bytes": 1106,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/6a2b3c7ba11d8e8b-LICENSE.txt.txt",
+      "sha256": "db480f236292a093e77a83c35431a8496624e1e664a3547768a9ce2bdde39877",
+      "bytes": 1076,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/6a691a9d1f619f4c-LICENSE.txt",
+      "sha256": "e93716da6b9c0d5a4a1df60fe695b370f0695603d21f6f83f053e42cfc10caf7",
+      "bytes": 989,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/6acaa868b7f4dd59-LICENSE.txt",
+      "sha256": "18577485d3704f1a479ded8e573c0976cfed315fd2fd17983fa988da4c2f70d1",
+      "bytes": 1092,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/6acdaa44b5e0c03c-NOTICE.txt",
+      "sha256": "f5110972dedad2b4e9d314518daf3b7d72d6e02e499acd802181de6f74571dcc",
+      "bytes": 38,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/6bb12044ee4c0b0d-LICENSE.txt",
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93",
+      "bytes": 1088,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/6dd11b0b2ad7635e-LICENSE.txt",
+      "sha256": "3902e57e73412bd91ba81a47fa2cef45e1729c152c835114c1692cc5e685ddbe",
+      "bytes": 1052,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/6e1a21b185217019-license.txt",
+      "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0",
+      "bytes": 1109,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/6f90c81f649f07a3-LICENSE.txt",
+      "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3",
+      "bytes": 1117,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/7008560ae6039c7b-COPYING.txt",
+      "sha256": "4fbdff42eba4593c16f7a7ea7078883b2b734870a1e2b636284ce2dce62bf4f7",
+      "bytes": 628,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/70f7d6da9ec35ef6-LICENSE.txt.txt",
+      "sha256": "528eec83cb836a0adda9f8fc3d6a2a70a710d6cc0be9a155f92212c8df28acfa",
+      "bytes": 1069,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/722578e61223098d-LICENSE.txt",
+      "sha256": "3a61c6c96caf5c1d9b623fb9b04c822b783dfcb78aa7e49c76a3f643e6ed7f95",
+      "bytes": 1139,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/723663e1d98a6d63-LICENSE.txt",
+      "sha256": "80619b7049f08c81683ad0e01f08f257a840652dd71ee83146d36658c7d2c2b9",
+      "bytes": 1556,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/7278ac1316332733-LICENSE.txt",
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+      "bytes": 1141,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/72b6bdc8dd13632e-license.txt",
+      "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3",
+      "bytes": 1117,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/739963defc0c4681-LICENSE.txt",
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+      "bytes": 1141,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/746832854c3c6ee5-LICENSE.txt",
+      "sha256": "2088f55c6731498410b20c95ebd345ed4a4a800bf74c0fba4d282fd2a021daaa",
+      "bytes": 1076,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/74f276437320e2e9-LICENSE.txt",
+      "sha256": "3b6be04f862a077a4b97929dbf247299360824d9365f8603c263769303ace18c",
+      "bytes": 1094,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/7554bc28ef1612ed-LICENSE.md.txt",
+      "sha256": "499d6d466d064e0460427967a344e2a32fcb86ea8c6cd1a285ec4f1fa03fba67",
+      "bytes": 1076,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/7690761a2e29a6fd-NOTICE.txt",
+      "sha256": "6d602191187b35b9b01d2cffa01c8469c2c8d9de8a96f1bf868e0f264f51c81d",
+      "bytes": 254,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/76b4f11cc8e0f7f2-LICENSE.txt",
+      "sha256": "3b2f81fe21d181c499c59a256c8e1968455d6689d269aa85373bfb6af41da3bf",
+      "bytes": 13936,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/7746d968f5f4409c-LICENSE.txt",
+      "sha256": "73b5283588baa142c5baaef5f56d3e8fdea7a30b214e8c5737e87640f882453a",
+      "bytes": 1087,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/774f35f6496e54d5-LICENSE.txt",
+      "sha256": "2af12ca8b612a22e6659ae68e0e59ee7ac792718c45524a989b512c49c5f5879",
+      "bytes": 1070,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/77da3e17633fda49-LICENSE.txt",
+      "sha256": "a9d66f1d526df02e29dce73436d34e56e8632f46c275bbdffc70569e882f9f17",
+      "bytes": 1331,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/7845403f10019251-LICENSE.txt",
+      "sha256": "cebc084d54e6dd99e53292ddb4bc1cdb63d9bfcd9ce438fe3aa6eb106d79e2ea",
+      "bytes": 1065,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/789e0c6444ac1464-LICENSE.txt",
+      "sha256": "5be1f3465bba68a626777f984878814aaf35e7ef8e9fd314d469bcf887050fb8",
+      "bytes": 1095,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/7a8716ea4dd42146-LICENSE.txt",
+      "sha256": "b070d77bfb2c52a1dd6996de0ce5f64c49a0ca55c889b163a963ddf5cb001ee2",
+      "bytes": 11343,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/7a9429699c561fb2-LICENSE.txt",
+      "sha256": "7cdf9db3b91cc77b9ec947ad0c7126140f00e34528b67c3a58e9fc1a98055e14",
+      "bytes": 1093,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/7b40745e010481ab-LICENSE.txt",
+      "sha256": "62568a2d1337b77171ecca9db10579163446de1ba6151678e81f06cdc199971b",
+      "bytes": 1087,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/7bbef4491775ce44-LICENSE.txt",
+      "sha256": "dd40f37957ddcb6a6157f40b677d6f43697583f956144fbce25443e35630453e",
+      "bytes": 1109,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/7c13532a0c31d448-LICENSE.txt",
+      "sha256": "b80ce9da8c42a1f91079627fbbe2bf27210ae108a0ffe5f077d5b08e076c24c8",
+      "bytes": 2409,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/7d27318236a6c994-LICENSE.txt",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "bytes": 11357,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/7da1a3f3b09faf40-LICENSE.txt",
+      "sha256": "053a75a14b7508a897466b65e12797201a06b0e9b5066d1223da72cac99601b5",
+      "bytes": 1097,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/7e1d3fbc43be3a40-LICENSE.txt",
+      "sha256": "0f644bc01d85e4b1958bdfe5a851704bd886404c78188d4d6fba43dc8293bc91",
+      "bytes": 1111,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/7e567cbc0276ceaa-LICENSE.txt",
+      "sha256": "257aed98914108e91a337912727b6a802eef218248507f74b76faffaff517a38",
+      "bytes": 1089,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/7f2da8bbb45f314e-LICENSE.md.txt",
+      "sha256": "d408f38ffa3355c5faec517153295338892eb0f1ea43f57874bb23c6075979b5",
+      "bytes": 1155,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/7faff135e57bfabd-LICENSE.txt",
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+      "bytes": 1141,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/8029892ca51cbe8b-LICENSE.txt.txt",
+      "sha256": "130e3a64d5fdd5d096a752694634a7d9df284469de86e5732100268041e3d686",
+      "bytes": 1093,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/80339e145ac52fb6-LICENSE.txt",
+      "sha256": "117da2af0d4ce0fe1c8e19b5cff9dcd806adf973d328d27b11d4448c4ff24f76",
+      "bytes": 1106,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/81a2c4b237d4eba6-LICENSE.txt",
+      "sha256": "f388fd38cad13112c1dc0f669bbe80e7f84541edbafb72f3030d2ca7642c3c9d",
+      "bytes": 751,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/81c9580ed330c373-LICENSE.md.txt",
+      "sha256": "e2eaa4603c14cb26f301e88648c12a853fa3f0f5da6d4b0972958c666e7f2ab8",
+      "bytes": 4433,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/8359f17aad1be17a-LICENSE.txt",
+      "sha256": "d8bf34ff6d190640a01e7704ad78253fc181bc128949d71273fbbaa12f33c0b4",
+      "bytes": 11337,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/83f4f99fd6385f8d-LICENSE.txt.txt",
+      "sha256": "130e3a64d5fdd5d096a752694634a7d9df284469de86e5732100268041e3d686",
+      "bytes": 1093,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/84dce72eb00c409b-license.txt",
+      "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0",
+      "bytes": 1109,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/856901b050f37d41-LICENSE.txt",
+      "sha256": "d96eba1f1881334d50ffc144276dfa98e147a415e7c591ecdfcb81680361dc91",
+      "bytes": 10836,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/8725298ff5e4b70e-LICENSE.txt",
+      "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0",
+      "bytes": 1109,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/872bcda9b1620c63-LICENSE.txt",
+      "sha256": "bb3a5cb8fb224f632970e31425348f556f7a83b165d5384ea5e142575f5c412e",
+      "bytes": 1085,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/87719372a511721a-LICENSE.txt",
+      "sha256": "9a39f2aadab11a3697edd668ff2d8ad885b649737b7ab4d3bf12b34e5ada0c86",
+      "bytes": 1053,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/87b877ea02a99fe5-LICENSE.txt",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "bytes": 11357,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/88497f62d1dfe56d-LICENSE.txt",
+      "sha256": "9068a8782d2fb4c6e432cfa25334efa56f722822180570802bf86e71b6003b1e",
+      "bytes": 1071,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/88b704d66985f2cb-LICENSE.txt",
+      "sha256": "4cd903859549d4b20b571041f96dfae1136ed079c476126268f9d7cc1b611150",
+      "bytes": 1088,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/8934f2984354a718-LICENSE.md.txt",
+      "sha256": "1a9a4f0e3d479a27240ddd59a9137a66ab4a0f9dfdc8ca6188cc0bfd85187f04",
+      "bytes": 1541,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/893dc96de917bed6-LICENSE.txt",
+      "sha256": "b8778b155bfde5a28b023a558753c0fa058a52bb9de35c343c250be1bbcdedab",
+      "bytes": 1079,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/8a169c1154450cce-LICENSE.txt",
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93",
+      "bytes": 1088,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/8b6e4c7af822fdc9-license.txt",
+      "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3",
+      "bytes": 1117,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/8c9d158a4f5922f3-license.txt",
+      "sha256": "69dee148a2cc470554dfa7142e830662062394d0fe67cddd379aba90dc60d6b3",
+      "bytes": 1116,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/8e7efc0ad91948ea-LICENSE.txt",
+      "sha256": "b0f2417199889f1c0d28ec4e0244eacf1a15de5819d61f641dd7d8f45153ac9c",
+      "bytes": 1065,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/8fb10ddc75177123-LICENSE.txt.txt",
+      "sha256": "86eeee87be2a43f3ff1f56496f451f69243926f025fedbb033666c304c4c161b",
+      "bytes": 558,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/9059dbabd54555a8-LICENSE.txt",
+      "sha256": "7bf9b2de73a6b356761c948d0e9eeb4be6c1270bd04c79cd489c1e400ffdfc1a",
+      "bytes": 1074,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/90f66cfecc6076bb-NOTICE.txt",
+      "sha256": "ef97db07e32f6e5d34363461acf5acc7d72db924533bce3d9f3b87046313363c",
+      "bytes": 756,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/90f9d70a810bf8be-license.txt",
+      "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0",
+      "bytes": 1109,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/916284347215b06a-LICENSE.txt",
+      "sha256": "b80816b0d530b8accb4c2211783790984a6e3b61922c2b5ee92f3372ab2742fe",
+      "bytes": 1072,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/9332880bdc19f089-LICENSE.txt",
+      "sha256": "76a876cf886ff9be2a8b5e2e86514fed06223c8c9f0c1e9ee9606e93841e00b7",
+      "bytes": 1099,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/935d3c7a7c1ecc22-LICENSE.txt",
+      "sha256": "3a62887f73cd035ac1068bc0127ce94291f7a03843391f56df3520e2ca2037f8",
+      "bytes": 1036,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/93e171cb8eb5ef64-LICENSE.md.txt",
+      "sha256": "947e32047a166cd05f04e45938d172b412c07cbee0b9735afd14bae30e02c2f6",
+      "bytes": 930,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/94348cad3d9a985b-LICENSE.txt",
+      "sha256": "9068a8782d2fb4c6e432cfa25334efa56f722822180570802bf86e71b6003b1e",
+      "bytes": 1071,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/943fafa73eac5235-LICENSE.txt",
+      "sha256": "117da2af0d4ce0fe1c8e19b5cff9dcd806adf973d328d27b11d4448c4ff24f76",
+      "bytes": 1106,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/9451b2f7ace32449-LICENSE.txt",
+      "sha256": "cad1ef5bd340d73e074ba614d26f7deaca5c7940c3d8c34852e65c4909686c48",
+      "bytes": 197,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/94a2bc9bc71435e4-LICENSE.txt",
+      "sha256": "5eba353fe5076ac3432177f8ab1cf75e3afcd0584251e37c3bfead5f447d040e",
+      "bytes": 15648,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/95cd2c43e8b39cd6-LICENSE.txt.txt",
+      "sha256": "489a8e1108509ed98a37bb983e11e0f7e1d31f0bd8f99a79c8448e7ff37d07ea",
+      "bytes": 1475,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/95f9a69a873ac44b-LICENSE.txt",
+      "sha256": "cfa72b62b9ae173078823a3796b25c027a9071046a263beddf966df67018ce06",
+      "bytes": 1068,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/9654927b61b9fb02-LICENSE.txt",
+      "sha256": "3b6be04f862a077a4b97929dbf247299360824d9365f8603c263769303ace18c",
+      "bytes": 1094,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/97ffa27719a15147-LICENSE.txt",
+      "sha256": "a0ec0dab16b3666f24950f86d257930ac2ad475557b4bfe245620e0817d8a45d",
+      "bytes": 1174,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/9800c43fb921d9a7-LICENSE.txt",
+      "sha256": "117da2af0d4ce0fe1c8e19b5cff9dcd806adf973d328d27b11d4448c4ff24f76",
+      "bytes": 1106,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/98b436d070d41fe1-LICENSE.txt",
+      "sha256": "a5425f9dc14ac74d4c5f0b679e941f2442e32cca7452a4418d5b1a49893ebe4e",
+      "bytes": 1062,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/992df059d95062ec-license.txt",
+      "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3",
+      "bytes": 1117,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/9a2f196a0a419be2-LICENSE.txt",
+      "sha256": "9c63a23124d68cd30cd316a94a1a0bca34f032786df6df69fc4b5f136bac8d2e",
+      "bytes": 1144,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/9bb440e7e3b26d01-LICENSE.txt",
+      "sha256": "1b22b049b5267d6dfc23a67bf4a84d8ec04b9fdfb1a51d360e42b4342c8b4154",
+      "bytes": 1081,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/9c28a8345c3b5a93-LICENSE.txt.txt",
+      "sha256": "49d4d143fed599deb502a0fe6e02f49832f87e9a3a4cd0502e469596d50faa6d",
+      "bytes": 1071,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/9c6722e4f99bcb09-LICENSE.txt",
+      "sha256": "c64182d48160db948b6aa97a984f1a32974ce4d2053900361264cd33853796cb",
+      "bytes": 1078,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/9ce1c0bf07b101d8-LICENSE.txt",
+      "sha256": "3902e57e73412bd91ba81a47fa2cef45e1729c152c835114c1692cc5e685ddbe",
+      "bytes": 1052,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/9d7582839f95f67a-LICENSE.txt",
+      "sha256": "c8df456c7ccba74b959087dff494d4ac2a12dfb0400c08b46b2494a08a000567",
+      "bytes": 10236,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/9e0daad0f35198aa-LICENSE.txt",
+      "sha256": "5eba353fe5076ac3432177f8ab1cf75e3afcd0584251e37c3bfead5f447d040e",
+      "bytes": 15648,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/9e738d52a52e70a2-LICENSE.txt",
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93",
+      "bytes": 1088,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/9ede2ef3025a814e-LICENSE.txt",
+      "sha256": "8c535800331e1e4439835555b3f9edc7fe9dee2fab0d8bbbd5a982e8b8343d4d",
+      "bytes": 1109,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/9f0ee51cc98f2348-LICENSE.txt",
+      "sha256": "2eb5c7a0bba9deb77a98c81bf6b9d3fb1c67118eebf968b6b1a787b3f8928ee0",
+      "bytes": 1097,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/9fc49d95ff1922a5-LICENSE.txt",
+      "sha256": "3b6be04f862a077a4b97929dbf247299360824d9365f8603c263769303ace18c",
+      "bytes": 1094,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/9fd51bd1ad020ad9-LICENSE.txt",
+      "sha256": "117da2af0d4ce0fe1c8e19b5cff9dcd806adf973d328d27b11d4448c4ff24f76",
+      "bytes": 1106,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/a0b6970f598a38be-LICENSE.txt",
+      "sha256": "fcf6eabf68ca96988a6b506b4fdc6cc32535d80eb2e11c79724af5ac6f50262b",
+      "bytes": 1071,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/a1d66499048e8e9b-LICENSE.txt",
+      "sha256": "c64182d48160db948b6aa97a984f1a32974ce4d2053900361264cd33853796cb",
+      "bytes": 1078,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/a2592f5c6ef876c5-LICENSE.txt",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "bytes": 11357,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/a27dd85f7fec7554-LICENSE.txt",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "bytes": 11357,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/a28fce8de117068e-LICENSE.txt",
+      "sha256": "1f256ecad192880510e84ad60474eab7589218784b9a50bc7ceee34c2b91f1d5",
+      "bytes": 16725,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/a3200739b3a52d2c-LICENSE.txt",
+      "sha256": "9068a8782d2fb4c6e432cfa25334efa56f722822180570802bf86e71b6003b1e",
+      "bytes": 1071,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/a33f734f26f4c7e0-LICENSE.txt",
+      "sha256": "ae842a63dd9bc829c95a2ec22dda25a08e422a368b71dbca67a45cde7c4a4b81",
+      "bytes": 1083,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/a35015edf1cb3a39-LICENSE.md.txt",
+      "sha256": "1a9a4f0e3d479a27240ddd59a9137a66ab4a0f9dfdc8ca6188cc0bfd85187f04",
+      "bytes": 1541,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/a39f6c1771fae9b6-LICENSE.txt",
+      "sha256": "3a6d6de49d284a36c5d271ef0e62eca1838cc460dd7630e3f2c347c8f5b2232a",
+      "bytes": 1079,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/a4f1a301f3a84556-LICENSE.txt",
+      "sha256": "1f7dca26d2d328c3dbb9b6fe3b15ec3cda08ffe2288e47b73d617454b256f959",
+      "bytes": 1108,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/a5870eb321d6b371-LICENSE.txt",
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+      "bytes": 1141,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/a61f5006e7f7c94b-LICENSE.txt",
+      "sha256": "1f7dca26d2d328c3dbb9b6fe3b15ec3cda08ffe2288e47b73d617454b256f959",
+      "bytes": 1108,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/a72362cc0146557c-LICENSE.md.txt",
+      "sha256": "d00d032f517721b45c56c70c46bf904ebb71ad313df4d4db7722266b38069665",
+      "bytes": 1111,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/a7647d847ffbb7cd-LICENSE.txt",
+      "sha256": "51887a3d47051ac2fce1210562e5b9fe0830a8a8fabeb272c2d586eeb18a05fd",
+      "bytes": 1080,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/a7a880438980aa2f-LICENSE.txt",
+      "sha256": "a07bc24468b9654ce76a547d47a2db282d07733b715db4c73a98bd63961f9550",
+      "bytes": 1084,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/a7a97ab08ec6aee4-LICENSE.txt",
+      "sha256": "deed7c17a4318158190a3ea239cc879a5a50271cebb98ae7025f48fbe58dca15",
+      "bytes": 1056,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/a7b4d9a76ca516e6-LICENSE.txt",
+      "sha256": "435a6722c786b0a56fbe7387028f1d9d3f3a2d0fb615bb8fee118727c3f59b7b",
+      "bytes": 1073,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/a84c2b898065cb23-LICENSE.txt",
+      "sha256": "96e5193183476a03da6667d217ce14110191d26ee105338086e94339edf40d5a",
+      "bytes": 1066,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/a8668d26fb4a911a-LICENSE.txt",
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93",
+      "bytes": 1088,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/a8abdc3f6a4b0c82-LICENSE-MIT.txt",
+      "sha256": "9c94db23dc4b1e9aaee5d195668b916afc71efed54af226b66cf0ccc4389c1c0",
+      "bytes": 1095,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/a9161a835dc64acf-license.txt",
+      "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3",
+      "bytes": 1117,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/aaa33b0686e9f785-LICENCE.md.txt",
+      "sha256": "3108b546bcff5d346923a82f48b2d252ca722f9088076db6d145f6b67757ad6c",
+      "bytes": 1104,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/ab1eb45a5059a44f-LICENSE.txt",
+      "sha256": "29e0fd62e929850e86eb28c3fdccf0cefdf4fa94879011cffb3d0d4bed6d4db6",
+      "bytes": 1089,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/aba0cf2f907c6878-LICENSE.txt",
+      "sha256": "465e8da349d50d8512e4a0e9b26d2bee50392c394f17edaa3be6e0df7c2b27ad",
+      "bytes": 1053,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/abc38307e42481d5-LICENSE.txt",
+      "sha256": "4be9d87b56a306293223b490c0d0b245e9e94f39884147bf051a6c7b825aeb30",
+      "bytes": 1189,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/abd5ae2029ec0676-LICENSE.txt.txt",
+      "sha256": "3e671db11df687516cc1db5b3d65e4aa383eaca3c20cea3faf53a0f7335d0a3c",
+      "bytes": 2070,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/ac0b675715ce647e-license.txt",
+      "sha256": "306fa513e39b23a6e8747520de761809d206b99800ef41907b530226574c59ae",
+      "bytes": 1114,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/ac544dc6d8325e8d-LICENSE.txt",
+      "sha256": "e3a956681ee067f971ac413994171b3d90ca801ec6324e76c9c55366cfe31cb0",
+      "bytes": 1075,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/ac75d467885691f5-LICENSE.txt",
+      "sha256": "f25bf9bf3ae8984bcd43bf7fb8f78e7eec8d577081fb8d0989cfa7c67ecebb8e",
+      "bytes": 1118,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/ac8883dce0c314dd-LICENSE.txt",
+      "sha256": "2eb5c7a0bba9deb77a98c81bf6b9d3fb1c67118eebf968b6b1a787b3f8928ee0",
+      "bytes": 1097,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/acaf0343734d57cf-license.md.txt",
+      "sha256": "1662fae9b5314d11cf51284e2dcd1f006a354f7343f08712a730fcff9a359801",
+      "bytes": 1079,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/acdc81dfe74c18ee-LICENSE.txt",
+      "sha256": "2eb5c7a0bba9deb77a98c81bf6b9d3fb1c67118eebf968b6b1a787b3f8928ee0",
+      "bytes": 1097,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/acdd56b422fd4646-LICENSE.txt",
+      "sha256": "6239c6144c31e58cf925c34483606969c555574d64ffa96518ab5d7f45c75d43",
+      "bytes": 1096,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/ad24edbca23166a4-LICENSE.txt.txt",
+      "sha256": "86eeee87be2a43f3ff1f56496f451f69243926f025fedbb033666c304c4c161b",
+      "bytes": 558,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/ad8a365e79ca837d-LICENSE.txt",
+      "sha256": "8a4b6c44eebfb026d23719a348145a661a555568dbfdc11618ff2d0dd9306b00",
+      "bytes": 1085,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/adac0b0e5aef59e3-LICENSE.txt",
+      "sha256": "1f256ecad192880510e84ad60474eab7589218784b9a50bc7ceee34c2b91f1d5",
+      "bytes": 16725,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/ae3d8e8d96f3f458-LICENSE.txt",
+      "sha256": "52412d7bc7ce4157ea628bbaacb8829e0a9cb3c58f57f99176126bc8cf2bfc85",
+      "bytes": 1086,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/aec41b80df22d173-LICENSE.txt",
+      "sha256": "2144eb6894cb440fde6b2b3aaae3b617c8f1dc9bb19813079dcf62ec6c517042",
+      "bytes": 1121,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/aef5c040c1f0fe62-LICENSE.txt",
+      "sha256": "29e0fd62e929850e86eb28c3fdccf0cefdf4fa94879011cffb3d0d4bed6d4db6",
+      "bytes": 1089,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/aef99f1ff6f219e9-LICENSE.txt",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "bytes": 11357,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/af6dedd64503ec28-LICENSE.txt",
+      "sha256": "1fa6ee8bb95a81ae3d73a5bd074a3ac380ffec13697051063ca1a601921b91db",
+      "bytes": 1078,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/af8c4bbbc12d21d2-LICENSE.txt",
+      "sha256": "b2b54c738525e98cc42d4a1c239c9d8421507816acce98950e81d0943daae68e",
+      "bytes": 744,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/af9aeb6fddd22e17-LICENSE.txt",
+      "sha256": "117da2af0d4ce0fe1c8e19b5cff9dcd806adf973d328d27b11d4448c4ff24f76",
+      "bytes": 1106,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/b13d6bf3741dab29-LICENSE.txt.txt",
+      "sha256": "a7d00bfd54525bc694b6e32f64c7ebcf5e6b7ae3657be5cc12767bce74654a47",
+      "bytes": 9197,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/b17016a74afec94e-LICENSE.txt",
+      "sha256": "9c63a23124d68cd30cd316a94a1a0bca34f032786df6df69fc4b5f136bac8d2e",
+      "bytes": 1144,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/b1801178558e29cf-LICENSE.txt.txt",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "bytes": 11357,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/b1bff029d2b0960e-LICENSE.txt",
+      "sha256": "f95f668fe64081ddb4153b322e34fdd719b991285ed08177d5ad7133b7988d92",
+      "bytes": 1065,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/b1d03f0d1e3687ed-LICENSE-MIT.txt.txt",
+      "sha256": "483acb265f182907d1caf6cff9c16c96f31325ed23792832cc5d8b12d5f88c8a",
+      "bytes": 1077,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/b358bf4db2eb0bdf-LICENSE.txt",
+      "sha256": "4ec3d4c66cd87f5c8d8ad911b10f99bf27cb00cdfcff82621956e379186b016b",
+      "bytes": 765,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/b367f7a1fa55422a-LICENSE.txt",
+      "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0",
+      "bytes": 1109,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/b37f3e5ada7dace1-LICENSE.txt",
+      "sha256": "bf8fd38056b7606deccfcadb4d8ca1c210082d8ef5513426d2650daedc30bed3",
+      "bytes": 1079,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/b4387a3d411bc585-LICENSE.txt",
+      "sha256": "23d466b1b134b415b66fa50c6526b4cf3e7b9258554da88d3abb371721e7ce68",
+      "bytes": 1172,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/b444fcdfa4726235-LICENSE.md.txt",
+      "sha256": "8a1af140fdfbf5afd3df27f7e662f989c5b963a300020dfafce42033cae9e004",
+      "bytes": 1552,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/b4b8b055a47f43e7-LICENSE.txt.txt",
+      "sha256": "242d37e7cab25cbafc36cc973ee88f9345fddf066afe4f72b7ac3d9ad4e24cce",
+      "bytes": 1056,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/b4c018b5e517b641-LICENSE.md.txt",
+      "sha256": "d00d032f517721b45c56c70c46bf904ebb71ad313df4d4db7722266b38069665",
+      "bytes": 1111,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/b54f554d70cfb25d-LICENSE.txt",
+      "sha256": "45873d00a0dd243596deb4aa23b2493b3d1f0671921bf2538ea431d7380220eb",
+      "bytes": 11601,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/b5710d8c855bcea1-LICENSE.txt",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "bytes": 11357,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/b6445301573a1312-LICENSE.txt",
+      "sha256": "7774c8c4a3f750b294b416818062201a404fc2d6c8756d8b89a1688e24b5d5a7",
+      "bytes": 750,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/b7515a199a564218-LICENSE.txt",
+      "sha256": "7bf9b2de73a6b356761c948d0e9eeb4be6c1270bd04c79cd489c1e400ffdfc1a",
+      "bytes": 1074,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/b81c0e22cf824d3b-LICENSE-MIT.txt",
+      "sha256": "9c94db23dc4b1e9aaee5d195668b916afc71efed54af226b66cf0ccc4389c1c0",
+      "bytes": 1095,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/b876cb8b4c0e938f-LICENSE.txt",
+      "sha256": "498d39c83164cf8de195090f5564fc0308ab271344ca2f95484a7f1020952d00",
+      "bytes": 1077,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/b881ff529c56f2ee-LICENSE.txt",
+      "sha256": "cb5e8e7e5f4a3988e1063c142c60dc2df75605f4c46515e776e3aca6df976e14",
+      "bytes": 11325,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/b933827a2e9885d0-LICENSE.txt",
+      "sha256": "117da2af0d4ce0fe1c8e19b5cff9dcd806adf973d328d27b11d4448c4ff24f76",
+      "bytes": 1106,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/b94243b82f348fa9-LICENSE.txt",
+      "sha256": "117da2af0d4ce0fe1c8e19b5cff9dcd806adf973d328d27b11d4448c4ff24f76",
+      "bytes": 1106,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/b993cc867da5bcd3-LICENSE.txt",
+      "sha256": "117da2af0d4ce0fe1c8e19b5cff9dcd806adf973d328d27b11d4448c4ff24f76",
+      "bytes": 1106,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/b9f389a9a14be32b-LICENSE.txt",
+      "sha256": "d0cd141b0c322fded5dfad1d4645bb2fedfc05b7321fe1009469638190d59ef9",
+      "bytes": 1091,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/ba249fc006bb00cf-LICENSE.txt",
+      "sha256": "d0cd141b0c322fded5dfad1d4645bb2fedfc05b7321fe1009469638190d59ef9",
+      "bytes": 1091,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/ba6abae5cf8e45b9-LICENSE.txt",
+      "sha256": "b3cd2ad74a7c59ff409b8523dbe79984da7ba71fa25aa7872a02e4e1a4564cb0",
+      "bytes": 1063,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/baf4b73551c3fe34-LICENSE.txt",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "bytes": 11357,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/bb0b755b60e43466-LICENSE.txt",
+      "sha256": "214d0ac13edb475ec426df1979d96fd46b443debc466c0fb592e32152ae5a940",
+      "bytes": 1093,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/bb4ab36bf194057a-license.txt",
+      "sha256": "9638fa87f845af6cecc56fab498c1f74f4a98522d3b53377bedcbdb44b5a8dcc",
+      "bytes": 1173,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/bb7eb4bb5171fa82-LICENSE.txt",
+      "sha256": "26c95937762a3dc17a3934a0a2773c70259ba4bf28dab713c225e4af8eb9d349",
+      "bytes": 1322,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/bcc8b4bd8def0ff9-LICENSE.txt",
+      "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0",
+      "bytes": 1109,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/bd04736a041230fe-LICENSE.txt",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "bytes": 11357,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/bda4c804eb345b94-LICENSE.txt",
+      "sha256": "3902e57e73412bd91ba81a47fa2cef45e1729c152c835114c1692cc5e685ddbe",
+      "bytes": 1052,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/bed18c2205c37421-license.txt",
+      "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0",
+      "bytes": 1109,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/bf594c35cbddcf9f-LICENSE.txt",
+      "sha256": "b80816b0d530b8accb4c2211783790984a6e3b61922c2b5ee92f3372ab2742fe",
+      "bytes": 1072,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/bfc1e2c89884d428-LICENSE.txt",
+      "sha256": "d0cd141b0c322fded5dfad1d4645bb2fedfc05b7321fe1009469638190d59ef9",
+      "bytes": 1091,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/c059b87ed4736271-LICENSE.md.txt",
+      "sha256": "a889cc4dbee2ae172c179856b25d75b0b7a5a136e1b97109b9b590b2ff1a879c",
+      "bytes": 1323,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/c151d8b29b541802-LICENSE.txt",
+      "sha256": "cb5e8e7e5f4a3988e1063c142c60dc2df75605f4c46515e776e3aca6df976e14",
+      "bytes": 11325,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/c1b6417f5c41be85-LICENSE.txt",
+      "sha256": "6cb0631f71c7749763fd3dd1d5bee52dd1070ec17f2edc1710079ad070bd2fbd",
+      "bytes": 1526,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/c228e520a3b152cf-LICENSE.txt",
+      "sha256": "52412d7bc7ce4157ea628bbaacb8829e0a9cb3c58f57f99176126bc8cf2bfc85",
+      "bytes": 1086,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/c2a6fa1ac07da5a8-LICENSE.txt",
+      "sha256": "655287aefbf8e292057318c385d77767b1dd9819c87709fd26730b7090efe4d9",
+      "bytes": 749,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/c3238d84ed0ee9ac-LICENSE.txt",
+      "sha256": "cb992345949ccd6e8394b2cd6c465f7b897c864f845937dbf64e8997f389e164",
+      "bytes": 1260,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/c33fc9d615cba247-LICENSE.txt",
+      "sha256": "117da2af0d4ce0fe1c8e19b5cff9dcd806adf973d328d27b11d4448c4ff24f76",
+      "bytes": 1106,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/c395b283e0f01550-LICENSE.txt",
+      "sha256": "4a2260d6e2cd0f5a151a1e86dbfe7d3ed552b1e2beabf9941c1ba5c49cbce484",
+      "bytes": 1078,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/c3d2f77e6e034ef6-LICENSE.txt",
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93",
+      "bytes": 1088,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/c403ca0fd1f59b49-LICENSE.txt",
+      "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0",
+      "bytes": 1109,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/c425ab058d46d6d7-LICENSE.md.txt",
+      "sha256": "0ffe67fe630169de46df2d29dc18f5857b4c98f0f95b0cd9e3c21fef51f9a9b8",
+      "bytes": 1077,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/c49c791a1bcf8351-LICENSE.txt",
+      "sha256": "68f12f6e2c33688699249c01d8f9623c534da20aa71989c57b061b7bc1676d14",
+      "bytes": 1096,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/c4f55b3987619725-LICENSE.txt",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "bytes": 11357,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/c5af7619778e55d3-LICENSE.txt",
+      "sha256": "b9eb082c39fe245e38793699074c394c43a722c51fce031c3c165cb92a31035c",
+      "bytes": 1054,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/c61aa329e00c4e28-license.txt",
+      "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0",
+      "bytes": 1109,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/c6a1a8419e59277c-LICENSE.md.txt",
+      "sha256": "947e32047a166cd05f04e45938d172b412c07cbee0b9735afd14bae30e02c2f6",
+      "bytes": 930,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/c6ef7302bf3512f1-LICENSE.txt",
+      "sha256": "d6b65e6c213a5d0b577911d34d6e5949b9f59d76c238c5071a2f3fc16cfb2606",
+      "bytes": 1110,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/c819118a3bd66329-LICENSE.txt.txt",
+      "sha256": "cac35c02686e5d04a5a7140bfb3b36e73aed496656e891102e428886d7930318",
+      "bytes": 1491,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/c8a658cf4d563edb-LICENSE.txt",
+      "sha256": "597756adcb51f243ef4fb386920377f61d012ace0904364e1a8ee9aaec6afc84",
+      "bytes": 6799,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/c8f0a13212b07530-LICENSE.txt",
+      "sha256": "deed7c17a4318158190a3ea239cc879a5a50271cebb98ae7025f48fbe58dca15",
+      "bytes": 1056,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/c8f69d928062b926-LICENSE.txt",
+      "sha256": "8a6dcbabe7179f9c8489c08a7d874d0f1e093ae7449e03756ccf87cb9d0e296e",
+      "bytes": 1126,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/ca2d205d5a432cf4-LICENSE.txt",
+      "sha256": "8a1af140fdfbf5afd3df27f7e662f989c5b963a300020dfafce42033cae9e004",
+      "bytes": 1552,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/ca97cf3ceb5cadd8-LICENSE.txt",
+      "sha256": "7261b3ab93df04c6d8f3398f87275d28f0e87d88cbd0033b788fb50402de03c5",
+      "bytes": 1105,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/cae864f469dd5be3-LICENSE.txt",
+      "sha256": "29e0fd62e929850e86eb28c3fdccf0cefdf4fa94879011cffb3d0d4bed6d4db6",
+      "bytes": 1089,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/cb51f609bb890281-LICENSE.txt",
+      "sha256": "1b22b049b5267d6dfc23a67bf4a84d8ec04b9fdfb1a51d360e42b4342c8b4154",
+      "bytes": 1081,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/cb5d552134621593-LICENSE.txt",
+      "sha256": "3b6be04f862a077a4b97929dbf247299360824d9365f8603c263769303ace18c",
+      "bytes": 1094,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/cbc8ce1fa7e07c16-LICENSE.txt",
+      "sha256": "8d3928f9dc4490fd635707cb88eb26bd764102a7282954307d3e5167a577e8a4",
+      "bytes": 1101,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/cc79bd294ef7b29a-LICENSE.txt",
+      "sha256": "465e8da349d50d8512e4a0e9b26d2bee50392c394f17edaa3be6e0df7c2b27ad",
+      "bytes": 1053,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/cc8331d991667e60-LICENSE.txt.txt",
+      "sha256": "3b49dcee4105eb37bac10faf1be260408fe85d252b8e9df2e0979fc1e094437b",
+      "bytes": 1475,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/cdab3b79189bec4e-CopyrightNotice.txt.txt",
+      "sha256": "da16ddb65f8ca390998fb99223d0112498b56b45784d00afd77ff8ce1ac4de8b",
+      "bytes": 822,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/ce66925ba4487fab-LICENSE.txt",
+      "sha256": "b181da80336ff9dd1043fc8be1a764d7382363433319aa872e4d2cb5ce2a3066",
+      "bytes": 1082,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/ce6fe954425ef3c5-LICENSE.txt.txt",
+      "sha256": "74cfe41cdbf7f6925aeb4c18c148ec8db042540edb6739fd81069aa4e3c8b118",
+      "bytes": 1096,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/cf0a44529f834988-LICENSE.txt",
+      "sha256": "6236fa0b88a4a0cce3dda0367979491b2052b3c8d6b1c10b3668de083e86a7f0",
+      "bytes": 976,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/cf1de2ecd6a55ee5-LICENSE.txt",
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93",
+      "bytes": 1088,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/d0b106faa437508d-LICENSE.txt",
+      "sha256": "117da2af0d4ce0fe1c8e19b5cff9dcd806adf973d328d27b11d4448c4ff24f76",
+      "bytes": 1106,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/d112f40bfe64e610-license.txt.txt",
+      "sha256": "ac68116ae73740de4190892f334992e449a124600924ec761e64319d3aac9e6e",
+      "bytes": 1488,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/d135cc601ed33a36-LICENSE.txt",
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93",
+      "bytes": 1088,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/d18a0014bc745b9b-LICENSE.txt",
+      "sha256": "21c2679a63d7699c0e644409e2f17d0adbc7a965003feb06b3ff4b833d21f722",
+      "bytes": 1118,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/d1a2799d56e8d661-LICENSE.txt",
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93",
+      "bytes": 1088,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/d1d4dead548b6a43-LICENSE.txt.txt",
+      "sha256": "4631ec0db5fd90a547e336817264c6798214338146f8ac94b4a57f96ee8c9ec4",
+      "bytes": 1503,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/d1ec0ad8535ab3a6-LICENSE.txt",
+      "sha256": "dbffd380d59504ba19fcf87ff5a1a33c37edf66d5b09966b0ad5368ab87bc2af",
+      "bytes": 1077,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/d217232ad3cc2181-LICENSE.txt",
+      "sha256": "11d55bd4541c75ee7879547ac49089c489163dae49551389713c3d026cab383e",
+      "bytes": 1062,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/d2e820aed854314a-LICENSE.txt",
+      "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0",
+      "bytes": 1109,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/d33488c2ddba2e99-LICENSE.txt",
+      "sha256": "b9eb082c39fe245e38793699074c394c43a722c51fce031c3c165cb92a31035c",
+      "bytes": 1054,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/d4b897d7868aab13-LICENSE.txt",
+      "sha256": "d3a724e2ed749f172ff70b62a1d0631b7d4b0ea273782365a3464d4e2d6b6dbd",
+      "bytes": 1390,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/d5214abb0d30c1d0-LICENSE.txt",
+      "sha256": "aaf9a29ca5907971ccf07de025375db34539a8d5eeebce20b46099805722106f",
+      "bytes": 1113,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/d56e3459c7a4e650-LICENSE.txt",
+      "sha256": "2eb5c7a0bba9deb77a98c81bf6b9d3fb1c67118eebf968b6b1a787b3f8928ee0",
+      "bytes": 1097,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/d5a49e3191f238b9-LICENSE.txt",
+      "sha256": "a833d366242c298cf1b10263516572fb8dcbe68eb5072cdcac2b4546e2b4eb36",
+      "bytes": 1145,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/d60d92959873ed6e-LICENSE.txt",
+      "sha256": "d0cd141b0c322fded5dfad1d4645bb2fedfc05b7321fe1009469638190d59ef9",
+      "bytes": 1091,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/d649ad8ff7d6b87c-LICENSE.md.txt",
+      "sha256": "2c7c5d22ed5a8ee968c64757710979afcd77438c48b4a265b94e615babd8a901",
+      "bytes": 1550,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/d68ee901e48a90a8-license.txt",
+      "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0",
+      "bytes": 1109,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/d6a3e2c212ed3df9-LICENSE.txt.txt",
+      "sha256": "3b49dcee4105eb37bac10faf1be260408fe85d252b8e9df2e0979fc1e094437b",
+      "bytes": 1475,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/d6e34786cb71fd4e-LICENSE.txt",
+      "sha256": "ddd770379e07bf0574dfaa4485be80a23b3248b36d09f33ec79276c09b829daf",
+      "bytes": 3486,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/d6f0036449b77828-LICENSE.txt",
+      "sha256": "4ec3d4c66cd87f5c8d8ad911b10f99bf27cb00cdfcff82621956e379186b016b",
+      "bytes": 765,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/d72079e00388f5d7-LICENSE.txt",
+      "sha256": "bf8fd38056b7606deccfcadb4d8ca1c210082d8ef5513426d2650daedc30bed3",
+      "bytes": 1079,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/d82d970496a36f81-LICENSE.txt",
+      "sha256": "d8bf34ff6d190640a01e7704ad78253fc181bc128949d71273fbbaa12f33c0b4",
+      "bytes": 11337,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/d84ee998d067baf1-LICENSE.txt",
+      "sha256": "433fc9dfe659dbfb1e91eed8351f13651e97bfa3ac6d03394c3d63f61d4bbc80",
+      "bytes": 1064,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/d8ae1c341e6d3d60-LICENSE.txt.txt",
+      "sha256": "528eec83cb836a0adda9f8fc3d6a2a70a710d6cc0be9a155f92212c8df28acfa",
+      "bytes": 1069,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/d8da4f49f8193ecb-LICENSE.txt",
+      "sha256": "09e8a9bcec8067104652c168685ab0931e7868f9c8284b66f5ae6edae5f1130b",
+      "bytes": 10142,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/d96e27b859a4f60b-LICENSE.txt.txt",
+      "sha256": "86eeee87be2a43f3ff1f56496f451f69243926f025fedbb033666c304c4c161b",
+      "bytes": 558,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/d9d5fa22393fe4d5-NOTICE.txt",
+      "sha256": "6d602191187b35b9b01d2cffa01c8469c2c8d9de8a96f1bf868e0f264f51c81d",
+      "bytes": 254,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/da2f64fe48d0a71d-LICENSE.txt",
+      "sha256": "4ec3d4c66cd87f5c8d8ad911b10f99bf27cb00cdfcff82621956e379186b016b",
+      "bytes": 765,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/db0ef69a80a1df0e-LICENSE.txt",
+      "sha256": "e93716da6b9c0d5a4a1df60fe695b370f0695603d21f6f83f053e42cfc10caf7",
+      "bytes": 989,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/db144134b0e381ec-LICENSE.md.txt",
+      "sha256": "0ffe67fe630169de46df2d29dc18f5857b4c98f0f95b0cd9e3c21fef51f9a9b8",
+      "bytes": 1077,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/db1ed21288e5e0ec-LICENSE.txt",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "bytes": 11357,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/dbc0f6dfc3c6c840-license.md.txt",
+      "sha256": "24d4a4580df855c345705b3016404f0c9da7e7674dc3b21a3ce7d0e5d0c37e2d",
+      "bytes": 1077,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/dd139655db96f33b-LICENSE.txt",
+      "sha256": "36ffd9dc085d529a7e60e1276d73ae5a030b020313e6c5408593a6ae2af39673",
+      "bytes": 6555,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/de2297222f8a0978-LICENSE.txt",
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93",
+      "bytes": 1088,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/df33eb35789ff034-LICENSE.txt",
+      "sha256": "fcf6eabf68ca96988a6b506b4fdc6cc32535d80eb2e11c79724af5ac6f50262b",
+      "bytes": 1071,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/df53abc2d1af1c3e-LICENSE.txt",
+      "sha256": "22ec6791c91ba42c0516a05f4cbdde019aae4687f8a38c5ca7e8a69ee68f851d",
+      "bytes": 1485,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/df5b4de79ba558cd-LICENSE.txt",
+      "sha256": "4ec3d4c66cd87f5c8d8ad911b10f99bf27cb00cdfcff82621956e379186b016b",
+      "bytes": 765,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/e1d9eccfb02c9003-LICENSE.txt.txt",
+      "sha256": "634300a669d49aeae65b12c6c48c924c51a4cdf3d1ff086dc3456dc8bcaa2104",
+      "bytes": 1093,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/e24defc2d82bbd40-LICENSE.txt.txt",
+      "sha256": "37db5bb85926db28a427a25867f10b1232003aea1be69ccb851138adb8e6f361",
+      "bytes": 1124,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/e2782e5bb5ff18b6-LICENSE.txt",
+      "sha256": "117da2af0d4ce0fe1c8e19b5cff9dcd806adf973d328d27b11d4448c4ff24f76",
+      "bytes": 1106,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/e2bbfc5e75850446-LICENSE.txt",
+      "sha256": "deed7c17a4318158190a3ea239cc879a5a50271cebb98ae7025f48fbe58dca15",
+      "bytes": 1056,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/e34d295a4d42c99d-LICENSE.txt",
+      "sha256": "451ec07eeb9c4e1b86de9abdaa426462a8be48f887ec7421cf0bbb9c769555ab",
+      "bytes": 775,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/e4d479625e34b19d-LICENSE.txt",
+      "sha256": "06bafa45fdad2579ba0e43b0c9b2c6290287c99c4203c300254a462b38a307f6",
+      "bytes": 1106,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/e56dc8a64e18ade1-LICENSE.txt",
+      "sha256": "4ec3d4c66cd87f5c8d8ad911b10f99bf27cb00cdfcff82621956e379186b016b",
+      "bytes": 765,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/e655cec38da9b999-LICENSE.txt",
+      "sha256": "715f1f0f2eb7688e53e4e958acdc7fc9e365ae3eaf26efc2604b93cc65fdc3f5",
+      "bytes": 1071,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/e6698367f2836e12-LICENSE.txt",
+      "sha256": "aaa78451b6fecd1b9c4594c796c133c0e90cad100372ff8bc6de615e9ef9adf1",
+      "bytes": 1105,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/e687f00e3703399f-LICENSE.txt",
+      "sha256": "3f1189b28e3866e0d979968d466b78f813f76827cfdca1fbb124cc0a5c8841f8",
+      "bytes": 1072,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/e6d4a5ea3f8b0217-LICENSE.txt",
+      "sha256": "6cb0631f71c7749763fd3dd1d5bee52dd1070ec17f2edc1710079ad070bd2fbd",
+      "bytes": 1526,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/e6f2d326d18a1eac-LICENSE.txt",
+      "sha256": "719a251ceca49c057ea90a1152af6546b767ec88e6d573bb6324454267b32c22",
+      "bytes": 1065,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/e79401460add156d-LICENSE.txt",
+      "sha256": "1db7cae7fce6452e2e608e401a0f953e0133e4c2d75db69fb8ae851d2086f5b6",
+      "bytes": 557,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/e7df4ac7a1056856-license.txt",
+      "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0",
+      "bytes": 1109,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/e93ff70a7848cba2-license.txt",
+      "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0",
+      "bytes": 1109,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/e9ace35cd9164d96-LICENSE.md.txt",
+      "sha256": "a47172e44a86a7e2cd1c16282341f7726ec60caafe3a6166fe3e0602005b6fa6",
+      "bytes": 108786,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/e9f979b81addf152-LICENSE.txt",
+      "sha256": "117da2af0d4ce0fe1c8e19b5cff9dcd806adf973d328d27b11d4448c4ff24f76",
+      "bytes": 1106,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/eb77993aa6cd94f2-LICENSE.txt",
+      "sha256": "a6db8096b2707bc0102d256917d4d33f298ba36d8c3f25de067a2b5bb379db27",
+      "bytes": 1090,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/ebfc5c641a94c5e0-LICENSE.txt",
+      "sha256": "98c970de440dcfc77471610aec2377c9d9b0db2b3be6d1add524a586e1d7f422",
+      "bytes": 1107,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/ec09d0ef97fce5b9-LICENSE.txt",
+      "sha256": "d8bf34ff6d190640a01e7704ad78253fc181bc128949d71273fbbaa12f33c0b4",
+      "bytes": 11337,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/ec0be11687e14f62-LICENSE.txt",
+      "sha256": "4ec3d4c66cd87f5c8d8ad911b10f99bf27cb00cdfcff82621956e379186b016b",
+      "bytes": 765,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/eca54e2aa4553495-LICENSE.txt",
+      "sha256": "ff96bbd6a7408c166f16dbed7f2c87a8061e5a21289ec8f2d3069f8d3b15fc0a",
+      "bytes": 1541,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/ecad13743194d658-LICENSE.txt",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "bytes": 11357,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/eebf6f5c1addd27f-LICENSE.md.txt",
+      "sha256": "4ec59d544f12b5f539a3a716fd321ac58ccd8030b465221f2c880200cdf28d8d",
+      "bytes": 1508,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/eec22118d2cbcc96-LICENSE.txt",
+      "sha256": "c4630ac8b89cb317ac5bdd60ac5e4e185eab9bd5151a0c7b3afa41aa83d7ec9b",
+      "bytes": 1095,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/ef9f18f3bd5bde96-LICENSE.txt",
+      "sha256": "2213d91c606205c71eb051a199478cdc2adde945893404d7f1421436dd6d5cc1",
+      "bytes": 1103,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/efc3511de90a1489-LICENSE.txt",
+      "sha256": "95ced5ecf1133fbf41d409b5555c86c344f83f3b019926057ddbc07cfdcc27b3",
+      "bytes": 1119,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/f1c00ecc0f86caa3-LICENSE.md.txt",
+      "sha256": "d00d032f517721b45c56c70c46bf904ebb71ad313df4d4db7722266b38069665",
+      "bytes": 1111,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/f2916a2852a00a37-LICENSE.txt",
+      "sha256": "11f2aafb37d06b3ee5bdaf06e9811141d0da05263c316f3d627f45c20d43261b",
+      "bytes": 2338,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/f2edb585e39be8d7-license.md.txt",
+      "sha256": "ee765244e2d59f5234d474f62e0766fa0c8b99af967fdd4c0cb8dcb0c76ea224",
+      "bytes": 1079,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/f48890be0cd41bff-LICENSE.txt",
+      "sha256": "9068a8782d2fb4c6e432cfa25334efa56f722822180570802bf86e71b6003b1e",
+      "bytes": 1071,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/f4a174212a83fa75-LICENSE.txt",
+      "sha256": "c02110eedc16c7114f1a9bdc026c65626ce1d9c7e27fd51a8e0feee8a48a6858",
+      "bytes": 1175,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/f5608dfa4df048c3-LICENSE.txt",
+      "sha256": "5be1f3465bba68a626777f984878814aaf35e7ef8e9fd314d469bcf887050fb8",
+      "bytes": 1095,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/f5c2f1d0dac3a7ba-LICENSE.txt",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "bytes": 11357,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/f60557c8afe8cafe-LICENSE.txt",
+      "sha256": "326ff3850062286003ff4cbdaa8f61764e128f9a6532431bccf97e4e2bd75059",
+      "bytes": 1159,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/f627c254122cce02-LICENSE.txt",
+      "sha256": "3687447039151857a6ba378db062172c7f33d4aa70a615c87a43a9c50e990485",
+      "bytes": 1074,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/f669cf0f3d142906-LICENSE.txt",
+      "sha256": "4ec3d4c66cd87f5c8d8ad911b10f99bf27cb00cdfcff82621956e379186b016b",
+      "bytes": 765,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/f6b108d1a8e788d7-LICENSE.txt",
+      "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3",
+      "bytes": 1117,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/f6d44aeeefc915df-LICENSE.txt.txt",
+      "sha256": "9a8ad106a394e853bfe21f42f4e72d592819a22805d991b5f3275029292b658d",
+      "bytes": 1475,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/f6f9742f72915e4f-LICENSE.txt.txt",
+      "sha256": "5ea0cdf8cfc824b446cccf597ff6518c3607a659e9804bc75f1261f9c6ac4ada",
+      "bytes": 1321,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/f7943b8d94baaaad-LICENSE.txt",
+      "sha256": "da4db1480d9beea3483a2eda5c53b22238d0827d57da162b48f122e04d2d9987",
+      "bytes": 1095,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/f7e80844ae5df2b7-LICENSE.txt",
+      "sha256": "3109783dad7527b490aabc49c3cb148573c19b41b843e70cf9388a93f3d7fccd",
+      "bytes": 1112,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/f828fde1bde12e68-LICENSE.txt",
+      "sha256": "769d154fbde32a915af110b1123650bc79f4cbe675acc66e005265bf069c6c6c",
+      "bytes": 1080,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/f86aef21d800392c-LICENSE.txt",
+      "sha256": "a6db8096b2707bc0102d256917d4d33f298ba36d8c3f25de067a2b5bb379db27",
+      "bytes": 1090,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/f9bc82d25ff7983c-LICENSE.txt",
+      "sha256": "f71e8ed126b46346494aad5486874cd8f0aafe95092ed67d2e3cb6110f939abc",
+      "bytes": 1952,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/f9eebbdf36e29794-LICENSE.txt",
+      "sha256": "a6a23fb76d91d98669f5ed6eb58213df594ab2d56c9e981ae021b194e3d662a7",
+      "bytes": 1088,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/fa22288d75bc0b45-LICENSE.md.txt",
+      "sha256": "fdcb59154c74cbaba16a11242f7740bea9f23d6feb5547917d8c5f94a80392a5",
+      "bytes": 1518,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/fa649f907e926eac-LICENSE.txt",
+      "sha256": "435a6722c786b0a56fbe7387028f1d9d3f3a2d0fb615bb8fee118727c3f59b7b",
+      "bytes": 1073,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/fa91cc52fe86668c-LICENSE.txt",
+      "sha256": "73b5283588baa142c5baaef5f56d3e8fdea7a30b214e8c5737e87640f882453a",
+      "bytes": 1087,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/fb1364f1deadbf29-LICENSE.txt",
+      "sha256": "25bd22427e27b0d3f1c3da2670bb44b622bcced22ebdf4777d5488ac129370a1",
+      "bytes": 1091,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/fb238331f22619f7-LICENSE.txt",
+      "sha256": "1b22b049b5267d6dfc23a67bf4a84d8ec04b9fdfb1a51d360e42b4342c8b4154",
+      "bytes": 1081,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/fb5ae9071a411e15-LICENSE.md.txt",
+      "sha256": "76c9d5f5ea942054715c026f33f8717c9e24603196a3737b8899afa216bcbdab",
+      "bytes": 1038,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/fc64a8aa7a5ea997-LICENSE.txt",
+      "sha256": "14ed54990120efea26042269885df36e1b53db858bf04b40c8cfc8c5e12f6fb1",
+      "bytes": 9695,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/fd38271ed8989ea1-LICENSE.txt",
+      "sha256": "1f7dca26d2d328c3dbb9b6fe3b15ec3cda08ffe2288e47b73d617454b256f959",
+      "bytes": 1108,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/fdeec0eba81eb437-LICENSE.txt",
+      "sha256": "3409fa91f7ace557894632676656e32264fe5ef7581535725dc9a23774551bd4",
+      "bytes": 1098,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/fe8778a151ba03e1-COPYING.txt",
+      "sha256": "492dedba85da5872f78e6091bcd1fea474d660d35acb4dee964b8aab3f007427",
+      "bytes": 614,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/fe88769bc2a631e5-LICENSE.txt",
+      "sha256": "ee48679d379ca6b4493d5e231094d85f818dd9be40b1a4f234fb7ff657ee35d9",
+      "bytes": 1205,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/feec3bd6f41d17d8-LICENSE.txt",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "bytes": 11357,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/ff76de03909d0e64-LICENSE.txt",
+      "sha256": "7c605df6e28667a9603118e98274f64a49ce3eed0d26fccce9534a345e0ef955",
+      "bytes": 2338,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "docs/dependency-licenses/fff50688ecc1994e-LICENSE.txt",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "bytes": 11357,
+      "origin": "Third-party license/notice text from newly installed dependency"
+    },
+    {
+      "path": "package-lock.json",
+      "sha256": "1d374cd216ae68c62b90721bfa3811e42fb5e621e6b4a5e6871b84b1111390bb",
+      "bytes": 169599,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "package.json",
+      "sha256": "8442652557083cd7830023120edc68e37a49d089fa6ddaddc008d4b8d3085be4",
+      "bytes": 508,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "packages/review_yt_core/LICENSE",
+      "sha256": "c2f64ed631a5093e8e72683e226f9222150487a5f3054c56407e757d46b80ac6",
+      "bytes": 555,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "packages/review_yt_core/README.md",
+      "sha256": "eb42191affa37d06d54a2a15c4ca29269a0aa0ea37381071107e63343479aa0c",
+      "bytes": 684,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "packages/review_yt_core/pyproject.toml",
+      "sha256": "1440c283f0e0795f6ed06c615bd794c2b44d1b85aca772f87753c818d17366b7",
+      "bytes": 621,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "packages/review_yt_core/src/review_yt_core/__init__.py",
+      "sha256": "9ba0b8a564778a781b8b3c7c8b42e1454a81e83a87e794c044e42684bcde89bb",
+      "bytes": 234,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "packages/review_yt_core/src/review_yt_core/cli.py",
+      "sha256": "cb56342557c6668dbf295b6d2aca1520f5a0500a86ca00064e269513f647b3df",
+      "bytes": 1022,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "packages/review_yt_core/src/review_yt_core/domain.py",
+      "sha256": "13051549eccd0863bd77c4b4dd0fc4e74f037a09cc764686e1aebadccf79a4a5",
+      "bytes": 659,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "packages/review_yt_core/src/review_yt_core/engine.py",
+      "sha256": "65f3ee9d711ed89875f19e446b4010a8021a509df70c9d9b878ddff470a5e63e",
+      "bytes": 6826,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "packages/review_yt_core/src/review_yt_core/network.py",
+      "sha256": "d0c41e12bddd87f62b0028e430493d6e61939a867ad7f934956201675f0c8021",
+      "bytes": 1776,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "packages/review_yt_core/src/review_yt_core/providers.py",
+      "sha256": "2097ef8c6a12e84579a63327e73838b0249e6a821d69475fac081fb2d80d0bd5",
+      "bytes": 12748,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "packages/review_yt_core/src/review_yt_core/youtube.py",
+      "sha256": "286b0ed0a305e8a78b76b80fc2f7e65146120ff8731ea9995f8451152d7ce58f",
+      "bytes": 6657,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "packages/review_yt_core/tests/test_inference.py",
+      "sha256": "e664b9e74ac6bc3b2731bca396ee7aebaabf4a9fbf6dd50febde73fd755c7748",
+      "bytes": 11288,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "packages/review_yt_core/tests/test_sources.py",
+      "sha256": "cf36ea34515c20c16ead13a78461948bc1ef3d32f84fea978aa2c0348ebacb1b",
+      "bytes": 5307,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "playwright.config.ts",
+      "sha256": "ed54106c1d1db7fc9db345eafcea76ad7cfa72ff8c1a0dc0ecfa71e1fa0ab5f2",
+      "bytes": 1130,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "9d5ba32ed9a738204ef154580c218f9765cf76854e25d9a75d62f1d560c6be69",
+      "bytes": 115,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "pytest.ini",
+      "sha256": "bb59e2f34d66cfc07d7c5e1287ee913ad8025cb3049012fc5bdacf4d93c6802f",
+      "bytes": 106,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "render.yaml",
+      "sha256": "3da2d73e8efe78d3712d026c937ea597a24916d712f0bf2d481fe63040419291",
+      "bytes": 1055,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "requirements-dev.lock",
+      "sha256": "0a033bf82c4529645a276229162c6dc914b577372200908abb5a8fa81eee3682",
+      "bytes": 1044,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "requirements-dev.txt",
+      "sha256": "431302d1034ce8c4c0003c4fef88a59e8e17a39a460c3a8ae29fb96a0f5d9e58",
+      "bytes": 47,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "requirements-runtime.lock",
+      "sha256": "5c4a182b1741a1071f54a311310902ed6fc9af3b6cdcf6739149c6955d980826",
+      "bytes": 409,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "696cb9c1b96b1d2d94ac94faa270a1ce1cdf8bc3a2ac22b7323ef600523818ea",
+      "bytes": 67,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "scripts/check_release_config.py",
+      "sha256": "beb3e22fe95150df5bf907c0bd51faa95f1e505dd541a1b56944eacd393b0cad",
+      "bytes": 2087,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "scripts/dependency_inventory.py",
+      "sha256": "56e939ec34e7f47aab8ade17620e6ffba483242e0c8883ba6aa5ae3394c0e7ed",
+      "bytes": 6111,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "scripts/secret_check.py",
+      "sha256": "c62a8f5d8b53715f3e6c7979bf76b0a94cae95e96cd91f3c019b9d365d078351",
+      "bytes": 3174,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "scripts/source_inventory.py",
+      "sha256": "04c28973e9ec6660d6415a15a72daab6b08b0746b657f84b66184c0ad67820fe",
+      "bytes": 1940,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "scripts/verify.py",
+      "sha256": "488d26a6744379b1cf5d99df34fcc343cd248589185213e8a8eed619d5496753",
+      "bytes": 2413,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "tests/e2e/notebook.spec.ts",
+      "sha256": "65cfd2fd686e3bca5636f91f783369416e0e75e1b567e8703e696ae7f7d0f6ee",
+      "bytes": 4242,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "tests/e2e/offline_api.py",
+      "sha256": "b279ff628b23ac1a924d7dc7646379d907fb46b64aeec39cb374192ea8bfa748",
+      "bytes": 2845,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    }
+  ]
+}

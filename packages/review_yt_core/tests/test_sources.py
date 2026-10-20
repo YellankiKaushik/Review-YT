@@ -135,3 +135,29 @@ def test_missing_key_makes_no_request():
     with pytest.raises(Failure) as error:
         YouTube("").collect(ID, 10)
     assert error.value.code == "youtube_not_configured"
+
+
+def test_caption_fetch_unavailability_is_normal(monkeypatch):
+    from review_yt_core.youtube import fetch_captions
+    from youtube_transcript_api import YouTubeTranscriptApi
+
+    def blocked(*args, **kwargs):
+        raise RuntimeError("offline fixture public captions unavailable")
+
+    monkeypatch.setattr(YouTubeTranscriptApi, "fetch", blocked)
+    assert fetch_captions(ID) is None
+
+
+def test_caption_fetch_uses_public_text_and_bounds_it(monkeypatch):
+    from types import SimpleNamespace
+
+    from review_yt_core.youtube import fetch_captions
+    from youtube_transcript_api import YouTubeTranscriptApi
+
+    monkeypatch.setattr(
+        YouTubeTranscriptApi,
+        "fetch",
+        lambda *args, **kwargs: SimpleNamespace(snippets=[SimpleNamespace(text="caption " * 5000)]),
+    )
+    text = fetch_captions(ID)
+    assert len(text) == 20000 and text.startswith("caption ")

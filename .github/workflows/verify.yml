@@ -1,0 +1,32 @@
+name: Independent application verification
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  offline:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1
+        with:
+          python-version: "3.12.15"
+      - uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38
+        with:
+          node-version: "24"
+          cache: npm
+      - run: python -m venv .venv
+      - run: .venv/bin/python -m pip install -r requirements-dev.txt
+      - run: npm ci
+      - run: .venv/bin/ruff check packages apps tests scripts
+      - run: .venv/bin/python -m pytest -q
+      - run: npm run lint && npm run typecheck && npm test && npm run build
+      - run: .venv/bin/python -m build packages/review_yt_core --outdir artifacts/package
+      - run: npx playwright install --with-deps chromium
+      - run: npm run test:e2e
+      - run: npm audit --audit-level=high
+      - run: .venv/bin/python -m pip_audit --skip-editable -r requirements-runtime.lock
+      - run: .venv/bin/python scripts/secret_check.py
+      - run: .venv/bin/python scripts/check_release_config.py

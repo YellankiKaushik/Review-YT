@@ -1,0 +1,38 @@
+services:
+  - type: web
+    name: review-yt-api
+    runtime: python
+    plan: free
+    region: singapore
+    branch: main
+    autoDeployTrigger: "off"
+    buildCommand: pip install -r requirements.txt
+    startCommand: python apps/api/serve.py
+    healthCheckPath: /health
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.15
+      - key: HOST
+        value: 0.0.0.0
+      - key: PYTHONUNBUFFERED
+        value: "1"
+      - key: CACHE_PATH
+        value: /tmp/review-yt-cache/reviews.sqlite
+      - key: SUMMARY_PROVIDER
+        value: openrouter
+      - key: SUMMARY_ENABLED_PROVIDERS
+        value: disabled,openrouter
+      - key: SUMMARY_ALLOW_PAID
+        value: "false"
+      - key: SUMMARY_FALLBACK_ENABLED
+        value: "false"
+      - key: OPENROUTER_MODEL
+        value: openrouter/free
+      - key: TRANSCRIPTS_ENABLED
+        value: "false"
+      - key: YOUTUBE_API_KEY
+        sync: false
+      - key: BACKEND_API_TOKEN
+        sync: false
+      - key: OPENROUTER_API_KEY
+        sync: false

@@ -1,0 +1,3928 @@
+{
+  "scope": "npm lockfile including platform-optional entries; Python packages installed in the new environment, including development tools; SPDX/metadata is evidence, not legal clearance",
+  "npm": [
+    {
+      "name": "@eslint/config-array",
+      "version": "0.23.5",
+      "license": "Apache-2.0",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/baf4b73551c3fe34-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "@eslint/config-helpers",
+      "version": "0.7.0",
+      "license": "Apache-2.0",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/b5710d8c855bcea1-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "@eslint/core",
+      "version": "1.2.1",
+      "license": "Apache-2.0",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/aef99f1ff6f219e9-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "@eslint/object-schema",
+      "version": "3.0.5",
+      "license": "Apache-2.0",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/ecad13743194d658-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "@eslint/plugin-kit",
+      "version": "0.7.3",
+      "license": "Apache-2.0",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/f5c2f1d0dac3a7ba-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "balanced-match",
+      "version": "4.0.4",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/7f2da8bbb45f314e-LICENSE.md.txt"
+      ]
+    },
+    {
+      "name": "brace-expansion",
+      "version": "5.0.12",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/b17016a74afec94e-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "eslint",
+      "version": "10.13.0",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/74f276437320e2e9-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "eslint-scope",
+      "version": "9.1.2",
+      "license": "BSD-2-Clause",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/617e54b920854103-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "eslint-visitor-keys",
+      "version": "5.0.1",
+      "license": "Apache-2.0",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/1cbb04e673cc6789-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "espree",
+      "version": "11.2.0",
+      "license": "BSD-2-Clause",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/bb7eb4bb5171fa82-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "file-entry-cache",
+      "version": "11.1.5",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/38575eab5ea857ff-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "flat-cache",
+      "version": "6.1.23",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/00bf752aff6b96fb-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "minimatch",
+      "version": "10.2.6",
+      "license": "BlueOak-1.0.0",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/d649ad8ff7d6b87c-LICENSE.md.txt"
+      ]
+    },
+    {
+      "name": "@adobe/css-tools",
+      "version": "4.5.0",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/f60557c8afe8cafe-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "@asamuzakjp/css-color",
+      "version": "7.1.7",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/323d97e19aa4ee9b-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "lru-cache",
+      "version": "11.5.3",
+      "license": "BlueOak-1.0.0",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/b444fcdfa4726235-LICENSE.md.txt"
+      ]
+    },
+    {
+      "name": "@asamuzakjp/dom-selector",
+      "version": "10.0.4",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/7a9429699c561fb2-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "lru-cache",
+      "version": "11.5.3",
+      "license": "BlueOak-1.0.0",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/08efc8a5240b4745-LICENSE.md.txt"
+      ]
+    },
+    {
+      "name": "@babel/code-frame",
+      "version": "7.29.7",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/1b8491833073033c-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "@babel/compat-data",
+      "version": "7.29.7",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/9800c43fb921d9a7-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "@babel/core",
+      "version": "7.29.7",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/b933827a2e9885d0-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "@babel/generator",
+      "version": "7.29.8",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/af9aeb6fddd22e17-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "@babel/helper-compilation-targets",
+      "version": "7.29.7",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/d0b106faa437508d-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "@babel/helper-globals",
+      "version": "7.29.7",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/80339e145ac52fb6-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "@babel/helper-module-imports",
+      "version": "7.29.7",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/c33fc9d615cba247-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "@babel/helper-module-transforms",
+      "version": "7.29.7",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/b94243b82f348fa9-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "@babel/helper-string-parser",
+      "version": "7.29.7",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/6a09101ba2d8c8e3-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "@babel/helper-validator-identifier",
+      "version": "7.29.7",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/68bf13667b455e8c-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "@babel/helper-validator-option",
+      "version": "7.29.7",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/b993cc867da5bcd3-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "@babel/helpers",
+      "version": "7.29.10",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/abc38307e42481d5-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "@babel/parser",
+      "version": "7.29.9",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/43fff95417ada924-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "@babel/runtime",
+      "version": "7.29.10",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/9fd51bd1ad020ad9-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "@babel/template",
+      "version": "7.29.7",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/e2782e5bb5ff18b6-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "@babel/traverse",
+      "version": "7.29.10",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/46de1c0f3c59737c-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "@babel/types",
+      "version": "7.29.8",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/943fafa73eac5235-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "@bramus/specificity",
+      "version": "2.4.3",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/a33f734f26f4c7e0-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "@cacheable/memory",
+      "version": "2.2.0",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/aba0cf2f907c6878-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "@keyv/bigmap",
+      "version": "1.3.1",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/525d3090c2009c54-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "keyv",
+      "version": "5.6.0",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/a61f5006e7f7c94b-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "@cacheable/utils",
+      "version": "2.5.0",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/3ff44bc28b298cc4-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "keyv",
+      "version": "5.6.0",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/5cab6afd82757ecb-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "@csstools/color-helpers",
+      "version": "6.1.2",
+      "license": "MIT-0",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/c6a1a8419e59277c-LICENSE.md.txt"
+      ]
+    },
+    {
+      "name": "@csstools/css-calc",
+      "version": "3.4.3",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/a72362cc0146557c-LICENSE.md.txt"
+      ]
+    },
+    {
+      "name": "@csstools/css-color-parser",
+      "version": "4.2.6",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/b4c018b5e517b641-LICENSE.md.txt"
+      ]
+    },
+    {
+      "name": "@csstools/css-parser-algorithms",
+      "version": "4.0.2",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/011072ae573ade7e-LICENSE.md.txt"
+      ]
+    },
+    {
+      "name": "@csstools/css-syntax-patches-for-csstree",
+      "version": "1.1.15",
+      "license": "MIT-0",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/93e171cb8eb5ef64-LICENSE.md.txt"
+      ]
+    },
+    {
+      "name": "@csstools/css-tokenizer",
+      "version": "4.0.2",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/f1c00ecc0f86caa3-LICENSE.md.txt"
+      ]
+    },
+    {
+      "name": "@emnapi/runtime",
+      "version": "1.11.3",
+      "license": "MIT",
+      "developmentOnly": false,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/746832854c3c6ee5-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "@eslint-community/eslint-utils",
+      "version": "4.10.1",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/df33eb35789ff034-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "eslint-visitor-keys",
+      "version": "3.4.3",
+      "license": "Apache-2.0",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/8359f17aad1be17a-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "@eslint-community/regexpp",
+      "version": "4.12.2",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/a0b6970f598a38be-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "@eslint/config-array",
+      "version": "0.21.2",
+      "license": "Apache-2.0",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/feec3bd6f41d17d8-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "@eslint/config-helpers",
+      "version": "0.4.2",
+      "license": "Apache-2.0",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/db1ed21288e5e0ec-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "@eslint/core",
+      "version": "0.17.0",
+      "license": "Apache-2.0",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/bd04736a041230fe-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "@eslint/eslintrc",
+      "version": "3.3.7",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/cb5d552134621593-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "@eslint/js",
+      "version": "9.39.1",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/9fc49d95ff1922a5-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "@eslint/object-schema",
+      "version": "2.1.7",
+      "license": "Apache-2.0",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/a27dd85f7fec7554-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "@eslint/plugin-kit",
+      "version": "0.4.1",
+      "license": "Apache-2.0",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/87b877ea02a99fe5-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "@exodus/bytes",
+      "version": "1.16.0",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/d1ec0ad8535ab3a6-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "@humanfs/core",
+      "version": "0.19.2",
+      "license": "Apache-2.0",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/28e5d94e995f9db6-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "@humanfs/node",
+      "version": "0.16.8",
+      "license": "Apache-2.0",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/fff50688ecc1994e-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "@humanfs/types",
+      "version": "0.15.0",
+      "license": "Apache-2.0",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": []
+    },
+    {
+      "name": "@humanwhocodes/module-importer",
+      "version": "1.0.1",
+      "license": "Apache-2.0",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/137d31575d4ea2ea-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "@humanwhocodes/retry",
+      "version": "0.4.3",
+      "license": "Apache-2.0",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/a2592f5c6ef876c5-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "@img/colour",
+      "version": "1.1.0",
+      "license": "MIT",
+      "developmentOnly": false,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/81c9580ed330c373-LICENSE.md.txt"
+      ]
+    },
+    {
+      "name": "@img/sharp-darwin-arm64",
+      "version": "0.35.5",
+      "license": "Apache-2.0",
+      "developmentOnly": false,
+      "installedHere": false,
+      "notices": []
+    },
+    {
+      "name": "@img/sharp-darwin-x64",
+      "version": "0.35.5",
+      "license": "Apache-2.0",
+      "developmentOnly": false,
+      "installedHere": false,
+      "notices": []
+    },
+    {
+      "name": "@img/sharp-freebsd-wasm32",
+      "version": "0.35.5",
+      "license": "Apache-2.0",
+      "developmentOnly": false,
+      "installedHere": false,
+      "notices": []
+    },
+    {
+      "name": "@img/sharp-libvips-darwin-arm64",
+      "version": "1.3.4",
+      "license": "LGPL-3.0-or-later",
+      "developmentOnly": false,
+      "installedHere": false,
+      "notices": []
+    },
+    {
+      "name": "@img/sharp-libvips-darwin-x64",
+      "version": "1.3.4",
+      "license": "LGPL-3.0-or-later",
+      "developmentOnly": false,
+      "installedHere": false,
+      "notices": []
+    },
+    {
+      "name": "@img/sharp-libvips-linux-arm",
+      "version": "1.3.4",
+      "license": "LGPL-3.0-or-later",
+      "developmentOnly": false,
+      "installedHere": false,
+      "notices": []
+    },
+    {
+      "name": "@img/sharp-libvips-linux-arm64",
+      "version": "1.3.4",
+      "license": "LGPL-3.0-or-later",
+      "developmentOnly": false,
+      "installedHere": false,
+      "notices": []
+    },
+    {
+      "name": "@img/sharp-libvips-linux-ppc64",
+      "version": "1.3.4",
+      "license": "LGPL-3.0-or-later",
+      "developmentOnly": false,
+      "installedHere": false,
+      "notices": []
+    },
+    {
+      "name": "@img/sharp-libvips-linux-riscv64",
+      "version": "1.3.4",
+      "license": "LGPL-3.0-or-later",
+      "developmentOnly": false,
+      "installedHere": false,
+      "notices": []
+    },
+    {
+      "name": "@img/sharp-libvips-linux-s390x",
+      "version": "1.3.4",
+      "license": "LGPL-3.0-or-later",
+      "developmentOnly": false,
+      "installedHere": false,
+      "notices": []
+    },
+    {
+      "name": "@img/sharp-libvips-linux-x64",
+      "version": "1.3.4",
+      "license": "LGPL-3.0-or-later",
+      "developmentOnly": false,
+      "installedHere": false,
+      "notices": []
+    },
+    {
+      "name": "@img/sharp-libvips-linuxmusl-arm64",
+      "version": "1.3.4",
+      "license": "LGPL-3.0-or-later",
+      "developmentOnly": false,
+      "installedHere": false,
+      "notices": []
+    },
+    {
+      "name": "@img/sharp-libvips-linuxmusl-x64",
+      "version": "1.3.4",
+      "license": "LGPL-3.0-or-later",
+      "developmentOnly": false,
+      "installedHere": false,
+      "notices": []
+    },
+    {
+      "name": "@img/sharp-linux-arm",
+      "version": "0.35.5",
+      "license": "Apache-2.0",
+      "developmentOnly": false,
+      "installedHere": false,
+      "notices": []
+    },
+    {
+      "name": "@img/sharp-linux-arm64",
+      "version": "0.35.5",
+      "license": "Apache-2.0",
+      "developmentOnly": false,
+      "installedHere": false,
+      "notices": []
+    },
+    {
+      "name": "@img/sharp-linux-ppc64",
+      "version": "0.35.5",
+      "license": "Apache-2.0",
+      "developmentOnly": false,
+      "installedHere": false,
+      "notices": []
+    },
+    {
+      "name": "@img/sharp-linux-riscv64",
+      "version": "0.35.5",
+      "license": "Apache-2.0",
+      "developmentOnly": false,
+      "installedHere": false,
+      "notices": []
+    },
+    {
+      "name": "@img/sharp-linux-s390x",
+      "version": "0.35.5",
+      "license": "Apache-2.0",
+      "developmentOnly": false,
+      "installedHere": false,
+      "notices": []
+    },
+    {
+      "name": "@img/sharp-linux-x64",
+      "version": "0.35.5",
+      "license": "Apache-2.0",
+      "developmentOnly": false,
+      "installedHere": false,
+      "notices": []
+    },
+    {
+      "name": "@img/sharp-linuxmusl-arm64",
+      "version": "0.35.5",
+      "license": "Apache-2.0",
+      "developmentOnly": false,
+      "installedHere": false,
+      "notices": []
+    },
+    {
+      "name": "@img/sharp-linuxmusl-x64",
+      "version": "0.35.5",
+      "license": "Apache-2.0",
+      "developmentOnly": false,
+      "installedHere": false,
+      "notices": []
+    },
+    {
+      "name": "@img/sharp-wasm32",
+      "version": "0.35.5",
+      "license": "Apache-2.0 AND LGPL-3.0-or-later AND MIT",
+      "developmentOnly": false,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/4cbcc4f856fb89d4-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "@img/sharp-webcontainers-wasm32",
+      "version": "0.35.5",
+      "license": "Apache-2.0",
+      "developmentOnly": false,
+      "installedHere": false,
+      "notices": []
+    },
+    {
+      "name": "@img/sharp-win32-arm64",
+      "version": "0.35.5",
+      "license": "Apache-2.0 AND LGPL-3.0-or-later",
+      "developmentOnly": false,
+      "installedHere": false,
+      "notices": []
+    },
+    {
+      "name": "@img/sharp-win32-ia32",
+      "version": "0.35.5",
+      "license": "Apache-2.0 AND LGPL-3.0-or-later",
+      "developmentOnly": false,
+      "installedHere": false,
+      "notices": []
+    },
+    {
+      "name": "@img/sharp-win32-x64",
+      "version": "0.35.5",
+      "license": "Apache-2.0 AND LGPL-3.0-or-later",
+      "developmentOnly": false,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/645ba3b707cdfb89-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "@jridgewell/gen-mapping",
+      "version": "0.3.13",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/f828fde1bde12e68-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "@jridgewell/remapping",
+      "version": "2.3.5",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/088cff8e2116bcd1-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "@jridgewell/resolve-uri",
+      "version": "3.1.2",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/893dc96de917bed6-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "@jridgewell/sourcemap-codec",
+      "version": "1.6.0",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/310ede080a48cfc4-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "@jridgewell/trace-mapping",
+      "version": "0.3.31",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/4d20a119951e12aa-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "@keyv/serialize",
+      "version": "1.1.1",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/fd38271ed8989ea1-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "@next/env",
+      "version": "16.4.2",
+      "license": "MIT",
+      "developmentOnly": false,
+      "installedHere": true,
+      "notices": []
+    },
+    {
+      "name": "@next/swc-darwin-arm64",
+      "version": "16.4.2",
+      "license": "MIT",
+      "developmentOnly": false,
+      "installedHere": false,
+      "notices": []
+    },
+    {
+      "name": "@next/swc-darwin-x64",
+      "version": "16.4.2",
+      "license": "MIT",
+      "developmentOnly": false,
+      "installedHere": false,
+      "notices": []
+    },
+    {
+      "name": "@next/swc-linux-arm64-gnu",
+      "version": "16.4.2",
+      "license": "MIT",
+      "developmentOnly": false,
+      "installedHere": false,
+      "notices": []
+    },
+    {
+      "name": "@next/swc-linux-arm64-musl",
+      "version": "16.4.2",
+      "license": "MIT",
+      "developmentOnly": false,
+      "installedHere": false,
+      "notices": []
+    },
+    {
+      "name": "@next/swc-linux-x64-gnu",
+      "version": "16.4.2",
+      "license": "MIT",
+      "developmentOnly": false,
+      "installedHere": false,
+      "notices": []
+    },
+    {
+      "name": "@next/swc-linux-x64-musl",
+      "version": "16.4.2",
+      "license": "MIT",
+      "developmentOnly": false,
+      "installedHere": false,
+      "notices": []
+    },
+    {
+      "name": "@next/swc-win32-arm64-msvc",
+      "version": "16.4.2",
+      "license": "MIT",
+      "developmentOnly": false,
+      "installedHere": false,
+      "notices": []
+    },
+    {
+      "name": "@next/swc-win32-x64-msvc",
+      "version": "16.4.2",
+      "license": "MIT",
+      "developmentOnly": false,
+      "installedHere": true,
+      "notices": []
+    },
+    {
+      "name": "@oxc-project/types",
+      "version": "0.154.0",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/efc3511de90a1489-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "@playwright/test",
+      "version": "1.64.1",
+      "license": "Apache-2.0",
+      "developmentOnly": false,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/4f41b2683877a8b9-LICENSE.txt",
+        "docs/dependency-licenses/d9d5fa22393fe4d5-NOTICE.txt"
+      ]
+    },
+    {
+      "name": "@rolldown/binding-android-arm-eabi",
+      "version": "1.2.14",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": false,
+      "notices": []
+    },
+    {
+      "name": "@rolldown/binding-android-arm64",
+      "version": "1.2.14",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": false,
+      "notices": []
+    },
+    {
+      "name": "@rolldown/binding-darwin-arm64",
+      "version": "1.2.14",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": false,
+      "notices": []
+    },
+    {
+      "name": "@rolldown/binding-darwin-x64",
+      "version": "1.2.14",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": false,
+      "notices": []
+    },
+    {
+      "name": "@rolldown/binding-freebsd-x64",
+      "version": "1.2.14",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": false,
+      "notices": []
+    },
+    {
+      "name": "@rolldown/binding-linux-arm-gnueabihf",
+      "version": "1.2.14",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": false,
+      "notices": []
+    },
+    {
+      "name": "@rolldown/binding-linux-arm64-gnu",
+      "version": "1.2.14",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": false,
+      "notices": []
+    },
+    {
+      "name": "@rolldown/binding-linux-arm64-musl",
+      "version": "1.2.14",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": false,
+      "notices": []
+    },
+    {
+      "name": "@rolldown/binding-linux-ppc64-gnu",
+      "version": "1.2.14",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": false,
+      "notices": []
+    },
+    {
+      "name": "@rolldown/binding-linux-s390x-gnu",
+      "version": "1.2.14",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": false,
+      "notices": []
+    },
+    {
+      "name": "@rolldown/binding-linux-x64-gnu",
+      "version": "1.2.14",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": false,
+      "notices": []
+    },
+    {
+      "name": "@rolldown/binding-linux-x64-musl",
+      "version": "1.2.14",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": false,
+      "notices": []
+    },
+    {
+      "name": "@rolldown/binding-openharmony-arm64",
+      "version": "1.2.14",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": false,
+      "notices": []
+    },
+    {
+      "name": "@rolldown/binding-win32-arm64-msvc",
+      "version": "1.2.14",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": false,
+      "notices": []
+    },
+    {
+      "name": "@rolldown/binding-win32-x64-msvc",
+      "version": "1.2.14",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": []
+    },
+    {
+      "name": "@rolldown/pluginutils",
+      "version": "1.0.1",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/6a2112de74425f57-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "@swc/helpers",
+      "version": "0.5.23",
+      "license": "Apache-2.0",
+      "developmentOnly": false,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/856901b050f37d41-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "@testing-library/dom",
+      "version": "10.4.2",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/b37f3e5ada7dace1-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "@testing-library/jest-dom",
+      "version": "7.0.1",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/d72079e00388f5d7-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "dom-accessibility-api",
+      "version": "0.6.3",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/db144134b0e381ec-LICENSE.md.txt"
+      ]
+    },
+    {
+      "name": "@testing-library/react",
+      "version": "16.3.3",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/20f7e543a0554ab7-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "@types/aria-query",
+      "version": "5.0.4",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/481d2c5cacd1e864-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "@types/chai",
+      "version": "5.2.3",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/4bf905975ae11f6b-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "@types/deep-eql",
+      "version": "4.0.2",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/4f9b46570615b428-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "@types/esrecurse",
+      "version": "4.3.1",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/29782d0b8dd1f47a-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "@types/estree",
+      "version": "1.0.9",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/7faff135e57bfabd-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "@types/json-schema",
+      "version": "7.0.15",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/34de4c12f265a0d1-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "@types/node",
+      "version": "24.10.1",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/a5870eb321d6b371-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "@types/react",
+      "version": "19.2.7",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/7278ac1316332733-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "@types/react-dom",
+      "version": "19.2.3",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/739963defc0c4681-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "@typescript-eslint/eslint-plugin",
+      "version": "8.72.0",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/1a50b96764f1bc8b-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "ignore",
+      "version": "7.0.13",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/b81c0e22cf824d3b-LICENSE-MIT.txt"
+      ]
+    },
+    {
+      "name": "@typescript-eslint/parser",
+      "version": "8.72.0",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/32e6ea5d03f370a2-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "@typescript-eslint/project-service",
+      "version": "8.72.0",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/42d7255751125def-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "@typescript-eslint/scope-manager",
+      "version": "8.72.0",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/acdc81dfe74c18ee-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "@typescript-eslint/tsconfig-utils",
+      "version": "8.72.0",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/7da1a3f3b09faf40-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "@typescript-eslint/type-utils",
+      "version": "8.72.0",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/56dffa8b4a3810b7-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "@typescript-eslint/types",
+      "version": "8.72.0",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/6649a36dac4a02a1-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "@typescript-eslint/typescript-estree",
+      "version": "8.72.0",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/150ff174064822b9-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "balanced-match",
+      "version": "4.0.4",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/1cbec83eaa5d6979-LICENSE.md.txt"
+      ]
+    },
+    {
+      "name": "brace-expansion",
+      "version": "5.0.12",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/9a2f196a0a419be2-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "minimatch",
+      "version": "10.2.6",
+      "license": "BlueOak-1.0.0",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/5faf38d18e9e072a-LICENSE.md.txt"
+      ]
+    },
+    {
+      "name": "semver",
+      "version": "7.8.5",
+      "license": "ISC",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/ec0be11687e14f62-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "@typescript-eslint/utils",
+      "version": "8.72.0",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/ac8883dce0c314dd-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "@typescript-eslint/visitor-keys",
+      "version": "8.72.0",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/d56e3459c7a4e650-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "eslint-visitor-keys",
+      "version": "5.0.1",
+      "license": "Apache-2.0",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/ec09d0ef97fce5b9-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "@vitest/mocker",
+      "version": "5.0.5",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/5f9da4b961746f7c-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "@vitest/spy",
+      "version": "5.0.5",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/690a00591ac977ca-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "acorn",
+      "version": "8.19.0",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/5834873d0df9dcbd-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "acorn-jsx",
+      "version": "5.3.2",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/95f9a69a873ac44b-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "ajv",
+      "version": "6.15.0",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/3a36fe805062bec9-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "ansi-regex",
+      "version": "5.0.1",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/84dce72eb00c409b-license.txt"
+      ]
+    },
+    {
+      "name": "ansi-styles",
+      "version": "4.3.0",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/6e1a21b185217019-license.txt"
+      ]
+    },
+    {
+      "name": "argparse",
+      "version": "2.0.1",
+      "license": "Python-2.0",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/0fff47576a887b0e-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "aria-query",
+      "version": "5.3.0",
+      "license": "Apache-2.0",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/9d7582839f95f67a-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "assertion-error",
+      "version": "2.0.1",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/420d94368f9b1703-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "balanced-match",
+      "version": "1.0.2",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/306d16a8ebca9535-LICENSE.md.txt"
+      ]
+    },
+    {
+      "name": "baseline-browser-mapping",
+      "version": "2.11.30",
+      "license": "Apache-2.0",
+      "developmentOnly": false,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/b1801178558e29cf-LICENSE.txt.txt"
+      ]
+    },
+    {
+      "name": "bidi-js",
+      "version": "1.1.0",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/9c28a8345c3b5a93-LICENSE.txt.txt"
+      ]
+    },
+    {
+      "name": "brace-expansion",
+      "version": "1.1.21",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/c49c791a1bcf8351-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "browserslist",
+      "version": "4.29.4",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/d18a0014bc745b9b-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "cacheable",
+      "version": "2.5.0",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/cc79bd294ef7b29a-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "keyv",
+      "version": "5.6.0",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/a4f1a301f3a84556-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "callsites",
+      "version": "3.1.0",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/bed18c2205c37421-license.txt"
+      ]
+    },
+    {
+      "name": "caniuse-lite",
+      "version": "1.0.30001817",
+      "license": "CC-BY-4.0",
+      "developmentOnly": false,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/3ea860d9c2afac47-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "chai",
+      "version": "6.3.0",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/ce66925ba4487fab-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "chalk",
+      "version": "4.1.2",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/3eae73fe1304498f-license.txt"
+      ]
+    },
+    {
+      "name": "client-only",
+      "version": "0.0.1",
+      "license": "MIT",
+      "developmentOnly": false,
+      "installedHere": true,
+      "notices": []
+    },
+    {
+      "name": "color-convert",
+      "version": "2.0.1",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/009db0dcc2ae1acc-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "color-name",
+      "version": "1.1.4",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/0ebade940f180bd7-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "concat-map",
+      "version": "0.0.1",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/fa649f907e926eac-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "convert-source-map",
+      "version": "2.0.0",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/af6dedd64503ec28-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "cross-spawn",
+      "version": "7.0.6",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/e6698367f2836e12-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "css-tree",
+      "version": "3.2.1",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/e6f2d326d18a1eac-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "css.escape",
+      "version": "1.5.1",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/4271e8b1c48baaaf-LICENSE-MIT.txt.txt"
+      ]
+    },
+    {
+      "name": "csstype",
+      "version": "3.2.3",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/d217232ad3cc2181-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "data-urls",
+      "version": "8.0.0",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/d8ae1c341e6d3d60-LICENSE.txt.txt"
+      ]
+    },
+    {
+      "name": "debug",
+      "version": "4.4.3",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/722578e61223098d-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "decimal.js",
+      "version": "10.6.0",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/aaa33b0686e9f785-LICENCE.md.txt"
+      ]
+    },
+    {
+      "name": "deep-is",
+      "version": "0.1.4",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/049bbcbbcaddd5eb-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "dequal",
+      "version": "2.0.3",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/ac0b675715ce647e-license.txt"
+      ]
+    },
+    {
+      "name": "detect-libc",
+      "version": "2.1.2",
+      "license": "Apache-2.0",
+      "developmentOnly": false,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/11c7d9ddcb7cc6c3-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "dom-accessibility-api",
+      "version": "0.5.16",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/c425ab058d46d6d7-LICENSE.md.txt"
+      ]
+    },
+    {
+      "name": "electron-to-chromium",
+      "version": "1.5.462",
+      "license": "ISC",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/0e1893e3a4c598ec-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "entities",
+      "version": "8.1.0",
+      "license": "BSD-2-Clause",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/c3238d84ed0ee9ac-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "es-module-lexer",
+      "version": "2.3.2",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/ad8a365e79ca837d-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "escalade",
+      "version": "3.2.0",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/430611058f49c9f0-license.txt"
+      ]
+    },
+    {
+      "name": "escape-string-regexp",
+      "version": "4.0.0",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/3cd6bcf7c0f7fd31-license.txt"
+      ]
+    },
+    {
+      "name": "eslint",
+      "version": "9.39.1",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/9654927b61b9fb02-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "eslint-plugin-react-hooks",
+      "version": "7.1.1",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/5448ba17be2aeb49-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "eslint-scope",
+      "version": "8.4.0",
+      "license": "BSD-2-Clause",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/d4b897d7868aab13-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "eslint-visitor-keys",
+      "version": "4.2.1",
+      "license": "Apache-2.0",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/d82d970496a36f81-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "espree",
+      "version": "10.4.0",
+      "license": "BSD-2-Clause",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/4ca07e3a4639bb6c-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "esquery",
+      "version": "1.7.0",
+      "license": "BSD-3-Clause",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/d112f40bfe64e610-license.txt.txt"
+      ]
+    },
+    {
+      "name": "esrecurse",
+      "version": "4.3.0",
+      "license": "BSD-2-Clause",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": []
+    },
+    {
+      "name": "estraverse",
+      "version": "5.3.0",
+      "license": "BSD-2-Clause",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": []
+    },
+    {
+      "name": "estree-walker",
+      "version": "3.0.3",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/c8f69d928062b926-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "esutils",
+      "version": "2.0.3",
+      "license": "BSD-2-Clause",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": []
+    },
+    {
+      "name": "expect-type",
+      "version": "1.4.0",
+      "license": "Apache-2.0",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/35cbba0d626ee0a1-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "fast-deep-equal",
+      "version": "3.1.3",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/b7515a199a564218-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "fast-json-stable-stringify",
+      "version": "2.1.0",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/d5a49e3191f238b9-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "fast-levenshtein",
+      "version": "2.0.6",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/3560936b70cefa08-LICENSE.md.txt"
+      ]
+    },
+    {
+      "name": "file-entry-cache",
+      "version": "8.0.0",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/2c14c32b76ed43b1-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "find-up",
+      "version": "5.0.0",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/44b08567a923a13a-license.txt"
+      ]
+    },
+    {
+      "name": "flat-cache",
+      "version": "4.0.1",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/f9eebbdf36e29794-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "flatted",
+      "version": "3.4.4",
+      "license": "ISC",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/1b1a379ee834b679-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "fsevents",
+      "version": "2.3.3",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": false,
+      "notices": []
+    },
+    {
+      "name": "gensync",
+      "version": "1.0.0-beta.2",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/ac544dc6d8325e8d-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "glob-parent",
+      "version": "6.0.2",
+      "license": "ISC",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/59732964a614d485-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "globals",
+      "version": "14.0.0",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/8b6e4c7af822fdc9-license.txt"
+      ]
+    },
+    {
+      "name": "has-flag",
+      "version": "4.0.0",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/90f9d70a810bf8be-license.txt"
+      ]
+    },
+    {
+      "name": "hashery",
+      "version": "1.5.1",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/0f6e5abae40c6e19-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "hermes-estree",
+      "version": "0.25.1",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/8a169c1154450cce-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "hermes-parser",
+      "version": "0.25.1",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/d1a2799d56e8d661-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "hookified",
+      "version": "1.15.1",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/9ce1c0bf07b101d8-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "html-encoding-sniffer",
+      "version": "7.0.0",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/5bb7ae7baf9ef23b-LICENSE.txt.txt"
+      ]
+    },
+    {
+      "name": "ignore",
+      "version": "5.3.2",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/a8abdc3f6a4b0c82-LICENSE-MIT.txt"
+      ]
+    },
+    {
+      "name": "import-fresh",
+      "version": "3.3.1",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/992df059d95062ec-license.txt"
+      ]
+    },
+    {
+      "name": "imurmurhash",
+      "version": "0.1.4",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": []
+    },
+    {
+      "name": "indent-string",
+      "version": "4.0.0",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/1685aa16875a7093-license.txt"
+      ]
+    },
+    {
+      "name": "is-extglob",
+      "version": "2.1.1",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/7746d968f5f4409c-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "is-glob",
+      "version": "4.0.3",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/88b704d66985f2cb-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "is-potential-custom-element-name",
+      "version": "1.0.1",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/b1d03f0d1e3687ed-LICENSE-MIT.txt.txt"
+      ]
+    },
+    {
+      "name": "isexe",
+      "version": "2.0.0",
+      "license": "ISC",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/d6f0036449b77828-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "js-tokens",
+      "version": "4.0.0",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/ef9f18f3bd5bde96-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "js-yaml",
+      "version": "4.3.2",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/a7a880438980aa2f-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "jsdom",
+      "version": "30.1.3",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/b4b8b055a47f43e7-LICENSE.txt.txt"
+      ]
+    },
+    {
+      "name": "lru-cache",
+      "version": "11.5.3",
+      "license": "BlueOak-1.0.0",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/3e2b2c9cd8fbf658-LICENSE.md.txt"
+      ]
+    },
+    {
+      "name": "jsesc",
+      "version": "3.1.0",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/4a08f101487dbd74-LICENSE-MIT.txt.txt"
+      ]
+    },
+    {
+      "name": "json-buffer",
+      "version": "3.0.1",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/e655cec38da9b999-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "json-schema-traverse",
+      "version": "0.4.1",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/9059dbabd54555a8-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "json-stable-stringify-without-jsonify",
+      "version": "1.0.1",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/538018fb8525a0ce-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "json5",
+      "version": "2.2.3",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/2d377f9b179e114e-LICENSE.md.txt"
+      ]
+    },
+    {
+      "name": "keyv",
+      "version": "4.5.4",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": []
+    },
+    {
+      "name": "levn",
+      "version": "0.4.1",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/c5af7619778e55d3-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "lightningcss",
+      "version": "1.33.0",
+      "license": "MPL-2.0",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/9e0daad0f35198aa-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "lightningcss-android-arm64",
+      "version": "1.33.0",
+      "license": "MPL-2.0",
+      "developmentOnly": true,
+      "installedHere": false,
+      "notices": []
+    },
+    {
+      "name": "lightningcss-darwin-arm64",
+      "version": "1.33.0",
+      "license": "MPL-2.0",
+      "developmentOnly": true,
+      "installedHere": false,
+      "notices": []
+    },
+    {
+      "name": "lightningcss-darwin-x64",
+      "version": "1.33.0",
+      "license": "MPL-2.0",
+      "developmentOnly": true,
+      "installedHere": false,
+      "notices": []
+    },
+    {
+      "name": "lightningcss-freebsd-x64",
+      "version": "1.33.0",
+      "license": "MPL-2.0",
+      "developmentOnly": true,
+      "installedHere": false,
+      "notices": []
+    },
+    {
+      "name": "lightningcss-linux-arm-gnueabihf",
+      "version": "1.33.0",
+      "license": "MPL-2.0",
+      "developmentOnly": true,
+      "installedHere": false,
+      "notices": []
+    },
+    {
+      "name": "lightningcss-linux-arm64-gnu",
+      "version": "1.33.0",
+      "license": "MPL-2.0",
+      "developmentOnly": true,
+      "installedHere": false,
+      "notices": []
+    },
+    {
+      "name": "lightningcss-linux-arm64-musl",
+      "version": "1.33.0",
+      "license": "MPL-2.0",
+      "developmentOnly": true,
+      "installedHere": false,
+      "notices": []
+    },
+    {
+      "name": "lightningcss-linux-x64-gnu",
+      "version": "1.33.0",
+      "license": "MPL-2.0",
+      "developmentOnly": true,
+      "installedHere": false,
+      "notices": []
+    },
+    {
+      "name": "lightningcss-linux-x64-musl",
+      "version": "1.33.0",
+      "license": "MPL-2.0",
+      "developmentOnly": true,
+      "installedHere": false,
+      "notices": []
+    },
+    {
+      "name": "lightningcss-win32-arm64-msvc",
+      "version": "1.33.0",
+      "license": "MPL-2.0",
+      "developmentOnly": true,
+      "installedHere": false,
+      "notices": []
+    },
+    {
+      "name": "lightningcss-win32-x64-msvc",
+      "version": "1.33.0",
+      "license": "MPL-2.0",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/94a2bc9bc71435e4-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "locate-path",
+      "version": "6.0.0",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/6264217e95eb1d68-license.txt"
+      ]
+    },
+    {
+      "name": "lodash.merge",
+      "version": "4.6.2",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/f9bc82d25ff7983c-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "lru-cache",
+      "version": "5.1.1",
+      "license": "ISC",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/b358bf4db2eb0bdf-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "lz-string",
+      "version": "1.5.0",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/d84ee998d067baf1-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "magic-string",
+      "version": "1.4.3",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/2596f530a1e2f9f1-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "mdn-data",
+      "version": "2.27.1",
+      "license": "CC0-1.0",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/dd139655db96f33b-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "min-indent",
+      "version": "1.0.1",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/bb4ab36bf194057a-license.txt"
+      ]
+    },
+    {
+      "name": "minimatch",
+      "version": "3.1.5",
+      "license": "ISC",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/e56dc8a64e18ade1-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "ms",
+      "version": "2.1.3",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/acaf0343734d57cf-license.md.txt"
+      ]
+    },
+    {
+      "name": "nanoid",
+      "version": "3.3.20",
+      "license": "MIT",
+      "developmentOnly": false,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/f7943b8d94baaaad-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "natural-compare",
+      "version": "1.4.0",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": []
+    },
+    {
+      "name": "next",
+      "version": "16.4.2",
+      "license": "MIT",
+      "developmentOnly": false,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/f2edb585e39be8d7-license.md.txt",
+        "docs/dependency-licenses/9332880bdc19f089-LICENSE.txt",
+        "docs/dependency-licenses/650e3d195aacd294-LICENSE.txt",
+        "docs/dependency-licenses/3097f4569a5a252d-LICENSE.txt",
+        "docs/dependency-licenses/33878044ee9a9f21-LICENSE.txt",
+        "docs/dependency-licenses/1ff0d1d05b528223-LICENSE.txt",
+        "docs/dependency-licenses/0c816a04b8e28e14-LICENSE.txt",
+        "docs/dependency-licenses/d6e34786cb71fd4e-LICENSE.txt",
+        "docs/dependency-licenses/ac75d467885691f5-LICENSE.txt",
+        "docs/dependency-licenses/e4d479625e34b19d-LICENSE.txt",
+        "docs/dependency-licenses/626e6c16d442aff5-LICENSE.txt",
+        "docs/dependency-licenses/4d563aef39018d72-LICENSE.txt",
+        "docs/dependency-licenses/fb1364f1deadbf29-LICENSE.txt",
+        "docs/dependency-licenses/1d52bb31c2b5802c-LICENSE.txt",
+        "docs/dependency-licenses/1eeb39b351f8566f-LICENSE.txt",
+        "docs/dependency-licenses/15ffb6c595d1d756-LICENSE.txt",
+        "docs/dependency-licenses/b4387a3d411bc585-LICENSE.txt",
+        "docs/dependency-licenses/bcc8b4bd8def0ff9-LICENSE.txt",
+        "docs/dependency-licenses/52eafdf9591a856f-LICENSE.txt",
+        "docs/dependency-licenses/7e567cbc0276ceaa-LICENSE.txt",
+        "docs/dependency-licenses/f4a174212a83fa75-LICENSE.txt",
+        "docs/dependency-licenses/529095c220ad9f7c-LICENSE.txt",
+        "docs/dependency-licenses/2cb427615c9be5c3-LICENSE.txt",
+        "docs/dependency-licenses/ebfc5c641a94c5e0-LICENSE.txt",
+        "docs/dependency-licenses/29141c9173a811f4-LICENSE.txt",
+        "docs/dependency-licenses/517ceaaa9944a700-LICENSE.txt",
+        "docs/dependency-licenses/3a94b1c7f8d29280-LICENSE.txt",
+        "docs/dependency-licenses/0716d13cd781c452-LICENSE.txt",
+        "docs/dependency-licenses/c403ca0fd1f59b49-LICENSE.txt",
+        "docs/dependency-licenses/97ffa27719a15147-LICENSE.txt",
+        "docs/dependency-licenses/cf0a44529f834988-LICENSE.txt",
+        "docs/dependency-licenses/d2e820aed854314a-LICENSE.txt",
+        "docs/dependency-licenses/5c7269a3d29c8d66-LICENSE.txt",
+        "docs/dependency-licenses/3c6de61ad3e9c9f7-LICENSE.txt",
+        "docs/dependency-licenses/af8c4bbbc12d21d2-LICENSE.txt",
+        "docs/dependency-licenses/0d2674459040e335-LICENSE.txt",
+        "docs/dependency-licenses/f7e80844ae5df2b7-LICENSE.txt",
+        "docs/dependency-licenses/7b40745e010481ab-LICENSE.txt",
+        "docs/dependency-licenses/2f46423b2bd81999-LICENSE.txt",
+        "docs/dependency-licenses/8725298ff5e4b70e-LICENSE.txt",
+        "docs/dependency-licenses/4fb7a1401a208c89-LICENSE.txt",
+        "docs/dependency-licenses/4be90cc32edcd59d-LICENSE.txt",
+        "docs/dependency-licenses/264f3e3aed8f7a0b-LICENSE.txt",
+        "docs/dependency-licenses/aec41b80df22d173-LICENSE.txt",
+        "docs/dependency-licenses/b876cb8b4c0e938f-LICENSE.txt",
+        "docs/dependency-licenses/1603932f38a43b53-LICENSE.txt",
+        "docs/dependency-licenses/f48890be0cd41bff-LICENSE.txt",
+        "docs/dependency-licenses/5c75f2a00d3d13b1-LICENSE.txt",
+        "docs/dependency-licenses/e34d295a4d42c99d-LICENSE.txt",
+        "docs/dependency-licenses/3de19f04bf1337af-LICENSE.txt",
+        "docs/dependency-licenses/03c77115ccff325e-LICENSE.txt",
+        "docs/dependency-licenses/53ce70b7fd3142a0-LICENSE.txt",
+        "docs/dependency-licenses/2f58c3c4b31896e7-LICENSE.txt",
+        "docs/dependency-licenses/69330f649e9b1f32-LICENSE.txt",
+        "docs/dependency-licenses/6f90c81f649f07a3-LICENSE.txt",
+        "docs/dependency-licenses/2f66e7c5e679254c-LICENSE.txt",
+        "docs/dependency-licenses/f6b108d1a8e788d7-LICENSE.txt",
+        "docs/dependency-licenses/0be477b95cefc2e3-LICENSE.txt",
+        "docs/dependency-licenses/5b1dfa89b392747b-LICENSE.txt",
+        "docs/dependency-licenses/449dd1c40a1bf83d-LICENSE.txt",
+        "docs/dependency-licenses/ba249fc006bb00cf-LICENSE.txt",
+        "docs/dependency-licenses/426b15a2e883fa5f-LICENSE.txt",
+        "docs/dependency-licenses/0474c1861a53b99f-LICENSE.txt",
+        "docs/dependency-licenses/7bbef4491775ce44-LICENSE.txt",
+        "docs/dependency-licenses/b6445301573a1312-LICENSE.txt",
+        "docs/dependency-licenses/c2a6fa1ac07da5a8-LICENSE.txt",
+        "docs/dependency-licenses/c8a658cf4d563edb-LICENSE.txt",
+        "docs/dependency-licenses/eec22118d2cbcc96-LICENSE.txt",
+        "docs/dependency-licenses/481d65b1a5305ea2-LICENSE.txt",
+        "docs/dependency-licenses/f627c254122cce02-LICENSE.txt",
+        "docs/dependency-licenses/2a02444bcdc63bc1-LICENSE.txt",
+        "docs/dependency-licenses/5d8d7c935450157a-LICENSE.txt",
+        "docs/dependency-licenses/4dfe37eb35c807de-LICENSE.txt",
+        "docs/dependency-licenses/22d90cd1f102d6e6-LICENSE.txt",
+        "docs/dependency-licenses/378a1d69fcd182c6-LICENSE.txt",
+        "docs/dependency-licenses/297a6e2bf47aa6d3-LICENSE.txt",
+        "docs/dependency-licenses/a8668d26fb4a911a-LICENSE.txt",
+        "docs/dependency-licenses/6bb12044ee4c0b0d-LICENSE.txt",
+        "docs/dependency-licenses/c228e520a3b152cf-LICENSE.txt",
+        "docs/dependency-licenses/c3d2f77e6e034ef6-LICENSE.txt",
+        "docs/dependency-licenses/4724bc6e8302d69c-LICENSE.txt",
+        "docs/dependency-licenses/387fbac5aa2727e2-LICENSE.txt",
+        "docs/dependency-licenses/d135cc601ed33a36-LICENSE.txt",
+        "docs/dependency-licenses/a7647d847ffbb7cd-LICENSE.txt",
+        "docs/dependency-licenses/a39f6c1771fae9b6-LICENSE.txt",
+        "docs/dependency-licenses/774f35f6496e54d5-LICENSE.txt",
+        "docs/dependency-licenses/466213282cec0029-LICENSE.txt",
+        "docs/dependency-licenses/de2297222f8a0978-LICENSE.txt",
+        "docs/dependency-licenses/94348cad3d9a985b-LICENSE.txt",
+        "docs/dependency-licenses/88497f62d1dfe56d-LICENSE.txt",
+        "docs/dependency-licenses/da2f64fe48d0a71d-LICENSE.txt",
+        "docs/dependency-licenses/53e92962c0a09991-LICENSE.txt",
+        "docs/dependency-licenses/39d8038f2832c3cc-LICENSE.txt",
+        "docs/dependency-licenses/148e668d415e9789-LICENSE.txt",
+        "docs/dependency-licenses/e6d4a5ea3f8b0217-LICENSE.txt",
+        "docs/dependency-licenses/617486449d4c0c24-LICENSE.txt",
+        "docs/dependency-licenses/4ee2a18e775e9d3f-LICENSE.txt",
+        "docs/dependency-licenses/a84c2b898065cb23-LICENSE.txt",
+        "docs/dependency-licenses/1c82b76f24485389-LICENSE.txt",
+        "docs/dependency-licenses/f2916a2852a00a37-LICENSE.txt",
+        "docs/dependency-licenses/b367f7a1fa55422a-LICENSE.txt",
+        "docs/dependency-licenses/7e1d3fbc43be3a40-LICENSE.txt",
+        "docs/dependency-licenses/ca2d205d5a432cf4-LICENSE.txt",
+        "docs/dependency-licenses/46aa718b0a4e270a-LICENSE.txt",
+        "docs/dependency-licenses/a7b4d9a76ca516e6-LICENSE.txt",
+        "docs/dependency-licenses/34f413bcc595f722-LICENSE.txt",
+        "docs/dependency-licenses/5c6f1de0c17e4530-LICENSE.txt",
+        "docs/dependency-licenses/0dd90ee41626a822-LICENSE.txt",
+        "docs/dependency-licenses/acdd56b422fd4646-LICENSE.txt",
+        "docs/dependency-licenses/935d3c7a7c1ecc22-LICENSE.txt",
+        "docs/dependency-licenses/a3200739b3a52d2c-LICENSE.txt",
+        "docs/dependency-licenses/069d1b93c78dba4e-LICENSE.txt",
+        "docs/dependency-licenses/558927173f06a86b-LICENSE.txt",
+        "docs/dependency-licenses/41a8456a3fdb6c14-LICENSE.txt",
+        "docs/dependency-licenses/bb0b755b60e43466-LICENSE.txt",
+        "docs/dependency-licenses/22fbe075fe115096-LICENSE.txt",
+        "docs/dependency-licenses/064437c643710fc0-LICENSE.txt",
+        "docs/dependency-licenses/02241b90f66f8451-LICENSE.txt",
+        "docs/dependency-licenses/e687f00e3703399f-LICENSE.txt",
+        "docs/dependency-licenses/14c6ddfc1f570b01-LICENSE.txt",
+        "docs/dependency-licenses/e9f979b81addf152-LICENSE.txt",
+        "docs/dependency-licenses/eca54e2aa4553495-LICENSE.txt",
+        "docs/dependency-licenses/872bcda9b1620c63-LICENSE.txt",
+        "docs/dependency-licenses/3ea655dfe8da4252-LICENSE.txt",
+        "docs/dependency-licenses/7d27318236a6c994-LICENSE.txt",
+        "docs/dependency-licenses/57cfaaeabb8ea105-LICENSE.txt",
+        "docs/dependency-licenses/7a8716ea4dd42146-LICENSE.txt",
+        "docs/dependency-licenses/01b70aab2cd8dc88-LICENSE.txt",
+        "docs/dependency-licenses/adac0b0e5aef59e3-LICENSE.txt",
+        "docs/dependency-licenses/2802701be827f744-LICENSE.txt",
+        "docs/dependency-licenses/a28fce8de117068e-LICENSE.txt",
+        "docs/dependency-licenses/ca97cf3ceb5cadd8-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "node-releases",
+      "version": "2.0.59",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/5fb236d73c1f4212-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "obug",
+      "version": "3.0.0",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/fe88769bc2a631e5-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "optionator",
+      "version": "0.9.4",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/d33488c2ddba2e99-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "p-limit",
+      "version": "3.1.0",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/01f3eb82e9182ae1-license.txt"
+      ]
+    },
+    {
+      "name": "p-locate",
+      "version": "5.0.0",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/72b6bdc8dd13632e-license.txt"
+      ]
+    },
+    {
+      "name": "parent-module",
+      "version": "1.0.1",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/c61aa329e00c4e28-license.txt"
+      ]
+    },
+    {
+      "name": "parse5",
+      "version": "8.0.1",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/9ede2ef3025a814e-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "path-exists",
+      "version": "4.0.0",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/1db4e53e5a2e60a0-license.txt"
+      ]
+    },
+    {
+      "name": "path-key",
+      "version": "3.1.1",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/d68ee901e48a90a8-license.txt"
+      ]
+    },
+    {
+      "name": "picocolors",
+      "version": "1.1.1",
+      "license": "ISC",
+      "developmentOnly": false,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/5f0bb3d1b4ddd387-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "playwright",
+      "version": "1.64.1",
+      "license": "Apache-2.0",
+      "developmentOnly": false,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/5abcdde76cb52348-LICENSE.txt",
+        "docs/dependency-licenses/7690761a2e29a6fd-NOTICE.txt"
+      ]
+    },
+    {
+      "name": "playwright-core",
+      "version": "1.64.1",
+      "license": "Apache-2.0",
+      "developmentOnly": false,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/b54f554d70cfb25d-LICENSE.txt",
+        "docs/dependency-licenses/25ad52666f5583bd-NOTICE.txt"
+      ]
+    },
+    {
+      "name": "postcss",
+      "version": "8.5.23",
+      "license": "MIT",
+      "developmentOnly": false,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/789e0c6444ac1464-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "prelude-ls",
+      "version": "1.2.1",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/0d369e792c72bf79-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "prettier",
+      "version": "3.9.10",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/8e7efc0ad91948ea-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "pretty-format",
+      "version": "27.5.1",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/ae3d8e8d96f3f458-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "ansi-styles",
+      "version": "5.2.0",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/199366fd3004e49f-license.txt"
+      ]
+    },
+    {
+      "name": "punycode",
+      "version": "2.3.1",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/2b55330920150295-LICENSE-MIT.txt.txt"
+      ]
+    },
+    {
+      "name": "qified",
+      "version": "0.10.1",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/bda4c804eb345b94-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "hookified",
+      "version": "2.2.0",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/6dd11b0b2ad7635e-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "react",
+      "version": "19.3.1",
+      "license": "MIT",
+      "developmentOnly": false,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/9e738d52a52e70a2-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "react-dom",
+      "version": "19.3.1",
+      "license": "MIT",
+      "developmentOnly": false,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/cf1de2ecd6a55ee5-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "react-is",
+      "version": "17.0.2",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/629e431874a0f3c3-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "redent",
+      "version": "3.0.0",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/4e2f8fd2c5378d20-license.txt"
+      ]
+    },
+    {
+      "name": "require-from-string",
+      "version": "2.0.2",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/1451e2d9d4530d5b-license.txt"
+      ]
+    },
+    {
+      "name": "resolve-from",
+      "version": "4.0.0",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/e93ff70a7848cba2-license.txt"
+      ]
+    },
+    {
+      "name": "rolldown",
+      "version": "1.2.14",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/1739e5c8b5874450-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "saxes",
+      "version": "6.0.0",
+      "license": "ISC",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": []
+    },
+    {
+      "name": "scheduler",
+      "version": "0.28.0",
+      "license": "MIT",
+      "developmentOnly": false,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/62bb2cb3cd0b876e-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "semver",
+      "version": "6.3.1",
+      "license": "ISC",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/429a59a571441d37-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "server-only",
+      "version": "0.0.1",
+      "license": "MIT",
+      "developmentOnly": false,
+      "installedHere": true,
+      "notices": []
+    },
+    {
+      "name": "sharp",
+      "version": "0.35.5",
+      "license": "Apache-2.0",
+      "developmentOnly": false,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/64ff042b24c8e383-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "semver",
+      "version": "7.8.5",
+      "license": "ISC",
+      "developmentOnly": false,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/df5b4de79ba558cd-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "shebang-command",
+      "version": "2.0.0",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/8c9d158a4f5922f3-license.txt"
+      ]
+    },
+    {
+      "name": "shebang-regex",
+      "version": "3.0.0",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/565d58a213e69140-license.txt"
+      ]
+    },
+    {
+      "name": "source-map-js",
+      "version": "1.2.2",
+      "license": "BSD-3-Clause",
+      "developmentOnly": false,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/c1b6417f5c41be85-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "std-env",
+      "version": "4.3.0",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/18616265067f20a9-LICENCE.txt"
+      ]
+    },
+    {
+      "name": "strip-indent",
+      "version": "3.0.0",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/e7df4ac7a1056856-license.txt"
+      ]
+    },
+    {
+      "name": "strip-json-comments",
+      "version": "3.1.1",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/a9161a835dc64acf-license.txt"
+      ]
+    },
+    {
+      "name": "styled-jsx",
+      "version": "5.1.6",
+      "license": "MIT",
+      "developmentOnly": false,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/dbc0f6dfc3c6c840-license.md.txt"
+      ]
+    },
+    {
+      "name": "supports-color",
+      "version": "7.2.0",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/0f336b7b7f1ed959-license.txt"
+      ]
+    },
+    {
+      "name": "tinybench",
+      "version": "6.2.2",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/7845403f10019251-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "tinyexec",
+      "version": "1.3.1",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/b1bff029d2b0960e-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "tinyglobby",
+      "version": "0.2.17",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/3c5409314ce9cb15-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "fdir",
+      "version": "6.5.0",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/87719372a511721a-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "picomatch",
+      "version": "4.0.7",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/d60d92959873ed6e-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "tldts",
+      "version": "7.4.19",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/a1d66499048e8e9b-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "tldts-core",
+      "version": "7.4.19",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/9c6722e4f99bcb09-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "tough-cookie",
+      "version": "6.0.2",
+      "license": "BSD-3-Clause",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/df53abc2d1af1c3e-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "tr46",
+      "version": "7.0.0",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/7554bc28ef1612ed-LICENSE.md.txt"
+      ]
+    },
+    {
+      "name": "ts-api-utils",
+      "version": "2.5.0",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/fb5ae9071a411e15-LICENSE.md.txt"
+      ]
+    },
+    {
+      "name": "tslib",
+      "version": "2.8.1",
+      "license": "0BSD",
+      "developmentOnly": false,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/cdab3b79189bec4e-CopyrightNotice.txt.txt",
+        "docs/dependency-licenses/36d441ccd66efa01-LICENSE.txt.txt"
+      ]
+    },
+    {
+      "name": "type-check",
+      "version": "0.4.0",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/5ed6b5797657d15f-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "typescript",
+      "version": "5.9.3",
+      "license": "Apache-2.0",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/b13d6bf3741dab29-LICENSE.txt.txt"
+      ]
+    },
+    {
+      "name": "typescript-eslint",
+      "version": "8.72.0",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/9f0ee51cc98f2348-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "undici",
+      "version": "8.12.3",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/eb77993aa6cd94f2-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "undici-types",
+      "version": "7.16.0",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/f86aef21d800392c-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "update-browserslist-db",
+      "version": "1.3.4",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/1d1bf2a2eb109478-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "uri-js",
+      "version": "4.4.1",
+      "license": "BSD-2-Clause",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/02ffaed01b49419a-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "vite",
+      "version": "8.3.4",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/e9ace35cd9164d96-LICENSE.md.txt"
+      ]
+    },
+    {
+      "name": "picomatch",
+      "version": "4.0.7",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/bfc1e2c89884d428-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "postcss",
+      "version": "8.5.31",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/f5608dfa4df048c3-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "vitest",
+      "version": "5.0.5",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/1c5d31d316af0839-LICENSE.md.txt"
+      ]
+    },
+    {
+      "name": "picomatch",
+      "version": "4.0.7",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/b9f389a9a14be32b-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "w3c-xmlserializer",
+      "version": "6.0.0",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/37021aa056bd0814-LICENSE.md.txt"
+      ]
+    },
+    {
+      "name": "webidl-conversions",
+      "version": "8.0.1",
+      "license": "BSD-2-Clause",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/c059b87ed4736271-LICENSE.md.txt"
+      ]
+    },
+    {
+      "name": "whatwg-mimetype",
+      "version": "5.0.0",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/70f7d6da9ec35ef6-LICENSE.txt.txt"
+      ]
+    },
+    {
+      "name": "whatwg-url",
+      "version": "17.3.0",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/6a2b3c7ba11d8e8b-LICENSE.txt.txt"
+      ]
+    },
+    {
+      "name": "which",
+      "version": "2.0.2",
+      "license": "ISC",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/50b2bf90b2fcf342-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "why-is-node-running",
+      "version": "3.2.1",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/5fe4b2ee1cf806b7-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "word-wrap",
+      "version": "1.2.5",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/fa91cc52fe86668c-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "xml-name-validator",
+      "version": "5.0.0",
+      "license": "Apache-2.0",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/60879c501eebace9-LICENSE.txt.txt"
+      ]
+    },
+    {
+      "name": "xmlchars",
+      "version": "2.2.0",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/43a9da627a1125bc-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "yallist",
+      "version": "3.1.1",
+      "license": "ISC",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/f669cf0f3d142906-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "yocto-queue",
+      "version": "0.1.0",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/431d2534eb23b6f0-license.txt"
+      ]
+    },
+    {
+      "name": "zod",
+      "version": "4.3.6",
+      "license": "MIT",
+      "developmentOnly": false,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/18d7db0dc8e2171a-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "zod-validation-error",
+      "version": "4.0.2",
+      "license": "MIT",
+      "developmentOnly": true,
+      "installedHere": true,
+      "notices": [
+        "docs/dependency-licenses/29fb3d6a824ba6be-LICENSE.txt"
+      ]
+    }
+  ],
+  "python": [
+    {
+      "name": "anyio",
+      "version": "4.15.1",
+      "license": "MIT",
+      "notices": [
+        "docs/dependency-licenses/461022f5efc79b7a-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "blinker",
+      "version": "1.9.0",
+      "license": "License :: OSI Approved :: MIT License",
+      "notices": [
+        "docs/dependency-licenses/3ff29037ab215b94-LICENSE.txt.txt"
+      ]
+    },
+    {
+      "name": "boolean.py",
+      "version": "5.0",
+      "license": "BSD-2-Clause",
+      "notices": [
+        "docs/dependency-licenses/f6f9742f72915e4f-LICENSE.txt.txt"
+      ]
+    },
+    {
+      "name": "build",
+      "version": "1.6.1",
+      "license": "MIT",
+      "notices": [
+        "docs/dependency-licenses/d5214abb0d30c1d0-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "CacheControl",
+      "version": "0.14.4",
+      "license": "Apache-2.0",
+      "notices": [
+        "docs/dependency-licenses/ad24edbca23166a4-LICENSE.txt.txt"
+      ]
+    },
+    {
+      "name": "certifi",
+      "version": "2026.10.19",
+      "license": "MPL-2.0",
+      "notices": [
+        "docs/dependency-licenses/141f2b7f3500b0fd-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "charset-normalizer",
+      "version": "3.5.2",
+      "license": "MIT",
+      "notices": [
+        "docs/dependency-licenses/6acaa868b7f4dd59-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "click",
+      "version": "8.5.0",
+      "license": "BSD-3-Clause",
+      "notices": [
+        "docs/dependency-licenses/f6d44aeeefc915df-LICENSE.txt.txt"
+      ]
+    },
+    {
+      "name": "colorama",
+      "version": "0.4.6",
+      "license": "License :: OSI Approved :: BSD License",
+      "notices": [
+        "docs/dependency-licenses/c819118a3bd66329-LICENSE.txt.txt"
+      ]
+    },
+    {
+      "name": "cyclonedx-python-lib",
+      "version": "11.12.0",
+      "license": "Apache-2.0",
+      "notices": [
+        "docs/dependency-licenses/c4f55b3987619725-LICENSE.txt",
+        "docs/dependency-licenses/4c7df6e5b778c482-NOTICE.txt"
+      ]
+    },
+    {
+      "name": "defusedxml",
+      "version": "0.7.1",
+      "license": "PSFL",
+      "notices": [
+        "docs/dependency-licenses/7c13532a0c31d448-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "filelock",
+      "version": "4.2.4",
+      "license": "MIT",
+      "notices": [
+        "docs/dependency-licenses/51ba4b37fd1e33dc-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "Flask",
+      "version": "3.1.3",
+      "license": "BSD-3-Clause",
+      "notices": [
+        "docs/dependency-licenses/95cd2c43e8b39cd6-LICENSE.txt.txt"
+      ]
+    },
+    {
+      "name": "h11",
+      "version": "0.16.0",
+      "license": "MIT",
+      "notices": [
+        "docs/dependency-licenses/e24defc2d82bbd40-LICENSE.txt.txt"
+      ]
+    },
+    {
+      "name": "httpcore",
+      "version": "1.0.9",
+      "license": "BSD-3-Clause",
+      "notices": [
+        "docs/dependency-licenses/fa22288d75bc0b45-LICENSE.md.txt"
+      ]
+    },
+    {
+      "name": "httpx",
+      "version": "0.28.1",
+      "license": "BSD-3-Clause",
+      "notices": [
+        "docs/dependency-licenses/eebf6f5c1addd27f-LICENSE.md.txt"
+      ]
+    },
+    {
+      "name": "idna",
+      "version": "3.20",
+      "license": "BSD-3-Clause",
+      "notices": [
+        "docs/dependency-licenses/a35015edf1cb3a39-LICENSE.md.txt"
+      ]
+    },
+    {
+      "name": "iniconfig",
+      "version": "2.3.1",
+      "license": "MIT",
+      "notices": [
+        "docs/dependency-licenses/fdeec0eba81eb437-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "itsdangerous",
+      "version": "2.2.0",
+      "license": "License :: OSI Approved :: BSD License",
+      "notices": [
+        "docs/dependency-licenses/5148b4f831d95166-LICENSE.txt.txt"
+      ]
+    },
+    {
+      "name": "Jinja2",
+      "version": "3.1.6",
+      "license": "License :: OSI Approved :: BSD License",
+      "notices": [
+        "docs/dependency-licenses/cc8331d991667e60-LICENSE.txt.txt"
+      ]
+    },
+    {
+      "name": "license-expression",
+      "version": "30.4.4",
+      "license": "Apache-2.0",
+      "notices": [
+        "docs/dependency-licenses/90f66cfecc6076bb-NOTICE.txt"
+      ]
+    },
+    {
+      "name": "markdown-it-py",
+      "version": "4.2.0",
+      "license": "License :: OSI Approved :: MIT License",
+      "notices": [
+        "docs/dependency-licenses/c395b283e0f01550-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "MarkupSafe",
+      "version": "3.0.4",
+      "license": "BSD-3-Clause",
+      "notices": [
+        "docs/dependency-licenses/d1d4dead548b6a43-LICENSE.txt.txt"
+      ]
+    },
+    {
+      "name": "mdurl",
+      "version": "0.1.2",
+      "license": "License :: OSI Approved :: MIT License",
+      "notices": [
+        "docs/dependency-licenses/ff76de03909d0e64-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "msgpack",
+      "version": "1.2.3",
+      "license": "Apache-2.0",
+      "notices": [
+        "docs/dependency-licenses/7008560ae6039c7b-COPYING.txt"
+      ]
+    },
+    {
+      "name": "packageurl-python",
+      "version": "0.17.6",
+      "license": "MIT",
+      "notices": []
+    },
+    {
+      "name": "packaging",
+      "version": "26.3",
+      "license": "Apache-2.0 OR BSD-2-Clause",
+      "notices": [
+        "docs/dependency-licenses/659e55b78b9a2fd8-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "pip",
+      "version": "26.2.2",
+      "license": "MIT",
+      "notices": [
+        "docs/dependency-licenses/e1d9eccfb02c9003-LICENSE.txt.txt",
+        "docs/dependency-licenses/d96e27b859a4f60b-LICENSE.txt.txt",
+        "docs/dependency-licenses/db0ef69a80a1df0e-LICENSE.txt",
+        "docs/dependency-licenses/421cc26f0697751b-LICENSE.txt.txt",
+        "docs/dependency-licenses/c151d8b29b541802-LICENSE.txt",
+        "docs/dependency-licenses/8934f2984354a718-LICENSE.md.txt",
+        "docs/dependency-licenses/3e9a8c81e6365855-COPYING.txt",
+        "docs/dependency-licenses/27e8c1a609a73126-LICENSE.txt",
+        "docs/dependency-licenses/49ca6049aa475846-LICENSE.txt",
+        "docs/dependency-licenses/aef5c040c1f0fe62-LICENSE.txt",
+        "docs/dependency-licenses/490089d24da0717b-LICENSE.txt",
+        "docs/dependency-licenses/cb51f609bb890281-LICENSE.txt",
+        "docs/dependency-licenses/041512bd76a4fe4b-LICENSE.txt",
+        "docs/dependency-licenses/81a2c4b237d4eba6-LICENSE.txt",
+        "docs/dependency-licenses/c8f0a13212b07530-LICENSE.txt",
+        "docs/dependency-licenses/539e6d4b5006989b-LICENSE.txt",
+        "docs/dependency-licenses/916284347215b06a-LICENSE.txt",
+        "docs/dependency-licenses/212f44f1c3732331-LICENSE.txt",
+        "docs/dependency-licenses/089e964976575a1a-LICENSE.txt.txt",
+        "docs/dependency-licenses/8fb10ddc75177123-LICENSE.txt.txt",
+        "docs/dependency-licenses/6a691a9d1f619f4c-LICENSE.txt",
+        "docs/dependency-licenses/616ca9d2192bdd9a-LICENSE.txt.txt",
+        "docs/dependency-licenses/b881ff529c56f2ee-LICENSE.txt",
+        "docs/dependency-licenses/43826f253f24bea9-LICENSE.md.txt",
+        "docs/dependency-licenses/fe8778a151ba03e1-COPYING.txt",
+        "docs/dependency-licenses/9451b2f7ace32449-LICENSE.txt",
+        "docs/dependency-licenses/041eca6073f9e6e3-LICENSE.txt",
+        "docs/dependency-licenses/ab1eb45a5059a44f-LICENSE.txt",
+        "docs/dependency-licenses/60137b3c90fad1df-LICENSE.txt",
+        "docs/dependency-licenses/fb238331f22619f7-LICENSE.txt",
+        "docs/dependency-licenses/39c1c00c2f235458-LICENSE.txt",
+        "docs/dependency-licenses/213f7cfc228cff9b-LICENSE.txt",
+        "docs/dependency-licenses/a7a97ab08ec6aee4-LICENSE.txt",
+        "docs/dependency-licenses/4895db046624a0a5-LICENSE.txt",
+        "docs/dependency-licenses/bf594c35cbddcf9f-LICENSE.txt",
+        "docs/dependency-licenses/530f8b1d95098d44-LICENSE.txt",
+        "docs/dependency-licenses/8029892ca51cbe8b-LICENSE.txt.txt"
+      ]
+    },
+    {
+      "name": "pip_api",
+      "version": "0.0.35",
+      "license": "Apache License\n                        Version 2.0, January 2004\n                     https://www.apache.org/licenses/\n\nTERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION\n\n1. Definitions.\n\n   \"License\" shall mean the terms and conditions for use, reproduction,\n   and distribution as defined by Sections 1 through 9 of this document.\n\n   \"Licensor\" shall mean the copyright owner or entity authorized by\n   the copyright owner that is granting the License.\n\n   \"Legal Entity\" shall mean the union of the acting entity and all\n   other entities that control, are controlled by, or are under common\n   control with that entity. For the purposes of this definition,\n   \"control\" means (i) the power, direct or indirect, to cause the\n   direction or management of such entity, whether by contract or\n   otherwise, or (ii) ownership of fifty percent (50%) or more of the\n   outstanding shares, or (iii) beneficial ownership of such entity.\n\n   \"You\" (or \"Your\") shall mean an individual or Legal Entity\n   exercising permissions granted by this License.\n\n   \"Source\" form shall mean the preferred form for making modifications,\n   including but not limited to software source code, documentation\n   source, and configuration files.\n\n   \"Object\" form shall mean any form resulting from mechanical\n   transformation or translation of a Source form, including but\n   not limited to compiled object code, generated documentation,\n   and conversions to other media types.\n\n   \"Work\" shall mean the work of authorship, whether in Source or\n   Object form, made available under the License, as indicated by a\n   copyright notice that is included in or attached to the work\n   (an example is provided in the Appendix below).\n\n   \"Derivative Works\" shall mean any work, whether in Source or Object\n   form, that is based on (or derived from) the Work and for which the\n   editorial revisions, annotations, elaborations, or other modifications\n   represent, as a whole, an original work of authorship. For the purposes\n   of this License, Derivative Works shall not include works that remain\n   separable from, or merely link (or bind by name) to the interfaces of,\n   the Work and Derivative Works thereof.\n\n   \"Contribution\" shall mean any work of authorship, including\n   the original version of the Work and any modifications or additions\n   to that Work or Derivative Works thereof, that is intentionally\n   submitted to Licensor for inclusion in the Work by the copyright owner\n   or by an individual or Legal Entity authorized to submit on behalf of\n   the copyright owner. For the purposes of this definition, \"submitted\"\n   means any form of electronic, verbal, or written communication sent\n   to the Licensor or its representatives, including but not limited to\n   communication on electronic mailing lists, source code control systems,\n   and issue tracking systems that are managed by, or on behalf of, the\n   Licensor for the purpose of discussing and improving the Work, but\n   excluding communication that is conspicuously marked or otherwise\n   designated in writing by the copyright owner as \"Not a Contribution.\"\n\n   \"Contributor\" shall mean Licensor and any individual or Legal Entity\n   on behalf of whom a Contribution has been received by Licensor and\n   subsequently incorporated within the Work.\n\n2. Grant of Copyright License. Subject to the terms and conditions of\n   this License, each Contributor hereby grants to You a perpetual,\n   worldwide, non-exclusive, no-charge, royalty-free, irrevocable\n   copyright license to reproduce, prepare Derivative Works of,\n   publicly display, publicly perform, sublicense, and distribute the\n   Work and such Derivative Works in Source or Object form.\n\n3. Grant of Patent License. Subject to the terms and conditions of\n   this License, each Contributor hereby grants to You a perpetual,\n   worldwide, non-exclusive, no-charge, royalty-free, irrevocable\n   (except as stated in this section) patent license to make, have made,\n   use, offer to sell, sell, import, and otherwise transfer the Work,\n   where such license applies only to those patent claims licensable\n   by such Contributor that are necessarily infringed by their\n   Contribution(s) alone or by combination of their Contribution(s)\n   with the Work to which such Contribution(s) was submitted. If You\n   institute patent litigation against any entity (including a\n   cross-claim or counterclaim in a lawsuit) alleging that the Work\n   or a Contribution incorporated within the Work constitutes direct\n   or contributory patent infringement, then any patent licenses\n   granted to You under this License for that Work shall terminate\n   as of the date such litigation is filed.\n\n4. Redistribution. You may reproduce and distribute copies of the\n   Work or Derivative Works thereof in any medium, with or without\n   modifications, and in Source or Object form, provided that You\n   meet the following conditions:\n\n   (a) You must give any other recipients of the Work or\n       Derivative Works a copy of this License; and\n\n   (b) You must cause any modified files to carry prominent notices\n       stating that You changed the files; and\n\n   (c) You must retain, in the Source form of any Derivative Works\n       that You distribute, all copyright, patent, trademark, and\n       attribution notices from the Source form of the Work,\n       excluding those notices that do not pertain to any part of\n       the Derivative Works; and\n\n   (d) If the Work includes a \"NOTICE\" text file as part of its\n       distribution, then any Derivative Works that You distribute must\n       include a readable copy of the attribution notices contained\n       within such NOTICE file, excluding those notices that do not\n       pertain to any part of the Derivative Works, in at least one\n       of the following places: within a NOTICE text file distributed\n       as part of the Derivative Works; within the Source form or\n       documentation, if provided along with the Derivative Works; or,\n       within a display generated by the Derivative Works, if and\n       wherever such third-party notices normally appear. The contents\n       of the NOTICE file are for informational purposes only and\n       do not modify the License. You may add Your own attribution\n       notices within Derivative Works that You distribute, alongside\n       or as an addendum to the NOTICE text from the Work, provided\n       that such additional attribution notices cannot be construed\n       as modifying the License.\n\n   You may add Your own copyright statement to Your modifications and\n   may provide additional or different license terms and conditions\n   for use, reproduction, or distribution of Your modifications, or\n   for any such Derivative Works as a whole, provided Your use,\n   reproduction, and distribution of the Work otherwise complies with\n   the conditions stated in this License.\n\n5. Submission of Contributions. Unless You explicitly state otherwise,\n   any Contribution intentionally submitted for inclusion in the Work\n   by You to the Licensor shall be under the terms and conditions of\n   this License, without any additional terms or conditions.\n   Notwithstanding the above, nothing herein shall supersede or modify\n   the terms of any separate license agreement you may have executed\n   with Licensor regarding such Contributions.\n\n6. Trademarks. This License does not grant permission to use the trade\n   names, trademarks, service marks, or product names of the Licensor,\n   except as required for reasonable and customary use in describing the\n   origin of the Work and reproducing the content of the NOTICE file.\n\n7. Disclaimer of Warranty. Unless required by applicable law or\n   agreed to in writing, Licensor provides the Work (and each\n   Contributor provides its Contributions) on an \"AS IS\" BASIS,\n   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or\n   implied, including, without limitation, any warranties or conditions\n   of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A\n   PARTICULAR PURPOSE. You are solely responsible for determining the\n   appropriateness of using or redistributing the Work and assume any\n   risks associated with Your exercise of permissions under this License.\n\n8. Limitation of Liability. In no event and under no legal theory,\n   whether in tort (including negligence), contract, or otherwise,\n   unless required by applicable law (such as deliberate and grossly\n   negligent acts) or agreed to in writing, shall any Contributor be\n   liable to You for damages, including any direct, indirect, special,\n   incidental, or consequential damages of any character arising as a\n   result of this License or out of the use or inability to use the\n   Work (including but not limited to damages for loss of goodwill,\n   work stoppage, computer failure or malfunction, or any and all\n   other commercial damages or losses), even if such Contributor\n   has been advised of the possibility of such damages.\n\n9. Accepting Warranty or Additional Liability. While redistributing\n   the Work or Derivative Works thereof, You may choose to offer,\n   and charge a fee for, acceptance of support, warranty, indemnity,\n   or other liability obligations and/or rights consistent with this\n   License. However, in accepting such obligations, You may act only\n   on Your own behalf and on Your sole responsibility, not on behalf\n   of any other Contributor, and only if You agree to indemnify,\n   defend, and hold each Contributor harmless for any liability\n   incurred by, or claims asserted against, such Contributor by reason\n   of your accepting any such warranty or additional liability.\n",
+      "notices": [
+        "docs/dependency-licenses/fc64a8aa7a5ea997-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "pip_audit",
+      "version": "2.10.1",
+      "license": "License :: OSI Approved :: Apache Software License",
+      "notices": [
+        "docs/dependency-licenses/2a23453a73de9fec-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "pip-licenses",
+      "version": "5.5.5",
+      "license": "MIT",
+      "notices": [
+        "docs/dependency-licenses/ba6abae5cf8e45b9-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "pip-requirements-parser",
+      "version": "32.0.1",
+      "license": "MIT",
+      "notices": []
+    },
+    {
+      "name": "platformdirs",
+      "version": "4.13.5",
+      "license": "MIT",
+      "notices": [
+        "docs/dependency-licenses/cae864f469dd5be3-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "pluggy",
+      "version": "1.7.0",
+      "license": "MIT",
+      "notices": [
+        "docs/dependency-licenses/c6ef7302bf3512f1-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "prettytable",
+      "version": "3.18.0",
+      "license": "BSD-3-Clause",
+      "notices": [
+        "docs/dependency-licenses/624bfc18fa906b47-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "Pygments",
+      "version": "2.21.0",
+      "license": "BSD-2-Clause",
+      "notices": [
+        "docs/dependency-licenses/77da3e17633fda49-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "pyparsing",
+      "version": "3.3.3",
+      "license": "MIT",
+      "notices": [
+        "docs/dependency-licenses/98b436d070d41fe1-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "pyproject_hooks",
+      "version": "1.3.3",
+      "license": "MIT",
+      "notices": [
+        "docs/dependency-licenses/9bb440e7e3b26d01-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "pytest",
+      "version": "9.1.1",
+      "license": "MIT",
+      "notices": [
+        "docs/dependency-licenses/4447330b1468fd79-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "python-dotenv",
+      "version": "1.2.4",
+      "license": "BSD-3-Clause",
+      "notices": [
+        "docs/dependency-licenses/723663e1d98a6d63-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "PyYAML",
+      "version": "6.0.3",
+      "license": "MIT",
+      "notices": [
+        "docs/dependency-licenses/cbc8ce1fa7e07c16-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "py-serializable",
+      "version": "2.1.0",
+      "license": "Apache-2.0",
+      "notices": [
+        "docs/dependency-licenses/463226c09d65c656-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "requests",
+      "version": "2.34.2",
+      "license": "Apache-2.0",
+      "notices": [
+        "docs/dependency-licenses/d8da4f49f8193ecb-LICENSE.txt",
+        "docs/dependency-licenses/6acdaa44b5e0c03c-NOTICE.txt"
+      ]
+    },
+    {
+      "name": "rich",
+      "version": "15.0.0",
+      "license": "MIT",
+      "notices": [
+        "docs/dependency-licenses/e2bbfc5e75850446-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "ruff",
+      "version": "0.17.1",
+      "license": "MIT",
+      "notices": [
+        "docs/dependency-licenses/1110d533cbceb99a-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "sortedcontainers",
+      "version": "2.4.0",
+      "license": "Apache 2.0",
+      "notices": [
+        "docs/dependency-licenses/e79401460add156d-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "tomli",
+      "version": "2.5.0",
+      "license": "MIT",
+      "notices": [
+        "docs/dependency-licenses/03bea9f24a964033-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "tomli_w",
+      "version": "1.2.0",
+      "license": "License :: OSI Approved :: MIT License",
+      "notices": [
+        "docs/dependency-licenses/4fbd4cd7313fe9cc-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "typing_extensions",
+      "version": "4.16.0",
+      "license": "PSF-2.0",
+      "notices": [
+        "docs/dependency-licenses/76b4f11cc8e0f7f2-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "urllib3",
+      "version": "2.8.0",
+      "license": "MIT",
+      "notices": [
+        "docs/dependency-licenses/83f4f99fd6385f8d-LICENSE.txt.txt"
+      ]
+    },
+    {
+      "name": "vaderSentiment",
+      "version": "3.3.2",
+      "license": "MIT License",
+      "notices": [
+        "docs/dependency-licenses/ce6fe954425ef3c5-LICENSE.txt.txt"
+      ]
+    },
+    {
+      "name": "waitress",
+      "version": "3.0.2",
+      "license": "ZPL 2.1",
+      "notices": [
+        "docs/dependency-licenses/abd5ae2029ec0676-LICENSE.txt.txt"
+      ]
+    },
+    {
+      "name": "wcwidth",
+      "version": "0.9.3",
+      "license": "License :: OSI Approved :: MIT License",
+      "notices": [
+        "docs/dependency-licenses/2c4f1e7dd0325ca9-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "Werkzeug",
+      "version": "3.1.9",
+      "license": "BSD-3-Clause",
+      "notices": [
+        "docs/dependency-licenses/d6a3e2c212ed3df9-LICENSE.txt.txt"
+      ]
+    },
+    {
+      "name": "youtube-transcript-api",
+      "version": "1.2.4",
+      "license": "MIT",
+      "notices": [
+        "docs/dependency-licenses/0e784255aba7102e-LICENSE.txt"
+      ]
+    }
+  ]
+}

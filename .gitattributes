@@ -1,0 +1,2 @@
+* text=auto
+docs/dependency-licenses/** -text -whitespace

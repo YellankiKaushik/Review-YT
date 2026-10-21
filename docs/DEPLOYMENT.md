@@ -1,6 +1,6 @@
 # Gated publication and hosting procedure
 
-**Current state: maintainer rights/license decision recorded (MIT, 2026-10-21).** See FINAL_PUBLICATION_RIGHTS_CHECKLIST.md for the actual declaration and exceptions, and GITHUB_PUBLICATION_REPORT.md for current verification/publication outcomes. Never force-push or substitute historical source. Recheck the destination immediately before a normal push. **The current task must not create Render or Vercel resources: the maintainer handles both dashboards and production secret entry.** The hosting instructions below are a manual handoff after source publication, not authorization for this agent to provision resources.
+**Current state: maintainer rights/license decision recorded (MIT, 2026-10-21).** See FINAL_PUBLICATION_RIGHTS_CHECKLIST.md for the actual declaration and exceptions, and GITHUB_PUBLICATION_REPORT.md for current verification/publication outcomes. Never force-push or substitute historical source. The initial source release is now published normally; exact SHA/CI evidence is in GITHUB_PUBLICATION_REPORT.md. The empty-repository procedure below records that initial operation; do not repeat remote creation or overwrite existing refs. Use normal reviewed fast-forward pushes for later changes. **The current task must not create Render or Vercel resources: the maintainer handles both dashboards and production secret entry.** The hosting instructions below are a manual handoff after source publication, not authorization for this agent to provision resources.
 
 ## Non-destructive GitHub publication after rights clearance
 
@@ -18,7 +18,7 @@ git push --dry-run origin main
 git push -u origin main
 ```
 
-Never change an existing remote silently; verify it first. Use GitHub's existing authenticated credential manager or `gh auth login` if required. Do not paste tokens in shell commands/chat. Confirm the remote main SHA equals local HEAD, inspect the remote tree, and verify the new offline GitHub Actions run. Fix actual CI failures before a release tag. No tag or remote run is claimed now.
+Never change an existing remote silently; verify it first. Use GitHub's existing authenticated credential manager or `gh auth login` if required. Do not paste tokens in shell commands/chat. Confirm the remote main SHA equals local HEAD, inspect the remote tree, and verify the new offline GitHub Actions run. Fix actual CI failures before a release tag. Actual verified publication and Actions evidence is in GITHUB_PUBLICATION_REPORT.md; no release tag was created.
 
 ## Render: new dedicated free API
 

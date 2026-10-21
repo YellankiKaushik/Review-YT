@@ -40,9 +40,30 @@ Project secret scan: 605 source/report/notice files, 25 browser artifacts, 27 ap
 
 ## Publication execution
 
-READY FOR SAFE PUSH. The MIT-scoped release passed local checks and no concrete included-source rights blocker is identified. Final inventory/whitespace/secret checks, local release commit, immediate destination recheck, noninteractive credential-manager dry-run and normal push are next. No remote commit or Actions success is claimed yet. An authentication/permission failure must be documented rather than bypassed. No force-push, history rewrite or artificial contributions.
+**PUBLISHED AND CI VERIFIED.** The existing destination was immediately rechecked empty with `git ls-remote` before adding `origin`. The existing Git credential manager authenticated noninteractively as the maintainer; author email `kaushikyellanki@gmail.com` matched the connected GitHub account. No email-verified status is asserted. Dry-run passed, then `git push -u origin main` completed normally. No force-push, history rewrite, tag, synthetic source commit or package upload occurred.
 
+- Repository: [YellankiKaushik/Review-YT](https://github.com/YellankiKaushik/Review-YT), public, default branch main; GitHub detects **MIT**.
+- Verified release commit: [`99950321ff6f51bb519c2e5c700bb7c058b011e5`](https://github.com/YellankiKaushik/Review-YT/commit/99950321ff6f51bb519c2e5c700bb7c058b011e5).
+- Git remote refs and GitHub branch API matched local HEAD exactly at release publication. Verified root tree: `4405c87e815ca00b480feb1cd7c56af30da93061`; API returned 605 files, untruncated, including all 502 retained upstream legal texts, with no private/runtime paths.
+- Anonymous HTTPS retrieval of the commit-pinned root LICENSE returned **HTTP 200**, byte-identical to the committed MIT text. Postcommit history scan covered **437 reachable blobs**, with zero credential findings. All 604 current inventory records matched (the manifest excludes itself).
+- Actual [GitHub Actions run 39614998251](https://github.com/YellankiKaushik/Review-YT/actions/runs/39614998251), push event, attempt 1, release SHA above: **completed / success**. Ubuntu job 119273546960 took **144 seconds**, from 14:13:45Z to 14:16:09Z on 2026-10-21.
 
-## Hosting boundary
+### Actual Linux CI evidence
 
-No Render or Vercel resources will be created by this task. The maintainer creates eligible free projects and enters production environment variables using docs/RENDER_DEPLOYMENT_HANDOFF.md, docs/VERCEL_DEPLOYMENT_HANDOFF.md and docs/ENVIRONMENT_VARIABLES_CHECKLIST.md after source publication. No paid hosting/inference is authorized. No public app URL is claimed.
+Decoded job logs confirm **137 Python tests passed (1.09 s), 44 frontend tests passed (2.21 s), and 14 browser tests passed (44.3 s)**: 195 total, separately from the local Windows results. Ruff, frontend lint/types, production Next build, independent wheel/sdist build, npm audit, Python audit, release-configuration check and secret scan all passed. npm reported zero vulnerabilities; Python reported no known vulnerabilities. CI scanned 605 source files and 23 browser artifacts with zero findings; it had no configured private application credentials, so the separate local scan against real private values remains relevant. Tests used injected fixtures, not live account quotas.
+
+This report is an evidence follow-up to the tested release commit. A subsequent documentation-only commit records these already verified results and refreshed source hashes. It does not change the implementation, dependencies or license grant. The final documentation commit is checked/pushed normally and its latest Actions result can be inspected on [the main workflow page](https://github.com/YellankiKaushik/Review-YT/actions/workflows/verify.yml?query=branch%3Amain). The tested release SHA and immutable run above remain the reproducible publication evidence; no self-referential commit SHA or unobserved future success is fabricated here.
+
+The initial Git wrapper set `GIT_CURL_VERBOSE=0`; Git treated the variable's presence as enabling transport diagnostics. Follow-up subprocesses removed trace/verbose variables and explicitly kept authentication redaction enabled, with output restricted to safe status/SHA evidence. No application credential was placed in a Git URL, command or committed file. Private environment files were not modified.
+
+## Remaining limits and maintainer actions
+
+There is no identified included-source rights blocker in the reviewed source-only tree after the recorded maintainer decision. Prior-context exposure and third-party rights remain disclosed; new concrete evidence would need resolution. CI verifies Ubuntu app/package builds, not a legal audit of future native binary/container redistribution. Preserve applicable target-platform dependency notices/source/relinking duties if that distribution scope changes.
+
+GitHub source publication is complete. **Public application deployment is not performed in this task.** The maintainer's explicit instruction reserves Render/Vercel creation and production secret entry to the maintainer:
+
+1. Create only an eligible free Review-YT Render service using docs/RENDER_DEPLOYMENT_HANDOFF.md and render.yaml. Enter the YouTube key and a new private backend token through Render settings. Keep sentiment-only baseline, paid inference/fallback false and no public laptop Ollama dependency.
+2. Verify the actual Render HTTPS health endpoint, then create the Review-YT Vercel project with apps/web as its root using docs/VERCEL_DEPLOYMENT_HANDOFF.md. Configure server-only BACKEND_URL and the matching BACKEND_API_TOKEN through hosting settings. Never use NEXT_PUBLIC secrets.
+3. Follow docs/ENVIRONMENT_VARIABLES_CHECKLIST.md. Once genuine public HTTPS origins exist, run scripts/check-public.ps1 with the actual frontend/backend origins. The optional -LiveVideo and -Browser flags explicitly enable the bounded ten-comment desktop/mobile/cache verification. No public end-to-end or hosting success is claimed before those real checks.
+
+No additional hosting authentication, user credential entry, paid authorization or public app URL was supplied or invented by this publication task. Those are manual deployment prerequisites, not a remaining GitHub publication failure.

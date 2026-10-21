@@ -1,6 +1,6 @@
 # Final publication rights decision
 
-Status: **MAINTAINER DECISION RECORDED — MIT, 2026-10-21.** The source-only rights/license gate is cleared on the maintainer's explicit declaration and follow-up MIT selection. Final technical checks and actual GitHub publication are tracked in GITHUB_PUBLICATION_REPORT.md. This review identifies no specific copied unlicensed expression in the inspected new tree. It is not legal certification or a comparison against historical source.
+Status: **MAINTAINER DECISION RECORDED — MIT, 2026-10-21.** The source-only rights/license gate is cleared on the maintainer's explicit declaration and follow-up MIT selection. Full local verification, source publication and the first Ubuntu GitHub Actions run have passed; exact commit/run evidence is in GITHUB_PUBLICATION_REPORT.md. This review identifies no specific copied unlicensed expression in the inspected new tree. It is not legal certification or a comparison against historical source.
 
 ## Evidence and concrete scope
 
@@ -24,7 +24,7 @@ Primary license explanations: [Mozilla MPL FAQ](https://www.mozilla.org/en-US/MP
 
 ## Identified issues versus general uncertainty
 
-**Identified:** Linux deployment artifacts have not yet been built/reviewed locally; runtime data and dependencies must stay outside the eligible-new-material MIT grant. The maintainer has now recorded rights acceptance, selected MIT, approved notices and authorized source publication. These decisions do not cure a concrete infringement if later identified. There is no currently identified unlicensed source file to delete or reattribute in this new tree.
+**Identified distribution limits:** runtime data and dependencies stay outside the eligible-new-material MIT grant. Ubuntu CI has now built/tested the app and package successfully; future hosting/native binary/container distribution still needs its applicable platform obligations. The maintainer has now recorded rights acceptance, selected MIT, approved notices and authorized source publication. These decisions do not cure a concrete infringement if later identified. There is no currently identified unlicensed source file to delete or reattribute in this new tree.
 
 **Residual uncertainty:** the implementing assistant saw historical source earlier in the conversation. An empty folder and different names do not eliminate possible derivation. No historical comparison was undertaken, respecting the source-separation requirement. A maintainer can review this inventory and development record and record a reasoned decision; an impossible proof of universal dissimilarity or mandatory clean-room certificate is not required. If a specific similarity or uncertain asset is identified, resolve that item with permission, replacement or removal; obtain qualified advice if the maintainer needs it.
 

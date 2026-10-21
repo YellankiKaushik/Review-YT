@@ -1,4 +1,6 @@
-# Engineering changelog
+# Historical engineering changelog
+
+This describes the pre-publication implementation period. Current source-only status and verified checks are in [the handoff report](../FINAL_OPEN_SOURCE_RELEASE_REPORT.md). Hosting is retired; earlier deployment/authorization statements below are dated evidence.
 
 Only genuine completed changes are recorded. Normal configured authors/dates/history are preserved; no contribution target or minimum commit count is imposed.
 

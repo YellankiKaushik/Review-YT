@@ -1,5 +1,7 @@
 # Product-polish baseline — 2026-10-21
 
+> Historical 2026-10-21 baseline. The owner retired hosting and revoked dedicated keys on 2026-10-22. Listed domains are past evidence, not current services.
+
 Starting local/remote main: fae449dc455e5cf3d867505c97123d7dc37116d2. Worktree clean before creating the requested refactor/review-yt-product-polish branch. No historical source was opened/imported. No production settings or secrets changed.
 
 ## Actual GET-only production checks

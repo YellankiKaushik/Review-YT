@@ -1,25 +1,22 @@
-# Production deployment and safe releases
+# Deployment and source releases
 
-## Current verified deployment
+Review-YT is self-hostable source. **The original maintainer's hosted demo and cloud services are retired.** No live maintainer URL is provided and this repository does not provision accounts or credentials for you.
 
-- Frontend: https://review-yt.vercel.app — Vercel, homepage HTTP200 on2026-10-21.
-- Backend: https://review-yt-api.onrender.com/health — Render, HTTP200/status ok, review-yt/v1.
-- Frontend provider inventory: /api/providers — HTTP200, sentiment-only; paid/fallback false.
+- [Self-hosting](SELF_HOSTING.md): private servers and the complete optional Render/Vercel walkthrough.
+- [Render settings](RENDER_DEPLOYMENT_HANDOFF.md): backend template, own secrets, port, health and ephemeral storage.
+- [Vercel settings](VERCEL_DEPLOYMENT_HANDOFF.md): own fork/project, monorepo build and server-only relay configuration.
+- [Configuration](CONFIGURATION.md): source-derived variables and safe defaults.
+- [Environment checklist](ENVIRONMENT_VARIABLES_CHECKLIST.md): concise operator checklist.
 
-These are observed checks, not uptime guarantees. Health does not expose a backend commit SHA. The maintainer rights/MIT decision is recorded in [the checklist](FINAL_PUBLICATION_RIGHTS_CHECKLIST.md). Historical predeployment reports are retained [in the archive](reports/archive/README.md). Current release evidence is in [the polish report](../FINAL_REVIEW_YT_POLISH_REPORT.md).
+## Safe release workflow
 
-## Update the existing application
+1. Start from synchronized main; work on a temporary branch without importing historical implementation.
+2. Preserve API/cache/auth contracts, all legal notices, root lockfile and sentiment-only defaults.
+3. Run scripts/verify.py with offline fixtures, documentation/source inventory and secret/history checks. Record actual outcomes, not forecasts.
+4. Publish normally, open a PR and inspect the exact-head GitHub Actions result. Never force-push/rewrite history or merge over failed required checks.
+5. Merge only after applicable checks pass and normal repository permissions allow; delete incorporated temporary branches. Keep main as the persistent branch.
+6. A **new operator's own** hosting may deploy separately. Verify actual provider-returned URLs, health, configured inventory and a bounded real analysis before describing that instance as live.
 
-1. Work on a dedicated branch. Preserve server-only credentials, API schema, source notices and baseline sentiment.
-2. Run the full verification script, production-mode local test, documentation paths/inventory checks and secret scan.
-3. Push normally and open a PR into main. Wait for actual CI; inspect an available Vercel preview and test responsive/core flows.
-4. Merge only when checks pass, permissions allow and no critical preview defect remains. Never force-push or rewrite main.
-5. Vercel may deploy main automatically. Verify the actual ready deployment/commit and public homepage/provider inventory before declaring rollout complete.
-6. Render's Blueprint has auto-deploy off. If backend/runtime requirements change, manually deploy the reviewed commit through the authorized existing service and verify health/logs. A frontend-only change does not require restarting the working backend.
-7. Run one bounded public ten-comment sentiment-only check, then verify navigation/chart/cache reuse. Never repeat quota-consuming requests during visual iteration. Use scripts/check-public.ps1 with actual HTTPS origins and its explicit -LiveVideo/-Browser flags.
+No hosted preview is required for this source-only handoff: the maintainer retired the hosting. Use deterministic browser tests and local production verification instead; never restore services as a side effect of a documentation or source release. No registry package upload is implied by GitHub publication.
 
-Do not change hosting secrets or create paid resources as part of UI cleanup. Missing dashboard/preview permissions are documented, not bypassed. Keep the branch ready if a required external action is blocked.
-
-## Configuration and recovery
-
-[Render handoff](RENDER_DEPLOYMENT_HANDOFF.md), [Vercel handoff](VERCEL_DEPLOYMENT_HANDOFF.md) and [environment checklist](ENVIRONMENT_VARIABLES_CHECKLIST.md) describe the existing workspace/runtime settings. Do not recreate an existing project. Roll back through the platform's normal verified deployment controls if a critical production regression occurs; preserve Git history. Free hosting can sleep and reset SQLite cache. A cache miss requires an explicit new analysis, never hidden GET regeneration.
+Historical deployment reports are [archived](reports/archive/README.md). Their dated URLs/HTTP results are past evidence, not ongoing instructions or current availability claims. Preserve the [recorded MIT scope](FINAL_PUBLICATION_RIGHTS_CHECKLIST.md) and distribution obligations.

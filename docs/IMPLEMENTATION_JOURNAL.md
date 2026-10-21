@@ -1,5 +1,7 @@
 # Implementation journal
 
+This is a dated execution journal, not current hosting instructions. The owner retired the former demo and revoked its dedicated credentials on 2026-10-22.
+
 2026-10-21: Created Review-YT-clean outside the historical directory; initialized a fresh main branch. Read the supplied functional specification and project instructions. No historical implementation file was consulted for this new implementation. Earlier conversation context already included historical source, so strict clean-room independence cannot be certified.
 
 Authored new core/provider/CLI modules, Flask service/cache, frontend contracts, research-note UI and independent fixtures/tests. Seventy initial Python tests passed; two additional bounded-input/invalid-output tests brought this to 72. Seventeen frontend tests passed. Corrected a Windows fixture startup path, loopback dev resource origin and browser alert selector; all eight desktop/mobile browser tests then passed. These failures were fixed rather than hidden.
@@ -46,3 +48,7 @@ Final tokenized source passed all14checks and230tests. Reverified the final opti
 
 
 Product release verified: normal PR #1 merged at d2dbbe52d38d685a3d9cdbfaa3136aa9e18a0cbe after push/PR CI and protected real preview PASS. Main Ubuntu CI39638703539 completed/success with230tests and clean docs/audits/secrets. Automatic Vercel production dpl_BcvtxUPuhxTmLm8BKD9RScSPekAZ READY/nativeGitSHAmatched/livealiasreview-yt.vercel.app. Real preview10comments8/1/1 HTTP200/2021ms; public production form reused samecache HTTP200/815ms, no second freshsample. Sixwidths/chart/mobile/direct/reload/missingcache recovery/pageerrors0 passed; all4published visualassets HTTP200/Gitbyteidentical. No backend/core/env/paid/protection changes or Render redeploy. Evidence-only followup records actual finalreport/README counts/changelog and refreshed hashes through the normal PR workflow.
+
+## 2026-10-22 — source-only handoff in progress
+
+Started from main 3a5ec0ee60942b9577777f751a618e87b63a77dc on temporary codex/source-only-release. Read only this separate tree. Scanned 485 reachable blobs against project-private values/prefixes without matches, stopped verified project processes, removed two project-only ignored env files and 127 obsolete ignored targets, including prior data/log/cache/test exports. No secure-erase claim, system environment changes, cloud resource actions or revoked-key use. Documentation and offline release evidence are updated in FINAL_OPEN_SOURCE_RELEASE_REPORT.md as checks actually complete.

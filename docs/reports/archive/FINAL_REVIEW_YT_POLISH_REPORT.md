@@ -1,10 +1,12 @@
-# Review-YT product polish and release evidence
+# Historical Review-YT product polish and release evidence
+
+> Historical record: execution on 2026-10-21. On 2026-10-22 the owner reported the demo/services retired and dedicated keys revoked. URLs and HTTP results below describe the former deployment only; do not test, restore or advertise them as current. See the [current source-only README](../../../README.md).
 
 Date: 2026-10-21 (Asia/Calcutta). **PASS — implemented, merged, deployed to Vercel and verified in production.** This records the verified product release at merge commit `d2dbbe52d38d685a3d9cdbfaa3136aa9e18a0cbe`; a documentation-only follow-up publishes the observed evidence without changing application behavior.
 
 ## A. Starting repository state
 
-Clean main at fae449dc455e5cf3d867505c97123d7dc37116d2; origin=https://github.com/YellankiKaushik/Review-YT. Remote main matched. Created the explicitly requested refactor/review-yt-product-polish branch without rewriting history. Baseline GETs: homepage200/94ms, Renderhealth200/24641ms, providerinventory200/1781ms. Hosted provider disabled only, paid/fallback false. Raw browser baseline and deletion classifications are in [the baseline audit](docs/reports/PRODUCT_POLISH_BASELINE.md).
+Clean main at fae449dc455e5cf3d867505c97123d7dc37116d2; origin=https://github.com/YellankiKaushik/Review-YT. Remote main matched. Created the explicitly requested refactor/review-yt-product-polish branch without rewriting history. Baseline GETs: homepage200/94ms, Renderhealth200/24641ms, providerinventory200/1781ms. Hosted provider disabled only, paid/fallback false. Raw browser baseline and deletion classifications are in [the baseline audit](../PRODUCT_POLISH_BASELINE.md).
 
 ## B. Files inspected
 
@@ -24,7 +26,7 @@ Rewrote README with verified live links, real workflow/license/technology badges
 
 Shared navy/teal tokens cover color, spacing, typography, surfaces, radii and focus. Homepage has coherent branding/navigation, a prominent labeled10-comment default form, loading/recovery feedback, three-step workflow, capabilities, sentiment-versus-AI explanation, limitations and useful footer. Results add real-response overview metrics, legible thumbnail/title/channel/source link, chart/legend/counts, separate model metadata/notes/captions and cache provenance. Zero samples show no chart and no invented positive percentage. The reader's existing provider/video identity and cache recovery are preserved.
 
-Curated captures are **actual optimized local Next application screens using visibly labeled illustrative demo data**, not real YouTube feedback. Thumbnail SVG artwork and architecture SVG are original project graphics, not third-party photos/design assets. No raw comment bodies, account identities, auth state, private paths or credentials are shown. See [asset provenance](docs/assets/README.md).
+Curated captures are **actual optimized local Next application screens using visibly labeled illustrative demo data**, not real YouTube feedback. Thumbnail SVG artwork and architecture SVG are original project graphics, not third-party photos/design assets. No raw comment bodies, account identities, auth state, private paths or credentials are shown. See [asset provenance](../../assets/README.md).
 
 | Asset | Actual bytes | Scope |
 | --- | --- | --- |

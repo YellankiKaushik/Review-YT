@@ -1,71 +1,35 @@
-# Render backend: manual deployment handoff
+# Deploy your own Render backend
 
-## Existing production status — 2026-10-21
+The maintainer's Render service/Blueprint is retired. This guide applies only to **your own account and fork**, not an existing maintainer deployment. The complete sequence is in [self-hosting](SELF_HOSTING.md).
 
-The maintainer has created the dedicated Render deployment. GET https://review-yt-api.onrender.com/health returned HTTP200 during this mission's baseline. See [current operations](DEPLOYMENT.md) and [release evidence](../FINAL_REVIEW_YT_POLISH_REPORT.md). This is not an uptime or exact backend-commit guarantee. **Do not create a duplicate service/project or change production environment secrets.** The original setup instructions below are retained for understanding/recreating a deployment only when explicitly requested.
+## Create and review
 
-## Create the dedicated service
+In [Render Dashboard](https://dashboard.render.com/), select **New → Blueprint**, connect your fork's main branch and repository-root `render.yaml`. Choose a new dedicated service and inspect its proposed plan/settings before approval. The template requests Free only; if the account is ineligible or that plan is not offered, stop and decide costs explicitly. Do not attach unrelated resources. Manual New → Web Service can use the same settings below.
 
-Sign into [Render Dashboard](https://dashboard.render.com/). After approved GitHub publication, choose **New > Blueprint**, connect [YellankiKaushik/Review-YT](https://github.com/YellankiKaushik/Review-YT), branch main, and select the repository-root render.yaml. Inspect the proposed service before creation. Select a new dedicated service; do not attach an unrelated one. If review-yt-api already belongs to an unrelated service, stop that Blueprint flow and use New > Web Service with an available dedicated name and the same settings below, or review an explicit Blueprint name change before creation. The maintainer enters all secret values privately.
-
-| Setting | Exact value |
+| Setting | Verified template/source value |
 | --- | --- |
-| Service type | Web Service (native Python) |
-| Recommended name | review-yt-api (choose an available dedicated variant if needed) |
-| Repository | https://github.com/YellankiKaushik/Review-YT |
-| Branch | main |
-| Blueprint path | render.yaml |
-| Root directory | Leave blank: repository root, **not apps/api** |
-| Runtime / dashboard language | Python / Python 3 |
-| Python | PYTHON_VERSION=3.12.15; repository .python-version agrees |
-| Build command | pip install -r requirements.txt |
-| Start command | python apps/api/serve.py |
-| Health check | /health |
-| Region | Singapore, matching the Blueprint |
-| Plan | Free, only if eligible and offered; no paid upgrade or disk |
-| Auto deploy | Off (autoDeployTrigger: off); deploy reviewed commits manually |
+| Runtime/root | Native Python; leave Root Directory blank (repository root) |
+| Python | PYTHON_VERSION=3.12.15, matching .python-version |
+| Build | pip install -r requirements.txt |
+| Start | python apps/api/serve.py |
+| Health | /health |
+| Bind | HOST=0.0.0.0; provider assigns PORT |
+| Cache | /tmp/review-yt-cache/reviews.sqlite |
+| Baseline | SUMMARY_PROVIDER=disabled; SUMMARY_ENABLED_PROVIDERS=disabled |
+| Safety | SUMMARY_ALLOW_PAID=false; SUMMARY_FALLBACK_ENABLED=false; TRANSCRIPTS_ENABLED=false |
+| Auto deploy | autoDeployTrigger: off; reviewed deployments are manual |
+| Region | Template Singapore; select according to your own requirements |
 
-requirements.txt installs requirements-runtime.lock plus the local packages/review_yt_core[captions] package. Captions remain disabled in the cloud baseline. The entry point imports Flask through the installed library, creates the app and runs Waitress with four threads, bounded request bodies and no exposed tracebacks. It reads Render's assigned PORT and HOST=0.0.0.0; never set PORT=5100 in Render. Render requires a public bind and supports an app-specific WSGI command. See [port binding](https://render.com/docs/web-services#port-binding) and [Flask deployment](https://render.com/docs/deploy-flask).
+`requirements.txt` includes the runtime lock and local core with optional captions dependencies; captions remain off. Never set Render PORT=5100. See [Flask on Render](https://render.com/docs/deploy-flask), [port binding](https://render.com/docs/web-services#port-binding) and [Python versions](https://render.com/docs/python-version).
 
-The Python pin overrides the platform default. A fully qualified PYTHON_VERSION is required by [Render's Python-version instructions](https://render.com/docs/python-version). Actual Linux install and runtime support still require the first real hosted build; this document does not claim that build passed.
+## Private environment
 
-## Enter environment settings
+Initial Blueprint creation prompts for sync:false **YOUTUBE_API_KEY** and **BACKEND_API_TOKEN**. Supply your own restricted YouTube key and a new random shared token. Later changes require manual service Environment edits and a restart/redeploy; see [Blueprint secret prompts](https://render.com/docs/blueprint-spec#prompting-for-secret-values).
 
-The Blueprint defines YOUTUBE_API_KEY and BACKEND_API_TOKEN with sync:false. During **initial Blueprint creation**, Render prompts for each secret. Later Blueprint updates do not prompt for new sync:false settings; add those manually on the service's Environment page. See [Blueprint secret prompts](https://render.com/docs/blueprint-spec#prompting-for-secret-values).
+The other baseline values are in render.yaml. Do not upload .env, enable laptop Ollama, download weights or add paid cloud inference as an installation step. Optional cloud settings belong on the backend only after the baseline works and account/pricing eligibility is deliberately checked. [Configuration reference](CONFIGURATION.md).
 
-| Name | Value to enter/select |
-| --- | --- |
-| YOUTUBE_API_KEY | Your private YouTube Data API v3 credential |
-| BACKEND_API_TOKEN | A new private random shared token; reuse this exact value only in Vercel's server-side setting |
-| HOST | 0.0.0.0 |
-| PYTHON_VERSION | 3.12.15 |
-| PYTHONUNBUFFERED | 1 |
-| CACHE_PATH | /tmp/review-yt-cache/reviews.sqlite |
-| SUMMARY_PROVIDER | disabled |
-| SUMMARY_ENABLED_PROVIDERS | disabled |
-| SUMMARY_ALLOW_PAID | false |
-| SUMMARY_FALLBACK_ENABLED | false |
-| TRANSCRIPTS_ENABLED | false |
-| OPENROUTER_MODEL | openrouter/free (inert until explicitly enabled) |
-| PORT | Supplied by Render; leave it alone |
+## Verify and operate
 
-All nonsecret values above already exist in render.yaml. Do not upload local .env files, set laptop Ollama endpoints, install/download model weights or add provider keys to frontend variables. Optional OpenRouter activation is separate in ENVIRONMENT_VARIABLES_CHECKLIST.md; it is not required for baseline analysis.
+Inspect the actual build/runtime logs privately. Use the returned HTTPS origin, e.g. the placeholder `https://YOUR_BACKEND_HOST`, then GET `/health`. HTTP 200/status ok proves liveness, not key validity or a specific commit. Configure that actual origin in your own Next project and perform one intentional ten-comment analysis to validate the complete instance.
 
-## Deploy, inspect and verify
-
-Review account quotas/spend settings, then create/deploy the new **Free** service. In Events/Deploys, open the build log: the pinned dependencies and local core package must install successfully. In Logs, confirm the Waitress process stays running without traceback/configuration/cache errors. Use Manual Deploy > Deploy latest commit for reviewed updates; use a clear build cache only when an actual stale build requires it. Environment changes require a restart/deploy. Preserve private settings when syncing later Blueprint changes.
-
-Use only the HTTPS origin actually returned by Render. Open its /health and require HTTP 200 with status=ok, application=Review-YT and contract=review-yt/v1. Authenticated /api/providers must return only the sentiment-only baseline; an unauthenticated request must return HTTP 401. Public-bind startup now refuses to listen if YOUTUBE_API_KEY or BACKEND_API_TOKEN is blank, using a sanitized message naming the missing variables. A green /health alone still does not prove that YouTube accepts a configured credential or that proxy operation works. Use the provided public smoke script after Vercel is deployed; a real ten-comment run is explicit opt-in.
-
-Failure clues: package import errors imply wrong root/install command; port scan errors imply incorrect HOST/PORT; cache warnings imply unavailable CACHE_PATH (POST can return an uncached baseline; saved-result GET reports cache_unavailable rather than regenerating); HTTP 401 through Vercel implies mismatched shared tokens; safe configuration/unavailable messages require correcting settings rather than enabling debug output. Never paste secret-bearing logs publicly. Record actual build commit, origin and smoke output before declaring success.
-
-## Free-service limits
-
-Render Free currently provides 0.1 CPU/512 MB, sleeps after 15 idle minutes and can take about a minute to wake. Restarts, redeploys and sleeping erase local files, including SQLite results. Monthly workspace free hours, bandwidth and build allowances apply; usage can suspend services or incur supplementary usage when billing permits. Review account limits first. See [Free hosting](https://render.com/docs/free) and [Blueprint compute plans](https://render.com/docs/blueprint-spec). This is a demonstration/hobby deployment, not permanent storage or an uptime promise. Keep summaries/captions disabled initially to reduce work during cold starts.
-
-
-## Post-deployment checker
-
-Once the frontend also exists, use the real provider-returned origins and the bounded commands in [VERCEL_DEPLOYMENT_HANDOFF.md](VERCEL_DEPLOYMENT_HANDOFF.md#verify-the-eventual-deployed-origins). The default checker makes no YouTube calls; -LiveVideo explicitly permits a ten-comment baseline. Optional direct-backend authentication reads BACKEND_API_TOKEN securely from the calling process environment, never a CLI argument. Inspect artifacts/public-smoke.json for actual statuses/latencies; do not claim success from a loading/login page. Local production verification can be reproduced with `powershell -NoProfile -File scripts/test-production-local.ps1`; add -LiveYouTube deliberately for the bounded real workflow.
-
-Cloud adapters cap their combined discovery/generation work at 25 seconds; local Ollama has a separate 75-second limit. Keep production captions/AI off initially so cold starts and provider failures cannot make optional summary work a dependency of a usable sentiment result. No bound can guarantee future hosting or network availability.
+Free services can sleep and their filesystem is ephemeral. Your SQLite cache may disappear after restart/redeploy; logical TTL is not durable storage. [Current Free limitations](https://render.com/docs/free) and your account allowances control availability/cost. Do not imply continuous uptime, buy a disk automatically or silently upgrade a plan. Review applicable dependency/service terms for your actual deployment. [Troubleshooting](TROUBLESHOOTING.md).

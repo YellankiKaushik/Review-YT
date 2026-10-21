@@ -37,7 +37,8 @@ def main():
         ],
         [sys.executable, "scripts/check_release_config.py"],
         [sys.executable, "scripts/check_docs.py"],
-        [sys.executable, "scripts/secret_check.py"],
+        [sys.executable, "scripts/source_inventory.py", "--check"],
+        [sys.executable, "scripts/secret_check.py", "--history"],
     ]
     records = []
     environment = {**os.environ, "NEXT_TELEMETRY_DISABLED": "1"}

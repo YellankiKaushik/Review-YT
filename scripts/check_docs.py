@@ -18,7 +18,11 @@ def main():
     links = 0
     docs = [p for p in files if p.suffix == ".md" and "dependency-licenses" not in p.parts]
     for page in docs:
-        text = re.sub(r"```.*?```", "", page.read_text(encoding="utf-8"), flags=re.S)
+        raw = page.read_text(encoding="utf-8")
+        historical = "reports" in page.relative_to(ROOT).parts or page.name == "IMPLEMENTATION_JOURNAL.md"
+        if not historical and any(host in raw for host in ("review-yt.vercel.app", "review-yt-api.onrender.com")):
+            errors.append(f"{page.relative_to(ROOT)}: retired demo destination in active documentation")
+        text = re.sub(r"```.*?```", "", raw, flags=re.S)
         targets = re.findall(r"!?\[[^\]]*\]\(([^)]+)\)", text)
         targets += re.findall(r'(?:src|href)="([^"<>]+)"', text)
         for target in targets:

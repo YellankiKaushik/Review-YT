@@ -36,6 +36,7 @@ def main():
             "artifacts/pip-audit-final.json",
         ],
         [sys.executable, "scripts/check_release_config.py"],
+        [sys.executable, "scripts/check_docs.py"],
         [sys.executable, "scripts/secret_check.py"],
     ]
     records = []

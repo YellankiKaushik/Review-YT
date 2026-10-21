@@ -20,11 +20,11 @@ export function ReviewSheet({ review: r }: { review: Review }) {
           unoptimized
           loading="eager"
           src={r.video.thumbnail}
-          alt="Video thumbnail"
+          alt={`Thumbnail for ${r.video.title}`}
           width={320}
           height={180}
         />
-        <div>
+        <div className="video-overview">
           <span className="eyebrow">VIDEO / {r.video.channel}</span>
           <h1>{r.video.title}</h1>
           <a
@@ -39,6 +39,32 @@ export function ReviewSheet({ review: r }: { review: Review }) {
           {r.caching.reused ? "Saved review" : "Fresh sample"}
         </span>
       </section>
+      <dl className="metrics-grid" aria-label="Analysis overview">
+        <div className="metric">
+          <dt>Comments analyzed</dt>
+          <dd>{r.sampled}</dd>
+        </div>
+        <div className="metric">
+          <dt>Positive share</dt>
+          <dd>{r.sampled ? `${p.positive.toFixed(1)}%` : "Not available"}</dd>
+        </div>
+        <div className="metric">
+          <dt>Sentiment method</dt>
+          <dd className="metric-text">
+            {r.sentiment.classifier.split(" · ")[0]}
+          </dd>
+        </div>
+        <div className="metric">
+          <dt>AI research notes</dt>
+          <dd className="metric-text">
+            {r.ai.status === "complete"
+              ? "Ready"
+              : r.ai.status === "disabled"
+                ? "Not requested"
+                : "Unavailable"}
+          </dd>
+        </div>
+      </dl>
       <div className="review-columns">
         <section className="sentiment-card" aria-labelledby="chart-title">
           <div className="section-top">
@@ -52,7 +78,7 @@ export function ReviewSheet({ review: r }: { review: Review }) {
                 role="img"
                 aria-label={`Sample sentiment: ${p.positive}% positive, ${p.neutral}% neutral, ${p.negative}% negative`}
                 style={{
-                  background: `conic-gradient(#275e48 0 ${p.positive}%, #acb3a6 ${p.positive}% ${p.positive + p.neutral}%, #b85942 ${p.positive + p.neutral}% 100%)`,
+                  background: `conic-gradient(var(--positive) 0 ${p.positive}%, var(--neutral) ${p.positive}% ${p.positive + p.neutral}%, var(--negative) ${p.positive + p.neutral}% 100%)`,
                 }}
               >
                 <div>
@@ -64,7 +90,7 @@ export function ReviewSheet({ review: r }: { review: Review }) {
                 {labels.map((label) => (
                   <div className={`sentiment-line ${label}`} key={label}>
                     <dt>
-                      <i />
+                      <i aria-hidden="true" />
                       {label}
                     </dt>
                     <dd>
@@ -98,8 +124,11 @@ export function ReviewSheet({ review: r }: { review: Review }) {
             AI research notes are separate from these counts. When a provider
             cannot respond, the sentiment remains usable.
           </p>
-          <details>
+          <details open={r.warnings.length > 0}>
             <summary>Source & sample notices</summary>
+            {r.warnings.length === 0 ? (
+              <p>No additional source notices.</p>
+            ) : null}
             <ul>
               {r.warnings.map((w, i) => (
                 <li key={i}>{noticeNames[w] || w}</li>

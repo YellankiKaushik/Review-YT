@@ -1,6 +1,8 @@
 # Vercel frontend: manual deployment handoff
 
-Prepared on 2026-10-21 from apps/web/vercel.json, the npm workspace/lockfile and current official documentation. **No Vercel project was provisioned.** The maintainer rights/MIT decision is recorded; verify the actual GitHub publication in GITHUB_PUBLICATION_REPORT.md before this manual hosting setup. Verify Render before configuring the frontend's backend origin.
+## Existing production status — 2026-10-21
+
+The maintainer has created the dedicated Vercel deployment. GET https://review-yt.vercel.app returned HTTP200 during this mission's baseline. See [current operations](DEPLOYMENT.md) and [release evidence](../FINAL_REVIEW_YT_POLISH_REPORT.md). This is not an uptime or exact backend-commit guarantee. **Do not create a duplicate service/project or change production environment secrets.** The original setup instructions below are retained for understanding/recreating a deployment only when explicitly requested.
 
 ## Import and build settings
 

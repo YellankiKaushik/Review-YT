@@ -38,15 +38,22 @@ export function ReviewForm() {
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState("");
   const [ready, setReady] = useState(false);
+  const [inventoryNotice, setInventoryNotice] = useState("");
   const running = useRef(false);
   const router = useRouter();
   useEffect(() => {
     const controller = new AbortController();
+    let active = true;
+    const deadline = setTimeout(() => controller.abort(), 15000);
     Promise.resolve().then(() => setReady(true));
     fetch("/api/providers", { signal: controller.signal })
-      .then((r) => r.json())
+      .then((r) => {
+        if (!r.ok) throw new Error("Provider inventory unavailable");
+        return r.json();
+      })
       .then((body) => {
         const result = inventorySchema.safeParse(body);
+        if (!result.success) throw new Error("Incompatible provider inventory");
         if (result.success && !controller.signal.aborted) {
           setInventory(result.data);
           setProvider(
@@ -61,8 +68,18 @@ export function ReviewForm() {
           );
         }
       })
-      .catch(() => {});
-    return () => controller.abort();
+      .catch(() => {
+        if (active)
+          setInventoryNotice(
+            "Provider status is unavailable. Sentiment-only analysis can still be attempted.",
+          );
+      })
+      .finally(() => clearTimeout(deadline));
+    return () => {
+      active = false;
+      clearTimeout(deadline);
+      controller.abort();
+    };
   }, []);
   const option = inventory.options.find((p) => p.id === provider);
   async function submit(event: FormEvent<HTMLFormElement>) {
@@ -71,6 +88,7 @@ export function ReviewForm() {
     setError("");
     if (!video.trim()) {
       setError("Paste a YouTube video link or ID to begin.");
+      event.currentTarget.querySelector<HTMLInputElement>("input")?.focus();
       return;
     }
     running.current = true;
@@ -99,14 +117,20 @@ export function ReviewForm() {
     }
   }
   return (
-    <form className="input-card" onSubmit={submit} aria-busy={busy}>
+    <form
+      id="analysis"
+      className="input-card"
+      onSubmit={submit}
+      aria-busy={busy}
+      aria-labelledby="form-title"
+    >
       <div className="card-heading">
         <span className="eyebrow">START A REVIEW</span>
         <span className="round-arrow" aria-hidden="true">
           ↗
         </span>
       </div>
-      <h2>One link. A little clarity.</h2>
+      <h2 id="form-title">Start with a video.</h2>
       <label htmlFor="video">YouTube video</label>
       <input
         id="video"
@@ -114,7 +138,10 @@ export function ReviewForm() {
         onChange={(e) => setVideo(e.target.value)}
         placeholder="Paste a public video link or ID"
         disabled={!ready || busy}
-        aria-describedby="video-tip"
+        aria-describedby={error ? "video-tip review-error" : "video-tip"}
+        aria-invalid={Boolean(error) && !video.trim()}
+        autoComplete="off"
+        spellCheck={false}
       />
       <p id="video-tip" className="hint">
         Watch links, Shorts and youtu.be links are supported.
@@ -152,9 +179,12 @@ export function ReviewForm() {
           </select>
         </div>
       </div>
-      <p className="provider-help">
+      <p className="provider-help" aria-live="polite">
         {option?.model ? <strong>{option.model} · </strong> : null}
         {option?.description}
+        {inventoryNotice ? (
+          <span className="inventory-notice"> {inventoryNotice}</span>
+        ) : null}
       </p>
       <button
         className="primary"
@@ -165,12 +195,14 @@ export function ReviewForm() {
       </button>
       {busy ? (
         <p role="status" className="status">
-          Retrieving the sample. Optional model inference can take up to a
-          minute.
+          Retrieving the sample. A free service may need time to wake up.
+          {provider !== "disabled"
+            ? " Optional model inference can take up to a minute."
+            : ""}
         </p>
       ) : null}
       {error ? (
-        <p role="alert" className="error">
+        <p role="alert" className="error" id="review-error">
           {error}
         </p>
       ) : null}

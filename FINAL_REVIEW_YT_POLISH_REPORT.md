@@ -1,6 +1,6 @@
 # Review-YT product polish and release evidence
 
-Date:2026-10-21 (Asia/Calcutta). **Local implementation/QA: PASS. Publication/preview/production rollout: pending actual execution, not yet claimed.**
+Date: 2026-10-21 (Asia/Calcutta). **PASS — implemented, merged, deployed to Vercel and verified in production.** This records the verified product release at merge commit `d2dbbe52d38d685a3d9cdbfaa3136aa9e18a0cbe`; a documentation-only follow-up publishes the observed evidence without changing application behavior.
 
 ## A. Starting repository state
 
@@ -8,13 +8,13 @@ Clean main at fae449dc455e5cf3d867505c97123d7dc37116d2; origin=https://github.co
 
 ## B. Files inspected
 
-Root README/LICENSE/NOTICE/SECURITY/CONTRIBUTING/CHANGELOG/AGENTS; apps/web pages/layout/style/form/sheet/reader/contracts/relay/tab-cache/tests/config; current Flask endpoint/auth interfaces and core/package inventory; Python/browser tests, verification/lifecycle/public-production scripts; deployment/current/archival/provenance documents, render.yaml, npm/Python manifests and pinned GitHub workflow. New code was reviewed with the bundled Next server/client/CSS guidance and Vercel React/verification/deployment guidance. API/core source hashes and137passing Python tests verify preservation; this is not a new legal or penetration-test certification.
+Root README/LICENSE/NOTICE/SECURITY/CONTRIBUTING/CHANGELOG/AGENTS; apps/web pages/layout/style/form/sheet/reader/contracts/relay/tab-cache/tests/config; current Flask endpoint/auth interfaces and core/package inventory; Python/browser tests, verification/lifecycle/public-production scripts; deployment/current/archival/provenance documents, render.yaml, npm/Python manifests and pinned GitHub workflow. New code was reviewed with the bundled Next server/client/CSS guidance and Vercel React/verification/deployment guidance. API/core source hashes and137 passing Python tests verify preservation; this is not a new legal or penetration-test certification.
 
 ## C–F. Repository cleanup and legal retention
 
 Five root reports moved to docs/reports/archive: FINAL_REVIEW_YT_RELEASE_REPORT.md, DEPLOYMENT_EXECUTION_REPORT.md, FINAL_LIVE_DEPLOYMENT_REPORT.md, PRODUCTION_DEPLOYMENT_READINESS_REPORT.md, GITHUB_PUBLICATION_REPORT.md. Narratives remain dated evidence; only relative Markdown links were repaired where needed. The archive index explains superseded undeployed/gated wording. Active references and the documentation index point to the new paths.
 
-**Removed project/notice files: none.** Replaced obsolete stylesheet rules as the components adopted shared design tokens; removed unused style aliases. No unproven dependency removal or directory churn. Classifications: report moves SAFE; unused dependency/component deletion CONDITIONAL on proof (none taken); legal/provenance/test deletion and historical-source import PROHIBITED. All502 retained upstream legal texts remain byte-identical to the pre-edit hashes. Root/core LICENSE and NOTICE scope preserved. No historical application source, tests/assets or Git objects imported or modified.
+**Removed project/notice files: none.** Replaced obsolete stylesheet rules as the components adopted shared design tokens; removed unused style aliases. No unproven dependency removal or directory churn. Classifications: report moves SAFE; unused dependency/component deletion CONDITIONAL on proof (none taken); legal/provenance/test deletion and historical-source import PROHIBITED. All 502 retained upstream legal texts remain byte-identical to the pre-edit hashes. Root/core LICENSE and NOTICE scope preserved. No historical application source, tests/assets or Git objects imported or modified.
 
 .gitignore now also excludes loose SQLite sidecars/databases, logs, HAR/trace exports and TLS keys/certificates. Curated docs/assets images remain tracked; temporary artifacts remain ignored. Root npm lock/versions and backend/core source are unchanged.
 
@@ -33,7 +33,7 @@ Curated captures are **actual optimized local Next application screens using vis
 | docs/assets/review-yt-mobile.png |71311|390px mobile illustrative result |
 | docs/assets/review-yt-architecture.svg |3260| Original source/data/security-boundary diagram |
 
-PNGs total165877bytes, each below1.5MB. Viewed desktop homepage/results and mobile capture for composition/legibility. Initial development captures showed Next's dev indicator; recaptured the genuine optimized frontend so the final assets exclude development controls. Reproduction: node scripts/capture-product.cjs after npm run build. No live analysis POST was made for capture.
+PNGs total 165,877 bytes, each below 1.5 MB. Viewed desktop homepage/results and mobile capture for composition/legibility. Initial development captures showed Next's dev indicator; recaptured the genuine optimized frontend so the final assets exclude development controls. Reproduction: node scripts/capture-product.cjs after npm run build. No live analysis POST was made for capture.
 
 ## L. Accessibility and responsiveness
 
@@ -51,7 +51,7 @@ Optimized local Chromium1440 homepage: observed LCP168ms, CLS0, DOMContentLoaded
 
 ## P–R. Fresh final local tests/builds/security
 
-**230passing tests=137Python+51frontend+42browser**, up from the195test published baseline. All original valid tests retained. Added7frontend and28browser regressions for numerical edges, focus/provider recovery, six widths, long metadata and reduced-motion navigation. The complete14stage verifier passed against the final application source (after applying the shared spacing/type/surface tokens). Command/log records are ignored artifacts/verification/results.json and01–14.log.
+**230 passing tests = 137 Python + 51 frontend + 42 browser**, up from the195test published baseline. All original valid tests retained. Added 7 frontend and 28 browser regressions for numerical edges, focus/provider recovery, six widths, long metadata and reduced-motion navigation. The complete 14-stage verifier passed against the final application source (after applying the shared spacing/type/surface tokens). Command/log records are ignored artifacts/verification/results.json and01–14.log.
 
 | Command | Actual result | Seconds |
 | --- | --- | --- |
@@ -76,16 +76,71 @@ npm audit:0 vulnerabilities. Python audit:no known vulnerabilities (editable own
 
 Harness notes: unrelated formatter-only JSON churn was removed. Fixed Next's reported missing smooth-scroll declaration. Development Node NO_COLOR/FORCE_COLOR warnings came from test tooling, not application page errors. No failed test was deleted or weakened.
 
-## S–V. Git, PR, CI and preview
+## S–V. Actual commits, PR, CI and preview
 
-UI/test/capture commit: ef8000fc2ea7dd8598f87cf3ead0aba08c5153bf. Documentation/cleanup/inventory commit follows; no fabricated commit or modified date/author. Branch has not yet been pushed at this report snapshot. PR/CI/preview links and actual outcomes will be recorded after execution.
+| Milestone | Actual outcome |
+| --- | --- |
+| UI/test/capture commit | `ef8000fc2ea7dd8598f87cf3ead0aba08c5153bf` |
+| Repository/docs/assets/checks commit | `743264546fdb3075f3d6d100c52984468d2a3402` |
+| Main PR | [PR #1](https://github.com/YellankiKaushik/Review-YT/pull/1), MERGED normally after clean merge gate, CI and preview checks |
+| Product merge commit | `d2dbbe52d38d685a3d9cdbfaa3136aa9e18a0cbe`; source tree exactly equals the tested PR head |
+| Push CI | [39635675823](https://github.com/YellankiKaushik/Review-YT/actions/runs/39635675823), completed/success |
+| PR CI | [39635938166](https://github.com/YellankiKaushik/Review-YT/actions/runs/39635938166), completed/success |
+| Main CI | [39638703539](https://github.com/YellankiKaushik/Review-YT/actions/runs/39638703539), completed/success, 22 successful job steps |
 
-Connected Vercel MCP team access works and repository lookup identifies the existing review-yt project; detailed project/deployment requests returned404/403. Installed CLI54.4.1's existing authentication successfully read the same project through an explicit same-team GET:Next.js, apps/web, Node24.x, GitHub YellankiKaushik/Review-YT, production branchmain, current production target READY. No automatic reauthentication, project creation, linking, secret change or paid resource occurred. Unscoped local project inspection offered setup confirmation; it was not accepted. Preview testing will use existing authorized account access and the actual PR deployment.
+Decoded main Ubuntu job logs independently confirm **137 Python + 51 frontend + 42 browser = 230 passing tests**, clean audits, 620 source files/23 browser artifacts with zero scan findings, and 29 documents/91 relative targets/three PNGs with no broken targets. CI contains no private application credentials; local scanning against four configured private values is separate evidence. No force-push, history rewrite, fabricated date/author, tag or package upload.
 
-## W–X. Production milestones
+### Preview
 
-At this snapshot: local implementation PASS; branch push NOT EXECUTED; PR/CI/preview NOT EXECUTED; merge NOT EXECUTED; redesigned Vercel rollout NOT EXECUTED. Existing public baseline homepage/health/provider GETs VERIFIED IN PRODUCTION. No new real YouTube/AI generation requested yet. Backend source unchanged; no Render deployment/restart is required for this frontend-only release, and none is claimed. Do not confuse baseline uptime with deployment of the new UI.
+A preview was created on the **existing verified Hobby project**, not a new service. It used a clean Git archive of the exact tested PR head (620 tracked files, zero private environment files), with no production alias or secret changes:
 
-## Y–Z. Limits and current verdict
+- [Tested preview](https://review-86ttendlq-kaushik-yellanki-project.vercel.app), deployment `dpl_4QhfDLrZdfGLbPH2GKczZYnC8n6X`, READY.
+- Its native Git SHA is absent because this is a CLI source upload. The verified source archive and custom `reviewYtSourceCommit` identify `743264546fdb3075f3d6d100c52984468d2a3402`; it is not represented as a Git-triggered deployment.
+- The automatic [Git preview](https://review-7hai9icrw-kaushik-yellanki-project.vercel.app) subsequently became READY with native Git SHA `743264546fdb3075f3d6d100c52984468d2a3402`. Its availability metadata is distinct from the full browser run on the tested preview.
+- Anonymous access redirected to protection. The documented short-lived development OIDC token was injected **only into the exact preview origin's requests**, without printing/persisting its value, exporting browser auth state, sending it to image origins or changing protection/Trusted Sources.
+- Authenticated homepage and real provider relay returned HTTP 200; paid/fallback false, disabled provider only.
+- One actual visible ten-comment form returned HTTP 200 in **2021 ms** for `rfscVS0vtbw`, “Learn Python - Full Course for Beginners [Tutorial]”, freeCodeCamp.org. Genuine counts: **8 positive / 1 neutral / 1 negative (80/10/10%)**. VADER 3.3.2; AI disabled, zero model attempts.
+- Metadata/chart arithmetic, all six widths, reload, direct results and cache-only retrieval passed; cache HTTP 200 had matching source digest/counts and reused=true. Zero page errors; one valid analysis POST. No fixture response was substituted for this live workflow.
 
-Local product/docs/QA PASS; release execution pending. No identified new source-rights blocker; retain MIT/NOTICE and all upstream obligations. Public preview/prod identity and one bounded real10comment workflow still require actual release checks. Cloud AI remains optional/disabled in production; no new cloud inference success is claimed. No paid resources or hosting-secret updates authorized or attempted. Final release/blocked outcomes must replace these pending milestones after evidence exists.
+### External-tool hurdles resolved
+
+GitHub MCP PR creation returned403 “Resource not accessible by integration.” Vercel MCP details returned404/403 despite listing the project. The already authenticated Git credential-manager account was verified as YellankiKaushik and used through the normal GitHub API; platform permissions remained enforced. Existing Vercel CLI54.4.1 authentication successfully read/deployed the explicitly scoped existing project. No access scope/protection change or reauthentication was used. Unscoped local inspection offered setup confirmation; it was not accepted. Preview auth used the documented same-project short-lived path.
+
+One Windows .cmd query treated ampersands as separators and returned an unfiltered **read-only** deployment list. It was discarded for release decisions. Subsequent calls invoke the installed Node CLI entry directly with strict project/SHA filters; no unrelated project was modified. CLI structured deployment output was parsed as JSON rather than assuming a plain stdout URL. These harness corrections did not change application code.
+
+## W–X. Actual production rollout and live checks
+
+**VERIFIED IN PRODUCTION.** PR #1 triggered an automatic Vercel production deployment; no manual production deploy or promotion was needed. Existing project `review-yt`, deployment `dpl_BcvtxUPuhxTmLm8BKD9RScSPekAZ`, target production, state READY, native Git SHA `d2dbbe52d38d685a3d9cdbfaa3136aa9e18a0cbe`. Platform aliases include **review-yt.vercel.app**. The public browser rendered the new “Understand the feedback” homepage, not the historical notebook UI.
+
+| Public check | Actual outcome |
+| --- | --- |
+| [Frontend](https://review-yt.vercel.app) | HTTP 200; polished UI verified |
+| [Backend health](https://review-yt-api.onrender.com/health) | HTTP 200 |
+| [Frontend provider inventory](https://review-yt.vercel.app/api/providers) | HTTP 200; sentiment-only, paid/fallback false |
+| Cache-only lookup before production form | HTTP 200; digest matches preview; valid cache checked before submit |
+| Real public ten-comment visible form | HTTP 200 in **815 ms**; reused=true; same ten comments/counts/digest as preview |
+| Desktop/mobile chart and navigation | PASS; 80/10/10%, 8/1/1; six widths with no horizontal overflow |
+| Fresh mobile direct result URL | HTTP 200; actual title/chart visible |
+| Refresh and saved review indicator | PASS; saved-review badge displayed; no hidden analysis |
+| Missing-result recovery | PASS; clear unavailable/safe-start flow, cache-only GET |
+| Browser page errors | Zero |
+| Published README assets | All three PNGs and SVG HTTP 200; bytes match Git |
+
+The production form made one valid POST **served from the preview's existing cache**, after checking its validity/digest. No second fresh sample was requested. Overall: one bounded genuine preview analysis plus one cache-reused production submission. No cloud inference, model download, paid request or raw-comment export. Actual live QA screenshots remain private ignored artifacts (`polish-production-real-desktop.png` / `polish-production-real-mobile.png`); public README captures remain the labeled illustrative assets.
+
+Render backend source/runtime requirements did not change; **new Render deployment NOT REQUIRED / NOT EXECUTED**. Its health and actual analysis integration are verified; the exact running backend SHA is NOT VERIFIED because the available health contract does not expose it. Do not describe the Vercel SHA as proof of a Render update.
+
+## Y. Outstanding limits and user actions
+
+No critical product, CI, preview or live-release blocker remains in observed checks. This evidence-only follow-up updates the final report, README counts, changelog and source hashes after the verified rollout; it does not change the runtime. Its own Git publication can advance main beyond the immutable product-release SHA recorded here.
+
+- Live model inference was **NOT EXECUTED** in this UI mission. Hosted AI is disabled; optional-provider failure isolation was tested through deterministic regressions, not falsely claimed as new cloud success.
+- Actual 30-minute expiration and deliberate backend shutdown were not induced in production. Automated cache/fault tests cover these paths; live verification exercised a missing-cache recovery path and preserved the working service.
+- Accessibility checks/visible text contrast and Chromium desktop/mobile coverage are meaningful evidence, not full manual screen-reader, cross-browser or compliance certification.
+- Performance values are observed local measurements, not fabricated Lighthouse scores or public latency guarantees. Free hosting sleep, ephemeral cache, quotas and AI limitations remain documented.
+- Root/core MIT scope, provenance uncertainty and all 502 upstream legal texts remain in force. No specific new rights exception identified; the maintainer's declaration does not cure a future concrete issue.
+- No hosting secrets, account permissions, paid resources, protection rules or unrelated projects were changed. Future provider/spending/retention decisions remain operator actions, outside this completed polish release.
+
+## Z. Final verdict
+
+**PASS — repository organized; UI/UX, README and genuine visual assets implemented; 230 tests and both builds/audits/security/docs checks passed; tested branch pushed; PR #1 merged normally; preview verified; Vercel production READY and live real ten-comment/cache/mobile workflow verified.** Backend preserved and verified without a needless Render redeploy. Final report publication is a separate documentation-only follow-up; no milestone above is inferred from local or fixture success.

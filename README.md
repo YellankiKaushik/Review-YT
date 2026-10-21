@@ -174,7 +174,7 @@ npm audit --audit-level=high
 .\.venv\Scripts\python.exe scripts/verify.py
 ```
 
-The verified published baseline passed **195 tests**. This redesign adds meaningful numerical-edge, focus/recovery and six-width browser regressions; current fresh counts and command outcomes are recorded in the [polish report](FINAL_REVIEW_YT_POLISH_REPORT.md), not inferred from that baseline. Browser CI uses an explicit offline Flask fixture on 5101 and a dedicated Next process on 3201. It does not consume live YouTube quotas or call cloud models.
+The published baseline passed **195 tests**. This release freshly passed **230 tests: 137 Python, 51 frontend and 42 browser**, plus all 14 release stages and Ubuntu CI. Numerical-edge, focus/recovery and six-width regressions supplement all retained baseline tests. Exact command, preview and real production outcomes are in the [polish report](FINAL_REVIEW_YT_POLISH_REPORT.md). Browser CI uses an explicit offline Flask fixture on 5101 and a dedicated Next process on 3201. It does not consume live YouTube quotas or call cloud models.
 
 For optimized local Next + Waitress + trusted loopback TLS:
 

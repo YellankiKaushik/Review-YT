@@ -23,13 +23,14 @@ def main():
         and env["SUMMARY_FALLBACK_ENABLED"]["value"] == "false"
     )
     assert (
-        env["SUMMARY_ENABLED_PROVIDERS"]["value"] == "disabled,openrouter"
+        env["SUMMARY_ENABLED_PROVIDERS"]["value"] == "disabled"
+        and env["SUMMARY_PROVIDER"]["value"] == "disabled"
         and env["HOST"]["value"] == "0.0.0.0"
     )
     assert "PORT" not in env and not any(k.startswith("OLLAMA") for k in env)
     assert all(
         env[key].get("sync") is False
-        for key in ("YOUTUBE_API_KEY", "OPENROUTER_API_KEY", "BACKEND_API_TOKEN")
+        for key in ("YOUTUBE_API_KEY", "BACKEND_API_TOKEN")
     )
     vercel = json.loads((ROOT / "apps/web/vercel.json").read_text())
     assert vercel["framework"] == "nextjs" and vercel["outputDirectory"] == ".next"

@@ -29,3 +29,8 @@ SOURCE_INVENTORY.json records each tracked/nonignored new-tree file, hash, size 
 ## Decision
 
 **STOP publication, package upload and public deployment until the maintainer obtains an independent provenance/rights review, resolves any identified source-derivation and dependency obligations, and records a license decision.** These are specific unresolved gates, not an assertion that the historical contributor owns all new code. Continue local implementation and verification, which have proceeded independently of this release block. No GitHub push, public project creation, paid resources, release tag or public URL is claimed.
+
+
+## Release-review clarification
+
+The final mission's concrete review and single maintainer decision checklist are in FINAL_PUBLICATION_RIGHTS_CHECKLIST.md. No specifically identified copied unlicensed expression was found in the inspected new files. Prior context exposure remains disclosed uncertainty, not a finding that all new material is derived or a requirement for mathematical dissimilarity proof. A reasoned recorded maintainer rights review and license selection can resolve the current gate; a particular independent reviewer or clean-room certification is not mandated. Resolve concrete exceptions if identified. The source-only Git distribution contains notices and dependency references, not LGPL native binaries; target binary distribution obligations remain separate. The earlier broad STOP wording above must be read with this clarification.

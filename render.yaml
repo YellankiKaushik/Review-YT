@@ -19,9 +19,9 @@ services:
       - key: CACHE_PATH
         value: /tmp/review-yt-cache/reviews.sqlite
       - key: SUMMARY_PROVIDER
-        value: openrouter
+        value: disabled
       - key: SUMMARY_ENABLED_PROVIDERS
-        value: disabled,openrouter
+        value: disabled
       - key: SUMMARY_ALLOW_PAID
         value: "false"
       - key: SUMMARY_FALLBACK_ENABLED
@@ -33,6 +33,4 @@ services:
       - key: YOUTUBE_API_KEY
         sync: false
       - key: BACKEND_API_TOKEN
-        sync: false
-      - key: OPENROUTER_API_KEY
         sync: false

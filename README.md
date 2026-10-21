@@ -2,7 +2,7 @@
 
 A new requirements-based implementation in a separate source tree. It retrieves actual YouTube comments, displays a VADER sentiment spectrum, and optionally generates attributed research notes. AI failures leave the metadata and sentiment usable. No historical source, tests, assets, configuration files or Git objects were intentionally imported.
 
-**Publication gate: BLOCKED pending provenance review and a maintainer license decision.** See [the independence audit](docs/INDEPENDENT_IMPLEMENTATION_AUDIT.md). This is not a strict clean-room certification: earlier conversation context exposed the implementing assistant to historical code.
+**Publication gate: BLOCKED pending the recorded maintainer rights/license decision in [the final checklist](docs/FINAL_PUBLICATION_RIGHTS_CHECKLIST.md).** See [the independence audit](docs/INDEPENDENT_IMPLEMENTATION_AUDIT.md). This is not a strict clean-room certification: earlier conversation context exposed the implementing assistant to historical code.
 
 ## Run locally
 
@@ -24,7 +24,9 @@ Configure `YOUTUBE_API_KEY` and a random, private `BACKEND_API_TOKEN` in root `.
 npm run dev
 ```
 
-Open http://localhost:3200. These ports keep the historical app on 3000/5000 intact. On POSIX use `.venv/bin/python` for Python commands. Cloud production uses Vercel for `apps/web` and Render for the Flask API; see [deployment gates](docs/DEPLOYMENT.md).
+For safe Windows background start/check/stop commands, use [the local startup guide](docs/LOCAL_STARTUP.md).
+
+Open http://127.0.0.1:3200. These ports keep the historical app on 3000/5000 intact. On POSIX use `.venv/bin/python` for Python commands. Cloud production uses Vercel for `apps/web` and Render for the Flask API; see [deployment gates](docs/DEPLOYMENT.md).
 
 ## Features and boundaries
 

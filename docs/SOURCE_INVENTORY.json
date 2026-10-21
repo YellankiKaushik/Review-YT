@@ -15,14 +15,14 @@
     },
     {
       "path": ".github/workflows/verify.yml",
-      "sha256": "bf09f7b6b2902100106eb9e1e2cb9c7b60c7bb639d1626a6887dd831d4d2a593",
-      "bytes": 1342,
+      "sha256": "43b9000556bd9e11eccf5cf50bb7c777629b4c25b4876cb671a82d4c6571ce3c",
+      "bytes": 1395,
       "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
     },
     {
       "path": ".gitignore",
-      "sha256": "e0a40237c847d7f99c13f7c9631ad4fac2331f4211da1a57151962c38efe6eee",
-      "bytes": 242,
+      "sha256": "2a4cbd68829a313d79a54013dcdbaf5058e00f2950fd2936db8bfee0dcf44380",
+      "bytes": 437,
       "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
     },
     {
@@ -45,38 +45,20 @@
     },
     {
       "path": "CHANGELOG.md",
-      "sha256": "e9cc7be60e9bbaf7729eb80a98038d9aca29c07c6c9eab33d4463526d2b8683c",
-      "bytes": 381,
+      "sha256": "b876d2c0681fda538d1366b24a6daf70f9045c058111febb43da89066c88228b",
+      "bytes": 1329,
       "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
     },
     {
       "path": "CONTRIBUTING.md",
-      "sha256": "9d8e01e97822e30953593011eea42259b39de6c5a68e8b64d9e4cad145c7fe62",
-      "bytes": 731,
+      "sha256": "90d617330546dc0e5bbb9848bdab0aa38925590d4acc828aafd2abd40911ab12",
+      "bytes": 1361,
       "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
     },
     {
-      "path": "DEPLOYMENT_EXECUTION_REPORT.md",
-      "sha256": "b157099270364c4f3a3b6b4bf87b3812cb58e1af37538340a2dd03cd686c22ef",
-      "bytes": 16900,
-      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
-    },
-    {
-      "path": "FINAL_LIVE_DEPLOYMENT_REPORT.md",
-      "sha256": "560ef3d5eb03633fd641db3392c40ffc819bd96a5a1b9431cf9274ea1495a5c7",
-      "bytes": 8550,
-      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
-    },
-    {
-      "path": "FINAL_REVIEW_YT_RELEASE_REPORT.md",
-      "sha256": "6bfe0add6ffa20678a54446872ed3557a91bf4ff286c6adb2a15907efff0cfc4",
-      "bytes": 22531,
-      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
-    },
-    {
-      "path": "GITHUB_PUBLICATION_REPORT.md",
-      "sha256": "741d960969d2d57257fb49ac0688416d7e18155ca87f8c7b982311d338ad1e48",
-      "bytes": 10104,
+      "path": "FINAL_REVIEW_YT_POLISH_REPORT.md",
+      "sha256": "975b4ab1a759ea98a17b604f6e143815e2542ea5cd63edbd74d912e220b4f9a0",
+      "bytes": 12333,
       "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
     },
     {
@@ -92,21 +74,15 @@
       "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
     },
     {
-      "path": "PRODUCTION_DEPLOYMENT_READINESS_REPORT.md",
-      "sha256": "56972fef495048110fe37ae3bf41138719ee75007c9588675f22b94d33779859",
-      "bytes": 25253,
-      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
-    },
-    {
       "path": "README.md",
-      "sha256": "05eae3d090efc8d46b936caa650d67dc18acb36aa989a3cbff157e2fdd0a764d",
-      "bytes": 5788,
+      "sha256": "9c76bc28941d9e9244e9fb8ed43e5d537cf073074c2ed575f869d78697aba0df",
+      "bytes": 16695,
       "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
     },
     {
       "path": "SECURITY.md",
-      "sha256": "1b05354fe8d004705145bd9d7d44d185c1a3e5662d5d725ac46f33164b0de8e8",
-      "bytes": 3004,
+      "sha256": "9476ace21b40194a562d2e1be33153c6573a2cfe7d77b407be3a8861d3f31cf0",
+      "bytes": 3433,
       "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
     },
     {
@@ -159,26 +135,26 @@
     },
     {
       "path": "apps/web/app/layout.tsx",
-      "sha256": "7c898a9d2d64070a8e0d574ce47793957e6b723c532d04f481a63efa5b55db61",
-      "bytes": 1276,
+      "sha256": "06ea404302545dc248119e875f40fa29ea7325abf810632f83ff656f899d241e",
+      "bytes": 2219,
       "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
     },
     {
       "path": "apps/web/app/page.tsx",
-      "sha256": "9ad6fda4410efcaf76a9f5dfac204d05bcb029653d5ab4c3c534604d4e0ee356",
-      "bytes": 2273,
+      "sha256": "85c0ad32fbac4b4f731876eb25225ce003bdd3b216fd8f73db2e15fe8c3a2b50",
+      "bytes": 5980,
       "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
     },
     {
       "path": "apps/web/app/review/[video]/page.tsx",
-      "sha256": "6c24e402d7a9bdbbe4a1cc2bf37022ab415e7fc4134cca7fd19b6bd191e22744",
-      "bytes": 691,
+      "sha256": "745b9aa8d240ba7b3690576a5ba375c714c0665a9bffb9db47345914aa9e6990",
+      "bytes": 705,
       "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
     },
     {
       "path": "apps/web/app/style.css",
-      "sha256": "9b516107e634bec353ae2f70f3c38c7438611677e188b3683d58d271fbdb296d",
-      "bytes": 11068,
+      "sha256": "9d5e5c096f26f995e9c6e0a3bbee7866c6fe2fcc742da5908011c360f93e5637",
+      "bytes": 19221,
       "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
     },
     {
@@ -213,8 +189,8 @@
     },
     {
       "path": "apps/web/package.json",
-      "sha256": "deafa013f358f4df09dc6030f3b5b2b14ecca3435447b26c12f828ad0e5a8207",
-      "bytes": 923,
+      "sha256": "5736cccda5e34030625764f2432801592b0188548c4be858a8edced1c0539038",
+      "bytes": 887,
       "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
     },
     {
@@ -249,20 +225,26 @@
     },
     {
       "path": "apps/web/tests/ui.test.tsx",
-      "sha256": "33518e4e3f2724c87668506d36eecca8962105c56bbb57c14e140707e797d151",
-      "bytes": 7689,
+      "sha256": "ad1b29f65c2b52767fdc6a014764e74f53c1c649bccf1550e32ece2178b0269c",
+      "bytes": 9866,
       "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
     },
     {
       "path": "apps/web/tsconfig.json",
-      "sha256": "b4a6df03367344adec8429335faaa7b4c7404e53cd96e697527a074bef6a1c76",
-      "bytes": 867,
+      "sha256": "45f73d41e664ec99947e005e38de0634ce6d3c7ba04a646934043858fdf3fe2c",
+      "bytes": 866,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "apps/web/ui/icon.tsx",
+      "sha256": "9e90159e680e47c93df14493c160477854c5541d6027dd888385e8a02a89868b",
+      "bytes": 846,
       "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
     },
     {
       "path": "apps/web/ui/review-form.tsx",
-      "sha256": "72d1b2f29fa768384cd052a0180a9bf807a803f04bcf60b8b06cd91ea8efadae",
-      "bytes": 5805,
+      "sha256": "63d84a9dc1ab05f5b136052b15a2bd2f4ebf81989171b31040b5a7b91cddfb6f",
+      "bytes": 6975,
       "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
     },
     {
@@ -273,14 +255,14 @@
     },
     {
       "path": "apps/web/ui/review-sheet.tsx",
-      "sha256": "f162179c6202e2df76824e7ede679474ed5c2dad50ab4728f597d1429134367a",
-      "bytes": 6289,
+      "sha256": "19c903007e6a860c95212f1db45edbc39f24f269a6794d864a617843a45032b0",
+      "bytes": 7381,
       "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
     },
     {
       "path": "apps/web/vercel.json",
-      "sha256": "f9d85dfbc3e284333130874015535090f7d84e249817671e504b5a3c903c9e76",
-      "bytes": 203,
+      "sha256": "a4c2be50a8a3f95abccdf1d161be6a1620b62c68785b04dd82155c283c203665",
+      "bytes": 196,
       "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
     },
     {
@@ -303,14 +285,14 @@
     },
     {
       "path": "docs/DEPLOYMENT.md",
-      "sha256": "ebbd0a46fd9cb4852cbecfc7cae08e5330221945d7b9e62a63261e8f7a787ff1",
-      "bytes": 8132,
+      "sha256": "a04c7c595e99bd50b03eaa14d72f11d9af38a51229734f193a3f89025f350181",
+      "bytes": 2712,
       "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
     },
     {
       "path": "docs/ENGINEERING_CHANGELOG.md",
-      "sha256": "b5becf92289d0e76a4d356ff46e78cac8761e59d1e0067c9fbf7a1247d41f96e",
-      "bytes": 1819,
+      "sha256": "20ac09c2bd706bf7ac7560afb49d674d9e858e72abb2c68fabc60bcdf50f12e4",
+      "bytes": 1835,
       "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
     },
     {
@@ -321,14 +303,14 @@
     },
     {
       "path": "docs/FINAL_PUBLICATION_RIGHTS_CHECKLIST.md",
-      "sha256": "4216ef24abf8ce30497e0283a48b59e676a19eecd6b89b464392b9d3db329a34",
-      "bytes": 8411,
+      "sha256": "9c635d32ef0fc950caf22e57dbb643d4189745063fadc5d4540fb3402eeab24b",
+      "bytes": 8443,
       "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
     },
     {
       "path": "docs/IMPLEMENTATION_JOURNAL.md",
-      "sha256": "9cf1b4c9ef47f488e6af29efe35cff2b4833850a25f533667bdd6370edae66dc",
-      "bytes": 9407,
+      "sha256": "93b58a99bd73771774ce96238e86f67088ed08079965707683981468b141980d",
+      "bytes": 10629,
       "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
     },
     {
@@ -344,9 +326,15 @@
       "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
     },
     {
+      "path": "docs/README.md",
+      "sha256": "436c98bdfc60fe1575ace1a4793731f60f8df856977221d67c6c16ca1951cf9c",
+      "bytes": 1671,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
       "path": "docs/RENDER_DEPLOYMENT_HANDOFF.md",
-      "sha256": "b2625aa9ee7b0f5310769b8e4bdc026325deb59eecd97a488325c6a7a686ae87",
-      "bytes": 7701,
+      "sha256": "93deeabfd52a73fe4721228f451de31a3042e5d4198bb265e5711e1397a0f3c0",
+      "bytes": 8008,
       "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
     },
     {
@@ -357,9 +345,39 @@
     },
     {
       "path": "docs/VERCEL_DEPLOYMENT_HANDOFF.md",
-      "sha256": "d371af2e6336f96014a95fd8a556e5e7ce7f9c86d00268d47415a223b1bfd633",
-      "bytes": 9421,
+      "sha256": "6a2e9e6c2bfac76d07b213d8f275030fa5370c646e5e9803a58923dee5cd85d9",
+      "bytes": 9615,
       "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "docs/assets/README.md",
+      "sha256": "2ff28e0e5e30d908bc074ab6db6cf38a00db10486fde6e1a67e9a12f60c9fddf",
+      "bytes": 1082,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "docs/assets/review-yt-architecture.svg",
+      "sha256": "4751e08182e697943f642bab58836950a2a720b28cbeb9c12424f759eefdc8e5",
+      "bytes": 3260,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "docs/assets/review-yt-homepage.png",
+      "sha256": "0f3f7d8b48208c86cb9fd52a61b5e6aab4adf7de6fbd72bb84b5d02b9c64b1e0",
+      "bytes": 30213,
+      "origin": "Genuine Playwright app capture; result data explicitly illustrative, not live YouTube; see docs/assets/README.md"
+    },
+    {
+      "path": "docs/assets/review-yt-mobile.png",
+      "sha256": "0f8d4c253ac95791a3cc0a5013f0f868d0e173d3dba19e3411973a3e4044d057",
+      "bytes": 71311,
+      "origin": "Genuine Playwright app capture; result data explicitly illustrative, not live YouTube; see docs/assets/README.md"
+    },
+    {
+      "path": "docs/assets/review-yt-results.png",
+      "sha256": "9ae8d9028df129088baf0e2db2e35c24fdbe8f829bbac09cc94c5a038bba7759",
+      "bytes": 64353,
+      "origin": "Genuine Playwright app capture; result data explicitly illustrative, not live YouTube; see docs/assets/README.md"
     },
     {
       "path": "docs/dependency-licenses/009db0dcc2ae1acc-LICENSE.txt",
@@ -3374,6 +3392,54 @@
       "origin": "Third-party license/notice text from newly installed dependency"
     },
     {
+      "path": "docs/development/PRODUCT_QA.md",
+      "sha256": "68b3876788b538d78fbea9bb386632eac33d085c6e5086c08b76c06514495285",
+      "bytes": 2124,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "docs/reports/PRODUCT_POLISH_BASELINE.md",
+      "sha256": "b658454f6597e9bfb5512fbfc68b339a4ff1fb2b351e87d51d64b3f7e04e8d03",
+      "bytes": 3745,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "docs/reports/archive/DEPLOYMENT_EXECUTION_REPORT.md",
+      "sha256": "b157099270364c4f3a3b6b4bf87b3812cb58e1af37538340a2dd03cd686c22ef",
+      "bytes": 16900,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "docs/reports/archive/FINAL_LIVE_DEPLOYMENT_REPORT.md",
+      "sha256": "560ef3d5eb03633fd641db3392c40ffc819bd96a5a1b9431cf9274ea1495a5c7",
+      "bytes": 8550,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "docs/reports/archive/FINAL_REVIEW_YT_RELEASE_REPORT.md",
+      "sha256": "6bfe0add6ffa20678a54446872ed3557a91bf4ff286c6adb2a15907efff0cfc4",
+      "bytes": 22531,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "docs/reports/archive/GITHUB_PUBLICATION_REPORT.md",
+      "sha256": "741d960969d2d57257fb49ac0688416d7e18155ca87f8c7b982311d338ad1e48",
+      "bytes": 10104,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "docs/reports/archive/PRODUCTION_DEPLOYMENT_READINESS_REPORT.md",
+      "sha256": "cba2a4b98699ead347183fcf39868d7d4810996c7339e306878efcad182dd6a1",
+      "bytes": 25256,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "docs/reports/archive/README.md",
+      "sha256": "58f5c51c2b4302bfe20e3acce810b3642aa7543bd81bea08c660eb9e2004d48a",
+      "bytes": 1022,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
       "path": "package-lock.json",
       "sha256": "db3485fb41da37857b86e03deb3f22037f5a04bd28ec9f3856d4170fdc5a9f9a",
       "bytes": 169614,
@@ -3512,6 +3578,12 @@
       "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
     },
     {
+      "path": "scripts/capture-product.cjs",
+      "sha256": "79d5ba2c25fe5ab67a6cec49a1e79b1344b4ce6115ca3d02941a9fd440716c6d",
+      "bytes": 10035,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
       "path": "scripts/check-local.ps1",
       "sha256": "9ff91445e71f5ea3a28832e8d0792e73d5db5286029904f3af600624e80a2305",
       "bytes": 275,
@@ -3521,6 +3593,12 @@
       "path": "scripts/check-public.ps1",
       "sha256": "5b5ced08893e1f5e4c77dc587dd1f0d8350bc643c919f90b3d0ed352d82d0ba5",
       "bytes": 746,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "scripts/check_docs.py",
+      "sha256": "0e7c651d43b4d63a1c52c86be05f4e93370e719ddb7c71c5b56f64f1d54e93cd",
+      "bytes": 2983,
       "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
     },
     {
@@ -3573,8 +3651,8 @@
     },
     {
       "path": "scripts/source_inventory.py",
-      "sha256": "04c28973e9ec6660d6415a15a72daab6b08b0746b657f84b66184c0ad67820fe",
-      "bytes": 1940,
+      "sha256": "61c303c20348615c9af1fde7f2217d1b3279446ffd14a9e91d64d7e051caa58d",
+      "bytes": 2148,
       "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
     },
     {
@@ -3597,8 +3675,8 @@
     },
     {
       "path": "scripts/verify.py",
-      "sha256": "488d26a6744379b1cf5d99df34fcc343cd248589185213e8a8eed619d5496753",
-      "bytes": 2413,
+      "sha256": "f7f83c851cc0235d32f2cc233ed24de0d3dd0898e0e07cbe2676bcea5e1057c4",
+      "bytes": 2465,
       "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
     },
     {
@@ -3611,6 +3689,18 @@
       "path": "tests/e2e/offline_api.py",
       "sha256": "b279ff628b23ac1a924d7dc7646379d907fb46b64aeec39cb374192ea8bfa748",
       "bytes": 2845,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "tests/e2e/polish.spec.ts",
+      "sha256": "0577f52cff3c1b9bfbb4d746cceca5f6e34547228d496a2122042b0181bc1322",
+      "bytes": 6317,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "tests/fixtures/product-demo.json",
+      "sha256": "c4df54301862f5a5ff682164eb16ac9617dc48ac786a8050a807b99560560631",
+      "bytes": 1111,
       "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
     },
     {

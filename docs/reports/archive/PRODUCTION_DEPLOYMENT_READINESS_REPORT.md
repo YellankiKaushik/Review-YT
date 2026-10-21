@@ -163,7 +163,7 @@ Once recorded, apply only the approved license metadata, refresh inventory, reru
 
 ## Exact manual hosting handoff
 
-Full instructions: [Render](docs/RENDER_DEPLOYMENT_HANDOFF.md), [Vercel](docs/VERCEL_DEPLOYMENT_HANDOFF.md), [Environment checklist](docs/ENVIRONMENT_VARIABLES_CHECKLIST.md).
+Full instructions: [Render](../../RENDER_DEPLOYMENT_HANDOFF.md), [Vercel](../../VERCEL_DEPLOYMENT_HANDOFF.md), [Environment checklist](../../ENVIRONMENT_VARIABLES_CHECKLIST.md).
 
 | Host | Required selections/settings |
 | --- | --- |

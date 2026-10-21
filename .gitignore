@@ -18,3 +18,19 @@ playwright-report/
 test-results/
 .vercel/
 build/
+
+# Runtime data, diagnostics and temporary browser/TLS exports
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+*.db
+*.log
+*.key
+*.pem
+*.crt
+*.cer
+*.trace.zip
+trace.zip
+*.har
+*.db-shm
+*.db-wal

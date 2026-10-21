@@ -30,6 +30,8 @@ def main():
             if name.startswith("docs/dependency-licenses/")
             else "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
         )
+        if name.startswith("docs/assets/") and path.suffix == ".png":
+            origin = "Genuine Playwright app capture; result data explicitly illustrative, not live YouTube; see docs/assets/README.md"
         if name == "apps/web/AGENTS.md":
             origin = "Next.js-generated framework guidance from the newly installed MIT-licensed dependency; upstream notice retained"
         records.append(

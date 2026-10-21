@@ -1,6 +1,8 @@
 # Render backend: manual deployment handoff
 
-Prepared from the checked-in configuration and current official documentation on 2026-10-21. **No Render service was provisioned.** Publish only after the maintainer decision in FINAL_PUBLICATION_RIGHTS_CHECKLIST.md; local checks do not establish a cloud deployment.
+## Existing production status — 2026-10-21
+
+The maintainer has created the dedicated Render deployment. GET https://review-yt-api.onrender.com/health returned HTTP200 during this mission's baseline. See [current operations](DEPLOYMENT.md) and [release evidence](../FINAL_REVIEW_YT_POLISH_REPORT.md). This is not an uptime or exact backend-commit guarantee. **Do not create a duplicate service/project or change production environment secrets.** The original setup instructions below are retained for understanding/recreating a deployment only when explicitly requested.
 
 ## Create the dedicated service
 

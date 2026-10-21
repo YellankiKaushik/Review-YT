@@ -30,3 +30,4 @@ jobs:
       - run: .venv/bin/python -m pip_audit --skip-editable -r requirements-runtime.lock
       - run: .venv/bin/python scripts/secret_check.py
       - run: .venv/bin/python scripts/check_release_config.py
+      - run: .venv/bin/python scripts/check_docs.py

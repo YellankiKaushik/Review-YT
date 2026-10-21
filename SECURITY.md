@@ -16,3 +16,6 @@ Selecting a cloud model sends bounded comment/caption excerpts to that provider;
 
 
 Public WSGI startup validates required backend key/token presence before binding. A configured-but-rejected key remains a sanitized runtime API failure. SQLite failure preserves an uncached baseline with a warning; source reuse/deduplication cannot be guaranteed when storage is unavailable. Public verification tooling is opt-in for live source, bounded, no-redirect and secret-redacting. Its loopback TLS bridge and temporary private key are ignored test infrastructure; never deploy them or copy local trust/test settings to hosting.
+
+
+Documentation captures must use a fresh unauthenticated context, labeled illustrative data and original artwork. Never include live comment bodies, browser auth state, provider keys, private paths or transient TLS files. Curated docs/assets images are public source; temporary QA artifacts remain ignored. UI releases preserve the server relay and provider allowlist; visual controls never accept model URLs or credentials.

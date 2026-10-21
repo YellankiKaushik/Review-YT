@@ -1,6 +1,6 @@
 # Final publication rights decision
 
-Status: **MAINTAINER DECISION RECORDED — MIT, 2026-10-21.** The source-only rights/license gate is cleared on the maintainer's explicit declaration and follow-up MIT selection. Full local verification, source publication and the first Ubuntu GitHub Actions run have passed; exact commit/run evidence is in GITHUB_PUBLICATION_REPORT.md. This review identifies no specific copied unlicensed expression in the inspected new tree. It is not legal certification or a comparison against historical source.
+Status: **MAINTAINER DECISION RECORDED — MIT, 2026-10-21.** The source-only rights/license gate is cleared on the maintainer's explicit declaration and follow-up MIT selection. Full local verification, source publication and the first Ubuntu GitHub Actions run have passed; exact commit/run evidence is in reports/archive/GITHUB_PUBLICATION_REPORT.md. This review identifies no specific copied unlicensed expression in the inspected new tree. It is not legal certification or a comparison against historical source.
 
 ## Evidence and concrete scope
 
@@ -44,4 +44,4 @@ No concrete copied unlicensed expression or unresolved included-source exception
 
 The canonical MIT text is in root/package LICENSE; NOTICE files explain eligible material and exceptions. Original retained third-party legal texts remain unmodified. Source-only GitHub publication is distinct from publishing a Python/npm package or redistributing native binaries. No package upload, release tag, hosting project, paid service or public app endpoint is authorized or claimed by this record.
 
-Final technical verification, Git commit, remote SHA, Actions outcome and remaining manual hosting steps belong in GITHUB_PUBLICATION_REPORT.md. No repeated broad audit is needed without new source, new evidence or a changed distribution target.
+Final technical verification, Git commit, remote SHA, Actions outcome and remaining manual hosting steps belong in reports/archive/GITHUB_PUBLICATION_REPORT.md. No repeated broad audit is needed without new source, new evidence or a changed distribution target.

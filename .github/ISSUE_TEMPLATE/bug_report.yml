@@ -1,0 +1,33 @@
+name: Bug report
+description: Report a reproducible problem without private data
+title: "[Bug]: "
+body:
+  - type: markdown
+    attributes:
+      value: "No public demo is operated. Never include API keys, tokens, .env files, raw comment bodies, private screenshots or auth headers. Security-sensitive reports follow SECURITY.md instead. Support is best effort."
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy and troubleshooting
+      options:
+        - label: I checked the troubleshooting guide and removed private data from this report.
+          required: true
+  - type: input
+    id: revision
+    attributes:
+      label: Commit, OS, Python and Node versions
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Minimal reproduction
+      description: Steps and sanitized error codes only; use offline fixtures when possible.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected and actual behavior
+    validations:
+      required: true

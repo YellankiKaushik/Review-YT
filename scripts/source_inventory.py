@@ -3,6 +3,7 @@
 import hashlib
 import json
 import subprocess
+import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -18,6 +19,24 @@ def main():
             ).splitlines()
         )
     )
+    if "--check" in sys.argv:
+        expected = json.loads((ROOT / "docs/SOURCE_INVENTORY.json").read_text(encoding="utf-8"))["files"]
+        indexed = {row["path"]: row for row in expected}
+        actual = {name for name in names if name != "docs/SOURCE_INVENTORY.json" and (ROOT / name).is_file()}
+        errors = sorted(actual.symmetric_difference(indexed))
+        converted = 0
+        for name in actual.intersection(indexed):
+            data = (ROOT / name).read_bytes()
+            candidates = {hashlib.sha256(data).hexdigest()}
+            if b"\x00" not in data:
+                lf = data.replace(b"\r\n", b"\n")
+                candidates.update(hashlib.sha256(value).hexdigest() for value in (lf, lf.replace(b"\n", b"\r\n")))
+            if indexed[name]["sha256"] not in candidates:
+                errors.append(name)
+            elif hashlib.sha256(data).hexdigest() != indexed[name]["sha256"]:
+                converted += 1
+        print(json.dumps({"inventoryFiles": len(indexed), "lineEndingConversions": converted, "errors": errors}))
+        return int(bool(errors))
     records = []
     for name in names:
         if name == "docs/SOURCE_INVENTORY.json":
@@ -51,4 +70,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    raise SystemExit(main())

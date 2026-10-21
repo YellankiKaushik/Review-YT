@@ -4,6 +4,7 @@ import json
 import os
 import re
 import subprocess
+import sys
 from pathlib import Path
 
 from dotenv import dotenv_values
@@ -62,9 +63,30 @@ def main():
             (ROOT / name).read_text(encoding="utf-8", errors="ignore"),
         ):
             public.append(name)
+    history_count = 0
+    if "--history" in sys.argv:
+        objects = subprocess.check_output(["git", "rev-list", "--objects", "--all"], cwd=ROOT, text=True).splitlines()
+        identities = dict.fromkeys(row.split(" ", 1)[0] for row in objects)
+        process = subprocess.Popen(["git", "cat-file", "--batch"], cwd=ROOT, stdin=subprocess.PIPE, stdout=subprocess.PIPE)
+        try:
+            for identity in identities:
+                process.stdin.write((identity + "\n").encode())
+                process.stdin.flush()
+                header = process.stdout.readline().split()
+                data = process.stdout.read(int(header[2]))
+                process.stdout.read(1)
+                if header[1] == b"blob":
+                    history_count += 1
+                    if any(value.encode() in data for value in secrets.values()) or re.search(rb"(?:sk-or-v1-|AIza)[A-Za-z0-9_-]{30,}", data):
+                        matches.append({"object": identity, "variable": "reachable-history-secret"})
+        finally:
+            process.stdin.close()
+            process.stdout.close()
+            process.wait()
     result = {
         "scope": "tracked/nonignored files, built browser artifacts and local application logs; exact configured values and recognized provider prefixes, not a complete security audit",
         "sourceFiles": len(set(tracked)),
+        "reachableBlobs": history_count,
         "browserArtifacts": len(bundles),
         "logs": len(logs),
         "configuredValues": len(secrets),

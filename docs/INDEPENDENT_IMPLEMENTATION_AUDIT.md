@@ -1,4 +1,10 @@
-# Independent implementation and release gate
+# Provenance audit and historical release gate
+
+**Current scope (2026-10-22):** the recorded 2026-10-21 maintainer decision cleared the eligible-new-source MIT publication gate. The repository is source-only; the original hosted demo is retired. Prior-context uncertainty and third-party distribution obligations remain disclosed. No historical source was consulted or imported in this handoff.
+
+## Historical implementation audit (before the recorded decision)
+
+Earlier blocked/pending language below describes the pre-authorization audit, superseded by the recorded decision at the end and [the rights checklist](FINAL_PUBLICATION_RIGHTS_CHECKLIST.md).
 
 **Technical provenance: VERIFIED LOCALLY within the limits below. Public redistribution clearance: BLOCKED.** This is evidence of a new source tree and development process, not a legal opinion or a claim of exclusive ownership.
 

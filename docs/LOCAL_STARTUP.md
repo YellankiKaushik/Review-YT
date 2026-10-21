@@ -1,5 +1,7 @@
 # Windows local services
 
+For first installation, start with [Getting Started](GETTING_STARTED.md). Use your own YouTube key and private token. The maintainer demo is retired; these scripts start only your local checkout.
+
 From this repository root, run `powershell -NoProfile -File scripts/start-local.ps1`.
 The script uses this tree's `.venv/Scripts/python.exe` and installed Next CLI, binds
 only loopback ports 5100/3200, waits for readiness, and checks authenticated inventory

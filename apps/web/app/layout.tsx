@@ -1,18 +1,20 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { Icon } from "@/ui/icon";
 import "./style.css";
 export const metadata: Metadata = {
-  title: "Review-YT | Read the room",
+  title: "Review-YT | Understand the comments",
   description:
-    "A transparent, sampled view of YouTube feedback, with optional AI research notes.",
+    "Explore real public YouTube comments with transparent sentiment analysis and optional, clearly attributed AI research notes.",
 };
+const repo = "https://github.com/YellankiKaushik/Review-YT";
 export default function RootLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="en" data-scroll-behavior="smooth">
       <body>
         <a className="skip" href="#content">
           Skip to content
@@ -20,20 +22,41 @@ export default function RootLayout({
         <div className="shell">
           <header className="masthead">
             <Link className="wordmark" href="/" aria-label="Review-YT home">
-              <span className="brand-symbol" aria-hidden="true">
-                r/
+              <span className="brand-symbol">
+                <Icon name="play" />
               </span>
-              review<span className="brand-youtube">yt</span>
+              Review<span className="brand-youtube">-YT</span>
             </Link>
-            <span className="masthead-note">
-              Audience research, with receipts.
-            </span>
-            <span className="edition">INDEPENDENT EDITION / 01</span>
+            <nav className="main-nav" aria-label="Main navigation">
+              <Link href="/#how-it-works">How it works</Link>
+              <Link href="/#methods">Our approach</Link>
+              <a className="nav-repo" href={repo}>
+                GitHub <span aria-hidden="true">↗</span>
+              </a>
+            </nav>
           </header>
           {children}
-          <footer>
-            <span>Review-YT · A sample, never the whole audience.</span>
-            <span>Real source data. Clearly attributed AI.</span>
+          <footer className="site-footer">
+            <div>
+              <strong>Review-YT</strong>
+              <p>
+                A clearer view of a comment sample.
+                <br />
+                Always a sample. Never the whole audience.
+              </p>
+            </div>
+            <nav aria-label="Project links">
+              <a href={repo}>GitHub repository ↗</a>
+              <a href={`${repo}/blob/main/docs/README.md`}>Documentation ↗</a>
+              <a href={`${repo}/blob/main/LICENSE`}>MIT license ↗</a>
+            </nav>
+            <p className="footer-note">
+              Real source data.
+              <br />
+              Transparent methods.
+              <br />
+              AI only when you choose it.
+            </p>
           </footer>
         </div>
       </body>

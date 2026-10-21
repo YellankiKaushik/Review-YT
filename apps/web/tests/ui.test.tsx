@@ -233,3 +233,65 @@ it("refuses a coherent result attributed to a different selected provider", asyn
   );
   expect(push).not.toHaveBeenCalled();
 });
+
+it.each([
+  [10, 0, 0],
+  [0, 10, 0],
+  [0, 0, 10],
+  [1, 1, 1],
+  [2, 1, 0],
+])(
+  "renders boundary and fractional counts %s/%s/%s without changing their meaning",
+  (positive, neutral, negative) => {
+    const total = positive + neutral + negative;
+    const totals = { positive, neutral, negative };
+    const shares = {
+      positive: (positive / total) * 100,
+      neutral: (neutral / total) * 100,
+      negative: (negative / total) * 100,
+    };
+    render(
+      <ReviewSheet
+        review={{
+          ...sample,
+          sampled: total,
+          sentiment: { ...sample.sentiment, totals, shares },
+        }}
+      />,
+    );
+    expect(
+      screen.getByRole("img", {
+        name: `Sample sentiment: ${shares.positive}% positive, ${shares.neutral}% neutral, ${shares.negative}% negative`,
+      }),
+    ).toBeVisible();
+    for (const key of ["positive", "neutral", "negative"] as const) {
+      const rows = document.querySelector(`.sentiment-line.${key}`);
+      expect(rows).toHaveTextContent(`${shares[key].toFixed(1)}%`);
+      expect(rows).toHaveTextContent(`${totals[key]} comments`);
+    }
+  },
+);
+it("focuses the empty video field and associates the visible validation error", async () => {
+  vi.stubGlobal("fetch", vi.fn().mockResolvedValue(Response.json(inventory)));
+  render(<ReviewForm />);
+  const input = screen.getByLabelText("YouTube video");
+  await waitFor(() => expect(input).toBeEnabled());
+  fireEvent.click(screen.getByRole("button", { name: /Review this video/ }));
+  expect(input).toHaveFocus();
+  expect(input).toHaveAttribute("aria-invalid", "true");
+  expect(input).toHaveAccessibleDescription(/Paste a YouTube video link/);
+});
+it("discloses inventory failure without leaking transport errors or disabling the baseline", async () => {
+  vi.stubGlobal(
+    "fetch",
+    vi.fn().mockRejectedValue(new TypeError("private-inventory-detail")),
+  );
+  render(<ReviewForm />);
+  expect(
+    await screen.findByText(/Provider status is unavailable/),
+  ).toBeVisible();
+  expect(screen.queryByText(/private-inventory-detail/)).toBeNull();
+  expect(
+    screen.getByRole("button", { name: /Review this video/ }),
+  ).toBeEnabled();
+});

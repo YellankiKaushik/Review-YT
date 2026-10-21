@@ -16,7 +16,7 @@ export default async function ReviewPage({
   )
     notFound();
   return (
-    <main id="content">
+    <main id="content" tabIndex={-1}>
       <ReviewReader
         key={`${video}:${via}`}
         video={video}

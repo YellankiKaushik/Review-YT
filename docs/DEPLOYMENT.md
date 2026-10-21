@@ -1,6 +1,6 @@
 # Gated publication and hosting procedure
 
-**Current state: BLOCKED.** No public source or deployment has been created. Complete the single decision in `FINAL_PUBLICATION_RIGHTS_CHECKLIST.md` first; the earlier audit provides background evidence. Never force-push or substitute historical source. GitHub target was rechecked public/empty, with no branches; recheck immediately before the eventual push.
+**Current state: maintainer rights/license decision recorded (MIT, 2026-10-21).** See FINAL_PUBLICATION_RIGHTS_CHECKLIST.md for the actual declaration and exceptions, and GITHUB_PUBLICATION_REPORT.md for current verification/publication outcomes. Never force-push or substitute historical source. Recheck the destination immediately before a normal push. **The current task must not create Render or Vercel resources: the maintainer handles both dashboards and production secret entry.** The hosting instructions below are a manual handoff after source publication, not authorization for this agent to provision resources.
 
 ## Non-destructive GitHub publication after rights clearance
 

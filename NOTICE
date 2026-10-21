@@ -1,0 +1,23 @@
+Review-YT license scope and third-party rights
+
+The MIT LICENSE applies to eligible new project material only, to the extent
+that the maintainer holds rights to license it. The maintainer selected MIT
+and authorized source publication on 2026-10-21. See
+docs/FINAL_PUBLICATION_RIGHTS_CHECKLIST.md for the actual recorded decision
+and docs/INDEPENDENT_IMPLEMENTATION_AUDIT.md for disclosed prior context.
+AI assistance does not establish exclusive copyright or independent origin.
+
+Third-party software and retained legal text keep their original licenses,
+copyrights and notices. In particular, docs/dependency-licenses/ and the
+Next-generated apps/web/AGENTS.md retain their upstream terms. See
+docs/THIRD_PARTY_NOTICES.md and docs/DEPENDENCY_LICENSES.json. The MIT grant
+does not relicense these materials or claim their authors' contributions.
+The historical source tree and its attribution remain untouched.
+
+Model weights, actual YouTube comments/captions/thumbnails, private runtime
+caches and live provider output are not bundled as project source or granted
+a new dataset/model license. Applicable provider and service terms remain.
+This source-only publication does not bundle installed dependency binaries.
+Review target-platform source/notice/relinking obligations before a separate
+binary/container distribution; hosting projects and production secret entry
+remain manual maintainer actions.

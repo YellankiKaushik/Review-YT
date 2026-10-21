@@ -7,8 +7,8 @@ version = "0.1.0"
 description = "Source-based YouTube comment analysis with optional language-model notes"
 requires-python = ">=3.11"
 readme = "README.md"
-license = "LicenseRef-ReviewYT-Pending"
-license-files = ["LICENSE"]
+license = "MIT"
+license-files = ["LICENSE", "NOTICE"]
 dependencies = ["httpx==0.28.1", "vaderSentiment==3.3.2"]
 [project.optional-dependencies]
 captions = ["youtube-transcript-api>=1.2,<2"]

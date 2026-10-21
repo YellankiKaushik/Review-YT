@@ -1,0 +1,10 @@
+review-yt-core license scope
+
+MIT applies to eligible new package material to the extent the maintainer
+holds rights to license it. AI assistance is not a guarantee of exclusive
+copyright or independent origin. Third-party dependencies remain separately
+licensed and are not vendored in this package. Preserve their own notices.
+VADER and its lexicon retain upstream attribution in the installed dependency.
+YouTube source data, provider output and model weights are not bundled or
+relicensed here. The repository's NOTICE, source inventory, rights checklist
+and third-party notice summary provide the full release scope.

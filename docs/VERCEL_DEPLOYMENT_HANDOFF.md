@@ -1,6 +1,6 @@
 # Vercel frontend: manual deployment handoff
 
-Prepared on 2026-10-21 from apps/web/vercel.json, the npm workspace/lockfile and current official documentation. **No Vercel project was provisioned.** Complete the rights/license decision and publish the reviewed GitHub source first. Verify Render before configuring the frontend's backend origin.
+Prepared on 2026-10-21 from apps/web/vercel.json, the npm workspace/lockfile and current official documentation. **No Vercel project was provisioned.** The maintainer rights/MIT decision is recorded; verify the actual GitHub publication in GITHUB_PUBLICATION_REPORT.md before this manual hosting setup. Verify Render before configuring the frontend's backend origin.
 
 ## Import and build settings
 

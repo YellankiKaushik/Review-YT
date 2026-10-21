@@ -2,7 +2,7 @@
   "name": "review-yt-independent",
   "version": "0.1.0",
   "private": true,
-  "license": "UNLICENSED",
+  "license": "MIT",
   "workspaces": [
     "apps/web"
   ],

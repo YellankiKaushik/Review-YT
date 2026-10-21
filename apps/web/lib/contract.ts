@@ -93,13 +93,35 @@ export const reviewSchema = z
 export type Review = z.infer<typeof reviewSchema>;
 export type Inventory = z.infer<typeof inventorySchema>;
 export async function readReview(response: Response): Promise<Review> {
-  const body = await response.json();
-  if (!response.ok)
+  let body: unknown;
+  try {
+    body = await response.json();
+  } catch {
+    throw new Error("The review service returned an unreadable response.");
+  }
+  if (!response.ok) {
+    const failure = z
+      .object({ error: z.object({ message: z.string() }) })
+      .safeParse(body);
     throw new Error(
-      body.error?.message || "The review service is unavailable.",
+      failure.success
+        ? failure.data.error.message
+        : "The review service is unavailable.",
     );
+  }
   const parsed = reviewSchema.safeParse(body);
   if (!parsed.success)
     throw new Error("The review service returned an incompatible result.");
   return parsed.data;
+}
+
+export function requestErrorMessage(error: unknown, fallback: string): string {
+  if (
+    (error instanceof Error || error instanceof DOMException) &&
+    error.name === "TimeoutError"
+  )
+    return "The review request timed out. A free service may be waking up; please wait and try again.";
+  if (error instanceof TypeError)
+    return "The review service could not be reached. Please wait and try again.";
+  return error instanceof Error ? error.message : fallback;
 }

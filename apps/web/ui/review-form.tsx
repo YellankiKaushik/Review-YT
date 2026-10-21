@@ -4,6 +4,7 @@ import { useRouter } from "next/navigation";
 import {
   inventorySchema,
   readReview,
+  requestErrorMessage,
   type Inventory,
   type ProviderId,
 } from "@/lib/contract";
@@ -82,13 +83,15 @@ export function ReviewForm() {
         signal: AbortSignal.timeout(120000),
       });
       const review = await readReview(response);
+      if (review.ai.provider !== provider)
+        throw new Error(
+          "The review service returned a different summary provider.",
+        );
       remember(review);
       router.push(`/review/${review.video.id}?via=${provider}`);
     } catch (error) {
       setError(
-        error instanceof Error
-          ? error.message
-          : "The analysis could not be completed.",
+        requestErrorMessage(error, "The analysis could not be completed."),
       );
     } finally {
       running.current = false;

@@ -74,7 +74,11 @@ export async function relay(
         offset += chunk.length;
       }
       payload = new TextDecoder().decode(bytes);
-      JSON.parse(payload);
+      try {
+        JSON.parse(payload);
+      } catch {
+        return failure("json_invalid", "Send a valid JSON request.", 400);
+      }
     }
     const target = new URL("/api/" + operation, origin);
     if (operation === "results")
@@ -100,7 +104,16 @@ export async function relay(
         "The review response exceeded its limit.",
         502,
       );
-    const body = JSON.parse(text);
+    let body: unknown;
+    try {
+      body = JSON.parse(text);
+    } catch {
+      return failure(
+        "upstream_format",
+        "The backend returned an unreadable response.",
+        502,
+      );
+    }
     return Response.json(body, {
       status: upstream.status,
       headers: {

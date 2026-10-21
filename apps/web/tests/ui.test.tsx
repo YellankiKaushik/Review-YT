@@ -159,3 +159,77 @@ it("starts with usable sentiment when the configured cloud default lacks credent
     ).toBeEnabled(),
   );
 });
+
+it("keeps slow analysis busy and suppresses duplicate submissions", async () => {
+  push.mockClear();
+  let finish!: (value: Response) => void;
+  const pending = new Promise<Response>((resolve) => {
+    finish = resolve;
+  });
+  const fetcher = vi
+    .fn()
+    .mockResolvedValueOnce(Response.json(inventory))
+    .mockReturnValueOnce(pending);
+  vi.stubGlobal("fetch", fetcher);
+  render(<ReviewForm />);
+  const field = screen.getByLabelText("YouTube video");
+  await waitFor(() => expect(field).toBeEnabled());
+  fireEvent.change(field, { target: { value: sample.video.id } });
+  const button = screen.getByRole("button", { name: /Review this video/ });
+  fireEvent.click(button);
+  fireEvent.click(button);
+  expect(screen.getByRole("status")).toHaveTextContent("Retrieving the sample");
+  expect(button).toBeDisabled();
+  expect(fetcher).toHaveBeenCalledTimes(2);
+  finish(Response.json(sample));
+  await waitFor(() => expect(push).toHaveBeenCalledTimes(1));
+});
+it("explains client request timeout without automatically retrying", async () => {
+  const fetcher = vi
+    .fn()
+    .mockResolvedValueOnce(Response.json(inventory))
+    .mockRejectedValueOnce(
+      new DOMException("private-timeout-details", "TimeoutError"),
+    );
+  vi.stubGlobal("fetch", fetcher);
+  render(<ReviewForm />);
+  await waitFor(() =>
+    expect(screen.getByLabelText("YouTube video")).toBeEnabled(),
+  );
+  fireEvent.change(screen.getByLabelText("YouTube video"), {
+    target: { value: sample.video.id },
+  });
+  fireEvent.click(screen.getByRole("button", { name: /Review this video/ }));
+  expect(await screen.findByRole("alert")).toHaveTextContent("timed out");
+  expect(screen.getByRole("alert")).not.toHaveTextContent(
+    "private-timeout-details",
+  );
+  expect(fetcher).toHaveBeenCalledTimes(2);
+  expect(
+    screen.getByRole("button", { name: /Review this video/ }),
+  ).toBeEnabled();
+});
+it("refuses a coherent result attributed to a different selected provider", async () => {
+  push.mockClear();
+  vi.stubGlobal(
+    "fetch",
+    vi
+      .fn()
+      .mockResolvedValueOnce(Response.json(inventory))
+      .mockResolvedValueOnce(
+        Response.json({ ...sample, ai: { ...sample.ai, provider: "ollama" } }),
+      ),
+  );
+  render(<ReviewForm />);
+  await waitFor(() =>
+    expect(screen.getByLabelText("YouTube video")).toBeEnabled(),
+  );
+  fireEvent.change(screen.getByLabelText("YouTube video"), {
+    target: { value: sample.video.id },
+  });
+  fireEvent.click(screen.getByRole("button", { name: /Review this video/ }));
+  expect(await screen.findByRole("alert")).toHaveTextContent(
+    "different summary provider",
+  );
+  expect(push).not.toHaveBeenCalled();
+});

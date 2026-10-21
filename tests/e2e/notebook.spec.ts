@@ -118,3 +118,74 @@ test("expired or absent saved reviews offer a new analysis without starting one"
   ).toBeVisible();
   expect(posts).toBe(0);
 });
+
+test("the ten-comment baseline form is operable with the keyboard", async ({
+  page,
+}) => {
+  await page.goto("/");
+  const input = page.getByLabel("YouTube video", { exact: true });
+  await input.fill(video);
+  await input.press("Tab");
+  await expect(page.getByLabel("Comment sample")).toBeFocused();
+  await page.keyboard.press("Tab");
+  await expect(page.getByLabel("Research notes")).toBeFocused();
+  await page.keyboard.press("Tab");
+  const button = page.getByRole("button", { name: "Review this video" });
+  await expect(button).toBeFocused();
+  await page.keyboard.press("Enter");
+  await expect(
+    page.getByRole("heading", { name: "Offline notebook test video" }),
+  ).toBeVisible();
+});
+
+test("storage denial still allows a fresh result and cache-only reload", async ({
+  page,
+}) => {
+  await page.addInitScript(() =>
+    Object.defineProperty(window, "sessionStorage", {
+      get() {
+        throw new DOMException("Storage denied", "SecurityError");
+      },
+    }),
+  );
+  await submit(page, "disabled");
+  let posts = 0,
+    gets = 0;
+  page.on("request", (request) => {
+    const path = new URL(request.url()).pathname;
+    if (path === "/api/analyze") posts++;
+    if (path === "/api/results") gets++;
+  });
+  await page.reload();
+  await expect(
+    page.getByRole("heading", { name: "Offline notebook test video" }),
+  ).toBeVisible();
+  expect(posts).toBe(0);
+  // Next development Strict Mode may mount once, cancel, then mount again.
+  // Every request is cache-only; production does not replay the effect.
+  expect(gets).toBeGreaterThanOrEqual(1);
+  expect(gets).toBeLessThanOrEqual(2);
+});
+
+test("unexpected server HTML stays on the form with a safe error", async ({
+  page,
+}) => {
+  await page.route("**/api/analyze", (route) =>
+    route.fulfill({
+      status: 502,
+      contentType: "text/html",
+      body: "<html>private-upstream-error</html>",
+    }),
+  );
+  await page.goto("/");
+  await page.getByLabel("YouTube video", { exact: true }).fill(video);
+  await page.getByRole("button", { name: "Review this video" }).click();
+  const alert = page
+    .getByRole("alert")
+    .filter({ hasText: "unreadable response" });
+  await expect(alert).toBeVisible();
+  await expect(alert).not.toContainText("private-upstream-error");
+  await expect(
+    page.getByRole("button", { name: "Review this video" }),
+  ).toBeEnabled();
+});

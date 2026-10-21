@@ -161,3 +161,92 @@ def test_caption_fetch_uses_public_text_and_bounds_it(monkeypatch):
     )
     text = fetch_captions(ID)
     assert len(text) == 20000 and text.startswith("caption ")
+
+
+def test_empty_comments_are_not_fabricated():
+    def handler(request):
+        return httpx.Response(
+            200, json={"items": [video()] if request.url.path.endswith("videos") else []}
+        )
+
+    with httpx.Client(transport=httpx.MockTransport(handler)) as client:
+        evidence = YouTube("fixture", client).collect(ID, 10)
+    assert evidence.comments == [] and evidence.notices == ["comments_empty"]
+
+
+@pytest.mark.parametrize("item", [None, {"snippet": None}, {"snippet": []}])
+def test_malformed_metadata_is_a_typed_failure(item):
+    with httpx.Client(
+        transport=httpx.MockTransport(lambda request: httpx.Response(200, json={"items": [item]}))
+    ) as client:
+        with pytest.raises(Failure) as error:
+            YouTube("fixture", client).collect(ID, 10)
+    assert error.value.code == "youtube_format"
+
+
+@pytest.mark.parametrize(
+    "item", [None, {"snippet": None}, {"snippet": {"topLevelComment": {"snippet": []}}}]
+)
+def test_malformed_comment_is_not_a_partial_success(item):
+    def handler(request):
+        return httpx.Response(
+            200, json={"items": [video()] if request.url.path.endswith("videos") else [item]}
+        )
+
+    with httpx.Client(transport=httpx.MockTransport(handler)) as client:
+        with pytest.raises(Failure) as error:
+            YouTube("fixture", client).collect(ID, 10)
+    assert error.value.code == "youtube_format"
+
+
+@pytest.mark.parametrize(
+    "status,body,code",
+    [
+        (400, {"error": {"errors": [{"reason": "keyInvalid"}]}}, "youtube_rejected"),
+        (503, {"error": "malformed-private-upstream"}, "youtube_rejected"),
+        (200, {"items": "invalid"}, "youtube_format"),
+    ],
+)
+def test_invalid_key_server_errors_and_malformed_envelopes_are_sanitized(status, body, code):
+    with httpx.Client(
+        transport=httpx.MockTransport(lambda request: httpx.Response(status, json=body))
+    ) as client:
+        with pytest.raises(Failure) as error:
+            YouTube("fixture", client).collect(ID, 10)
+    assert error.value.code == code and "private-upstream" not in error.value.message
+
+
+def test_youtube_timeout_is_typed_and_never_retried():
+    calls = []
+
+    def handler(request):
+        calls.append(request)
+        raise httpx.ReadTimeout("private-url", request=request)
+
+    with httpx.Client(transport=httpx.MockTransport(handler)) as client:
+        with pytest.raises(Failure) as error:
+            YouTube("fixture", client).collect(ID, 10)
+    assert error.value.code == "upstream_timeout" and len(calls) == 1
+
+
+@pytest.mark.parametrize(
+    "body",
+    [
+        {
+            "items": [
+                {"snippet": {"topLevelComment": {"id": [], "snippet": {"textOriginal": "fixture"}}}}
+            ]
+        },
+        {"items": [], "nextPageToken": []},
+    ],
+)
+def test_malformed_comment_identity_and_pagination_are_typed(body):
+    def handler(request):
+        return httpx.Response(
+            200, json={"items": [video()]} if request.url.path.endswith("videos") else body
+        )
+
+    with httpx.Client(transport=httpx.MockTransport(handler)) as client:
+        with pytest.raises(Failure) as error:
+            YouTube("fixture", client).collect(ID, 10)
+    assert error.value.code == "youtube_format"

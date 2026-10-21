@@ -67,8 +67,15 @@ class YouTube:
             timeout=_seconds,
         )
         if status >= 300:
-            errors = body.get("error", {}).get("errors", [])
-            reasons = {e.get("reason") for e in errors if isinstance(e, dict)}
+            error = body.get("error")
+            errors = error.get("errors", []) if isinstance(error, dict) else []
+            if not isinstance(errors, list):
+                errors = []
+            reasons = {
+                e["reason"]
+                for e in errors
+                if isinstance(e, dict) and isinstance(e.get("reason"), str)
+            }
             if "commentsDisabled" in reasons:
                 raise Failure(
                     "comments_disabled", "Public comments are disabled for this video.", 409
@@ -95,8 +102,9 @@ class YouTube:
         videos = self.query("videos", part="snippet,statistics", id=video_id)["items"]
         if not videos:
             raise Failure("video_unavailable", "That video is unavailable or is not public.", 404)
-        snippet = videos[0].get("snippet", {})
-        if not isinstance(snippet.get("title"), str):
+        first = videos[0]
+        snippet = first.get("snippet", {}) if isinstance(first, dict) else {}
+        if not isinstance(snippet, dict) or not isinstance(snippet.get("title"), str):
             raise Failure("youtube_format", "Video metadata is incomplete.")
         video = {
             "id": video_id,
@@ -130,13 +138,25 @@ class YouTube:
                 notices.append(error.code)
                 break
             for item in page["items"]:
-                top = item.get("snippet", {}).get("topLevelComment", {})
+                snippet = item.get("snippet") if isinstance(item, dict) else None
+                top = snippet.get("topLevelComment") if isinstance(snippet, dict) else None
+                detail = top.get("snippet") if isinstance(top, dict) else None
+                if not isinstance(detail, dict):
+                    raise Failure(
+                        "youtube_format", "YouTube returned an unexpected comment format."
+                    )
                 identity = top.get("id")
-                text = normalize_comment(top.get("snippet", {}).get("textOriginal"))
+                if identity is not None and not isinstance(identity, str):
+                    raise Failure(
+                        "youtube_format", "YouTube returned an unexpected comment format."
+                    )
+                text = normalize_comment(detail.get("textOriginal"))
                 if identity and identity not in seen and text:
                     seen.add(identity)
                     comments.append(text)
             token = page.get("nextPageToken")
+            if token is not None and not isinstance(token, str):
+                raise Failure("youtube_format", "YouTube returned an unexpected pagination format.")
             if not token or token in tokens or len(comments) >= limit or len(tokens) >= 9:
                 break
             tokens.add(token)

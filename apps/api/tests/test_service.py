@@ -175,3 +175,145 @@ def test_missing_server_token_fails_closed(service):
     c, source, calls, cache, app = service
     app.config["API_TOKEN"] = ""
     assert c.get("/api/providers", headers=HEAD).status_code == 503
+
+
+def test_wrong_and_non_ascii_auth_are_rejected_not_server_errors(service):
+    client = service[0]
+    for value in ("Bearer incorrect", "Bearer wrong-☃"):
+        response = client.get("/api/providers", headers={"Authorization": value})
+        assert response.status_code == 401
+        assert response.json["error"]["code"] == "not_authorized"
+
+
+@pytest.mark.parametrize("operation", ["read", "write"])
+def test_unavailable_sqlite_preserves_baseline_and_sanitizes_details(
+    service, monkeypatch, caplog, operation
+):
+    import sqlite3
+
+    client, source, _, cache, _ = service
+
+    def fail(*args):
+        raise sqlite3.OperationalError("private-file-path-and-secret-must-not-leak")
+
+    monkeypatch.setattr(cache, operation, fail)
+    caplog.set_level("INFO", logger="review.http")
+    response = post(client)
+    assert response.status_code == 200 and response.json["sampled"] == 3
+    assert any("caching is unavailable" in message for message in response.json["warnings"])
+    assert b"private-file-path" not in response.data
+    assert "private-file-path" not in caplog.text and source.calls == 1
+
+
+def test_cache_only_failure_is_explicit_and_never_collects(service, monkeypatch):
+    import sqlite3
+
+    client, source, calls, cache, _ = service
+
+    def fail(*args):
+        raise sqlite3.OperationalError("not-safe-to-reflect")
+
+    monkeypatch.setattr(cache, "latest", fail)
+    response = client.get(f"/api/results?video={ID}&provider=disabled", headers=HEAD)
+    assert response.status_code == 503
+    assert response.json["error"]["code"] == "cache_unavailable"
+    assert source.calls == 0 and calls == [] and b"not-safe" not in response.data
+
+
+def test_cache_initialization_failure_still_allows_real_baseline(service, monkeypatch):
+    import sqlite3
+
+    _, source, calls, _, original = service
+
+    def fail(*args):
+        raise sqlite3.OperationalError("unwritable-private-path")
+
+    monkeypatch.setattr("review_api.Store", fail)
+    app = create_application(
+        {"API_TOKEN": "test-backend-token", "AI_CONFIG": original.config["AI_CONFIG"]},
+        original.extensions["review_engine"],
+    )
+    with app.test_client() as client:
+        assert post(client).status_code == 200
+        response = client.get(f"/api/results?video={ID}&provider=disabled", headers=HEAD)
+        assert response.status_code == 503
+    assert source.calls == 1 and calls == []
+
+
+def test_concurrent_duplicate_requests_collect_once(service, monkeypatch):
+    import time
+    from concurrent.futures import ThreadPoolExecutor
+    from threading import Barrier
+
+    _, source, _, _, app = service
+    original = source.collect
+
+    def slow(*args):
+        time.sleep(0.05)
+        return original(*args)
+
+    monkeypatch.setattr(source, "collect", slow)
+    barrier = Barrier(4)
+
+    def call(_):
+        barrier.wait(timeout=5)
+        with app.test_client() as client:
+            response = post(client)
+            return response.status_code, response.json
+
+    with ThreadPoolExecutor(max_workers=4) as pool:
+        responses = list(pool.map(call, range(4)))
+    assert all(status == 200 for status, _ in responses)
+    assert source.calls == 1
+    assert sum(not body["caching"]["reused"] for _, body in responses) == 1
+
+
+def test_restart_reads_persisted_review_without_collecting(service):
+    client, source, calls, cache, old = service
+    first = post(client).json
+    restarted = create_application(
+        {"API_TOKEN": "test-backend-token", "AI_CONFIG": old.config["AI_CONFIG"]},
+        old.extensions["review_engine"],
+        Store(cache.filename),
+    )
+    with restarted.test_client() as client:
+        response = client.get(f"/api/results?video={ID}&provider=disabled", headers=HEAD)
+    assert response.status_code == 200 and response.json["sourceDigest"] == first["sourceDigest"]
+    assert response.json["caching"]["reused"] and source.calls == 1 and calls == []
+
+
+def test_expired_result_get_never_reanalyzes(service):
+    client, source, calls, cache, _ = service
+    now = [100.0]
+    cache.clock = lambda: now[0]
+    assert post(client).status_code == 200
+    now[0] += 1801
+    response = client.get(f"/api/results?video={ID}&provider=disabled", headers=HEAD)
+    assert response.status_code == 404 and source.calls == 1 and calls == []
+
+
+def test_public_wsgi_missing_required_settings_fails_before_binding(monkeypatch):
+    import runpy
+    from pathlib import Path
+
+    monkeypatch.setenv("HOST", "0.0.0.0")
+    monkeypatch.setenv("YOUTUBE_API_KEY", "")
+    monkeypatch.setenv("BACKEND_API_TOKEN", "")
+    with pytest.raises(
+        RuntimeError, match="Public backend requires: YOUTUBE_API_KEY, BACKEND_API_TOKEN"
+    ):
+        runpy.run_path(str(Path(__file__).parents[1] / "serve.py"))
+
+
+@pytest.mark.parametrize("offline", [False, True])
+def test_ollama_inventory_reports_missing_model_or_offline(service, monkeypatch, offline):
+    def discover(self):
+        if offline:
+            raise Failure("upstream_connection", "Private fixture details must not escape.")
+        return [{"name": "different-installed-fixture"}]
+
+    monkeypatch.setattr("review_api.TextProvider.discover", discover)
+    response = service[0].get("/api/providers", headers=HEAD)
+    option = next(item for item in response.json["options"] if item["id"] == "ollama")
+    assert response.status_code == 200 and option["configured"] is False
+    assert "Private" not in option["description"]

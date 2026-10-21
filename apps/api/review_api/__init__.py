@@ -3,6 +3,7 @@ import hmac
 import json
 import logging
 import os
+import sqlite3
 import time
 import uuid
 from collections import OrderedDict, deque
@@ -40,13 +41,39 @@ def create_application(config=None, reviewer=None, store=None):
         settings,
         captions=os.getenv("TRANSCRIPTS_ENABLED", "false").lower() == "true",
     )
-    cache = store or Store(os.getenv("CACHE_PATH", str(ROOT / ".cache/reviews.sqlite")))
+    if store is not None:
+        cache = store
+    else:
+        try:
+            cache = Store(os.getenv("CACHE_PATH", str(ROOT / ".cache/reviews.sqlite")))
+        except (OSError, sqlite3.Error):
+            cache = None
+
+    def cache_call(operation, *args):
+        try:
+            if cache is None:
+                raise sqlite3.OperationalError()
+            return getattr(cache, operation)(*args)
+        except (OSError, sqlite3.Error, ValueError):
+            # The cache is an optimization: never discard a real baseline because
+            # ephemeral storage is unavailable. Do not log exception paths/content.
+            g.cache_unavailable = True
+            return None
+
     locks = [Lock() for _ in range(24)]
     arrivals, arrival_lock = OrderedDict(), Lock()
     app.extensions.update(review_engine=engine, review_store=cache)
 
     def respond_review(saved, reused):
         body, expiry = saved
+        if getattr(g, "cache_unavailable", False):
+            body = {
+                **body,
+                "warnings": body.get("warnings", [])
+                + [
+                    "Server caching is unavailable; this result is temporary and may need reanalysis."
+                ],
+            }
         return jsonify(
             {
                 **body,
@@ -68,7 +95,10 @@ def create_application(config=None, reviewer=None, store=None):
             raise Failure(
                 "backend_not_configured", "Backend authentication must be configured.", 503
             )
-        if not hmac.compare_digest(request.headers.get("Authorization", ""), "Bearer " + token):
+        if not hmac.compare_digest(
+            request.headers.get("Authorization", "").encode("utf-8"),
+            ("Bearer " + token).encode("utf-8"),
+        ):
             raise Failure("not_authorized", "Backend authentication failed.", 401)
         if request.method == "POST":
             now = time.monotonic()
@@ -199,12 +229,12 @@ def create_application(config=None, reviewer=None, store=None):
             json.dumps([video, sample, engine.captions]).encode()
         ).hexdigest()
         with locks[int(source_key[:6], 16) % len(locks)]:
-            cached_source = cache.read("source", source_key)
+            cached_source = cache_call("read", "source", source_key)
             if cached_source:
                 evidence = Evidence(**cached_source[0])
             else:
                 evidence = engine.collect(video, sample)
-                cache.write("source", source_key, video, "", evidence.dump(), 600)
+                cache_call("write", "source", source_key, video, "", evidence.dump(), 600)
             fingerprint = [
                 evidence.signature(),
                 provider,
@@ -214,12 +244,12 @@ def create_application(config=None, reviewer=None, store=None):
                 settings.paid,
             ]
             key = hashlib.sha256(json.dumps(fingerprint).encode()).hexdigest()
-            saved = cache.read("review", key)
+            saved = cache_call("read", "review", key)
             if saved:
                 return respond_review(saved, True)
             result = engine.review(evidence, provider)
             if result["ai"]["status"] in ("disabled", "complete"):
-                expiry = cache.write("review", key, video, provider, result, 1800)
+                expiry = cache_call("write", "review", key, video, provider, result, 1800)
                 return respond_review((result, expiry or time.time() + 30), False)
             return respond_review((result, time.time() + 45), False)
 
@@ -229,7 +259,13 @@ def create_application(config=None, reviewer=None, store=None):
         provider = request.args.get("provider", settings.selected)
         if provider not in settings.allowed:
             raise Failure("provider_input", "Unknown summary provider.", 400)
-        saved = cache.latest(video, provider)
+        saved = cache_call("latest", video, provider)
+        if getattr(g, "cache_unavailable", False):
+            raise Failure(
+                "cache_unavailable",
+                "Saved reviews are temporarily unavailable. Start a new analysis when the service recovers.",
+                503,
+            )
         if not saved:
             raise Failure("cache_miss", "No saved review is available. Start a new analysis.", 404)
         return respond_review(saved, True)

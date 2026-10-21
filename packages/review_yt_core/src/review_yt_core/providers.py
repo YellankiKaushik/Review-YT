@@ -186,13 +186,18 @@ class TextProvider:
             "GET", "/api/tags" if self.identity == "ollama" else "/models", seconds=6
         )
         values = data.get("models" if self.identity in ("ollama", "gemini") else "data", [])
-        return values if isinstance(values, list) else []
+        return (
+            [item for item in values if isinstance(item, dict)] if isinstance(values, list) else []
+        )
 
     def generate(self, instructions, evidence):
         ready, reason = self.availability()
         if not ready or self.identity == "disabled":
             raise Failure("ai_unavailable", reason, 503)
         start = time.monotonic()
+        # Leave room for a free hosting cold start and bounded YouTube work in
+        # the 115-second relay path. Local inference has its separate budget.
+        budget = min(self.config.seconds, 25) if self.identity in CLOUD else self.config.seconds
         cap = self.config.output_limit
         messages = [
             {"role": "system", "content": instructions},
@@ -253,7 +258,7 @@ class TextProvider:
                 body["provider"] = {"allow_fallbacks": False}
                 if not self.config.paid:
                     body["provider"]["max_price"] = {"prompt": 0, "completion": 0}
-        remaining = self.config.seconds - (time.monotonic() - start)
+        remaining = budget - (time.monotonic() - start)
         if remaining <= 0:
             raise Failure("ai_timeout", "Discovery exhausted the inference budget.", 504)
         data = self.request("POST", suffix, body, seconds=remaining)

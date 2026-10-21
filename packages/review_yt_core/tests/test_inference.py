@@ -50,6 +50,7 @@ def cloud():
     [
         (401, "ai_unauthorized"),
         (402, "ai_payment_required"),
+        (404, "ai_model_missing"),
         (429, "ai_rate_limited"),
         (503, "ai_provider_error"),
     ],
@@ -337,3 +338,106 @@ def test_caption_and_viewer_notes_remain_distinct():
         result["ai"]["status"] == "complete"
         and "installation" in result["ai"]["sections"]["captionDigest"]
     )
+
+
+@pytest.mark.parametrize("content", ["", None, "   "])
+def test_empty_cloud_text_is_rejected(content):
+    def handler(request):
+        if request.method == "GET":
+            return httpx.Response(
+                200,
+                json={
+                    "data": [{"id": "fixture/free", "pricing": {"prompt": "0", "completion": "0"}}]
+                },
+            )
+        return httpx.Response(
+            200, json={"choices": [{"message": {"content": content}, "finish_reason": "stop"}]}
+        )
+
+    with httpx.Client(transport=httpx.MockTransport(handler)) as client:
+        with pytest.raises(Failure) as error:
+            TextProvider(cloud(), "openrouter", client).generate("task", "data")
+    assert error.value.code == "ai_response_invalid"
+
+
+def test_cloud_timeout_has_no_retry_and_preserves_baseline():
+    calls = []
+
+    def handler(request):
+        calls.append(request)
+        if request.method == "GET":
+            return httpx.Response(
+                200,
+                json={
+                    "data": [{"id": "fixture/free", "pricing": {"prompt": "0", "completion": "0"}}]
+                },
+            )
+        raise httpx.ReadTimeout("private-upstream", request=request)
+
+    with httpx.Client(transport=httpx.MockTransport(handler)) as client:
+        config = cloud()
+        result = Reviewer(
+            ai=config, provider_factory=lambda provider: TextProvider(config, provider, client)
+        ).review(source(), "openrouter")
+    assert result["sampled"] == 3 and result["ai"]["status"] == "unavailable"
+    assert result["ai"]["notice"]["code"] == "upstream_timeout" and len(calls) == 2
+
+
+def test_cloud_discovery_and_inference_share_reduced_hosting_budget():
+    timeouts = []
+
+    def handler(request):
+        if request.method == "GET":
+            return httpx.Response(
+                200,
+                json={
+                    "data": [{"id": "fixture/free", "pricing": {"prompt": "0", "completion": "0"}}]
+                },
+            )
+        timeouts.append(request.extensions["timeout"]["read"])
+        return httpx.Response(
+            200,
+            json={
+                "model": "fixture/free",
+                "choices": [{"message": {"content": "Valid mock text"}, "finish_reason": "stop"}],
+            },
+        )
+
+    with httpx.Client(transport=httpx.MockTransport(handler)) as client:
+        result = TextProvider(cloud(), "openrouter", client).generate("task", "data")
+    assert result.complete and 0 < timeouts[0] <= 25
+
+
+def test_unavailable_catalog_model_prevents_generation():
+    calls = []
+
+    def handler(request):
+        calls.append(request)
+        return httpx.Response(200, json={"data": []})
+
+    with httpx.Client(transport=httpx.MockTransport(handler)) as client:
+        with pytest.raises(Failure) as error:
+            TextProvider(cloud(), "openrouter", client).generate("task", "data")
+    assert error.value.code == "ai_price_unverified" and len(calls) == 1
+
+
+def test_malformed_catalog_entries_are_not_model_objects():
+    with httpx.Client(
+        transport=httpx.MockTransport(
+            lambda request: httpx.Response(200, json={"data": [None, "bad", {"id": "example"}]})
+        )
+    ) as client:
+        assert TextProvider(cloud(), "openrouter", client).discover() == [{"id": "example"}]
+
+
+def test_offline_ollama_failure_keeps_baseline():
+    def handler(request):
+        raise httpx.ConnectError("private-address", request=request)
+
+    config = AIConfig(model={"ollama": "fixture-local"})
+    with httpx.Client(transport=httpx.MockTransport(handler)) as client:
+        result = Reviewer(
+            ai=config, provider_factory=lambda provider: TextProvider(config, provider, client)
+        ).review(source(), "ollama")
+    assert result["sampled"] == 3 and result["ai"]["status"] == "unavailable"
+    assert result["ai"]["notice"]["code"] == "upstream_connection"

@@ -30,3 +30,8 @@ These are session-independent background servers, not a Windows boot service.
 Shutdown, logoff, terminal-host cleanup or process termination can stop them. Run start
 again after restarting Windows. Neither the old project's 3000/5000 nor Ollama is managed.
 Frontend: http://127.0.0.1:3200/ ; backend health: http://127.0.0.1:5100/health .
+
+
+## Isolated optimized-production verification
+
+Run `powershell -NoProfile -File scripts/test-production-local.ps1` from this root. It builds the optimized app, starts actual Waitress/Next production on5102/3202 with a local trusted TLS bridge5103, tests real HTTP/auth/error paths and stops only its own verified process trees. It does not use REVIEW_LOCAL_TEST or change the working development services/private files. OpenSSL must already be installed (PATH or Git for Windows bundle); no model or infrastructure is downloaded. Default has no live YouTube/AI work; -LiveYouTube opts into a bounded ten-comment source and one browser cache reuse. -SkipBuild is only for a build matching current source. See the Vercel handoff for full commands, temporary TLS trust and eventual public checks.

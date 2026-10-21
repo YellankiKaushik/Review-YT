@@ -57,3 +57,10 @@ npm run test:e2e
 Browser CI uses its own explicit fixture API on 5101 and Next app on 3201. It does not use the live keys or claim real cloud generation. See `FINAL_REVIEW_YT_RELEASE_REPORT.md` for actual results and remaining gates. Run the complete local check sequence with `.venv/Scripts/python.exe scripts/verify.py` on Windows or `.venv/bin/python scripts/verify.py` on POSIX.
 
 For local caption notes, set `TRANSCRIPTS_ENABLED=true` in private root configuration and restart only this backend. The real local verification enabled it; the committed template and Render configuration keep the optional integration disabled by default. Caption excerpts are bounded and missing public captions are a normal state. API request/result details are in [docs/API.md](docs/API.md).
+
+
+## Production testing and manual hosting
+
+The current technical verdict and fresh195-test results are in [PRODUCTION_DEPLOYMENT_READINESS_REPORT.md](PRODUCTION_DEPLOYMENT_READINESS_REPORT.md). Reproduce optimized Next + Waitress + trusted local TLS with `powershell -NoProfile -File scripts/test-production-local.ps1`; live YouTube is explicit opt-in through -LiveYouTube. The default makes no live source/model request and cleans up isolated test processes. This does not create a public deployment.
+
+Use the exact [Render handoff](docs/RENDER_DEPLOYMENT_HANDOFF.md), [Vercel handoff](docs/VERCEL_DEPLOYMENT_HANDOFF.md) and [environment checklist](docs/ENVIRONMENT_VARIABLES_CHECKLIST.md). The maintainer creates hosting projects and enters all production secrets. After real URLs exist, scripts/check-public.ps1 performs bounded checks; -LiveVideo and -Browser deliberately enable a ten-comment browser/cache check. Publication remains gated by the recorded maintainer rights/license decision.

@@ -20,3 +20,10 @@ AI metadata identifies requested provider/model and the actual returned model, e
 Optional model errors, payment-required, rate limiting, incomplete output, missing credentials and invalid model JSON retain the genuine metadata/sentiment with ai.status=`unavailable` and a safe notice. Such notes are not saved as successful results. No hidden provider retry/fallback occurs. ActualModel can remain available after an incomplete response, but no unfinished content is shown. Disabled mode has no model request.
 
 Sources have their own ten-minute bounded cache. Complete provider-specific results have thirty-minute entries keyed by the source signature, selected model/configuration and note revision. Changing the caption setting changes the source key. Browser tab retention is versioned and provider-specific and does not create a new analysis on reload. See SECURITY.md for physical-retention and ephemeral-hosting limits.
+
+
+## Storage and hosting failure behavior
+
+Unavailable/unwritable SQLite is a cache failure, not a reason to discard genuine metadata/VADER results: POST can return an uncached review with a clear temporary-cache warning and short browser retention. Cache-only GET returns sanitized503/cache_unavailable when storage is unavailable, or404/cache_miss when an entry is absent/expired. Neither GET case retrieves source or invokes a model. Per-source request locking still prevents duplicate collection while a usable source cache exists; absent storage cannot promise reuse across requests.
+
+Cloud discovery plus inference shares a maximum25-second application budget; local Ollama retains75seconds. Production's initial allowlist is only disabled with captions off. Public WSGI binding refuses startup if YOUTUBE_API_KEY or BACKEND_API_TOKEN is blank. These controls do not guarantee external service availability or permanent cache storage. Malformed client JSON is400; a non-JSON upstream relay response is sanitized502.

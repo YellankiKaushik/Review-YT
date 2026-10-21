@@ -13,3 +13,6 @@ Application logging includes route/method/status/timing only, never request bodi
 Report suspected issues privately to the repository maintainer through GitHub private vulnerability reporting if enabled. No specific private reporting endpoint has been verified yet. If a credential is exposed, revoke it privately and replace it; never send it in chat or public issues.
 
 Selecting a cloud model sends bounded comment/caption excerpts to that provider; its data-use terms apply. Local Gemma inference uses the configured loopback daemon. Provider credentials are never supplied as model evidence.
+
+
+Public WSGI startup validates required backend key/token presence before binding. A configured-but-rejected key remains a sanitized runtime API failure. SQLite failure preserves an uncached baseline with a warning; source reuse/deduplication cannot be guaranteed when storage is unavailable. Public verification tooling is opt-in for live source, bounded, no-redirect and secret-redacting. Its loopback TLS bridge and temporary private key are ignored test infrastructure; never deploy them or copy local trust/test settings to hosting.

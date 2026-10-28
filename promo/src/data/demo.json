@@ -1,0 +1,46 @@
+{
+  "schema": "review-yt/v1",
+  "video": {
+    "id": "aB3_dE5-fG7",
+    "title": "An honest look at the conversation",
+    "channel": "Review-YT \u00b7 illustrative demo",
+    "published": null,
+    "thumbnail": "https://i.ytimg.com/vi/aB3_dE5-fG7/hqdefault.jpg"
+  },
+  "sampled": 10,
+  "sentiment": {
+    "totals": {
+      "positive": 6,
+      "neutral": 3,
+      "negative": 1
+    },
+    "shares": {
+      "positive": 60,
+      "neutral": 30,
+      "negative": 10
+    },
+    "classifier": "VADER 3.3.2 \u00b7 English lexicon rules"
+  },
+  "ai": {
+    "status": "disabled",
+    "provider": "disabled",
+    "requestedModel": "",
+    "actualModel": null,
+    "execution": "none",
+    "elapsedMs": 0,
+    "usage": {},
+    "sections": {},
+    "notice": null,
+    "revision": "illustrative-fixture",
+    "attempts": 0
+  },
+  "sourceDigest": "illustrative-demo-not-live",
+  "warnings": [
+    "Illustrative demo data, not real YouTube feedback."
+  ],
+  "created": "2026-10-21T00:00:00Z",
+  "caching": {
+    "reused": false,
+    "validUntil": "2099-01-01T00:00:00Z"
+  }
+}

@@ -1,0 +1,12 @@
+[
+  {
+    "file": "review-yt-youtube-1080p.mp4",
+    "encodedVideoHash": "SHA256=dc369a0f575c53ac2c66f620679a9fe47ce15bf31e1d20c783b58b5c93c125f7",
+    "audioOnlyRemuxPreservedEveryVideoPacket": true
+  },
+  {
+    "file": "review-yt-reel-vertical.mp4",
+    "encodedVideoHash": "SHA256=6daa86a6e7e7451a98da7c868c47b68eb0afbd9bdd71e1e19835418f82d5b5c7",
+    "audioOnlyRemuxPreservedEveryVideoPacket": true
+  }
+]

@@ -1,2 +1,9 @@
 * text=auto
 docs/dependency-licenses/** -text -whitespace
+
+# Preserve approved media/input hashes without newline conversion.
+promo/output/* -text
+promo/public/** -text
+promo/src/data/demo.json -text whitespace=cr-at-eol
+# Keep upstream OFL bytes verbatim, including their existing whitespace.
+promo/public/fonts/*-OFL.txt -text -whitespace

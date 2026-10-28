@@ -1,0 +1,32 @@
+{
+  "finals": [
+    {
+      "file": "review-yt-youtube-1080p.mp4",
+      "bytes": 13139233,
+      "sha256": "fba2c1ec47229794a5867a5b4f82321a5b2bb8366e9237324b36bc5f8596fe08"
+    },
+    {
+      "file": "review-yt-reel-vertical.mp4",
+      "bytes": 5254146,
+      "sha256": "7893a266f3d7718c3a62aba17e91503759225a421095418dae57b7f6ad05567a"
+    },
+    {
+      "file": "review-yt-github-preview.mp4",
+      "bytes": 699809,
+      "sha256": "87c060168a4d730e443fe6a695fc4a445078e399ed84795d2586920ecef6b7c1"
+    },
+    {
+      "file": "review-yt-github-preview.gif",
+      "bytes": 3796647,
+      "sha256": "42a9e60450f74c671a8cd6f5c720a38ad1c0467d9edd3a66de17c6c64662f900"
+    },
+    {
+      "file": "review-yt-thumbnail.png",
+      "bytes": 330001,
+      "sha256": "9095a972bdfc1607080b05c0bf20bdbaf92012c7487e3c411ac8d90ce49d8671"
+    }
+  ],
+  "temporaryRendersRemoved": true,
+  "requiredInputHashesVerified": true,
+  "priorV1OutputsUnchanged": true
+}

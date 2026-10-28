@@ -1,0 +1,178 @@
+path,type,bytes,MiB,version_control,already_tracked,ignored,external_distribution_required,decision
+promo/output/review-yt-github-preview.gif,gif,3796647,3.620765,yes,false,false,no,Required V2 media/input or curated evidence
+promo/output/review-yt-github-preview.mp4,mp4,699809,0.667390,yes,false,false,no,Required V2 media/input or curated evidence
+promo/output/review-yt-poster.png,png,210302,0.200560,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/output/review-yt-preview.gif,gif,2605053,2.484372,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/output/review-yt-promo.mp4,mp4,7265177,6.928613,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/output/review-yt-reel-vertical.mp4,mp4,5254146,5.010744,yes,false,false,no,Required V2 media/input or curated evidence
+promo/output/review-yt-thumbnail.png,png,330001,0.314713,yes,false,false,no,Required V2 media/input or curated evidence
+promo/output/review-yt-youtube-1080p.mp4,mp4,13139233,12.530549,yes,false,false,no,Required V2 media/input or curated evidence
+promo/public/fonts/Manrope.ttf,ttf,164700,0.157070,yes,false,false,no,Required V2 media/input or curated evidence
+promo/public/fonts/Sora.ttf,ttf,111400,0.106239,yes,false,false,no,Required V2 media/input or curated evidence
+promo/public/media/dashboard.png,png,34593,0.032990,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/public/media/home-00.png,png,30213,0.028813,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/public/media/home-01.png,png,31164,0.029720,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/public/media/home-02.png,png,31221,0.029775,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/public/media/home-03.png,png,31275,0.029826,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/public/media/home-04.png,png,31314,0.029863,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/public/media/home-05.png,png,31363,0.029910,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/public/media/home-06.png,png,31444,0.029987,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/public/media/home-07.png,png,31523,0.030063,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/public/media/home-08.png,png,31560,0.030098,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/public/media/home-09.png,png,31692,0.030224,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/public/media/mobile.png,png,71311,0.068007,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/public/media/notes.png,png,32398,0.030897,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/public/media/original-score.wav,wav,5760044,5.493206,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/public/v2/capture-masters/page@1b7be69ae7b484460c3e6dcb2264f021.webm,webm,1736480,1.656036,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/public/v2/capture-masters/page@707e5f6f4eb58d7e9b2e3396a2257204.webm,webm,2072910,1.976881,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/public/v2/capture-masters/page@cd5aad496173cce68d962986fd31ecbb.webm,webm,1929883,1.840480,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/public/v2/dashboard-hq.png,png,81963,0.078166,yes,false,false,no,Required V2 media/input or curated evidence
+promo/public/v2/dashboard.png,png,34593,0.032990,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/public/v2/form-01.png,png,23136,0.022064,yes,false,false,no,Required V2 media/input or curated evidence
+promo/public/v2/form-02.png,png,23271,0.022193,yes,false,false,no,Required V2 media/input or curated evidence
+promo/public/v2/form-03.png,png,23347,0.022265,yes,false,false,no,Required V2 media/input or curated evidence
+promo/public/v2/form-04.png,png,23490,0.022402,yes,false,false,no,Required V2 media/input or curated evidence
+promo/public/v2/form-05.png,png,23542,0.022451,yes,false,false,no,Required V2 media/input or curated evidence
+promo/public/v2/form-06.png,png,23573,0.022481,yes,false,false,no,Required V2 media/input or curated evidence
+promo/public/v2/form-07.png,png,23720,0.022621,yes,false,false,no,Required V2 media/input or curated evidence
+promo/public/v2/form-08.png,png,23881,0.022775,yes,false,false,no,Required V2 media/input or curated evidence
+promo/public/v2/form-09.png,png,23947,0.022838,yes,false,false,no,Required V2 media/input or curated evidence
+promo/public/v2/form-10.png,png,24075,0.022960,yes,false,false,no,Required V2 media/input or curated evidence
+promo/public/v2/form-11.png,png,24094,0.022978,yes,false,false,no,Required V2 media/input or curated evidence
+promo/public/v2/form-12.png,png,24213,0.023091,yes,false,false,no,Required V2 media/input or curated evidence
+promo/public/v2/form-busy.png,png,24910,0.023756,yes,false,false,no,Required V2 media/input or curated evidence
+promo/public/v2/form-empty.png,png,21410,0.020418,yes,false,false,no,Required V2 media/input or curated evidence
+promo/public/v2/form-ready.png,png,24213,0.023091,yes,false,false,no,Required V2 media/input or curated evidence
+promo/public/v2/full-results.png,png,64353,0.061372,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/public/v2/home-00.png,png,30213,0.028813,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/public/v2/home-01.png,png,31164,0.029720,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/public/v2/home-02.png,png,31221,0.029775,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/public/v2/home-03.png,png,31275,0.029826,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/public/v2/home-04.png,png,31314,0.029863,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/public/v2/home-05.png,png,31363,0.029910,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/public/v2/home-06.png,png,31444,0.029987,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/public/v2/home-07.png,png,31523,0.030063,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/public/v2/home-08.png,png,31560,0.030098,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/public/v2/home-09.png,png,31692,0.030224,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/public/v2/home-hq.png,png,71254,0.067953,yes,false,false,no,Required V2 media/input or curated evidence
+promo/public/v2/icon.svg,svg,206,0.000196,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/public/v2/mobile-chart.png,png,57774,0.055098,yes,false,false,no,Required V2 media/input or curated evidence
+promo/public/v2/mobile-notes.png,png,47317,0.045125,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/public/v2/mobile-spectrum.png,png,44798,0.042723,yes,false,false,no,Required V2 media/input or curated evidence
+promo/public/v2/mobile-top.png,png,48393,0.046151,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/public/v2/mobile.png,png,71311,0.068007,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/public/v2/notes.png,png,32398,0.030897,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/public/v2/score-reel.wav,wav,5760044,5.493206,yes,false,false,no,Required V2 media/input or curated evidence
+promo/public/v2/score-youtube.wav,wav,13440044,12.817425,yes,false,false,no,Required V2 media/input or curated evidence
+promo/public/v2/spectrum.png,png,29873,0.028489,yes,false,false,no,Required V2 media/input or curated evidence
+promo/references/qa/design-actual-chart.png,png,423607,0.403983,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/references/qa/design-chart.png,png,474273,0.452302,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/references/qa/design-contact.jpg,jpg,182894,0.174421,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/references/qa/design-cta.png,png,600762,0.572931,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/references/qa/design-mobile-entry.png,png,779377,0.743272,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/references/qa/design-noise.png,png,547526,0.522161,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/references/qa/design-pipeline.png,png,482319,0.459975,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/references/qa/design-preview.png,png,238724,0.227665,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/references/qa/design-responsive.png,png,653412,0.623142,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/references/qa/design-reveal-entry.png,png,567981,0.541669,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/references/qa/design-reveal.png,png,648163,0.618136,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/references/qa/design-signal.png,png,426086,0.406347,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/references/qa/design-vertical-cta.png,png,494319,0.471419,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/references/qa/design-vertical-ui.png,png,443483,0.422938,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/references/qa/design-vertical.png,png,444300,0.423717,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/references/qa/design-workflow-action.png,png,525411,0.501071,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/references/qa/engine-landscape/overview-01.png,png,671956,0.640827,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/references/qa/engine-landscape/overview-02.png,png,88406,0.084311,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/references/qa/engine-landscape/transition-01-5.00s.png,png,196785,0.187669,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/references/qa/engine-landscape/transition-02-12.00s.png,png,246228,0.234821,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/references/qa/engine-landscape/transition-03-20.00s.png,png,254398,0.242613,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/references/qa/engine-landscape/transition-04-30.00s.png,png,170134,0.162252,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/references/qa/engine-landscape/transition-05-42.00s.png,png,262789,0.250615,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/references/qa/engine-landscape/transition-06-50.00s.png,png,162285,0.154767,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/references/qa/engine-landscape/transition-07-59.00s.png,png,127878,0.121954,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/references/qa/engine-landscape/transition-08-65.00s.png,png,150761,0.143777,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/references/qa/review-yt-github-preview/review-yt-github-preview-0.000.png,png,143276,0.136639,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/references/qa/review-yt-github-preview/review-yt-github-preview-1.000.png,png,159221,0.151845,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/references/qa/review-yt-github-preview/review-yt-github-preview-1.967.png,png,168374,0.160574,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/references/qa/review-yt-github-preview/review-yt-github-preview-2.000.png,png,166620,0.158901,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/references/qa/review-yt-github-preview/review-yt-github-preview-2.500.png,png,151700,0.144672,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/references/qa/review-yt-github-preview/review-yt-github-preview-4.000.png,png,156118,0.148886,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/references/qa/review-yt-github-preview/review-yt-github-preview-6.000.png,png,157150,0.149870,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/references/qa/review-yt-github-preview/review-yt-github-preview-7.000.png,png,155514,0.148310,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/references/qa/review-yt-github-preview/review-yt-github-preview-7.500.png,png,169205,0.161366,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/references/qa/review-yt-github-preview/review-yt-github-preview-7.967.png,png,160999,0.153541,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/references/qa/review-yt-github-preview-contact-1.jpg,jpg,365359,0.348433,yes,false,false,no,Required V2 media/input or curated evidence
+promo/references/qa/review-yt-reel-vertical/review-yt-reel-vertical-0.000.png,png,167321,0.159570,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/references/qa/review-yt-reel-vertical/review-yt-reel-vertical-0.300.png,png,182438,0.173986,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/references/qa/review-yt-reel-vertical/review-yt-reel-vertical-1.000.png,png,259684,0.247654,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/references/qa/review-yt-reel-vertical/review-yt-reel-vertical-1.967.png,png,257044,0.245136,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/references/qa/review-yt-reel-vertical/review-yt-reel-vertical-10.700.png,png,275688,0.262917,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/references/qa/review-yt-reel-vertical/review-yt-reel-vertical-11.967.png,png,278441,0.265542,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/references/qa/review-yt-reel-vertical/review-yt-reel-vertical-12.000.png,png,128916,0.122944,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/references/qa/review-yt-reel-vertical/review-yt-reel-vertical-13.000.png,png,226304,0.215820,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/references/qa/review-yt-reel-vertical/review-yt-reel-vertical-15.000.png,png,253907,0.242145,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/references/qa/review-yt-reel-vertical/review-yt-reel-vertical-18.500.png,png,275612,0.262844,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/references/qa/review-yt-reel-vertical/review-yt-reel-vertical-2.000.png,png,275898,0.263117,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/references/qa/review-yt-reel-vertical/review-yt-reel-vertical-20.967.png,png,240346,0.229212,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/references/qa/review-yt-reel-vertical/review-yt-reel-vertical-21.000.png,png,201920,0.192566,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/references/qa/review-yt-reel-vertical/review-yt-reel-vertical-23.000.png,png,249233,0.237687,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/references/qa/review-yt-reel-vertical/review-yt-reel-vertical-25.967.png,png,237608,0.226601,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/references/qa/review-yt-reel-vertical/review-yt-reel-vertical-26.000.png,png,161990,0.154486,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/references/qa/review-yt-reel-vertical/review-yt-reel-vertical-27.500.png,png,228072,0.217506,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/references/qa/review-yt-reel-vertical/review-yt-reel-vertical-29.967.png,png,230632,0.219948,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/references/qa/review-yt-reel-vertical/review-yt-reel-vertical-3.800.png,png,351983,0.335677,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/references/qa/review-yt-reel-vertical/review-yt-reel-vertical-5.967.png,png,360199,0.343513,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/references/qa/review-yt-reel-vertical/review-yt-reel-vertical-6.000.png,png,200073,0.190804,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/references/qa/review-yt-reel-vertical/review-yt-reel-vertical-8.300.png,png,279527,0.266578,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/references/qa/review-yt-reel-vertical-contact-1.jpg,jpg,242479,0.231246,yes,false,false,no,Required V2 media/input or curated evidence
+promo/references/qa/review-yt-reel-vertical-contact-2.jpg,jpg,203503,0.194076,yes,false,false,no,Required V2 media/input or curated evidence
+promo/references/qa/review-yt-youtube-1080p/review-yt-youtube-1080p-0.000.png,png,235268,0.224369,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/references/qa/review-yt-youtube-1080p/review-yt-youtube-1080p-0.300.png,png,242453,0.231221,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/references/qa/review-yt-youtube-1080p/review-yt-youtube-1080p-1.000.png,png,365887,0.348937,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/references/qa/review-yt-youtube-1080p/review-yt-youtube-1080p-10.700.png,png,253124,0.241398,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/references/qa/review-yt-youtube-1080p/review-yt-youtube-1080p-11.967.png,png,407314,0.388445,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/references/qa/review-yt-youtube-1080p/review-yt-youtube-1080p-12.000.png,png,681144,0.649590,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/references/qa/review-yt-youtube-1080p/review-yt-youtube-1080p-12.067.png,png,691330,0.659304,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/references/qa/review-yt-youtube-1080p/review-yt-youtube-1080p-15.000.png,png,493404,0.470547,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/references/qa/review-yt-youtube-1080p/review-yt-youtube-1080p-19.000.png,png,515719,0.491828,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/references/qa/review-yt-youtube-1080p/review-yt-youtube-1080p-19.967.png,png,608818,0.580614,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/references/qa/review-yt-youtube-1080p/review-yt-youtube-1080p-2.500.png,png,380526,0.362898,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/references/qa/review-yt-youtube-1080p/review-yt-youtube-1080p-20.000.png,png,379264,0.361694,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/references/qa/review-yt-youtube-1080p/review-yt-youtube-1080p-20.067.png,png,380167,0.362556,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/references/qa/review-yt-youtube-1080p/review-yt-youtube-1080p-23.000.png,png,374375,0.357032,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/references/qa/review-yt-youtube-1080p/review-yt-youtube-1080p-26.000.png,png,372284,0.355038,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/references/qa/review-yt-youtube-1080p/review-yt-youtube-1080p-27.600.png,png,376503,0.359061,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/references/qa/review-yt-youtube-1080p/review-yt-youtube-1080p-29.967.png,png,474941,0.452939,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/references/qa/review-yt-youtube-1080p/review-yt-youtube-1080p-30.000.png,png,264414,0.252165,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/references/qa/review-yt-youtube-1080p/review-yt-youtube-1080p-30.067.png,png,269162,0.256693,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/references/qa/review-yt-youtube-1080p/review-yt-youtube-1080p-32.000.png,png,274551,0.261832,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/references/qa/review-yt-youtube-1080p/review-yt-youtube-1080p-35.000.png,png,334646,0.319143,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/references/qa/review-yt-youtube-1080p/review-yt-youtube-1080p-39.000.png,png,368318,0.351255,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/references/qa/review-yt-youtube-1080p/review-yt-youtube-1080p-4.967.png,png,485279,0.462798,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/references/qa/review-yt-youtube-1080p/review-yt-youtube-1080p-41.967.png,png,461044,0.439686,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/references/qa/review-yt-youtube-1080p/review-yt-youtube-1080p-42.000.png,png,625331,0.596362,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/references/qa/review-yt-youtube-1080p/review-yt-youtube-1080p-42.067.png,png,652573,0.622342,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/references/qa/review-yt-youtube-1080p/review-yt-youtube-1080p-46.000.png,png,495655,0.472693,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/references/qa/review-yt-youtube-1080p/review-yt-youtube-1080p-49.967.png,png,590516,0.563160,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/references/qa/review-yt-youtube-1080p/review-yt-youtube-1080p-5.000.png,png,377764,0.360264,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/references/qa/review-yt-youtube-1080p/review-yt-youtube-1080p-5.067.png,png,382429,0.364713,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/references/qa/review-yt-youtube-1080p/review-yt-youtube-1080p-50.000.png,png,207132,0.197536,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/references/qa/review-yt-youtube-1080p/review-yt-youtube-1080p-50.067.png,png,216700,0.206661,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/references/qa/review-yt-youtube-1080p/review-yt-youtube-1080p-54.000.png,png,258467,0.246493,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/references/qa/review-yt-youtube-1080p/review-yt-youtube-1080p-58.967.png,png,392861,0.374661,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/references/qa/review-yt-youtube-1080p/review-yt-youtube-1080p-59.000.png,png,253334,0.241598,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/references/qa/review-yt-youtube-1080p/review-yt-youtube-1080p-59.067.png,png,255798,0.243948,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/references/qa/review-yt-youtube-1080p/review-yt-youtube-1080p-62.000.png,png,273992,0.261299,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/references/qa/review-yt-youtube-1080p/review-yt-youtube-1080p-64.967.png,png,385736,0.367867,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/references/qa/review-yt-youtube-1080p/review-yt-youtube-1080p-65.000.png,png,304344,0.290245,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/references/qa/review-yt-youtube-1080p/review-yt-youtube-1080p-65.067.png,png,317351,0.302649,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/references/qa/review-yt-youtube-1080p/review-yt-youtube-1080p-68.000.png,png,394582,0.376303,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/references/qa/review-yt-youtube-1080p/review-yt-youtube-1080p-69.967.png,png,396499,0.378131,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/references/qa/review-yt-youtube-1080p/review-yt-youtube-1080p-7.500.png,png,360659,0.343951,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/references/qa/review-yt-youtube-1080p-contact-1.jpg,jpg,308355,0.294070,yes,false,false,no,Required V2 media/input or curated evidence
+promo/references/qa/review-yt-youtube-1080p-contact-2.jpg,jpg,350689,0.334443,yes,false,false,no,Required V2 media/input or curated evidence
+promo/references/qa/review-yt-youtube-1080p-contact-3.jpg,jpg,334619,0.319118,yes,false,false,no,Required V2 media/input or curated evidence
+promo/references/qa/review-yt-youtube-1080p-contact-4.jpg,jpg,182844,0.174374,yes,false,false,no,Required V2 media/input or curated evidence
+promo/references/qa/rough-contact-1.jpg,jpg,308442,0.294153,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/references/qa/rough-contact-2.jpg,jpg,339717,0.323979,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"
+promo/references/qa/rough-contact-3.jpg,jpg,204593,0.195115,no,false,true,no,"Preserve locally; V1, duplicate, alternate take or temporary evidence"

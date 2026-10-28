@@ -9,8 +9,8 @@
     },
     {
       "path": ".gitattributes",
-      "sha256": "70bc7d798fa0339227f3c363bc28417faa39d068df281a75225ef36169e10150",
-      "bytes": 60,
+      "sha256": "5675eb4bf71a1874141459cb1e9bf78ef5d6598974ff034deb639db08755460f",
+      "bytes": 350,
       "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
     },
     {
@@ -93,8 +93,8 @@
     },
     {
       "path": "README.md",
-      "sha256": "b63467cc6251bb9a10c123a5fb25de10c226f63d239033ec0501564b623ba09f",
-      "bytes": 12489,
+      "sha256": "ce288e0c3af02a1f88816534da912356a1f123afe20715c27c2f367b4729eeff",
+      "bytes": 13023,
       "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
     },
     {
@@ -339,8 +339,8 @@
     },
     {
       "path": "docs/IMPLEMENTATION_JOURNAL.md",
-      "sha256": "73ce7334f1a9dceb3067dc2ea7c6a431a2bf181c039ff491e3f3ae464ddd22b7",
-      "bytes": 13030,
+      "sha256": "6476470c9bcc413b764ec61851fee05c829020c484750ab9281e36f708e0247a",
+      "bytes": 14683,
       "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
     },
     {
@@ -3596,6 +3596,444 @@
       "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
     },
     {
+      "path": "promo/.gitignore",
+      "sha256": "3047186a56fb10a5b162470e7d8db1acdcc5dd780583c4a1a30403b7b68d9d74",
+      "bytes": 1913,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "promo/README.md",
+      "sha256": "79bdd00f6d01531ec4ca95b94dc5af9692a14f203a5b7d6e7b910ceb8957f805",
+      "bytes": 5933,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "promo/docs/asset-attribution.md",
+      "sha256": "fe99b9797b94f2e1188181f062f0f7819ab5875e61ae1fd9070380ac8c20b2b6",
+      "bytes": 3150,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "promo/docs/asset-manifest.json",
+      "sha256": "36b92aa59249dfa613aca8d366faea288561adc731d1a4e59dd9e73c8f43afc5",
+      "bytes": 9530,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "promo/docs/audio-qa-v2.json",
+      "sha256": "f052be63d08d3372af6f07c507414da8946bb55d7f1e2d0cf9b0c9aa65ad80ed",
+      "bytes": 1002,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "promo/docs/audio-source.json",
+      "sha256": "380c1c0d6019c7c62fcbab3dddf551861c4f8e0653a990bd4daccb9b75e58efa",
+      "bytes": 460,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "promo/docs/capture-v2-evidence.json",
+      "sha256": "d272e80718073b6666442e97ebf33f34e8a6462b0576b9fb3f0a58c798e386f9",
+      "bytes": 1428,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "promo/docs/creative-direction.md",
+      "sha256": "933f899cca231e68c30aee706e3fb7c5b9dcb3b9e6d2f0b21f3f2ff9fe5b9203",
+      "bytes": 2416,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "promo/docs/delivery-manifest.json",
+      "sha256": "dfdfafec13dda6ff1555bd4857927c278152248d621ebd3765a285b598232ac8",
+      "bytes": 951,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "promo/docs/file-inventory.csv",
+      "sha256": "a20eba4fec4f3ff47135d72474cddae932819d2f447bf0b839276b0390eaa0cf",
+      "bytes": 28463,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "promo/docs/publication-review.md",
+      "sha256": "78b0c4f831417eba5d0b3271555959f3741d1cbe80e6ec609b7d79285cd98f6b",
+      "bytes": 5516,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "promo/docs/qa-report.md",
+      "sha256": "23c86423cbdd966b08ba6770b394548cc60afbabf6e008f06bd81703a6a84a77",
+      "bytes": 6805,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "promo/docs/storyboard.md",
+      "sha256": "2803c9bebdcd2a0e53cec75aab9cff5ba7decbb3958dae8936e35a1395c90c40",
+      "bytes": 1905,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "promo/docs/v2-technical-qa.json",
+      "sha256": "53342f46fcb92c20366885b52d0adefbb425bf8b676775321a05134c062fc575",
+      "bytes": 4779,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "promo/docs/video-stream-integrity.json",
+      "sha256": "06545c89db4cb19d36fa9586c34b77ca7d4894613a5ddd5ca7773160eadc9091",
+      "bytes": 408,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "promo/output/review-yt-github-preview.gif",
+      "sha256": "42a9e60450f74c671a8cd6f5c720a38ad1c0467d9edd3a66de17c6c64662f900",
+      "bytes": 3796647,
+      "origin": "Maintainer-approved authored V2 promotional media or review evidence; fixture/attribution scope in promo/docs/publication-review.md"
+    },
+    {
+      "path": "promo/output/review-yt-github-preview.mp4",
+      "sha256": "87c060168a4d730e443fe6a695fc4a445078e399ed84795d2586920ecef6b7c1",
+      "bytes": 699809,
+      "origin": "Maintainer-approved authored V2 promotional media or review evidence; fixture/attribution scope in promo/docs/publication-review.md"
+    },
+    {
+      "path": "promo/output/review-yt-reel-vertical.mp4",
+      "sha256": "7893a266f3d7718c3a62aba17e91503759225a421095418dae57b7f6ad05567a",
+      "bytes": 5254146,
+      "origin": "Maintainer-approved authored V2 promotional media or review evidence; fixture/attribution scope in promo/docs/publication-review.md"
+    },
+    {
+      "path": "promo/output/review-yt-thumbnail.png",
+      "sha256": "9095a972bdfc1607080b05c0bf20bdbaf92012c7487e3c411ac8d90ce49d8671",
+      "bytes": 330001,
+      "origin": "Maintainer-approved authored V2 promotional media or review evidence; fixture/attribution scope in promo/docs/publication-review.md"
+    },
+    {
+      "path": "promo/output/review-yt-youtube-1080p.mp4",
+      "sha256": "fba2c1ec47229794a5867a5b4f82321a5b2bb8366e9237324b36bc5f8596fe08",
+      "bytes": 13139233,
+      "origin": "Maintainer-approved authored V2 promotional media or review evidence; fixture/attribution scope in promo/docs/publication-review.md"
+    },
+    {
+      "path": "promo/package-lock.json",
+      "sha256": "f1596966453ba87cd936c29de3da5dfb453b3bb6d424a5c2dc19a6dafcec4b69",
+      "bytes": 177317,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "promo/package.json",
+      "sha256": "75c907bbfb9aa3b872f6e7275b6f9ae593821dd5c2e56f7912fd62ecc228b2a6",
+      "bytes": 1358,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "promo/public/fonts/Manrope-OFL.txt",
+      "sha256": "58172e0c0fac2cda8a37b348164bb55e44b0e69051e557e92b1d3f6910141f7b",
+      "bytes": 4387,
+      "origin": "Unmodified Sora/Manrope third-party font or OFL text; upstream authors and SIL OFL 1.1 retained in promo/docs/asset-attribution.md"
+    },
+    {
+      "path": "promo/public/fonts/Manrope.ttf",
+      "sha256": "3ae11c49db0455a3cc33e37d380f20fdb8c7f8b41dc07625c177e3d87a9d6ae6",
+      "bytes": 164700,
+      "origin": "Unmodified Sora/Manrope third-party font or OFL text; upstream authors and SIL OFL 1.1 retained in promo/docs/asset-attribution.md"
+    },
+    {
+      "path": "promo/public/fonts/Sora-OFL.txt",
+      "sha256": "ba0b9729c9428ba79a0459ab8ec575791b51509dbec213e383d0316d37fec299",
+      "bytes": 4385,
+      "origin": "Unmodified Sora/Manrope third-party font or OFL text; upstream authors and SIL OFL 1.1 retained in promo/docs/asset-attribution.md"
+    },
+    {
+      "path": "promo/public/fonts/Sora.ttf",
+      "sha256": "84ff7096ae3ec6c8be47d906d1a0ba4de7f2ce78c615275c77301964a316e16c",
+      "bytes": 111400,
+      "origin": "Unmodified Sora/Manrope third-party font or OFL text; upstream authors and SIL OFL 1.1 retained in promo/docs/asset-attribution.md"
+    },
+    {
+      "path": "promo/public/v2/dashboard-hq.png",
+      "sha256": "3248230e3d23527854bacc260fe05d0007039de3533f64c6270343d72abdd72a",
+      "bytes": 81963,
+      "origin": "Genuine current-app capture with explicitly illustrative fixture; no public YouTube feedback"
+    },
+    {
+      "path": "promo/public/v2/form-01.png",
+      "sha256": "7eea35df55553d428bae918fc96f45b4e4b0383b8cdd49c9cc1cac1aecd1c9c3",
+      "bytes": 23136,
+      "origin": "Genuine current-app capture with explicitly illustrative fixture; no public YouTube feedback"
+    },
+    {
+      "path": "promo/public/v2/form-02.png",
+      "sha256": "0cb9b570f52a23f5ceb8b007665af5a253e53146fbb0c7173958e5aad161d779",
+      "bytes": 23271,
+      "origin": "Genuine current-app capture with explicitly illustrative fixture; no public YouTube feedback"
+    },
+    {
+      "path": "promo/public/v2/form-03.png",
+      "sha256": "5413f59a79551d128cd2457b7d1f5a01f94e1cd831b81ce500707993fcaf409b",
+      "bytes": 23347,
+      "origin": "Genuine current-app capture with explicitly illustrative fixture; no public YouTube feedback"
+    },
+    {
+      "path": "promo/public/v2/form-04.png",
+      "sha256": "1b1904fa83efb0a1f882f16ce491f1ed7827f12f805410d0ccc4b9c96978c4af",
+      "bytes": 23490,
+      "origin": "Genuine current-app capture with explicitly illustrative fixture; no public YouTube feedback"
+    },
+    {
+      "path": "promo/public/v2/form-05.png",
+      "sha256": "da6c29a4723e28dbef444a10f1ead005838aeae4c5936b2bf3f0015af9fefb96",
+      "bytes": 23542,
+      "origin": "Genuine current-app capture with explicitly illustrative fixture; no public YouTube feedback"
+    },
+    {
+      "path": "promo/public/v2/form-06.png",
+      "sha256": "74d8a502f8bb5c237067fcb6d2bd5970d7b57d55c5fc9e8765b1b34736a99d6e",
+      "bytes": 23573,
+      "origin": "Genuine current-app capture with explicitly illustrative fixture; no public YouTube feedback"
+    },
+    {
+      "path": "promo/public/v2/form-07.png",
+      "sha256": "8698d692ccbb99cda4f2316da85a7a2a364643edfc4ddf1b9b51dc4bfd2ae84f",
+      "bytes": 23720,
+      "origin": "Genuine current-app capture with explicitly illustrative fixture; no public YouTube feedback"
+    },
+    {
+      "path": "promo/public/v2/form-08.png",
+      "sha256": "3124743b8158b2f20939b27ca370bf8fc8eca8b7e6a183d5f30e96a7aa6224ac",
+      "bytes": 23881,
+      "origin": "Genuine current-app capture with explicitly illustrative fixture; no public YouTube feedback"
+    },
+    {
+      "path": "promo/public/v2/form-09.png",
+      "sha256": "493b4393eb2a55eabe65a967f45b248f0eb12992aa00fa489335c753e6db38e8",
+      "bytes": 23947,
+      "origin": "Genuine current-app capture with explicitly illustrative fixture; no public YouTube feedback"
+    },
+    {
+      "path": "promo/public/v2/form-10.png",
+      "sha256": "9a97783eff9e1231c0688d8575017538a84443a538d7796266422c1ad08c629d",
+      "bytes": 24075,
+      "origin": "Genuine current-app capture with explicitly illustrative fixture; no public YouTube feedback"
+    },
+    {
+      "path": "promo/public/v2/form-11.png",
+      "sha256": "82a307bb91ea15ca9cd2b12f7e5f3d1bd40c1e2b5491f90d6555f76c32191c94",
+      "bytes": 24094,
+      "origin": "Genuine current-app capture with explicitly illustrative fixture; no public YouTube feedback"
+    },
+    {
+      "path": "promo/public/v2/form-12.png",
+      "sha256": "f5e35de3f01c5ed22997d291bf8bbebc99855822d64da5120e287b7ac32bf495",
+      "bytes": 24213,
+      "origin": "Genuine current-app capture with explicitly illustrative fixture; no public YouTube feedback"
+    },
+    {
+      "path": "promo/public/v2/form-busy.png",
+      "sha256": "25206ef6c4b00f028700b6a72e76da7b7cb44bb64ae1627a380cfddbaf746133",
+      "bytes": 24910,
+      "origin": "Genuine current-app capture with explicitly illustrative fixture; no public YouTube feedback"
+    },
+    {
+      "path": "promo/public/v2/form-empty.png",
+      "sha256": "9358de5e00f47e626584c673b74176a2d1e3b9a670a651657c0fcc5383902e08",
+      "bytes": 21410,
+      "origin": "Genuine current-app capture with explicitly illustrative fixture; no public YouTube feedback"
+    },
+    {
+      "path": "promo/public/v2/form-ready.png",
+      "sha256": "f5e35de3f01c5ed22997d291bf8bbebc99855822d64da5120e287b7ac32bf495",
+      "bytes": 24213,
+      "origin": "Genuine current-app capture with explicitly illustrative fixture; no public YouTube feedback"
+    },
+    {
+      "path": "promo/public/v2/home-hq.png",
+      "sha256": "1707b0827a671e537559f90083ea7cea6472b54f1ad547f36e58ed1fcca9d7c1",
+      "bytes": 71254,
+      "origin": "Genuine current-app capture with explicitly illustrative fixture; no public YouTube feedback"
+    },
+    {
+      "path": "promo/public/v2/mobile-chart.png",
+      "sha256": "492aca84e83cc149e01642755a1a130a3273691559fb8be2fe4633f402bf974b",
+      "bytes": 57774,
+      "origin": "Genuine current-app capture with explicitly illustrative fixture; no public YouTube feedback"
+    },
+    {
+      "path": "promo/public/v2/mobile-spectrum.png",
+      "sha256": "393392f5062cd4511df96fc68a06ed114c5590d71847cb3cae1574dca094f3aa",
+      "bytes": 44798,
+      "origin": "Genuine current-app capture with explicitly illustrative fixture; no public YouTube feedback"
+    },
+    {
+      "path": "promo/public/v2/score-reel.wav",
+      "sha256": "2569e9e207d3ab7695f26d70ac2231255b0e1ce0566450e255cc8dc8a034e03c",
+      "bytes": 5760044,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "promo/public/v2/score-youtube.wav",
+      "sha256": "ac01d5ac9a9d5cc66d4c65b387b6fd00962f9afe1be4e37bf31dadbc33a7dedf",
+      "bytes": 13440044,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "promo/public/v2/spectrum.png",
+      "sha256": "f6f10990bc97f24ea1367d1cb190ab4f51ed6ccaf93d3a4ab9c102b45d0ec43a",
+      "bytes": 29873,
+      "origin": "Genuine current-app capture with explicitly illustrative fixture; no public YouTube feedback"
+    },
+    {
+      "path": "promo/references/qa/review-yt-github-preview-contact-1.jpg",
+      "sha256": "a1c0bba247ba2a18becb8c84821c0e431aa0b1910771f254814e194c5a6125aa",
+      "bytes": 365359,
+      "origin": "Maintainer-approved authored V2 promotional media or review evidence; fixture/attribution scope in promo/docs/publication-review.md"
+    },
+    {
+      "path": "promo/references/qa/review-yt-reel-vertical-contact-1.jpg",
+      "sha256": "47a8e0b920bd0f62be73504d175ad91b85a301688c4bf7784421798d6fcce545",
+      "bytes": 242479,
+      "origin": "Maintainer-approved authored V2 promotional media or review evidence; fixture/attribution scope in promo/docs/publication-review.md"
+    },
+    {
+      "path": "promo/references/qa/review-yt-reel-vertical-contact-2.jpg",
+      "sha256": "d0436a207c8919f1f6c7f6b0b54179417c77c84df41ace8983ec91071e4fce59",
+      "bytes": 203503,
+      "origin": "Maintainer-approved authored V2 promotional media or review evidence; fixture/attribution scope in promo/docs/publication-review.md"
+    },
+    {
+      "path": "promo/references/qa/review-yt-youtube-1080p-contact-1.jpg",
+      "sha256": "c72c285a8260e56ec113c2006298d0e59327440e419258168e540922aee55534",
+      "bytes": 308355,
+      "origin": "Maintainer-approved authored V2 promotional media or review evidence; fixture/attribution scope in promo/docs/publication-review.md"
+    },
+    {
+      "path": "promo/references/qa/review-yt-youtube-1080p-contact-2.jpg",
+      "sha256": "057a9a98e7738667de85ee4cf30499c6937fb51c994145903cd9622c06db6264",
+      "bytes": 350689,
+      "origin": "Maintainer-approved authored V2 promotional media or review evidence; fixture/attribution scope in promo/docs/publication-review.md"
+    },
+    {
+      "path": "promo/references/qa/review-yt-youtube-1080p-contact-3.jpg",
+      "sha256": "54ef1e381a3b5ab073aaae3bd725f10f7f1c909378f9ba93c6e85e515e5ba392",
+      "bytes": 334619,
+      "origin": "Maintainer-approved authored V2 promotional media or review evidence; fixture/attribution scope in promo/docs/publication-review.md"
+    },
+    {
+      "path": "promo/references/qa/review-yt-youtube-1080p-contact-4.jpg",
+      "sha256": "31111ea08216be1e09df1f3b4402889c723ce3de674607cf90294c00df1bdc9d",
+      "bytes": 182844,
+      "origin": "Maintainer-approved authored V2 promotional media or review evidence; fixture/attribution scope in promo/docs/publication-review.md"
+    },
+    {
+      "path": "promo/scripts/audio-qa.cjs",
+      "sha256": "35bdcefa12c0aaeccf4f0e63ccdd8340edf864aa7c9b1325d910f7621fec5a63",
+      "bytes": 1072,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "promo/scripts/build-manifest.cjs",
+      "sha256": "0eddbb3f8fc997b9c3dabecd018bb45bd11e031f072bcbb2be526e1e1a739f4e",
+      "bytes": 2638,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "promo/scripts/capture-v2.cjs",
+      "sha256": "0e3cf9b345c82aa6728e61fd72010f5c505cbdbe56a076599cf9f9f25718ea8d",
+      "bytes": 5416,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "promo/scripts/contact.cjs",
+      "sha256": "16191494e6ddf4885edbe49053c56146a9dbf9903d4134b340d0b082cc90387b",
+      "bytes": 1263,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "promo/scripts/inspect-renders.cjs",
+      "sha256": "b7c53a50dedd5daccda36c225738fd0f009767d36855d36354a88aa5abcffaad",
+      "bytes": 4844,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "promo/scripts/make-gif.cjs",
+      "sha256": "d415ab3d012db8b597d15e208680df522c900258a6dafb58c240c94c5bffca19",
+      "bytes": 687,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "promo/scripts/normalize-video.cjs",
+      "sha256": "7d3c9534d00625fd0fe48f9dc40252de1da235638cee03aac7682e3cc3448e9c",
+      "bytes": 1992,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "promo/scripts/render-v2.cjs",
+      "sha256": "3bffb9ffe0b7d16d7c6415dda0932d8f4e5dc7b2cb50550f2fda189b033f9792",
+      "bytes": 3809,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "promo/scripts/score-v2.py",
+      "sha256": "68cb9a099f714b71f5fe07a8aedd5507a877c0562a26a3c2f2d99eb77090e86c",
+      "bytes": 2723,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "promo/scripts/verify-delivery.cjs",
+      "sha256": "83a0620c1cd9699fe377edcd55853ae4699ad479565cfffed4445d87c27744d8",
+      "bytes": 1046,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "promo/src/Root.tsx",
+      "sha256": "d207341b1407899b94696f54f73020c7c961bb4d0b123df5a916cfad2198dce2",
+      "bytes": 934,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "promo/src/components/Primitives.tsx",
+      "sha256": "1cbaa2e396b93d93d24b40b30d312d521c207f25ffb5d47dcf22e9ebce58813f",
+      "bytes": 8035,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "promo/src/compositions/GithubPreview.tsx",
+      "sha256": "71c3aeb11e945b5219b1e4b077841471edc79ad6aa6fdb85879a68da3900c6c7",
+      "bytes": 2157,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "promo/src/compositions/VerticalReel.tsx",
+      "sha256": "0349d60d026b8dfb46aa8180e70efce0e4e64a680a206ea34c87cfd1eaffb5ef",
+      "bytes": 4165,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "promo/src/compositions/YouTubeLaunch.tsx",
+      "sha256": "9dad19069c50ae5969a49a258efde880f914ac6375d1be723a8f7f06ef86aced",
+      "bytes": 12369,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "promo/src/data/demo.json",
+      "sha256": "c4df54301862f5a5ff682164eb16ac9617dc48ac786a8050a807b99560560631",
+      "bytes": 1111,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "promo/src/themes/tokens.ts",
+      "sha256": "348a251071dc79a03d2be4873291b0d8d17f5d4e41cbc81039db20ba0cf71377",
+      "bytes": 517,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "promo/tsconfig.json",
+      "sha256": "88446c7730882d48733e19f07462a2ee4733f4ac4d92317577fedfe211d89a28",
+      "bytes": 243,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
       "path": "pyproject.toml",
       "sha256": "9d5ba32ed9a738204ef154580c218f9765cf76854e25d9a75d62f1d560c6be69",
       "bytes": 115,
@@ -3711,8 +4149,8 @@
     },
     {
       "path": "scripts/source_inventory.py",
-      "sha256": "ec6c736c36fcd2fedc1ebedf2099612e1e94180c4414dff2514a0343fe10a4d0",
-      "bytes": 3290,
+      "sha256": "3ff5d8cde61f273065e9cddbaf1f24b219d3a5fb17479a7f057cde63e45196a4",
+      "bytes": 3938,
       "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
     },
     {

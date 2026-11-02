@@ -297,8 +297,8 @@
     },
     {
       "path": "docs/CODEX_PROGRESS.md",
-      "sha256": "39e2517f8a0e8a3117aac8a5ddfa00659382c1d47978b9eae2f2a03d6e756b7d",
-      "bytes": 1649,
+      "sha256": "0a656570bd81ded0ffa6e70535a8e14289f97ae14188a5e8c65665ce6086ced1",
+      "bytes": 1142,
       "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
     },
     {
@@ -345,8 +345,8 @@
     },
     {
       "path": "docs/IMPLEMENTATION_JOURNAL.md",
-      "sha256": "db04f1911be2668c9ab9ec1648d38d968cdf3b3ac40bb455f517b20304fafc43",
-      "bytes": 19460,
+      "sha256": "8d25c5c93ed9489b62d4cc24357d3db0fd71e6265a37f2e6564a01bccef14947",
+      "bytes": 20459,
       "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
     },
     {
@@ -3455,6 +3455,12 @@
       "path": "docs/development/PRODUCT_QA.md",
       "sha256": "3c8570ac63706625b52bd24d52e4321cfafe66a5a0bf5651de313fbe6934828c",
       "bytes": 2137,
+      "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
+    },
+    {
+      "path": "docs/reports/FINAL_GITHUB_CONSOLIDATION_REPORT.md",
+      "sha256": "bf16d9971c1a30c36f33a795a2ee7a18ea50b76ea7da60ae618b07bc206d40a5",
+      "bytes": 8181,
       "origin": "New requirements-based project material or package-manager metadata; AI-assisted, not a legal independence certificate"
     },
     {

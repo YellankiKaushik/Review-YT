@@ -13,13 +13,11 @@ Review-YT takes a public YouTube video link, retrieves a bounded sample of genui
 
 [Get started](docs/GETTING_STARTED.md) · [Deploy your own](docs/SELF_HOSTING.md) · [Documentation](docs/README.md) · [Troubleshooting](docs/TROUBLESHOOTING.md)
 
-## Watch Review-YT in Action
+## Product preview
 
-[![Review-YT promotional preview](promo/output/review-yt-github-preview.gif)](promo/output/review-yt-youtube-1080p.mp4)
+[![Review-YT product preview with illustrative demo results](promo/output/review-yt-thumbnail.png)](promo/output/review-yt-youtube-1080p.mp4)
 
-A short look at the self-hostable workflow. **Result footage uses illustrative demo data, not live YouTube feedback.**
-
-[70-second launch film](promo/output/review-yt-youtube-1080p.mp4) · [Vertical reel](promo/output/review-yt-reel-vertical.mp4) · [Silent MP4 preview](promo/output/review-yt-github-preview.mp4) · [Production source and rendering guide](promo/README.md)
+The campaign demonstrates the self-hostable workflow with **illustrative demo data, not live YouTube feedback**. [70-second launch film](promo/output/review-yt-youtube-1080p.mp4) · [Vertical reel](promo/output/review-yt-reel-vertical.mp4) · [Animated preview](promo/output/review-yt-github-preview.gif) · [Production source and rendering guide](promo/README.md)
 
 ## Preview
 

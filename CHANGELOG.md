@@ -1,5 +1,9 @@
 # Changelog
 
+## Zod security update — 2026-11-02
+
+- Updated the web workspace to Zod 4.6.7, patched for GHSA-mrhx-c7xc-m3w5, and synchronized the root npm lockfile. Verification outcomes and residual moderate npm findings are recorded in docs/IMPLEMENTATION_JOURNAL.md.
+
 ## Source-only handoff — 2026-10-22
 
 - The owner retired the former Render/Vercel demo and revoked its dedicated Google/OpenRouter credentials; no resources are restored by this release.

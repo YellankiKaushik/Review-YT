@@ -1,0 +1,74 @@
+{
+  "mode": "Actual optimized application; explicit offline fixture, not a live API test",
+  "posts": [
+    {
+      "video": "https://youtu.be/aB3_dE5-fG7",
+      "sample": 10,
+      "provider": "disabled"
+    },
+    {
+      "video": "https://youtu.be/aB3_dE5-fG7",
+      "sample": 10,
+      "provider": "disabled"
+    }
+  ],
+  "externalRequests": 0,
+  "captures": [
+    "home-hq",
+    "form-empty",
+    "form-01",
+    "form-02",
+    "form-03",
+    "form-04",
+    "form-05",
+    "form-06",
+    "form-07",
+    "form-08",
+    "form-09",
+    "form-10",
+    "form-11",
+    "form-12",
+    "form-ready",
+    "form-busy",
+    "dashboard-hq",
+    "spectrum"
+  ],
+  "fixture": {
+    "sampled": 10,
+    "totals": {
+      "positive": 6,
+      "neutral": 3,
+      "negative": 1
+    },
+    "shares": {
+      "positive": 60,
+      "neutral": 30,
+      "negative": 10
+    }
+  },
+  "controls": {
+    "sample": "10",
+    "provider": "disabled",
+    "formBox": {
+      "x": 779.296875,
+      "y": 176,
+      "width": 582.703125,
+      "height": 538.078125
+    },
+    "inputBox": {
+      "x": 812.296875,
+      "y": 338.921875,
+      "width": 516.703125,
+      "height": 52.390625
+    },
+    "buttonBox": {
+      "x": 812.296875,
+      "y": 592.546875,
+      "width": 516.703125,
+      "height": 54.390625
+    }
+  },
+  "resultURL": "/review/aB3_dE5-fG7",
+  "chart": "Sample sentiment: 60% positive, 30% neutral, 10% negative",
+  "pageErrors": []
+}

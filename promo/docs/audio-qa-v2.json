@@ -1,0 +1,16 @@
+[
+  {
+    "file": "review-yt-youtube-1080p.mp4",
+    "decode": "PASS",
+    "loudnessSummary": "Summary:\r\n\r\n  Integrated loudness:\r\n    I:         -18.3 LUFS\r\n    Threshold: -28.6 LUFS\r\n\r\n  Loudness range:\r\n    LRA:         1.0 LU\r\n    Threshold: -38.5 LUFS\r\n    LRA low:   -18.6 LUFS\r\n    LRA high:  -17.6 LUFS\r\n\r\n  True peak:\r\n    Peak:       -2.5 dBFS\r\n",
+    "silenceCandidates": [],
+    "audition": "No human listening approval is implied by these measured checks"
+  },
+  {
+    "file": "review-yt-reel-vertical.mp4",
+    "decode": "PASS",
+    "loudnessSummary": "Summary:\r\n\r\n  Integrated loudness:\r\n    I:         -21.0 LUFS\r\n    Threshold: -31.6 LUFS\r\n\r\n  Loudness range:\r\n    LRA:         7.1 LU\r\n    Threshold: -41.3 LUFS\r\n    LRA low:   -26.6 LUFS\r\n    LRA high:  -19.6 LUFS\r\n\r\n  True peak:\r\n    Peak:       -2.6 dBFS\r\n",
+    "silenceCandidates": [],
+    "audition": "No human listening approval is implied by these measured checks"
+  }
+]

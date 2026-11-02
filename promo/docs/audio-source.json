@@ -1,0 +1,18 @@
+[
+  {
+    "file": "score-youtube.wav",
+    "duration": 70,
+    "sampleRate": 48000,
+    "channels": 2,
+    "peakDbFS": -7.96,
+    "source": "Original deterministic synthesis; transition and UI effects authored by code"
+  },
+  {
+    "file": "score-reel.wav",
+    "duration": 30,
+    "sampleRate": 48000,
+    "channels": 2,
+    "peakDbFS": -7.96,
+    "source": "Original deterministic synthesis; transition and UI effects authored by code"
+  }
+]

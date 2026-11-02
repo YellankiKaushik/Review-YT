@@ -13,6 +13,12 @@ Review-YT takes a public YouTube video link, retrieves a bounded sample of genui
 
 [Get started](docs/GETTING_STARTED.md) · [Deploy your own](docs/SELF_HOSTING.md) · [Documentation](docs/README.md) · [Troubleshooting](docs/TROUBLESHOOTING.md)
 
+## Product preview
+
+[![Review-YT product preview with illustrative demo results](promo/output/review-yt-thumbnail.png)](promo/output/review-yt-youtube-1080p.mp4)
+
+The campaign demonstrates the self-hostable workflow with **illustrative demo data, not live YouTube feedback**. [70-second launch film](promo/output/review-yt-youtube-1080p.mp4) · [Vertical reel](promo/output/review-yt-reel-vertical.mp4) · [Animated preview](promo/output/review-yt-github-preview.gif) · [Production source and rendering guide](promo/README.md)
+
 ## Preview
 
 These are genuine application captures. **Result screenshots contain clearly labeled illustrative DEMO data and original artwork, not real public YouTube feedback.** [Capture method and provenance](docs/assets/README.md).

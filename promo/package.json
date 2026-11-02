@@ -1,0 +1,39 @@
+{
+  "name": "review-yt-launch-film",
+  "version": "2.0.0",
+  "private": true,
+  "scripts": {
+    "studio": "remotion studio src/Root.tsx",
+    "typecheck": "tsc --noEmit",
+    "render:youtube": "node scripts/render-v2.cjs youtube",
+    "render:reel": "node scripts/render-v2.cjs reel",
+    "render:github": "node scripts/render-v2.cjs github",
+    "render:all": "node scripts/render-v2.cjs all",
+    "frames": "node scripts/render-v2.cjs frames",
+    "rough": "node scripts/render-v2.cjs rough",
+    "qa": "npm run typecheck && npm run verify:media && node scripts/build-manifest.cjs --check && node scripts/inspect-renders.cjs && node scripts/audio-qa.cjs",
+    "validate": "node scripts/render-v2.cjs validate",
+    "render:thumbnail": "node scripts/render-v2.cjs thumbnail",
+    "verify:media": "node scripts/verify-delivery.cjs"
+  },
+  "dependencies": {
+    "@remotion/bundler": "4.0.539",
+    "@remotion/cli": "4.0.539",
+    "@remotion/renderer": "4.0.539",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "remotion": "4.0.539"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.64.1",
+    "@types/node": "24.12.0",
+    "@types/react": "19.2.14",
+    "ffmpeg-static": "5.3.0",
+    "ffprobe-static": "3.1.0",
+    "sharp": "0.35.5",
+    "typescript": "5.9.3"
+  },
+  "overrides": {
+    "zod": "4.6.7"
+  }
+}

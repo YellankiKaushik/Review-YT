@@ -1,0 +1,145 @@
+{
+  "generatedAt": "2026-10-28T18:43:33.732Z",
+  "results": [
+    {
+      "name": "review-yt-youtube-1080p.mp4",
+      "duration": 70,
+      "width": 1920,
+      "height": 1080,
+      "fps": "30/1",
+      "codec": "h264",
+      "pixelFormat": "yuv420p",
+      "frames": "2100",
+      "audio": {
+        "codec": "aac",
+        "channels": 2,
+        "sampleRate": "48000"
+      },
+      "bytes": 13139233,
+      "fastStart": true,
+      "fullDecode": "PASS",
+      "blackIntervals": [],
+      "freezeCandidates": [
+        "lavfi.freezedetect.freeze_start: 23.4",
+        "lavfi.freezedetect.freeze_duration: 2.5",
+        "lavfi.freezedetect.freeze_end: 25.9",
+        "lavfi.freezedetect.freeze_start: 32.5333",
+        "lavfi.freezedetect.freeze_duration: 3.7",
+        "lavfi.freezedetect.freeze_end: 36.2333",
+        "lavfi.freezedetect.freeze_start: 51.3667",
+        "lavfi.freezedetect.freeze_duration: 2.8",
+        "lavfi.freezedetect.freeze_end: 54.1667",
+        "lavfi.freezedetect.freeze_start: 54.1667",
+        "lavfi.freezedetect.freeze_duration: 4.6",
+        "lavfi.freezedetect.freeze_end: 58.7667",
+        "lavfi.freezedetect.freeze_start: 60.3333",
+        "lavfi.freezedetect.freeze_duration: 3.46667",
+        "lavfi.freezedetect.freeze_end: 63.8",
+        "lavfi.freezedetect.freeze_start: 66.0667"
+      ],
+      "peakDb": "-2.6 dB",
+      "loopBoundaryMeanPixelDifference": null,
+      "review": {
+        "frames": [],
+        "contacts": [
+          "references/qa/review-yt-youtube-1080p-contact-1.jpg",
+          "references/qa/review-yt-youtube-1080p-contact-2.jpg",
+          "references/qa/review-yt-youtube-1080p-contact-3.jpg",
+          "references/qa/review-yt-youtube-1080p-contact-4.jpg"
+        ],
+        "individualFrames": "Retained in local production evidence; curated contact sheets are published."
+      }
+    },
+    {
+      "name": "review-yt-reel-vertical.mp4",
+      "duration": 30,
+      "width": 1080,
+      "height": 1920,
+      "fps": "30/1",
+      "codec": "h264",
+      "pixelFormat": "yuv420p",
+      "frames": "900",
+      "audio": {
+        "codec": "aac",
+        "channels": 2,
+        "sampleRate": "48000"
+      },
+      "bytes": 5254146,
+      "fastStart": true,
+      "fullDecode": "PASS",
+      "blackIntervals": [],
+      "freezeCandidates": [
+        "lavfi.freezedetect.freeze_start: 13.5333",
+        "lavfi.freezedetect.freeze_duration: 2.86667",
+        "lavfi.freezedetect.freeze_end: 16.4",
+        "lavfi.freezedetect.freeze_start: 27"
+      ],
+      "peakDb": "-2.6 dB",
+      "loopBoundaryMeanPixelDifference": null,
+      "review": {
+        "frames": [],
+        "contacts": [
+          "references/qa/review-yt-reel-vertical-contact-1.jpg",
+          "references/qa/review-yt-reel-vertical-contact-2.jpg"
+        ],
+        "individualFrames": "Retained in local production evidence; curated contact sheets are published."
+      }
+    },
+    {
+      "name": "review-yt-github-preview.mp4",
+      "duration": 8,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "codec": "h264",
+      "pixelFormat": "yuv420p",
+      "frames": "240",
+      "audio": null,
+      "bytes": 699809,
+      "fastStart": true,
+      "fullDecode": "PASS",
+      "blackIntervals": [],
+      "freezeCandidates": [],
+      "peakDb": null,
+      "loopBoundaryMeanPixelDifference": 0.7876395318930041,
+      "review": {
+        "frames": [],
+        "contacts": [
+          "references/qa/review-yt-github-preview-contact-1.jpg"
+        ],
+        "individualFrames": "Retained in local production evidence; curated contact sheets are published."
+      }
+    }
+  ],
+  "gif": {
+    "width": 960,
+    "height": 540,
+    "pages": 120,
+    "loop": 0,
+    "bytes": 3796647,
+    "actualDuration": 8,
+    "fullDecode": "PASS",
+    "timingSource": "Sum of all GIF frame delay values via Sharp metadata"
+  },
+  "thumbnail": {
+    "format": "png",
+    "mediaType": "image/png",
+    "width": 1280,
+    "height": 720,
+    "space": "srgb",
+    "channels": 3,
+    "depth": "uchar",
+    "density": 72,
+    "isProgressive": false,
+    "isPalette": false,
+    "bitsPerSample": 8,
+    "hasProfile": false,
+    "hasAlpha": false,
+    "autoOrient": {
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "visualReview": "Direct native inspection completed: all final format contact sheets, first/last and boundary frames, critical full-resolution frames, both landscape engine overview sheets and all eight transition strips. Detector candidates classified in qa-report.md. This is an AI frame review, not human audience approval.",
+  "reviewDateLocal": "2026-10-29 Asia/Calcutta"
+}

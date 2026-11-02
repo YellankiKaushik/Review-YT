@@ -1,0 +1,4 @@
+import React from 'react';import {Composition,Still,registerRoot} from 'remotion';import {Fonts} from './components/Primitives';import {YouTubeLaunch} from './compositions/YouTubeLaunch';import {VerticalReel} from './compositions/VerticalReel';import {GithubPreview,Thumbnail} from './compositions/GithubPreview';
+const Film=()=> <><Fonts/><YouTubeLaunch/></>;const Reel=()=> <><Fonts/><VerticalReel/></>;const Loop=()=> <><Fonts/><GithubPreview/></>;const Thumb=()=> <><Fonts/><Thumbnail/></>;
+const Root=()=> <><Composition id="YouTubeLaunch" component={Film} durationInFrames={2100} fps={30} width={1920} height={1080}/><Composition id="VerticalReel" component={Reel} durationInFrames={900} fps={30} width={1080} height={1920}/><Composition id="GithubPreview" component={Loop} durationInFrames={240} fps={30} width={960} height={540}/><Still id="Thumbnail" component={Thumb} width={1280} height={720}/></>;
+registerRoot(Root);

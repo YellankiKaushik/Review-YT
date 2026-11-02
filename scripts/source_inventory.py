@@ -51,6 +51,12 @@ def main():
         )
         if name.startswith("docs/assets/") and path.suffix == ".png":
             origin = "Genuine Playwright app capture; result data explicitly illustrative, not live YouTube; see docs/assets/README.md"
+        if name.startswith("promo/public/fonts/"):
+            origin = "Unmodified Sora/Manrope third-party font or OFL text; upstream authors and SIL OFL 1.1 retained in promo/docs/asset-attribution.md"
+        elif name.startswith("promo/public/v2/") and path.suffix == ".png":
+            origin = "Genuine current-app capture with explicitly illustrative fixture; no public YouTube feedback"
+        elif name.startswith("promo/output/") or name.startswith("promo/references/qa/"):
+            origin = "Maintainer-approved authored V2 promotional media or review evidence; fixture/attribution scope in promo/docs/publication-review.md"
         if name == "apps/web/AGENTS.md":
             origin = "Next.js-generated framework guidance from the newly installed MIT-licensed dependency; upstream notice retained"
         records.append(

@@ -1,0 +1,228 @@
+{
+  "generatedAt": "2026-10-28T18:43:15.877Z",
+  "fixtureVerified": true,
+  "fixtureValues": {
+    "sampled": 10,
+    "totals": {
+      "positive": 6,
+      "neutral": 3,
+      "negative": 1
+    },
+    "shares": {
+      "positive": 60,
+      "neutral": 30,
+      "negative": 10
+    }
+  },
+  "assets": [
+    {
+      "file": "public/fonts/Sora.ttf",
+      "bytes": 111400,
+      "sha256": "84ff7096ae3ec6c8be47d906d1a0ba4de7f2ce78c615275c77301964a316e16c",
+      "origin": "Google Fonts upstream, original OFL retained",
+      "license": "SIL OFL 1.1"
+    },
+    {
+      "file": "public/fonts/Sora-OFL.txt",
+      "bytes": 4385,
+      "sha256": "ba0b9729c9428ba79a0459ab8ec575791b51509dbec213e383d0316d37fec299",
+      "origin": "Google Fonts upstream, original OFL retained",
+      "license": "SIL OFL 1.1"
+    },
+    {
+      "file": "public/fonts/Manrope.ttf",
+      "bytes": 164700,
+      "sha256": "3ae11c49db0455a3cc33e37d380f20fdb8c7f8b41dc07625c177e3d87a9d6ae6",
+      "origin": "Google Fonts upstream, original OFL retained",
+      "license": "SIL OFL 1.1"
+    },
+    {
+      "file": "public/fonts/Manrope-OFL.txt",
+      "bytes": 4387,
+      "sha256": "58172e0c0fac2cda8a37b348164bb55e44b0e69051e557e92b1d3f6910141f7b",
+      "origin": "Google Fonts upstream, original OFL retained",
+      "license": "SIL OFL 1.1"
+    },
+    {
+      "file": "public/v2/home-hq.png",
+      "bytes": 71254,
+      "sha256": "1707b0827a671e537559f90083ea7cea6472b54f1ad547f36e58ed1fcca9d7c1",
+      "origin": "Genuine local app capture; explicit offline fixture; no public feedback",
+      "license": "Reviewed project material; root provenance/MIT scope applies"
+    },
+    {
+      "file": "public/v2/form-empty.png",
+      "bytes": 21410,
+      "sha256": "9358de5e00f47e626584c673b74176a2d1e3b9a670a651657c0fcc5383902e08",
+      "origin": "Genuine local app capture; explicit offline fixture; no public feedback",
+      "license": "Reviewed project material; root provenance/MIT scope applies"
+    },
+    {
+      "file": "public/v2/form-ready.png",
+      "bytes": 24213,
+      "sha256": "f5e35de3f01c5ed22997d291bf8bbebc99855822d64da5120e287b7ac32bf495",
+      "origin": "Genuine local app capture; explicit offline fixture; no public feedback",
+      "license": "Reviewed project material; root provenance/MIT scope applies"
+    },
+    {
+      "file": "public/v2/form-busy.png",
+      "bytes": 24910,
+      "sha256": "25206ef6c4b00f028700b6a72e76da7b7cb44bb64ae1627a380cfddbaf746133",
+      "origin": "Genuine local app capture; explicit offline fixture; no public feedback",
+      "license": "Reviewed project material; root provenance/MIT scope applies"
+    },
+    {
+      "file": "public/v2/form-01.png",
+      "bytes": 23136,
+      "sha256": "7eea35df55553d428bae918fc96f45b4e4b0383b8cdd49c9cc1cac1aecd1c9c3",
+      "origin": "Genuine local app capture; explicit offline fixture; no public feedback",
+      "license": "Reviewed project material; root provenance/MIT scope applies"
+    },
+    {
+      "file": "public/v2/form-02.png",
+      "bytes": 23271,
+      "sha256": "0cb9b570f52a23f5ceb8b007665af5a253e53146fbb0c7173958e5aad161d779",
+      "origin": "Genuine local app capture; explicit offline fixture; no public feedback",
+      "license": "Reviewed project material; root provenance/MIT scope applies"
+    },
+    {
+      "file": "public/v2/form-03.png",
+      "bytes": 23347,
+      "sha256": "5413f59a79551d128cd2457b7d1f5a01f94e1cd831b81ce500707993fcaf409b",
+      "origin": "Genuine local app capture; explicit offline fixture; no public feedback",
+      "license": "Reviewed project material; root provenance/MIT scope applies"
+    },
+    {
+      "file": "public/v2/form-04.png",
+      "bytes": 23490,
+      "sha256": "1b1904fa83efb0a1f882f16ce491f1ed7827f12f805410d0ccc4b9c96978c4af",
+      "origin": "Genuine local app capture; explicit offline fixture; no public feedback",
+      "license": "Reviewed project material; root provenance/MIT scope applies"
+    },
+    {
+      "file": "public/v2/form-05.png",
+      "bytes": 23542,
+      "sha256": "da6c29a4723e28dbef444a10f1ead005838aeae4c5936b2bf3f0015af9fefb96",
+      "origin": "Genuine local app capture; explicit offline fixture; no public feedback",
+      "license": "Reviewed project material; root provenance/MIT scope applies"
+    },
+    {
+      "file": "public/v2/form-06.png",
+      "bytes": 23573,
+      "sha256": "74d8a502f8bb5c237067fcb6d2bd5970d7b57d55c5fc9e8765b1b34736a99d6e",
+      "origin": "Genuine local app capture; explicit offline fixture; no public feedback",
+      "license": "Reviewed project material; root provenance/MIT scope applies"
+    },
+    {
+      "file": "public/v2/form-07.png",
+      "bytes": 23720,
+      "sha256": "8698d692ccbb99cda4f2316da85a7a2a364643edfc4ddf1b9b51dc4bfd2ae84f",
+      "origin": "Genuine local app capture; explicit offline fixture; no public feedback",
+      "license": "Reviewed project material; root provenance/MIT scope applies"
+    },
+    {
+      "file": "public/v2/form-08.png",
+      "bytes": 23881,
+      "sha256": "3124743b8158b2f20939b27ca370bf8fc8eca8b7e6a183d5f30e96a7aa6224ac",
+      "origin": "Genuine local app capture; explicit offline fixture; no public feedback",
+      "license": "Reviewed project material; root provenance/MIT scope applies"
+    },
+    {
+      "file": "public/v2/form-09.png",
+      "bytes": 23947,
+      "sha256": "493b4393eb2a55eabe65a967f45b248f0eb12992aa00fa489335c753e6db38e8",
+      "origin": "Genuine local app capture; explicit offline fixture; no public feedback",
+      "license": "Reviewed project material; root provenance/MIT scope applies"
+    },
+    {
+      "file": "public/v2/form-10.png",
+      "bytes": 24075,
+      "sha256": "9a97783eff9e1231c0688d8575017538a84443a538d7796266422c1ad08c629d",
+      "origin": "Genuine local app capture; explicit offline fixture; no public feedback",
+      "license": "Reviewed project material; root provenance/MIT scope applies"
+    },
+    {
+      "file": "public/v2/form-11.png",
+      "bytes": 24094,
+      "sha256": "82a307bb91ea15ca9cd2b12f7e5f3d1bd40c1e2b5491f90d6555f76c32191c94",
+      "origin": "Genuine local app capture; explicit offline fixture; no public feedback",
+      "license": "Reviewed project material; root provenance/MIT scope applies"
+    },
+    {
+      "file": "public/v2/form-12.png",
+      "bytes": 24213,
+      "sha256": "f5e35de3f01c5ed22997d291bf8bbebc99855822d64da5120e287b7ac32bf495",
+      "origin": "Genuine local app capture; explicit offline fixture; no public feedback",
+      "license": "Reviewed project material; root provenance/MIT scope applies"
+    },
+    {
+      "file": "public/v2/dashboard-hq.png",
+      "bytes": 81963,
+      "sha256": "3248230e3d23527854bacc260fe05d0007039de3533f64c6270343d72abdd72a",
+      "origin": "Genuine local app capture; explicit offline fixture; no public feedback",
+      "license": "Reviewed project material; root provenance/MIT scope applies"
+    },
+    {
+      "file": "public/v2/spectrum.png",
+      "bytes": 29873,
+      "sha256": "f6f10990bc97f24ea1367d1cb190ab4f51ed6ccaf93d3a4ab9c102b45d0ec43a",
+      "origin": "Genuine local app capture; explicit offline fixture; no public feedback",
+      "license": "Reviewed project material; root provenance/MIT scope applies"
+    },
+    {
+      "file": "public/v2/mobile-chart.png",
+      "bytes": 57774,
+      "sha256": "492aca84e83cc149e01642755a1a130a3273691559fb8be2fe4633f402bf974b",
+      "origin": "Genuine local app capture; explicit offline fixture; no public feedback",
+      "license": "Reviewed project material; root provenance/MIT scope applies"
+    },
+    {
+      "file": "public/v2/mobile-spectrum.png",
+      "bytes": 44798,
+      "sha256": "393392f5062cd4511df96fc68a06ed114c5590d71847cb3cae1574dca094f3aa",
+      "origin": "Genuine local app capture; explicit offline fixture; no public feedback",
+      "license": "Reviewed project material; root provenance/MIT scope applies"
+    },
+    {
+      "file": "public/v2/score-youtube.wav",
+      "bytes": 13440044,
+      "sha256": "ac01d5ac9a9d5cc66d4c65b387b6fd00962f9afe1be4e37bf31dadbc33a7dedf",
+      "origin": "Original procedural score-v2.py synthesis",
+      "license": "Original code-authored audio; no external samples"
+    },
+    {
+      "file": "public/v2/score-reel.wav",
+      "bytes": 5760044,
+      "sha256": "2569e9e207d3ab7695f26d70ac2231255b0e1ce0566450e255cc8dc8a034e03c",
+      "origin": "Original procedural score-v2.py synthesis",
+      "license": "Original code-authored audio; no external samples"
+    },
+    {
+      "file": "src/data/demo.json",
+      "bytes": 1111,
+      "sha256": "c4df54301862f5a5ff682164eb16ac9617dc48ac786a8050a807b99560560631",
+      "origin": "Approved illustrative product-demo fixture",
+      "license": "Reviewed project material; root provenance/MIT scope applies"
+    }
+  ],
+  "legacy": [
+    {
+      "file": "review-yt-promo.mp4",
+      "bytes": 7265177,
+      "sha256": "4206a991fc84ceb2ee0049657717122c452f69b9791d340235d39921f841e756",
+      "status": "V1 preserved; not overwritten by V2 render commands"
+    },
+    {
+      "file": "review-yt-preview.gif",
+      "bytes": 2605053,
+      "sha256": "a93e49204273d81a3b7225ec75036c8b39c39fb7889da81a9be36aee07285fc5",
+      "status": "V1 preserved; not overwritten by V2 render commands"
+    },
+    {
+      "file": "review-yt-poster.png",
+      "bytes": 210302,
+      "sha256": "41d3070f9a952402a1ee08faba6fb49b0712dce47f13c98bab723ec5760d5f3d",
+      "status": "V1 preserved; not overwritten by V2 render commands"
+    }
+  ]
+}

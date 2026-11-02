@@ -14,14 +14,14 @@ All five are ordinary Git files below50MiB. No LFS, Release upload, paid storage
 
 ## Install the isolated production project
 
-Use Node.js24/npm. From the repository root:
+Use Node.js24/npm. The application uses the root `package-lock.json`; this separate media-production package uses its own pinned `package-lock.json` so render tooling and platform binaries do not alter the application dependency graph. From the repository root:
 
 ```bash
 cd promo
 npm ci --workspaces=false
 ```
 
-The promo lockfile is authoritative for this isolated package; the root application's lockfile remains authoritative for the application. The included PNGs, two original WAV scores, local OFL fonts and fixture JSON are sufficient to render without app startup, private configuration or API keys.
+The included PNGs, two original WAV scores, local OFL fonts and fixture JSON are sufficient to render without private configuration or API keys.
 
 ## Inspect, render and verify
 
@@ -51,7 +51,7 @@ npm run qa
 - [Root composition](src/Root.tsx),src/compositions/,src/components/,src/themes/ and src/data/ contain editable React/TypeScript and shared frame-driven motion.
 - public/v2/ contains only the required genuine UI crops and original synthesized audio; public/fonts/ retains both original font files and their OFL texts. There is no separate assets/ directory.
 - scripts/ contains the renderer, encoder, GIF maker, capture, score synthesis and verification tools.
-- [Creative direction](docs/creative-direction.md),[storyboard](docs/storyboard.md),[production QA](docs/qa-report.md),[asset attribution](docs/asset-attribution.md),[publication review](docs/publication-review.md) and [file inventory](docs/file-inventory.csv) record scope and evidence.
+- [Creative direction](docs/creative-direction.md),[storyboard](docs/storyboard.md),[production QA](docs/qa-report.md),[asset attribution](docs/asset-attribution.md),[publication review](docs/publication-review.md),[third-party tooling notices](docs/third-party-tooling.md) and [file inventory](docs/file-inventory.csv) record scope and evidence.
 - Curated final contact sheets are retained under references/qa/. Individual temporary frames, raw takes, downloaded reference copies and unused duplicate images remain local and excluded.
 
 ## Recreate UI or audio inputs

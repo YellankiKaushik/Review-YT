@@ -2,13 +2,13 @@
   "finals": [
     {
       "file": "review-yt-youtube-1080p.mp4",
-      "bytes": 13139233,
-      "sha256": "fba2c1ec47229794a5867a5b4f82321a5b2bb8366e9237324b36bc5f8596fe08"
+      "bytes": 13112858,
+      "sha256": "42b3ca576187e7855b9e9129406f324364bf9ff2f4c89e8cae66a81ad8867217"
     },
     {
       "file": "review-yt-reel-vertical.mp4",
-      "bytes": 5254146,
-      "sha256": "7893a266f3d7718c3a62aba17e91503759225a421095418dae57b7f6ad05567a"
+      "bytes": 5259898,
+      "sha256": "5b7f81b2560373fd941e23f6f6f787baf61f591a29e5b5756e6af28750864a2a"
     },
     {
       "file": "review-yt-github-preview.mp4",

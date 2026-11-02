@@ -32,3 +32,10 @@ After the stopped pipeline, release-config, documentation, source-inventory and 
 ## Remotion terms rechecked — 2026-11-02
 
 The current official licensing page states that individuals and companies with up to 3 people may use the Free License, including commercial use subject to its Terms; users who do not qualify require a Company License. The editable source does not vendor Remotion or grant its license. Each downstream organization must check its own eligibility and terms before rendering. [Remotion license and pricing](https://www.remotion.dev/docs/license/pricing).
+
+
+## Review correction supplement — 2026-11-02
+
+The ten-comment wording in the two published videos was corrected to identify ten as the illustrative sample and disclose the product's available presets up to500 comments. Both films were rerendered and visually checked at the changed copy frames. Their new delivery hashes and measurements are recorded in `delivery-manifest.json` and the addendum in `qa-report.md`; the GitHub preview, GIF and thumbnail bytes are unchanged. Render and capture commands now share an exclusive lock and stage outputs before publication. The promo build manifest/capture read their fixture only from `promo/src/data/demo.json`; the optional capture still starts the current application to produce genuine UI screenshots, with the demo fixture injected and all external requests blocked.
+
+The production tools remain an independently locked private package because combining the pinned Remotion 4.0.539 dependency tree into the application workspace reintroduced a high Zod advisory from Remotion's own exact transitive dependency; npm did not apply the workspace override. The application remains pinned at Zod4.6.7 and passes its high-severity audit threshold; the isolated promo lock overrides Zod4.6.7 and audits with zero findings. This keeps the root app graph and optional media-production graph separately auditable. License terms and exact distribution limits for Remotion, FFmpeg/libx264 and Sharp/libvips are now itemized in `third-party-tooling.md`.

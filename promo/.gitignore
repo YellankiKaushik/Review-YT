@@ -61,6 +61,7 @@
 !/docs/audio-qa-v2.json
 !/docs/video-stream-integrity.json
 !/docs/publication-review.md
+!/docs/third-party-tooling.md
 !/docs/file-inventory.csv
 /references/*
 !/references/qa/

@@ -1,20 +1,9 @@
 # Codex progress — Review-YT
 
-## Current task
+## Final GitHub consolidation
 
-Consolidating PR #4, its V2 campaign, and the main-branch release controls. The verified working branch is `codex/promo-consolidation-20261102`, based on `bb8f1f1b3d1249ea75dbe788c6e3698474f43241`. The Zod4.6.7 security fix is already merged to `main` as `72193e3cbc07987234b22c5fa6839c381bc002ba`.
+The approved V2 campaign and the Zod 4.6.7 security fix are merged to `main`. Functional integration commit: `6d08d088e42933e494899faf6bc03c6805c17480`. PR #4 Actions and the main push workflow passed. The `Protect main` ruleset (ID26357411) is active, targets only `main`, requires the `offline` Actions check, PRs and resolved threads, blocks branch deletion and force updates, has zero required approvals and no bypass actors. Only `main` remains on the remote after deleting the incorporated PR #4 and PR #5 branches.
 
-## Completed locally for the current PR
+The full local verifier passed15 stages (138 Python,51 frontend,42 browser); campaign clean-install/media QA passed and its npm audit has zero findings. Root app high-severity npm audit passes with11 documented moderate minimatch development findings. Secret/history scan had zero matches. Full evidence is in [the final consolidation report](reports/FINAL_GITHUB_CONSOLIDATION_REPORT.md).
 
-- Corrected launch/reel sample-limit copy and rerendered both films; updated SHA-256/byte manifests and verified full decoding and measured audio.
-- Made renderer normalization deterministic and added shared locking plus staging/rollback for render and capture outputs.
-- Removed campaign build/capture reads of the app test fixture; uses `promo/src/data/demo.json`.
-- Added campaign-specific third-party tooling terms and updated publication/QA evidence.
-- Full offline verifier: 15/15 stages,138 Python,51 frontend,42 browser; builds, audits, documentation, inventory and secret/history scan pass.
-- Campaign package clean install/typecheck/media QA/high audit pass; zero promo advisories. Root app high audit passes with11 moderate minimatch development findings documented.
-
-## Remaining external steps
-
-- Commit and push this verified update to PR #4, wait for its new GitHub Actions result, triage/resolve all review threads, then merge by normal GitHub merge.
-- After the approved PR is merged, safely remove only incorporated temporary branches and configure/verify the requested `Protect main` ruleset if authenticated GitHub access permits.
-- Record actual merge SHA, CI, branches and ruleset in `docs/reports/FINAL_GITHUB_CONSOLIDATION_REPORT.md`.
+This report and progress update are delivered as a documentation-only follow-up PR; its own GitHub CI and normal merge are verified in the final completion receipt.
